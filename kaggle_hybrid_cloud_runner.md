@@ -426,23 +426,6 @@ def auto_sync_worker():
 threading.Thread(target=auto_sync_worker, daemon=True).start()
 print("  🔄 GitHub auto-sync worker initialized (180s cycle).", flush=True)
 
-# Background GPU Watchdog Worker (Dual T4 Activity Monitor)
-def gpu_watchdog_worker():
-    time.sleep(30)
-    while True:
-        try:
-            import torch
-            if torch.cuda.is_available():
-                for d in range(torch.cuda.device_count()):
-                    t = torch.ones((100, 100), device=f"cuda:{d}") @ torch.ones((100, 100), device=f"cuda:{d}")
-                    torch.cuda.synchronize(d)
-        except Exception:
-            pass
-        time.sleep(60)
-
-threading.Thread(target=gpu_watchdog_worker, daemon=True).start()
-print("  🛡 GPU keepalive watchdog initialized.", flush=True)
-
 # Clean cache directories to preserve container disk headroom
 subprocess.run("rm -rf /root/.cache/pip /root/.npm /var/cache/apt/archives/* /tmp/pip-* 2>/dev/null || true", shell=True)
 
