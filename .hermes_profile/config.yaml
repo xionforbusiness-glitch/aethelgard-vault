@@ -1,6 +1,6 @@
 model:
   default: antigravity/gemini-3.7-flash-high
-  provider: custom
+  provider: first-time
   base_url: http://localhost:20128/v1
   api_mode: chat_completions
   api_key: sk-omniroute
@@ -1008,9 +1008,10 @@ auxiliary:
     model: meta/llama-3.1-70b-instruct
     base_url: https://api.bluesminds.com/v1
   title_generation:
-    provider: openai
-    model: nvidia/nemotron-mini-4b-instruct
-    base_url: https://api.bluesminds.com/v1
+    provider: first-time
+    model: antigravity/gemini-3.7-flash-high
+    base_url: http://localhost:20128/v1
+    key_env: HERMES_CUSTOM_FIRST_TIME_API_KEY
   triage_specifier:
     provider: openai
     model: nvidia/llama-3.3-nemotron-super-49b-v1
@@ -1151,9 +1152,9 @@ platform_toolsets:
 image_gen:
   provider: nous
 custom_providers:
-  - name: Api.omniroute.com
-    base_url: https://api.omniroute.com/v1
-    model: FIRST-TIME
+  - name: omniroute
+    base_url: http://localhost:20128/v1
+    model: antigravity/gemini-3.7-flash-high
 
 # ── Security ──────────────────────────────────────────────────────────
 # Secret redaction is ON by default — strings that look like API keys,
