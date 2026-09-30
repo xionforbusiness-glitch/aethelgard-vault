@@ -22,7 +22,7 @@ This document contains the complete, pre-configured **1-Click Master Cloud Runne
 
 | Layer | Technology | Role & Capability |
 | :--- | :--- | :--- |
-| **Google AI Pro (Antigravity)** | **Gemini 3.7 Flash High / Gemini 3.7 Pro** via OmniRoute | ⚡ **Google AI Pro Subscription** — High-speed reasoning on HIGH effort, full 17-tool agent execution, and multimodal vision. |
+| **Google AI Pro (Antigravity)** | **Claude Opus 4.6 / Claude Sonnet 4.6 / Gemini 3.7 Flash High** via OmniRoute (`FIRST-TIME`) | ⚡ **Google AI Pro Subscription** — High-speed reasoning on HIGH effort, full 17-tool agent execution, and multimodal vision. |
 | **Local GPU Workhorse** | **Qwen 2.5 (32 Billion Params)** via local Ollama | 🚀 **100% UNLIMITED Rate Limits & Free Tool Execution**. Runs directly in ~19.8 GB / 29.1 GB Tesla T4 GPU VRAM. |
 | **Secondary Cloud Engine** | **Bluesminds (`claude-sonnet-5`, `gpt-5.5`)** | 🌐 Cloud backup for advanced coding. Switchable in-chat with `/model claude-sonnet-5`. |
 | **Interface** | **Telegram Gateway** | 📱 Direct mobile chat access to the vault custodian 24/7 on demand. |
@@ -39,7 +39,7 @@ Copy the entire block below into a single code cell in your Kaggle Notebook (wit
 # 🏛️ AETHELGARD MASTER HYBRID CLOUD RUNNER (ANTIGRAVITY GOOGLE AI PRO + DUAL T4)
 # ==============================================================================
 
-import os, subprocess, time, threading, base64
+import os, subprocess, time, threading, base64, shutil
 
 # ── 1. Credentials & Configuration ────────────────────────────────────────────
 GITHUB_USER = "xionforbusiness-glitch"
@@ -179,6 +179,12 @@ print("🔄 [5/6] Setting Up Profile & Antigravity Pro Routing...")
 print("=" * 60)
 
 os.makedirs(HERMES_PROFILE_DIR, exist_ok=True)
+
+# Wipe old session cache to prevent resuming exhausted Google AI Studio sessions
+sessions_dir = f"{HERMES_PROFILE_DIR}/sessions"
+if os.path.exists(sessions_dir):
+    shutil.rmtree(sessions_dir)
+
 if os.path.exists(f"{VAULT_DIR}/.hermes_profile"):
     subprocess.run(f"cp -r {VAULT_DIR}/.hermes_profile/SOUL.md {HERMES_PROFILE_DIR}/", shell=True)
     subprocess.run(f"cp -r {VAULT_DIR}/.hermes_profile/config.yaml {HERMES_PROFILE_DIR}/", shell=True)
@@ -211,7 +217,7 @@ os.environ["HERMES_HOME"] = HERMES_PROFILE_DIR
 
 subprocess.run(["hermes", "profile", "use", "llm-wiki"])
 subprocess.run(["hermes", "config", "set", "model.provider", "first-time"])
-subprocess.run(["hermes", "config", "set", "model.default", "auto/best-coding"])
+subprocess.run(["hermes", "config", "set", "model.default", "FIRST-TIME"])
 subprocess.run(["hermes", "config", "set", "model.base_url", "http://localhost:20128/v1"])
 
 def sync_vault(commit_msg="Auto-sync from Kaggle Hybrid Agent"):
