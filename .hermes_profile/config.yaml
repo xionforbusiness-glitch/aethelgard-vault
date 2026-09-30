@@ -1,6 +1,9 @@
 model:
-  default: gemini-flash-latest
-  provider: gemini
+  default: qwen2.5:32b
+  provider: custom
+  base_url: http://127.0.0.1:11434/v1
+  api_mode: chat_completions
+  api_key: ollama
 providers:
   openai:
     name: bluesminde
