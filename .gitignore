@@ -10,3 +10,6 @@ $RECYCLE.BIN/
 # Local locks & caches
 *.lock
 .curator_backups/
+__pycache__/
+*.py[cod]
+*$py.class

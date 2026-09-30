@@ -395,7 +395,7 @@ os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
 os.environ["GEMINI_API_KEY"] = GOOGLE_API_KEY
 os.environ["HERMES_CUSTOM_OPENAI_API_KEY"] = HERMES_CUSTOM_OPENAI_API_KEY
 os.environ["HERMES_PROFILE"] = "llm-wiki"
-os.environ["HERMES_HOME"] = HERMES_PROFILE_DIR
+os.environ["HERMES_HOME"] = "/root/.hermes"
 os.environ["HERMES_MODEL"] = "antigravity/gemini-3.7-flash-high"
 os.environ["HERMES_PROVIDER"] = "first-time"
 
@@ -490,7 +490,7 @@ def stream_reader(pipe, log_f):
             pass
 
 GATEWAY_LOG_PATH = "/tmp/hermes_gateway.log"
-gateway_cmd = ["hermes", "gateway", "run", "--replace", "--force", "--no-supervise", "--accept-hooks"]
+gateway_cmd = ["hermes", "-p", "llm-wiki", "gateway", "run", "--replace", "--force", "--accept-hooks"]
 
 max_restarts = 5
 restart_count = 0
@@ -504,11 +504,11 @@ try:
         
         current_proc = subprocess.Popen(
             gateway_cmd,
+            env=dict(os.environ),
             stdout=subprocess.PIPE,
             stderr=subprocess.STDOUT,
             text=True,
-            bufsize=1,
-            start_new_session=True
+            bufsize=1
         )
         
         reader_thread = threading.Thread(target=stream_reader, args=(current_proc.stdout, gateway_log_f), daemon=True)
