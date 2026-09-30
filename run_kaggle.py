@@ -1,40 +1,3 @@
----
-title: Kaggle Master Hybrid Cloud Runner
-tags:
-  - infra
-  - kaggle
-  - hermes
-  - hybrid-ai
-  - qwen32b
-  - antigravity
-  - google-ai-pro
-created: 2026-09-30
-updated: 2026-09-30
----
-
-# 🏛️ Aethelgard Master Hybrid Cloud Runner
-
-This document contains the complete, pre-configured **1-Click Master Cloud Runner Script** for deploying the **Hermes Aethelgard Vault Custodian** onto **Kaggle Dual Tesla T4 GPUs (30 GB VRAM)**.
-
----
-
-## 🧠 Hybrid Architecture Overview
-
-| Layer | Technology | Role & Capability |
-| :--- | :--- | :--- |
-| **Google AI Pro (Antigravity)** | **Gemini 3.7 Flash High / Claude Sonnet 4.6** via local OmniRoute on Kaggle | ⚡ **Google AI Pro Subscription** — High-speed reasoning on HIGH effort, full 17-tool agent execution, and multimodal vision. |
-| **Local GPU Workhorse** | **Qwen 2.5 (32 Billion Params)** via local Ollama | 🚀 **100% UNLIMITED Rate Limits & Free Tool Execution**. Runs directly in ~19.8 GB / 29.1 GB Tesla T4 GPU VRAM. |
-| **Secondary Cloud Engine** | **Bluesminds (`claude-sonnet-5`, `gpt-5.5`)** | 🌐 Cloud backup for advanced coding. Switchable in-chat with `/model claude-sonnet-5`. |
-| **Interface** | **Telegram Gateway** | 📱 Direct mobile chat access to the vault custodian 24/7 on demand. |
-| **Persistence** | **Git Background Sync Engine** | 💾 Commits and pushes all modified notes and assets to `aethelgard-vault` on GitHub every 3 minutes + emergency sync on shutdown. |
-
----
-
-## 🚀 The Kaggle Notebook Script (Copy & Run)
-
-Copy the entire block below into a single code cell in your Kaggle Notebook (with Accelerator set to **GPU T4 ×2** and **Internet ON**) and hit **Run**:
-
-```python
 # ==============================================================================
 # 🏛️ AETHELGARD MASTER HYBRID CLOUD RUNNER (ANTIGRAVITY GOOGLE AI PRO + DUAL T4)
 # ==============================================================================
@@ -308,18 +271,3 @@ try:
 finally:
     sync_vault("Final session sync before Kaggle GPU shutdown")
     print("✨ Clean shutdown complete. All changes pushed to GitHub.")
-```
-
----
-
-## ⚙️ In-Chat Model Commands on Telegram
-
-You can dynamically switch between your models directly in Telegram:
-
-| Command | Model Activated | Best Used For |
-| :--- | :--- | :--- |
-| **`/model omni`** | **Antigravity (Google AI Pro)** | ⚡ **Google AI Pro Reasoning (High Effort)** — auto-routing to Gemini 3.7 Flash High on your Pro subscription. |
-| **`/model qwen`** | **Qwen 2.5 32B** (Dual T4 GPU) | 🚀 **Local GPU workhorse** — unlimited local execution in 19.8 GB VRAM, zero rate limits. |
-| **`/model sonnet`** | **Claude Sonnet 4.6 / 5** | 🛠️ **Deep coding architecture** & structured refactoring via Bluesminds. |
-| **`/model opus`** | **Claude Opus 4.6** | 🧠 **Maximum reasoning depth** and complex multi-domain synthesis. |
-| **`/status`** | System Diagnostics | 📊 Check currently active model, memory status, and tool availability. |
