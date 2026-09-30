@@ -1,9 +1,6 @@
 model:
-  default: auto/best-coding
-  api_mode: chat_completions
-  provider: first-time
-  base_url: http://localhost:20128/v1
-  key_env: HERMES_CUSTOM_FIRST_TIME_API_KEY
+  default: gemini-flash-latest
+  provider: gemini
 providers:
   openai:
     name: bluesminde
