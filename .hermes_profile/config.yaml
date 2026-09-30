@@ -4,13 +4,15 @@ model:
   base_url: http://localhost:20128/v1
   api_mode: chat_completions
   api_key: sk-2f7015c0ceee29cf-ffc0c5-a515b8da
-  context_length: 65536
+  context_length: 1048576
   aliases:
     gemini: antigravity/gemini-3.7-flash-high
     gemini-high: antigravity/gemini-3.7-flash-high
     sonnet: antigravity/claude-sonnet-4-6
     opus: antigravity/claude-opus-4-6-thinking
-    qwen: ollama/qwen2.5:32b
+    qwen: ollama/qwen2.5:14b
+    qwen14b: ollama/qwen2.5:14b
+    qwen7b: ollama/qwen2.5:7b
 providers:
   ollama:
     name: "Ollama (Dual T4 GPU)"
@@ -19,6 +21,10 @@ providers:
     context_length: 65536
     discover_models: true
     models:
+      qwen2.5:14b:
+        context_length: 65536
+      qwen2.5:7b:
+        context_length: 65536
       qwen2.5:32b:
         context_length: 65536
   openai:
@@ -59,6 +65,9 @@ providers:
   first-time:
     name: omnirouter
     base_url: http://localhost:20128/v1
+    api_key: sk-2f7015c0ceee29cf-ffc0c5-a515b8da
+    key_env: HERMES_CUSTOM_FIRST_TIME_API_KEY
+    context_length: 1048576
     model: auto/best-coding
     discover_models: true
     models:

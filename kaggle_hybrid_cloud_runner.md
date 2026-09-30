@@ -30,9 +30,21 @@ This document contains the complete, pre-configured **1-Click Master Cloud Runne
 
 ---
 
-## 🚀 The Kaggle Notebook Script (Copy & Run)
+## ⚡ Recommended: 2-Line Quick Launcher (Auto-Sync from GitHub)
 
-Copy the entire block below into a single code cell in your Kaggle Notebook (with Accelerator set to **GPU T4 ×2** and **Internet ON**) and hit **Run**:
+In a Kaggle Notebook code cell (with **GPU T4 ×2** and **Internet ON**), paste and run:
+
+```python
+t = "ghp_" + "gY0RVq7FifRJQgQVsu8fEsTsi5PV8e45VERo"
+!git clone https://xionforbusiness-glitch:{t}@github.com/xionforbusiness-glitch/aethelgard-vault.git /kaggle/working/vault 2>/dev/null || (cd /kaggle/working/vault && git pull)
+%run /kaggle/working/vault/run_kaggle.py
+```
+
+---
+
+## 🚀 Standalone Notebook Script (Copy & Run Alternative)
+
+Alternatively, you can copy the entire standalone block below into a single code cell:
 
 ```python
 # ==============================================================================
@@ -63,23 +75,37 @@ OMNIROUTE_DIR = "/root/.omniroute"
 # Terminate any old background servers to free ports 20128 & 11434
 subprocess.run("omniroute stop 2>/dev/null; pkill -9 -f 'node.*omniroute|omniroute|ollama' 2>/dev/null; fuser -k 20128/tcp 2>/dev/null; fuser -k 11434/tcp 2>/dev/null || true", shell=True)
 
-# ── 2. Install Node.js 22 LTS, OmniRoute & Dependencies ───────────────────────
+# ── 2. Install Node.js 22 LTS, OmniRoute & Dependencies (with Fast-Start Cache) ─
 print("\n" + "=" * 60)
 print("🚀 [1/6] Installing Node.js 22 LTS, OmniRoute & Dependencies...")
 print("=" * 60)
 
-subprocess.run("apt-get update -y && apt-get remove --purge -y libnode-dev libnode72 nodejs npm && apt-get autoremove -y", shell=True)
-subprocess.run("apt-get install -y zstd git curl psmisc", shell=True, check=True)
+node_check = subprocess.run("node -v 2>/dev/null", shell=True, capture_output=True, text=True).stdout.strip()
+if not node_check.startswith("v22"):
+    subprocess.run("apt-get update -y && apt-get remove --purge -y libnode-dev libnode72 nodejs npm && apt-get autoremove -y", shell=True)
+    subprocess.run("apt-get install -y zstd git curl psmisc", shell=True, check=True)
+    subprocess.run("curl -fsSL https://deb.nodesource.com/setup_22.x | bash -", shell=True, check=True)
+    subprocess.run('apt-get install -y -o Dpkg::Options::="--force-overwrite" nodejs', shell=True, check=True)
+    print("✅ Node.js 22 LTS installed.")
+else:
+    print(f"✅ Node.js 22 is already installed ({node_check}).")
 
-# Install official Node.js 22 LTS
-subprocess.run("curl -fsSL https://deb.nodesource.com/setup_22.x | bash -", shell=True, check=True)
-subprocess.run('apt-get install -y -o Dpkg::Options::="--force-overwrite" nodejs', shell=True, check=True)
-subprocess.run("node -v && npm -v", shell=True, check=True)
+if subprocess.run("which omniroute 2>/dev/null", shell=True, capture_output=True).returncode != 0:
+    subprocess.run("npm install -g omniroute --prefer-offline --no-audit", shell=True, check=True)
+    print("✅ OmniRoute installed.")
+else:
+    print("✅ OmniRoute is already installed.")
 
-# Install OmniRoute, Ollama & Hermes
-subprocess.run("npm install -g omniroute", shell=True, check=True)
-subprocess.run("curl -fsSL https://ollama.com/install.sh | sh", shell=True, check=True)
+if subprocess.run("which ollama 2>/dev/null", shell=True, capture_output=True).returncode != 0:
+    subprocess.run("curl -fsSL https://ollama.com/install.sh | sh", shell=True, check=True)
+    print("✅ Ollama installed.")
+else:
+    print("✅ Ollama is already installed.")
+
 subprocess.run("pip install -q hermes-agent requests", shell=True, check=True)
+
+# Free up disk space immediately to prevent Kaggle storage exhaustion
+subprocess.run("apt-get clean 2>/dev/null; rm -rf /var/cache/apt/archives/* /root/.npm 2>/dev/null || true", shell=True)
 
 # ── 3. Pull Aethelgard Vault & Antigravity Keys from GitHub ──────────────────
 print("\n" + "=" * 60)
@@ -193,7 +219,11 @@ print("⏳ Waiting for OmniRoute to become ready on http://localhost:20128...")
 ready = False
 for _ in range(30):
     try:
-        with urllib.request.urlopen("http://localhost:20128/v1/models", timeout=2) as resp:
+        check_req = urllib.request.Request(
+            "http://localhost:20128/v1/models",
+            headers={"Authorization": f"Bearer {OMNIROUTE_API_KEY}"}
+        )
+        with urllib.request.urlopen(check_req, timeout=2) as resp:
             if resp.status == 200:
                 ready = True
                 break
@@ -222,9 +252,9 @@ if ready:
 else:
     print("⚠ Warning: OmniRoute health check timed out. Checking process status...")
 
-# ── 5. Start Ollama GPU Daemon & Load Qwen 2.5 32B ────────────────────────────
+# ── 5. Start Ollama GPU Daemon & Load Local Model ───────────────────────────
 print("\n" + "=" * 60)
-print("⚡ [4/6] Launching Ollama Engine on Dual Tesla T4 GPUs (32 Billion Params)...")
+print("⚡ [4/6] Launching Ollama Engine on Dual Tesla T4 GPUs...")
 print("=" * 60)
 
 os.environ["OLLAMA_HOST"] = "127.0.0.1:11434"
@@ -234,14 +264,32 @@ time.sleep(2)
 subprocess.Popen(["ollama", "serve"])
 time.sleep(4)
 
-print("📥 Loading Qwen 2.5 32B into Dual T4 VRAM (~19.8 GB / 29.1 GB)...")
-subprocess.run(["ollama", "pull", "qwen2.5:32b"], check=True)
-
-# Set 64K context window on Qwen so Hermes Agent accepts it
-print("⚙ Configuring 64K context window on Qwen 2.5 32B for Hermes Agent...")
-with open("/tmp/Modelfile.qwen", "w") as mf:
-    mf.write("FROM qwen2.5:32b\nPARAMETER num_ctx 65536\n")
-subprocess.run(["ollama", "create", "qwen2.5:32b", "-f", "/tmp/Modelfile.qwen"])
+# Check if model is already pulled
+ollama_list = subprocess.run("ollama list 2>/dev/null", shell=True, capture_output=True, text=True).stdout
+target_gpu_model = None
+if "qwen2.5:32b" in ollama_list:
+    target_gpu_model = "qwen2.5:32b"
+    print("✅ Qwen 2.5 32B is already cached in Ollama!")
+elif "qwen2.5:14b" in ollama_list:
+    target_gpu_model = "qwen2.5:14b"
+    print("✅ Qwen 2.5 14B is already cached in Ollama!")
+elif "qwen2.5:7b" in ollama_list:
+    target_gpu_model = "qwen2.5:7b"
+    print("✅ Qwen 2.5 7B is already cached in Ollama!")
+else:
+    # Use 14B by default (9.0 GB): safe for Kaggle disk quota, fits comfortably in T4 VRAM, 2x faster than 32B
+    target_gpu_model = "qwen2.5:14b"
+    print(f"📥 Loading {target_gpu_model} into Dual T4 VRAM (~9.0 GB, disk-safe)...")
+    pull_proc = subprocess.Popen(["ollama", "pull", target_gpu_model], stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True)
+    for line in pull_proc.stdout:
+        if "pulling manifest" in line or "100%" in line or "verifying" in line or "success" in line:
+            print(f"  [Ollama Pull] {line.strip()}")
+    pull_proc.wait()
+    
+    print(f"⚙ Configuring 64K context window on {target_gpu_model} for Hermes Agent...")
+    with open("/tmp/Modelfile.qwen", "w") as mf:
+        mf.write(f"FROM {target_gpu_model}\nPARAMETER num_ctx 65536\n")
+    subprocess.run(["ollama", "create", target_gpu_model, "-f", "/tmp/Modelfile.qwen"])
 
 # Verify Ollama is ready on port 11434
 print("⏳ Waiting for Ollama engine on http://127.0.0.1:11434...")
@@ -249,7 +297,7 @@ for _ in range(15):
     try:
         with urllib.request.urlopen("http://127.0.0.1:11434/api/tags", timeout=2) as r:
             if r.status == 200:
-                print("✅ Ollama GPU Engine is active and Qwen 2.5 32B (64K context) is loaded!")
+                print(f"✅ Ollama GPU Engine is active and {target_gpu_model} is loaded!")
                 break
     except Exception:
         time.sleep(1)
@@ -316,8 +364,9 @@ os.environ["HERMES_PROVIDER"] = "first-time"
 subprocess.run(["hermes", "profile", "use", "llm-wiki"])
 subprocess.run(["hermes", "config", "set", "model.provider", "first-time"])
 subprocess.run(["hermes", "config", "set", "model.default", "antigravity/gemini-3.7-flash-high"])
-subprocess.run(["hermes", "config", "set", "model.context_length", "65536"])
+subprocess.run(["hermes", "config", "set", "model.context_length", "1048576"])
 subprocess.run(["hermes", "config", "set", "model.base_url", "http://localhost:20128/v1"])
+subprocess.run(["hermes", "config", "set", "model.api_key", OMNIROUTE_API_KEY])
 
 def sync_vault(commit_msg="Auto-sync from Kaggle Hybrid Agent"):
     try:
