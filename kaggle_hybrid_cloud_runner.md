@@ -181,6 +181,17 @@ time.sleep(4)
 print("📥 Loading Qwen 2.5 32B into Dual T4 VRAM (~19.8 GB / 29.1 GB)...")
 subprocess.run(["ollama", "pull", "qwen2.5:32b"], check=True)
 
+# Verify Ollama is ready on port 11434
+print("⏳ Waiting for Ollama engine on http://127.0.0.1:11434...")
+for _ in range(15):
+    try:
+        with urllib.request.urlopen("http://127.0.0.1:11434/api/tags", timeout=2) as r:
+            if r.status == 200:
+                print("✅ Ollama GPU Engine is active and Qwen 2.5 32B is loaded!")
+                break
+    except Exception:
+        time.sleep(1)
+
 # ── 6. Setup Profile & Hybrid Antigravity Routing ────────────────────────────
 print("\n" + "=" * 60)
 print("🔄 [5/6] Setting Up Profile & Antigravity Pro Routing...")
