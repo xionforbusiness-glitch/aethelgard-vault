@@ -3,6 +3,15 @@
 > Chronological, append-only record of all LLM Wiki actions (ingest, query, lint, update).
 > Format: `## [YYYY-MM-DD] action | subject`
 
+## [2026-09-30] cloud-deployment | Hybrid On-Demand Cloud Architecture
+- **Action:** Packaged complete Aethelgard Vault + Hermes `llm-wiki` profile + OmniRoute Antigravity connections into private GitHub repository (`xionforbusiness-glitch/aethelgard-vault`).
+- **Engineered System:** 50/50 Hybrid Super-Brain:
+  - **High-IQ Cloud Brain:** OmniRoute Cloud Daemon connected to Antigravity (Claude Sonnet 4.6 Thinking + Gemini 3.7 Flash) at $0 cost.
+  - **Local GPU Engine:** Ollama Dual Tesla T4 GPUs (~29 GB VRAM) running Qwen 2.5 (32B / 14B) for high-speed local inference & tool execution.
+  - **Persistence & Sync:** Automatic 3-minute Git auto-sync worker.
+  - **Quota Protection:** On-Demand power-on / power-off lifecycle preserving all 30 weekly Kaggle GPU hours.
+- **Script Generated:** `scripts/kaggle_on_demand_cloud_runner.py`
+
 ## [2026-09-30] ingest | Kaggle LLM Backend Deployment & Integration Guide
 - **Source:** Technical runbook (`raw/articles/kaggle-llm-backend-deployment-guide.md`)
 - **Concept Created:** `concepts/kaggle-llm-backend-deployment.md`
