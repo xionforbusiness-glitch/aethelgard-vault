@@ -1,9 +1,9 @@
 model:
-  default: qwen2.5:32b
-  provider: custom
-  base_url: http://127.0.0.1:11434/v1
+  default: FIRST-TIME
+  provider: first-time
+  base_url: http://localhost:20128/v1
   api_mode: chat_completions
-  api_key: ollama
+  key_env: HERMES_CUSTOM_FIRST_TIME_API_KEY
   aliases:
     qwen: custom/qwen2.5:32b
     gemini: gemini/gemini-3.8-flash
