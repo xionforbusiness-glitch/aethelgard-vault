@@ -73,7 +73,7 @@ HERMES_PROFILE_DIR = "/root/.hermes/profiles/llm-wiki"
 OMNIROUTE_DIR = "/root/.omniroute"
 
 # Terminate any old background servers to free ports 20128 & 11434
-subprocess.run("omniroute stop 2>/dev/null; pkill -9 -f 'node.*omniroute|omniroute|ollama' 2>/dev/null; fuser -k 20128/tcp 2>/dev/null; fuser -k 11434/tcp 2>/dev/null || true", shell=True)
+subprocess.run("omniroute stop 2>/dev/null; pkill -9 -f omniroute 2>/dev/null; pkill -9 -x ollama 2>/dev/null; fuser -k 20128/tcp 2>/dev/null; fuser -k 11434/tcp 2>/dev/null || true", shell=True)
 
 # ── 2. Install Node.js 22 LTS, OmniRoute & Dependencies (with Fast-Start Cache) ─
 print("\n" + "=" * 60)
