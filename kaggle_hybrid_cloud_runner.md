@@ -60,6 +60,9 @@ VAULT_DIR = "/kaggle/working/vault"
 HERMES_PROFILE_DIR = "/root/.hermes/profiles/llm-wiki"
 OMNIROUTE_DIR = "/root/.omniroute"
 
+# Terminate any old background servers to free ports 20128 & 11434
+subprocess.run("omniroute stop 2>/dev/null; pkill -9 -f 'node.*omniroute|omniroute|ollama' 2>/dev/null; fuser -k 20128/tcp 2>/dev/null; fuser -k 11434/tcp 2>/dev/null || true", shell=True)
+
 # ── 2. Install Node.js 22 LTS, OmniRoute & Dependencies ───────────────────────
 print("\n" + "=" * 60)
 print("🚀 [1/6] Installing Node.js 22 LTS, OmniRoute & Dependencies...")
@@ -181,13 +184,19 @@ time.sleep(4)
 print("📥 Loading Qwen 2.5 32B into Dual T4 VRAM (~19.8 GB / 29.1 GB)...")
 subprocess.run(["ollama", "pull", "qwen2.5:32b"], check=True)
 
+# Set 64K context window on Qwen so Hermes Agent accepts it
+print("⚙ Configuring 64K context window on Qwen 2.5 32B for Hermes Agent...")
+with open("/tmp/Modelfile.qwen", "w") as mf:
+    mf.write("FROM qwen2.5:32b\nPARAMETER num_ctx 65536\n")
+subprocess.run(["ollama", "create", "qwen2.5:32b", "-f", "/tmp/Modelfile.qwen"])
+
 # Verify Ollama is ready on port 11434
 print("⏳ Waiting for Ollama engine on http://127.0.0.1:11434...")
 for _ in range(15):
     try:
         with urllib.request.urlopen("http://127.0.0.1:11434/api/tags", timeout=2) as r:
             if r.status == 200:
-                print("✅ Ollama GPU Engine is active and Qwen 2.5 32B is loaded!")
+                print("✅ Ollama GPU Engine is active and Qwen 2.5 32B (64K context) is loaded!")
                 break
     except Exception:
         time.sleep(1)
@@ -199,15 +208,23 @@ print("=" * 60)
 
 os.makedirs(HERMES_PROFILE_DIR, exist_ok=True)
 
-# Wipe old session cache to start completely fresh with Antigravity
-for sdir in [
-    f"{HERMES_PROFILE_DIR}/sessions",
-    f"{HERMES_PROFILE_DIR}/chats",
+# Wipe all old session cache and state database to eliminate stale sessions
+for p in [
+    "/root/.hermes/state.db",
     "/root/.hermes/sessions",
-    "/root/.hermes/chats"
+    "/root/.hermes/chats",
+    f"{HERMES_PROFILE_DIR}/state.db",
+    f"{HERMES_PROFILE_DIR}/sessions",
+    f"{HERMES_PROFILE_DIR}/chats"
 ]:
-    if os.path.exists(sdir):
-        shutil.rmtree(sdir, ignore_errors=True)
+    if os.path.exists(p):
+        if os.path.isdir(p):
+            shutil.rmtree(p, ignore_errors=True)
+        else:
+            try:
+                os.remove(p)
+            except Exception:
+                pass
 
 if os.path.exists(f"{VAULT_DIR}/.hermes_profile"):
     subprocess.run(f"cp -r {VAULT_DIR}/.hermes_profile/SOUL.md {HERMES_PROFILE_DIR}/", shell=True)
@@ -246,6 +263,7 @@ os.environ["HERMES_PROVIDER"] = "first-time"
 subprocess.run(["hermes", "profile", "use", "llm-wiki"])
 subprocess.run(["hermes", "config", "set", "model.provider", "first-time"])
 subprocess.run(["hermes", "config", "set", "model.default", "antigravity/gemini-3.7-flash-high"])
+subprocess.run(["hermes", "config", "set", "model.context_length", "65536"])
 subprocess.run(["hermes", "config", "set", "model.base_url", "http://localhost:20128/v1"])
 
 def sync_vault(commit_msg="Auto-sync from Kaggle Hybrid Agent"):

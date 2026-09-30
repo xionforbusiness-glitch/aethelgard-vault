@@ -4,6 +4,7 @@ model:
   base_url: http://localhost:20128/v1
   api_mode: chat_completions
   api_key: sk-omniroute
+  context_length: 65536
   aliases:
     gemini: antigravity/gemini-3.7-flash-high
     gemini-high: antigravity/gemini-3.7-flash-high
@@ -15,9 +16,11 @@ providers:
     name: "Ollama (Dual T4 GPU)"
     base_url: http://localhost:11434/v1
     model: qwen2.5:32b
+    context_length: 65536
     discover_models: true
     models:
-      qwen2.5:32b: {}
+      qwen2.5:32b:
+        context_length: 65536
   openai:
     name: bluesminde
     base_url: https://api.bluesminds.com/v1
