@@ -3,6 +3,15 @@
 > Chronological, append-only record of all LLM Wiki actions (ingest, query, lint, update).
 > Format: `## [YYYY-MM-DD] action | subject`
 
+## [2026-09-30] hybrid-deployment | Kaggle Hybrid Master Runner & Qwen 2.5 32B GPU Engine
+- **Action:** Created `kaggle_hybrid_cloud_runner.md` and updated `scripts/kaggle_on_demand_cloud_runner.py` with complete pre-filled tokens, Node.js 22 LTS patch, and Dual Tesla T4 GPU 32-Billion parameter (`qwen2.5:32b`) workhorse engine.
+- **Architecture:** Hybrid Cloud + Local GPU architecture:
+  - **Local GPU Workhorse:** Dual Tesla T4 GPUs (30 GB VRAM) running `qwen2.5:32b` in 19.8 GB VRAM with 100% unmetered tool execution and zero 429 quota exhaustion.
+  - **Pro Cloud Tier:** Google Antigravity (Google AI Pro tier) + Gemini Flash/Pro + Bluesminds Claude Sonnet 5 for high-reasoning tasks.
+  - **Telegram Gateway:** Direct pairing-free authorization (`1021125594`).
+  - **Git Engine:** 3-minute background auto-commit + final shutdown sync.
+- **Files Touched:** `kaggle_hybrid_cloud_runner.md`, `scripts/kaggle_on_demand_cloud_runner.py`, `index.md`, `log.md`.
+
 ## [2026-09-30] cloud-deployment | Hybrid On-Demand Cloud Architecture
 - **Action:** Packaged complete Aethelgard Vault + Hermes `llm-wiki` profile + OmniRoute Antigravity connections into private GitHub repository (`xionforbusiness-glitch/aethelgard-vault`).
 - **Engineered System:** 50/50 Hybrid Super-Brain:

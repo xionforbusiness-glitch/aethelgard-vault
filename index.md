@@ -6,6 +6,7 @@
 
 ## 🧭 Maps of Content & Core Dashboards
 - [[vault_index_dashboard]] — Central navigation hub and high-level map of content.
+- [[kaggle_hybrid_cloud_runner]] — Master Hybrid Cloud Runner script (Dual Tesla T4 32B GPU + Google AI Pro Antigravity).
 - [[Welcome]] — Vault entry and orientation overview.
 - [[SCHEMA]] — LLM Wiki rules, tags, and formatting guidelines.
 - [[log]] — Chronological append-only action log of all agent ingests and queries.

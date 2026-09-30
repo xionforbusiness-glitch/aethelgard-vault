@@ -1,3 +1,40 @@
+---
+title: Kaggle Master Hybrid Cloud Runner
+tags:
+  - infra
+  - kaggle
+  - hermes
+  - hybrid-ai
+  - qwen32b
+  - antigravity
+  - google-ai-pro
+created: 2026-09-30
+updated: 2026-09-30
+---
+
+# 🏛️ Aethelgard Master Hybrid Cloud Runner
+
+This document contains the complete, pre-configured **1-Click Master Cloud Runner Script** for deploying the **Hermes Aethelgard Vault Custodian** onto **Kaggle Dual Tesla T4 GPUs (30 GB VRAM)**.
+
+---
+
+## 🧠 Hybrid Architecture Overview
+
+| Layer | Technology | Role & Capability |
+| :--- | :--- | :--- |
+| **Primary Autonomous Workhorse** | **Qwen 2.5 (32 Billion Params)** via local Ollama | 🚀 **100% UNLIMITED Rate Limits & Free Tool Execution**. Runs directly in ~19.8 GB / 29.1 GB Tesla T4 GPU VRAM. Executes all 17 agent tools (file read/write, bash, wiki linking, search) with zero API costs. |
+| **Pro Cloud Reasoning & Vision** | **Google Antigravity (Google AI Pro)** & **Gemini Flash / Pro** | ⚡ High-tier multimodal analysis, deep reasoning, and complex synthesis using your **Google AI Pro** subscription tier. |
+| **Secondary Cloud Engine** | **Bluesminds (`claude-sonnet-5`, `gpt-5.5`)** | 🌐 Cloud backup for advanced coding and alternate model testing. Switchable in-chat with `/model claude-sonnet-5`. |
+| **Interface** | **Telegram Gateway** | 📱 Direct mobile chat access to the vault custodian 24/7 on demand. |
+| **Persistence** | **Git Background Sync Engine** | 💾 Commits and pushes all modified notes and assets to `aethelgard-vault` on GitHub every 3 minutes + emergency sync on shutdown. |
+
+---
+
+## 🚀 The Kaggle Notebook Script (Copy & Run)
+
+Copy the entire block below into a single code cell in your Kaggle Notebook (with Accelerator set to **GPU T4 ×2** and **Internet ON**) and hit **Run**:
+
+```python
 # ==============================================================================
 # 🏛️ AETHELGARD MASTER HYBRID CLOUD RUNNER (DUAL T4 32B GPU + GOOGLE AI PRO)
 # ==============================================================================
@@ -155,3 +192,25 @@ try:
 finally:
     sync_vault("Final session sync before Kaggle GPU shutdown")
     print("✨ Clean shutdown complete. All changes pushed to GitHub.")
+```
+
+---
+
+## ⚙️ In-Chat Commands on Telegram
+
+While chatting with your bot on Telegram, you can dynamically switch between your local GPU engine and your cloud AI Pro models at any time:
+
+* **`/model qwen2.5:32b`** — Switch to local Dual T4 GPU engine (Unlimited speed, zero rate limits).
+* **`/model claude-sonnet-5`** — Switch to Claude Sonnet 5 via Bluesminds.
+* **`/model gemini-flash-latest`** — Switch to Google Gemini.
+* **`/status`** — View active model, memory usage, and tool health.
+* **`/new`** or **`/reset`** — Start a clean conversation thread.
+
+---
+
+## 🔄 Daily Workflow & Sync
+
+1. **Start Cloud Agent:** Open Kaggle on any device, click **Run All** on this notebook.
+2. **Chat on Telegram:** Ingest links, notes, images, algorithms, or ask questions from anywhere.
+3. **Shutdown Cloud Agent:** Click **Cancel Run** or stop the Kaggle session when finished.
+4. **Sync with Obsidian on Laptop:** Run `git pull` in your Obsidian vault folder to pull down all notes created by your bot.
