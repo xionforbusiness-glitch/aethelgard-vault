@@ -3,7 +3,7 @@ model:
   provider: first-time
   base_url: http://localhost:20128/v1
   api_mode: chat_completions
-  api_key: sk-omniroute
+  api_key: sk-2f7015c0ceee29cf-ffc0c5-a515b8da
   context_length: 65536
   aliases:
     gemini: antigravity/gemini-3.7-flash-high

@@ -173,7 +173,7 @@ if ready:
                 "model": "antigravity/gemini-3.7-flash-high",
                 "messages": [{"role": "user", "content": "ping"}]
             }).encode("utf-8"),
-            headers={"Content-Type": "application/json", "Authorization": "Bearer sk-omniroute"}
+            headers={"Content-Type": "application/json", "Authorization": f"Bearer {OMNIROUTE_API_KEY}"}
         )
         with urllib.request.urlopen(test_req, timeout=30) as t_resp:
             res_body = json.loads(t_resp.read().decode("utf-8"))
