@@ -100,7 +100,9 @@ else:
     print(f"✅ Node.js 22 is already installed ({node_check}).")
 
 if subprocess.run("which omniroute 2>/dev/null", shell=True, capture_output=True).returncode != 0:
-    subprocess.run("npm install -g omniroute --prefer-offline --no-audit", shell=True, check=True)
+    print("📦 Installing OmniRoute (silent mode to prevent buffer flood)...")
+    subprocess.run("npm install -g omniroute --prefer-offline --no-audit --silent --no-fund", shell=True, check=True)
+    subprocess.run("npm cache clean --force 2>/dev/null || true", shell=True)
     print("✅ OmniRoute installed.")
 else:
     print("✅ OmniRoute is already installed.")
@@ -117,7 +119,7 @@ else:
 subprocess.run("pip install -q hermes-agent requests", shell=True, check=True)
 
 # Free up disk space immediately to prevent Kaggle storage exhaustion
-subprocess.run("apt-get clean 2>/dev/null; rm -rf /var/cache/apt/archives/* /root/.npm 2>/dev/null || true", shell=True)
+subprocess.run("apt-get clean 2>/dev/null; rm -rf /var/cache/apt/archives/* /root/.npm /root/.cache 2>/dev/null || true", shell=True)
 
 # ── 3. Pull Aethelgard Vault & Antigravity Keys from GitHub ──────────────────
 print("\n" + "=" * 60)
@@ -480,61 +482,96 @@ def stream_reader(pipe, log_f):
 GATEWAY_LOG_PATH = "/tmp/hermes_gateway.log"
 gateway_cmd = ["hermes", "-p", "llm-wiki", "gateway", "run", "--replace", "--force", "--accept-hooks"]
 
-max_restarts = 5
-restart_count = 0
-backoff = 3
-current_proc = None
+is_batch = os.environ.get("KAGGLE_KERNEL_RUN_TYPE") == "Batch"
 
-try:
-    while restart_count < max_restarts:
-        print(f"🚀 Starting Hermes Gateway process (Attempt {restart_count + 1}/{max_restarts})...", flush=True)
-        gateway_log_f = open(GATEWAY_LOG_PATH, "a+", encoding="utf-8")
-        
-        current_proc = subprocess.Popen(
-            gateway_cmd,
-            env=dict(os.environ),
-            stdout=subprocess.PIPE,
-            stderr=subprocess.STDOUT,
-            text=True,
-            bufsize=1
-        )
-        
-        reader_thread = threading.Thread(target=stream_reader, args=(current_proc.stdout, gateway_log_f), daemon=True)
-        reader_thread.start()
-        
-        last_heartbeat = time.time()
-        while current_proc.poll() is None:
-            time.sleep(1)
-            now = time.time()
-            if now - last_heartbeat >= 25:
-                current_time = time.strftime("%H:%M:%S")
-                print(f"💓 [{current_time}] Hermes Gateway Online | Polling Telegram | Antigravity Google AI Pro Active", flush=True)
-                last_heartbeat = now
-                sys.stdout.flush()
-        
-        exit_code = current_proc.returncode
-        print(f"⚠ Hermes Gateway process exited with code {exit_code}", flush=True)
-        try:
-            gateway_log_f.close()
-        except Exception:
-            pass
-        
-        restart_count += 1
-        if restart_count < max_restarts:
-            print(f"🔄 Restarting Hermes Gateway in {backoff}s...", flush=True)
-            time.sleep(backoff)
-            backoff = min(backoff * 2, 30)
-except KeyboardInterrupt:
-    print("\n🛑 Gateway stopped by user / shutdown signal.", flush=True)
-    if current_proc and current_proc.poll() is None:
-        try:
-            current_proc.terminate()
-            current_proc.wait(timeout=5)
-        except Exception:
-            current_proc.kill()
-finally:
-    sync_vault("Final session sync before Kaggle GPU shutdown")
-    print("✨ Clean shutdown complete. All changes pushed to GitHub.", flush=True)
+if not is_batch:
+    # ── Interactive Mode: Launch as detached background process and complete cell cleanly ──
+    print("🚀 Launching Hermes Gateway in detached background mode...", flush=True)
+    gateway_log_f = open(GATEWAY_LOG_PATH, "a+", encoding="utf-8")
+    current_proc = subprocess.Popen(
+        gateway_cmd,
+        env=dict(os.environ),
+        stdout=subprocess.PIPE,
+        stderr=subprocess.STDOUT,
+        text=True,
+        bufsize=1,
+        start_new_session=True
+    )
+    reader_thread = threading.Thread(target=stream_reader, args=(current_proc.stdout, gateway_log_f), daemon=True)
+    reader_thread.start()
+    
+    # Wait 10 seconds to confirm Gateway is stable and polling
+    time.sleep(10)
+    if current_proc.poll() is None:
+        print("\n" + "=" * 60)
+        print("🎉 [SUCCESS] HERMES CUSTODIAN IS ONLINE & ACTIVE IN BACKGROUND!")
+        print("📱 Telegram Bot is polling and ready for messages.")
+        print("=" * 60)
+        print("\n💡 TO RUN FOR 12 HOURS WITH YOUR LAPTOP CLOSED:")
+        print("  1. Click 'Save Version' in the top right corner.")
+        print("  2. Select 'Save & Run All (Commit)'.")
+        print("  3. Click 'Save' and close your laptop completely.")
+        print("=" * 60)
+    else:
+        print(f"⚠ Hermes Gateway exited prematurely with code {current_proc.returncode}")
+else:
+    # ── Batch Mode (Commit): Keep process alive for 12 hours with unbuffered heartbeats ──
+    print("🚀 Running in Kaggle Headless Batch Mode (12-hour continuous cloud execution)...", flush=True)
+    max_restarts = 5
+    restart_count = 0
+    backoff = 3
+    current_proc = None
+    
+    try:
+        while restart_count < max_restarts:
+            print(f"🚀 Starting Hermes Gateway process (Attempt {restart_count + 1}/{max_restarts})...", flush=True)
+            gateway_log_f = open(GATEWAY_LOG_PATH, "a+", encoding="utf-8")
+            
+            current_proc = subprocess.Popen(
+                gateway_cmd,
+                env=dict(os.environ),
+                stdout=subprocess.PIPE,
+                stderr=subprocess.STDOUT,
+                text=True,
+                bufsize=1
+            )
+            
+            reader_thread = threading.Thread(target=stream_reader, args=(current_proc.stdout, gateway_log_f), daemon=True)
+            reader_thread.start()
+            
+            last_heartbeat = time.time()
+            while current_proc.poll() is None:
+                time.sleep(1)
+                now = time.time()
+                if now - last_heartbeat >= 25:
+                    current_time = time.strftime("%H:%M:%S")
+                    print(f"💓 [{current_time}] Hermes Gateway Online | Polling Telegram | Antigravity Google AI Pro Active", flush=True)
+                    last_heartbeat = now
+                    sys.stdout.flush()
+            
+            exit_code = current_proc.returncode
+            print(f"⚠ Hermes Gateway process exited with code {exit_code}", flush=True)
+            try:
+                gateway_log_f.close()
+            except Exception:
+                pass
+            
+            restart_count += 1
+            if restart_count < max_restarts:
+                print(f"🔄 Restarting Hermes Gateway in {backoff}s...", flush=True)
+                time.sleep(backoff)
+                backoff = min(backoff * 2, 30)
+    except KeyboardInterrupt:
+        print("\n🛑 Gateway stopped by user / shutdown signal.", flush=True)
+        if current_proc and current_proc.poll() is None:
+            try:
+                current_proc.terminate()
+                current_proc.wait(timeout=5)
+            except Exception:
+                current_proc.kill()
+    finally:
+        sync_vault("Final session sync before Kaggle shutdown")
+        print("✨ Clean shutdown complete. All changes pushed to GitHub.", flush=True)
 ```
 
 ---
