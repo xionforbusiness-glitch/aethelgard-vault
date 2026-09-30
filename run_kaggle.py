@@ -116,8 +116,17 @@ if not restored:
     print("⚠ Using JSON backup fallback...")
     backup_file = f"{VAULT_DIR}/.hermes_profile/omniroute_backup.json"
     if os.path.exists(backup_file):
-        if os.path.exists(db_dest):
-            os.remove(db_dest)
+        # Initialize schema via omniroute
+        omni_init = subprocess.Popen(["omniroute", "serve"], env=dict(os.environ))
+        time.sleep(5)
+        subprocess.run("omniroute stop 2>/dev/null; fuser -k 20128/tcp 2>/dev/null || true", shell=True)
+        try:
+            omni_init.terminate()
+            omni_init.wait(timeout=2)
+        except Exception:
+            omni_init.kill()
+        time.sleep(1)
+
         with open(backup_file, "r", encoding="utf-8") as f:
             seed_data = json.load(f)
         conn = sqlite3.connect(db_dest)
