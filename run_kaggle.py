@@ -19,12 +19,18 @@ OMNIROUTE_API_KEY = "sk-2f7015" + "c0ceee29cf-ffc0c5-a515b8da"
 HERMES_CUSTOM_FIRST_TIME_API_KEY = "sk-2f7015" + "c0ceee29cf-ffc0c5-a515b8da"
 STORAGE_ENCRYPTION_KEY = "033f70a7200356ea676c7a09712b593c46b60c6debc3c8c5425bd49f6f2926c1"
 
+# Deployment Mode Flags (Pure Cloud Antigravity Default)
+ENABLE_OLLAMA = os.environ.get("ENABLE_OLLAMA", "false").lower() in ("true", "1", "yes")
+
 VAULT_DIR = "/kaggle/working/vault"
 HERMES_PROFILE_DIR = "/root/.hermes/profiles/llm-wiki"
 OMNIROUTE_DIR = "/root/.omniroute"
 
-# Terminate any old background servers to free ports 20128 & 11434
-subprocess.run("omniroute stop 2>/dev/null; pkill -9 -f omniroute 2>/dev/null; pkill -9 -x ollama 2>/dev/null; fuser -k 20128/tcp 2>/dev/null; fuser -k 11434/tcp 2>/dev/null || true", shell=True)
+# Terminate any old background servers to free ports
+if ENABLE_OLLAMA:
+    subprocess.run("omniroute stop 2>/dev/null; pkill -9 -f omniroute 2>/dev/null; pkill -9 -x ollama 2>/dev/null; fuser -k 20128/tcp 2>/dev/null; fuser -k 11434/tcp 2>/dev/null || true", shell=True)
+else:
+    subprocess.run("omniroute stop 2>/dev/null; pkill -9 -f omniroute 2>/dev/null; fuser -k 20128/tcp 2>/dev/null || true", shell=True)
 
 # ── 2. Install Node.js 22 LTS, OmniRoute & Dependencies (with Fast-Start Cache) ─
 print("\n" + "=" * 60)
@@ -47,11 +53,14 @@ if subprocess.run("which omniroute 2>/dev/null", shell=True, capture_output=True
 else:
     print("✅ OmniRoute is already installed.")
 
-if subprocess.run("which ollama 2>/dev/null", shell=True, capture_output=True).returncode != 0:
-    subprocess.run("curl -fsSL https://ollama.com/install.sh | sh", shell=True, check=True)
-    print("✅ Ollama installed.")
+if ENABLE_OLLAMA:
+    if subprocess.run("which ollama 2>/dev/null", shell=True, capture_output=True).returncode != 0:
+        subprocess.run("curl -fsSL https://ollama.com/install.sh | sh", shell=True, check=True)
+        print("✅ Ollama installed.")
+    else:
+        print("✅ Ollama is already installed.")
 else:
-    print("✅ Ollama is already installed.")
+    print("⏭️ Skipping Ollama installation (Pure Cloud Antigravity Mode - saving ~1.5 GB disk).")
 
 subprocess.run("pip install -q hermes-agent requests", shell=True, check=True)
 
@@ -206,75 +215,78 @@ else:
 
 # ── 5. Start Ollama GPU Daemon & Load Local Model (Resilient) ───────────────
 print("\n" + "=" * 60)
-print("⚡ [4/6] Initializing Ollama GPU Engine (Optional Local Fallback)...")
-print("=" * 60)
+if not ENABLE_OLLAMA:
+    print("⚡ [4/6] Ollama Local GPU Engine: DISABLED (Pure Cloud Antigravity Mode Active - 100% Google AI Pro)")
+    print("=" * 60)
+else:
+    print("⚡ [4/6] Initializing Ollama GPU Engine (Optional Local Fallback)...")
+    print("=" * 60)
+    ollama_ready = False
+    try:
+        os.environ["OLLAMA_HOST"] = "127.0.0.1:11434"
+        os.environ["OLLAMA_ORIGINS"] = "*"
+        os.environ["OLLAMA_KEEP_ALIVE"] = "24h"
+        os.environ["OLLAMA_NUM_PARALLEL"] = "1"
+        subprocess.run("pkill -9 -x ollama 2>/dev/null; fuser -k 11434/tcp 2>/dev/null || true", shell=True)
+        time.sleep(1)
+        
+        ollama_log = open("/tmp/ollama.log", "w")
+        ollama_proc = subprocess.Popen(
+            ["ollama", "serve"],
+            stdout=ollama_log,
+            stderr=subprocess.STDOUT,
+            start_new_session=True
+        )
+        time.sleep(3)
 
-ollama_ready = False
-try:
-    os.environ["OLLAMA_HOST"] = "127.0.0.1:11434"
-    os.environ["OLLAMA_ORIGINS"] = "*"
-    os.environ["OLLAMA_KEEP_ALIVE"] = "24h"
-    os.environ["OLLAMA_NUM_PARALLEL"] = "1"
-    subprocess.run("pkill -9 -x ollama 2>/dev/null; fuser -k 11434/tcp 2>/dev/null || true", shell=True)
-    time.sleep(1)
-    
-    ollama_log = open("/tmp/ollama.log", "w")
-    ollama_proc = subprocess.Popen(
-        ["ollama", "serve"],
-        stdout=ollama_log,
-        stderr=subprocess.STDOUT,
-        start_new_session=True
-    )
-    time.sleep(3)
+        # Check if Ollama daemon is responsive
+        for _ in range(12):
+            try:
+                with urllib.request.urlopen("http://127.0.0.1:11434/api/tags", timeout=2) as r:
+                    if r.status == 200:
+                        ollama_ready = True
+                        break
+            except Exception:
+                time.sleep(1)
 
-    # Check if Ollama daemon is responsive
-    for _ in range(12):
-        try:
-            with urllib.request.urlopen("http://127.0.0.1:11434/api/tags", timeout=2) as r:
-                if r.status == 200:
-                    ollama_ready = True
-                    break
-        except Exception:
-            time.sleep(1)
+        if ollama_ready:
+            ollama_list = subprocess.run("ollama list 2>/dev/null", shell=True, capture_output=True, text=True).stdout
+            target_gpu_model = None
+            if "qwen2.5:32b" in ollama_list:
+                target_gpu_model = "qwen2.5:32b"
+                print("✅ Qwen 2.5 32B is already cached in Ollama!")
+            elif "qwen2.5:14b" in ollama_list:
+                target_gpu_model = "qwen2.5:14b"
+                print("✅ Qwen 2.5 14B is already cached in Ollama!")
+            elif "qwen2.5:7b" in ollama_list:
+                target_gpu_model = "qwen2.5:7b"
+                print("✅ Qwen 2.5 7B is already cached in Ollama!")
+            else:
+                # Use 7B: fast, ultra-safe for Kaggle disk quota (<5GB), instant download, zero risk of status code 44
+                target_gpu_model = "qwen2.5:7b"
+                print(f"📥 Loading {target_gpu_model} into Dual T4 VRAM (~4.7 GB, fast & disk-safe)...")
+                pull_proc = subprocess.Popen(
+                    ["ollama", "pull", target_gpu_model],
+                    stdout=subprocess.PIPE,
+                    stderr=subprocess.STDOUT,
+                    text=True,
+                    start_new_session=True
+                )
+                for line in pull_proc.stdout:
+                    if "100%" in line or "verifying" in line or "success" in line:
+                        print(f"  [Ollama Pull] {line.strip()}")
+                pull_proc.wait()
+                
+                print(f"⚙ Configuring 64K context window on {target_gpu_model} for Hermes Agent...")
+                with open("/tmp/Modelfile.qwen", "w") as mf:
+                    mf.write(f"FROM {target_gpu_model}\nPARAMETER num_ctx 65536\n")
+                subprocess.run(["ollama", "create", target_gpu_model, "-f", "/tmp/Modelfile.qwen"], start_new_session=True)
 
-    if ollama_ready:
-        ollama_list = subprocess.run("ollama list 2>/dev/null", shell=True, capture_output=True, text=True).stdout
-        target_gpu_model = None
-        if "qwen2.5:32b" in ollama_list:
-            target_gpu_model = "qwen2.5:32b"
-            print("✅ Qwen 2.5 32B is already cached in Ollama!")
-        elif "qwen2.5:14b" in ollama_list:
-            target_gpu_model = "qwen2.5:14b"
-            print("✅ Qwen 2.5 14B is already cached in Ollama!")
-        elif "qwen2.5:7b" in ollama_list:
-            target_gpu_model = "qwen2.5:7b"
-            print("✅ Qwen 2.5 7B is already cached in Ollama!")
+            print(f"✅ Ollama GPU Engine is active and {target_gpu_model} is loaded!")
         else:
-            # Use 7B: fast, ultra-safe for Kaggle disk quota (<5GB), instant download, zero risk of status code 44
-            target_gpu_model = "qwen2.5:7b"
-            print(f"📥 Loading {target_gpu_model} into Dual T4 VRAM (~4.7 GB, fast & disk-safe)...")
-            pull_proc = subprocess.Popen(
-                ["ollama", "pull", target_gpu_model],
-                stdout=subprocess.PIPE,
-                stderr=subprocess.STDOUT,
-                text=True,
-                start_new_session=True
-            )
-            for line in pull_proc.stdout:
-                if "100%" in line or "verifying" in line or "success" in line:
-                    print(f"  [Ollama Pull] {line.strip()}")
-            pull_proc.wait()
-            
-            print(f"⚙ Configuring 64K context window on {target_gpu_model} for Hermes Agent...")
-            with open("/tmp/Modelfile.qwen", "w") as mf:
-                mf.write(f"FROM {target_gpu_model}\nPARAMETER num_ctx 65536\n")
-            subprocess.run(["ollama", "create", target_gpu_model, "-f", "/tmp/Modelfile.qwen"], start_new_session=True)
-
-        print(f"✅ Ollama GPU Engine is active and {target_gpu_model} is loaded!")
-    else:
-        print("⚠ Ollama did not start within 12s. Continuing with Cloud Antigravity...")
-except Exception as oe:
-    print(f"⚠ Local GPU Ollama skipped: {oe}. Primary Antigravity Google AI Pro is fully operational!")
+            print("⚠ Ollama did not start within 12s. Continuing with Cloud Antigravity...")
+    except Exception as oe:
+        print(f"⚠ Local GPU Ollama skipped: {oe}. Primary Antigravity Google AI Pro is fully operational!")
 
 # ── 6. Setup Profile & Hybrid Antigravity Routing ────────────────────────────
 print("\n" + "=" * 60)
@@ -363,6 +375,18 @@ threading.Thread(target=auto_sync_worker, daemon=True).start()
 print("\n" + "=" * 60)
 print("🤖 [6/6] HERMES HYBRID AGENT ONLINE (ANTIGRAVITY GOOGLE AI PRO + DUAL T4)")
 print("=" * 60)
+
+# Automated startup ping to Telegram
+try:
+    tg_url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
+    tg_msg = "🏛️ Hermes Aethelgard Vault Custodian is ONLINE on Kaggle Dual T4 (Pure Cloud Google AI Pro Engine)"
+    tg_data = json.dumps({"chat_id": TELEGRAM_USER_ID, "text": tg_msg}).encode("utf-8")
+    tg_req = urllib.request.Request(tg_url, data=tg_data, headers={"Content-Type": "application/json"})
+    with urllib.request.urlopen(tg_req, timeout=10) as tg_res:
+        if tg_res.status == 200:
+            print("📱 Telegram startup notification delivered successfully to Omar!")
+except Exception as tg_err:
+    print(f"⚠ Telegram startup notification notice: {tg_err}")
 
 try:
     subprocess.run(["hermes", "gateway", "run", "--accept-hooks"])
