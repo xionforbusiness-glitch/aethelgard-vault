@@ -216,8 +216,8 @@ os.environ["HERMES_PROFILE"] = "llm-wiki"
 os.environ["HERMES_HOME"] = HERMES_PROFILE_DIR
 
 subprocess.run(["hermes", "profile", "use", "llm-wiki"])
-subprocess.run(["hermes", "config", "set", "model.provider", "first-time"])
-subprocess.run(["hermes", "config", "set", "model.default", "FIRST-TIME"])
+subprocess.run(["hermes", "config", "set", "model.provider", "custom"])
+subprocess.run(["hermes", "config", "set", "model.default", "antigravity/gemini-3.7-flash-high"])
 subprocess.run(["hermes", "config", "set", "model.base_url", "http://localhost:20128/v1"])
 
 def sync_vault(commit_msg="Auto-sync from Kaggle Hybrid Agent"):
