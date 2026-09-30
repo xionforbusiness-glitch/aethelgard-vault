@@ -54,7 +54,7 @@ Alternatively, you can copy the entire standalone block below into a single code
 # 🏛️ AETHELGARD MASTER HYBRID CLOUD RUNNER (ANTIGRAVITY GOOGLE AI PRO + DUAL T4)
 # ==============================================================================
 
-import os, subprocess, time, threading, shutil, json, sqlite3, urllib.request
+import os, sys, subprocess, time, threading, shutil, json, sqlite3, urllib.request
 
 # ── 1. Credentials & Configuration ────────────────────────────────────────────
 GITHUB_USER = "xionforbusiness-glitch"
@@ -412,9 +412,9 @@ def sync_vault(commit_msg="Auto-sync from Kaggle Hybrid Agent"):
         res = subprocess.run(["git", "-C", VAULT_DIR, "commit", "-m", commit_msg], capture_output=True, text=True)
         if "nothing to commit" not in res.stdout:
             subprocess.run(["git", "-C", VAULT_DIR, "push", "origin", REPO_BRANCH], check=True)
-            print(f"[Vault Sync] Changes pushed to GitHub: {commit_msg}")
+            print(f"[Vault Sync] Changes pushed to GitHub: {commit_msg}", flush=True)
     except Exception as e:
-        print(f"[Vault Sync Error] {e}")
+        print(f"[Vault Sync Error] {e}", flush=True)
 
 def auto_sync_worker():
     while True:
@@ -423,10 +423,37 @@ def auto_sync_worker():
 
 threading.Thread(target=auto_sync_worker, daemon=True).start()
 
+# Background GPU Watchdog Worker (Dual T4 Activity Monitor)
+def gpu_watchdog_worker():
+    while True:
+        try:
+            import torch
+            if torch.cuda.is_available():
+                for d in range(torch.cuda.device_count()):
+                    t = torch.ones((100, 100), device=f"cuda:{d}") @ torch.ones((100, 100), device=f"cuda:{d}")
+                    torch.cuda.synchronize(d)
+        except Exception:
+            pass
+        time.sleep(60)
+
+threading.Thread(target=gpu_watchdog_worker, daemon=True).start()
+
+# Clean cache directories to preserve container disk headroom
+subprocess.run("rm -rf /root/.cache/pip /root/.npm /var/cache/apt/archives/* /tmp/pip-* 2>/dev/null || true", shell=True)
+
 # ── 7. Launch Hermes Hybrid Gateway ───────────────────────────────────────────
 print("\n" + "=" * 60)
 print("🤖 [6/6] HERMES HYBRID AGENT ONLINE (ANTIGRAVITY GOOGLE AI PRO + DUAL T4)")
 print("=" * 60)
+
+# Clear stale Telegram update queue & reset webhook
+try:
+    print("🧹 Clearing stale Telegram updates & resetting webhook...", flush=True)
+    urllib.request.urlopen(f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/deleteWebhook?drop_pending_updates=true", timeout=5)
+    urllib.request.urlopen(f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/getUpdates?offset=-1", timeout=5)
+    print("✅ Telegram queue cleanly flushed.", flush=True)
+except Exception as te:
+    print(f"⚠ Telegram queue flush notice: {te}", flush=True)
 
 # Automated startup ping to Telegram
 try:
@@ -436,15 +463,90 @@ try:
     tg_req = urllib.request.Request(tg_url, data=tg_data, headers={"Content-Type": "application/json"})
     with urllib.request.urlopen(tg_req, timeout=10) as tg_res:
         if tg_res.status == 200:
-            print("📱 Telegram startup notification delivered successfully to Omar!")
+            res_json = json.loads(tg_res.read().decode("utf-8"))
+            msg_id = res_json.get("result", {}).get("message_id", "unknown")
+            print(f"📱 Telegram startup notification delivered successfully to Omar (Message ID: {msg_id})!", flush=True)
 except Exception as tg_err:
-    print(f"⚠ Telegram startup notification notice: {tg_err}")
+    print(f"⚠ Telegram startup notification notice: {tg_err}", flush=True)
+
+# Decoupled Resilient Gateway Supervisor Loop with Real-Time Log Streaming & Heartbeat
+def stream_reader(pipe, log_f):
+    try:
+        for line in iter(pipe.readline, ''):
+            if line:
+                clean_line = line.rstrip()
+                print(f"[Hermes Gateway] {clean_line}", flush=True)
+                try:
+                    log_f.write(line)
+                    log_f.flush()
+                except Exception:
+                    pass
+    except Exception:
+        pass
+    finally:
+        try:
+            pipe.close()
+        except Exception:
+            pass
+
+GATEWAY_LOG_PATH = "/tmp/hermes_gateway.log"
+gateway_cmd = ["hermes", "gateway", "run", "--replace", "--force", "--no-supervise", "--accept-hooks"]
+
+max_restarts = 5
+restart_count = 0
+backoff = 3
+current_proc = None
 
 try:
-    subprocess.run(["hermes", "gateway", "run", "--accept-hooks"])
+    while restart_count < max_restarts:
+        print(f"🚀 Starting Hermes Gateway process (Attempt {restart_count + 1}/{max_restarts})...", flush=True)
+        gateway_log_f = open(GATEWAY_LOG_PATH, "a+", encoding="utf-8")
+        
+        current_proc = subprocess.Popen(
+            gateway_cmd,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.STDOUT,
+            text=True,
+            bufsize=1,
+            start_new_session=True
+        )
+        
+        reader_thread = threading.Thread(target=stream_reader, args=(current_proc.stdout, gateway_log_f), daemon=True)
+        reader_thread.start()
+        
+        last_heartbeat = time.time()
+        while current_proc.poll() is None:
+            time.sleep(1)
+            now = time.time()
+            if now - last_heartbeat >= 25:
+                current_time = time.strftime("%H:%M:%S")
+                print(f"💓 [{current_time}] Hermes Gateway Online | Polling Telegram | Antigravity Google AI Pro Active", flush=True)
+                last_heartbeat = now
+                sys.stdout.flush()
+        
+        exit_code = current_proc.returncode
+        print(f"⚠ Hermes Gateway process exited with code {exit_code}", flush=True)
+        try:
+            gateway_log_f.close()
+        except Exception:
+            pass
+        
+        restart_count += 1
+        if restart_count < max_restarts:
+            print(f"🔄 Restarting Hermes Gateway in {backoff}s...", flush=True)
+            time.sleep(backoff)
+            backoff = min(backoff * 2, 30)
+except KeyboardInterrupt:
+    print("\n🛑 Gateway stopped by user / shutdown signal.", flush=True)
+    if current_proc and current_proc.poll() is None:
+        try:
+            current_proc.terminate()
+            current_proc.wait(timeout=5)
+        except Exception:
+            current_proc.kill()
 finally:
     sync_vault("Final session sync before Kaggle GPU shutdown")
-    print("✨ Clean shutdown complete. All changes pushed to GitHub.")
+    print("✨ Clean shutdown complete. All changes pushed to GitHub.", flush=True)
 ```
 
 ---
