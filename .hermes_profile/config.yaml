@@ -9,8 +9,15 @@ model:
     gemini-high: antigravity/gemini-3.7-flash-high
     sonnet: antigravity/claude-sonnet-4-6
     opus: antigravity/claude-opus-4-6-thinking
-    qwen: custom/qwen2.5:32b
+    qwen: ollama/qwen2.5:32b
 providers:
+  ollama:
+    name: "Ollama (Dual T4 GPU)"
+    base_url: http://localhost:11434/v1
+    model: qwen2.5:32b
+    discover_models: true
+    models:
+      qwen2.5:32b: {}
   openai:
     name: bluesminde
     base_url: https://api.bluesminds.com/v1
@@ -1155,6 +1162,9 @@ custom_providers:
   - name: omniroute
     base_url: http://localhost:20128/v1
     model: antigravity/gemini-3.7-flash-high
+  - name: ollama
+    base_url: http://localhost:11434/v1
+    model: qwen2.5:32b
 
 # ── Security ──────────────────────────────────────────────────────────
 # Secret redaction is ON by default — strings that look like API keys,
