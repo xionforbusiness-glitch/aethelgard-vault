@@ -196,15 +196,18 @@ finally:
 
 ---
 
-## ⚙️ In-Chat Commands on Telegram
+## ⚙️ In-Chat Model Commands on Telegram
 
-While chatting with your bot on Telegram, you can dynamically switch between your local GPU engine and your cloud AI Pro models at any time:
+You can dynamically switch between your local GPU engine and your **Pro Plan Cloud Models** directly in Telegram:
 
-* **`/model qwen2.5:32b`** — Switch to local Dual T4 GPU engine (Unlimited speed, zero rate limits).
-* **`/model claude-sonnet-5`** — Switch to Claude Sonnet 5 via Bluesminds.
-* **`/model gemini-flash-latest`** — Switch to Google Gemini.
-* **`/status`** — View active model, memory usage, and tool health.
-* **`/new`** or **`/reset`** — Start a clean conversation thread.
+| Command | Model Activated | Best Used For |
+| :--- | :--- | :--- |
+| **`/model qwen`** | **Qwen 2.5 32B** (Dual T4 GPU) | 🚀 **Daily autonomous workhorse**, massive tool execution, file reading & zero rate limits. |
+| **`/model gemini-high`** | **Gemini 3.8 Flash High** (Google AI Pro) | ⚡ **High-speed reasoning on HIGH effort**, complex logic, and multimodal image analysis. |
+| **`/model sonnet`** | **Claude Sonnet 4.6 / 5** | 🛠️ **Deep coding architecture**, refactoring, and structured knowledge engineering. |
+| **`/model opus`** | **Claude Opus 4.6** | 🧠 **Maximum reasoning depth**, complex synthesis, and creative ideation. |
+| **`/status`** | System & Model Status | 📊 Inspect active model, VRAM consumption, and gateway health. |
+| **`/new`** or **`/reset`** | Conversation Reset | 🔄 Start a fresh conversation context. |
 
 ---
 
