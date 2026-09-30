@@ -46,7 +46,9 @@ This note serves as the reference guide for your daily toolset, programming lang
 ## 3. Computer Vision, Machine Learning & LLM Infrastructure
 
 ### Cloud LLM Inference & Agent Backends
-- **[[kaggle-llm-backend-deployment|Kaggle Dual Tesla T4 Ollama Backend]]:** Serving `qwen2.5:14b` with ~29 GB total VRAM over Ngrok HTTPS tunnels. Provides zero-cost, high-throughput OpenAI-compatible endpoints (`/v1`) for [[00 Profile|Hermes Agent]] and Telegram automation.
+- **[[kaggle-llm-backend-deployment|Kaggle Dual Tesla T4 Ollama Backend]]:** Serving `qwen2.5:14b` (~13 tok/s) and `qwen2.5:32b` (~8.6 tok/s @ ~90% VRAM) with ~32 GB total VRAM over Ngrok HTTPS tunnels. Provides zero-cost, unmetered OpenAI-compatible endpoints (`/v1`) for [[00 Profile|Hermes Agent]] and Telegram automation.
+- **[[entities/free-claude-code|Free Claude Code Proxy]]:** Open-source proxy daemon (`alishahryar1/free-claude-code`) featuring SQLAlchemy QueuePool SQLite architecture (8.65x throughput boost, p99 latency 15ms), mapping Claude Code CLI calls to zero-cost cloud backends.
+- **[[free-tier-llm-api-endpoints-routing|Permanent Free-Tier API Matrix]]:** Catalog of 134+ permanent free API endpoints across 40+ providers (Gemini Flash, Grok, Groq LPU, NVIDIA NIM, OpenRouter) configured via custom base URLs.
 - **System 1 Decision Engines:** [[laya-system-1-decision-engine|Laya]] (ModernBERT-large, mmBERT-base) for sub-35ms non-autoregressive decision routing and guardrails.
 
 ### Object Detection & Processing

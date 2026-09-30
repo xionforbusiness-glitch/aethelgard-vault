@@ -8,7 +8,9 @@ updated: 2026-09-30
 # Technical Skills & Stack
 
 ## 1. Cloud AI, LLM Inference & Agent Infrastructure
-- **Remote Cloud Inference:** [[kaggle-llm-backend-deployment|Kaggle Dual Tesla T4 Ollama Backend]] running `qwen2.5:14b` with Ngrok secure reverse proxy tunneling.
+- **Remote Cloud Inference:** [[kaggle-llm-backend-deployment|Kaggle Dual Tesla T4 Ollama Backend]] running `qwen2.5:14b` / `qwen2.5:32b` with Ngrok secure reverse proxy tunneling.
+- **Zero-Cost Coding Harnesses & Proxies:** [[entities/free-claude-code|Free Claude Code Proxy]] (`alishahryar1/free-claude-code`), Anthropic protocol adaptation, and SQLite QueuePool concurrency.
+- **Permanent Free-Tier Endpoints:** [[free-tier-llm-api-endpoints-routing|134+ Free LLM APIs]] across Gemini, Grok, Groq, OpenRouter, and NVIDIA NIM with custom base URL configuration.
 - **Autonomous Agent Ecosystem:** [[00 Profile|Hermes Agent]] (llm-wiki profile), OmniRoute AI model gateway integration, Telegram bot bridges.
 - **Decision Engines & Micro-Models:** [[laya-system-1-decision-engine|Laya System 1 Decision Engine]] (ModernBERT-large, mmBERT-base) for sub-35ms structured decision routing.
 

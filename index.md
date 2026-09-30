@@ -2,7 +2,7 @@
 
 > Comprehensive content catalog for the Aethelgard Obsidian Vault & LLM Wiki.
 > Read this first to locate notes, entities, concepts, and technical playbooks.
-> Last updated: 2026-09-30 | Total pages: 43
+> Last updated: 2026-09-30 | Total pages: 46
 
 ## 🧭 Maps of Content & Core Dashboards
 - [[vault_index_dashboard]] — Central navigation hub and high-level map of content.
@@ -49,11 +49,14 @@
 ---
 
 ## 🧬 Entities
+- [[free-claude-code]] — Free Claude Code proxy daemon (`alishahryar1/free-claude-code`) with SQLite QueuePool and zero-cost model translation.
 - [[typesafe-ai-jev]] — TypeSafe AI & Jev: proprietary System 1 non-autoregressive decision model founded by Diogo Almeida.
 - [[ECC]] — Everything Claude Code: comprehensive agent harness and prompt optimization toolkit.
 
 ## 💡 Concepts
-- [[kaggle-llm-backend-deployment]] — Zero-cost cloud LLM inference backend: Kaggle Dual Tesla T4 GPUs (~29 GB VRAM), Ollama daemon (`qwen2.5:14b`), and Ngrok reverse proxy tunnel for Hermes Agent.
+- [[kaggle-llm-backend-deployment]] — Zero-cost cloud LLM inference backend: Kaggle Dual Tesla T4 GPUs (~32 GB VRAM), Ollama daemon (`qwen2.5:14b` & `32b`), token speed benchmarks, and Ngrok tunnel.
+- [[free-tier-llm-api-endpoints-routing]] — 134 permanent free AI APIs across 40+ providers with custom base URL and API key routing for coding agents.
+- [[white-house-press-access-controversy]] — Analysis of executive media exclusion dynamics, press pool credentials, and Al Araby TV's Mamdani/Trump exchange.
 - [[laya-system-1-decision-engine]] — Open-source (Apache 2.0) System 1 decision engine built on ModernBERT/mmBERT backbones with sub-35ms latency and RLCD calibration.
 - [[laya-system-1-installation-deployment-plan]] — Local environment setup, test scripts, checkpoint selection, and integration architecture for deploying Laya.
 - [[ui-ux-design-tools-ecosystem]] — Modern UI/UX design tools: animation libraries (Motion, Anime.js), component libraries (KokonutUI, Bklit), design tools (Realtime Colors, Shape Divider), and AI design intelligence.

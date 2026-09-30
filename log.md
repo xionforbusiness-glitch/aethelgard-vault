@@ -3,6 +3,19 @@
 > Chronological, append-only record of all LLM Wiki actions (ingest, query, lint, update).
 > Format: `## [YYYY-MM-DD] action | subject`
 
+## [2026-09-30] ingest | Facebook Reels Batch (Free Claude Code, 134+ Free APIs, Dual T4 Benchmarks, White House Press Ban)
+- **Sources Preserved:** `raw/articles/2026-09-30-facebook-reels-ingest-batch.md` (4 Facebook links ingested).
+- **Entity Created:** `entities/free-claude-code.md` (Ali Shahryar Khokhar's `free-claude-code` proxy, AGPL-3.0, 56.2k stars, SQLite QueuePool architecture with 8.65x throughput boost, p99 latency 15ms).
+- **Concepts Created:**
+  - `concepts/free-tier-llm-api-endpoints-routing.md` (134 permanent free AI APIs across 40+ providers, base URL & API key config in Cursor, Claude Code, Codex, Hermes).
+  - `concepts/white-house-press-access-controversy.md` (Executive media exclusion dynamics, press pool credentials, Al Araby TV's Mamdani/Trump exchange).
+- **Notes Updated:**
+  - `concepts/kaggle-llm-backend-deployment.md` (Added Section 2.1 Dual T4 empirical benchmarks: Qwen 8B @ ~32 tok/s, 14B @ ~13 tok/s, 32B @ 8.6 tok/s @ ~90% VRAM saturation).
+  - `01 Technical Skills.md` (Added Free Claude Code proxy & 134 free-tier APIs to Section 1).
+  - `technical_skills_knowledge_base.md` (Added Free Claude Code proxy, free API catalog, and dual T4 benchmark stats).
+  - `index.md` (Registered new entity and concepts, updated total page count to 46).
+- **Cross-linked:** [[free-claude-code]], [[free-tier-llm-api-endpoints-routing]], [[white-house-press-access-controversy]], [[kaggle-llm-backend-deployment]], [[01 Technical Skills]], [[technical_skills_knowledge_base]], [[log]]
+
 ## [2026-09-30] hybrid-deployment | Kaggle Hybrid Master Runner & Qwen 2.5 32B GPU Engine
 - **Action:** Created `kaggle_hybrid_cloud_runner.md` and updated `scripts/kaggle_on_demand_cloud_runner.py` with complete pre-filled tokens, Node.js 22 LTS patch, and Dual Tesla T4 GPU 32-Billion parameter (`qwen2.5:32b`) workhorse engine.
 - **Architecture:** Hybrid Cloud + Local GPU architecture:
