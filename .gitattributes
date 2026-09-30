@@ -1,0 +1,6 @@
+* text=auto
+*.sqlite binary
+*.sqlite.gz binary
+*.db binary
+*.bin binary
+*.tar.gz binary

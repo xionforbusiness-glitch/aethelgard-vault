@@ -114,18 +114,47 @@ with open(f"{OMNIROUTE_DIR}/.env", "w") as ef:
 subprocess.run("omniroute stop 2>/dev/null; pkill -9 -f omniroute 2>/dev/null; fuser -k 20128/tcp 2>/dev/null || true", shell=True)
 time.sleep(1)
 
-# Direct copy of pre-verified 32MB database
-print("📦 Copying pre-verified Antigravity Google AI Pro OmniRoute database from repository...")
+# Direct copy/decompression of pre-verified database with auto-repair
+print("📦 Restoring pre-verified Antigravity Google AI Pro OmniRoute database from repository...")
 db_dest = f"{OMNIROUTE_DIR}/storage.sqlite"
+db_gz = f"{VAULT_DIR}/.hermes_profile/omniroute/storage.sqlite.gz"
 db_src = f"{VAULT_DIR}/.hermes_profile/omniroute/storage.sqlite"
 
-if os.path.exists(db_src):
-    shutil.copy2(db_src, db_dest)
-    print("✅ Copied pre-configured storage.sqlite from repository!")
-else:
-    print("⚠ Pre-configured storage.sqlite not found! Checking fallback...")
+restored = False
+if os.path.exists(db_gz):
+    import gzip
+    try:
+        if os.path.exists(db_dest):
+            os.remove(db_dest)
+        with gzip.open(db_gz, "rb") as f_in, open(db_dest, "wb") as f_out:
+            shutil.copyfileobj(f_in, f_out)
+        test_conn = sqlite3.connect(db_dest)
+        check = test_conn.execute("PRAGMA integrity_check;").fetchall()
+        test_conn.close()
+        if check == [("ok",)]:
+            restored = True
+            print("✅ Decompressed and verified storage.sqlite.gz from repository!")
+    except Exception as e:
+        print(f"⚠ Gzip restore error: {e}")
+
+if not restored and os.path.exists(db_src):
+    try:
+        shutil.copy2(db_src, db_dest)
+        test_conn = sqlite3.connect(db_dest)
+        check = test_conn.execute("PRAGMA integrity_check;").fetchall()
+        test_conn.close()
+        if check == [("ok",)]:
+            restored = True
+            print("✅ Copied and verified storage.sqlite from repository!")
+    except Exception as e:
+        print(f"⚠ Raw sqlite error: {e}")
+
+if not restored:
+    print("⚠ Using JSON backup fallback...")
     backup_file = f"{VAULT_DIR}/.hermes_profile/omniroute_backup.json"
     if os.path.exists(backup_file):
+        if os.path.exists(db_dest):
+            os.remove(db_dest)
         with open(backup_file, "r", encoding="utf-8") as f:
             seed_data = json.load(f)
         conn = sqlite3.connect(db_dest)
