@@ -34,7 +34,7 @@ print("=" * 60)
 node_check = subprocess.run("node -v 2>/dev/null", shell=True, capture_output=True, text=True).stdout.strip()
 if not node_check.startswith("v22"):
     subprocess.run("apt-get update -y && apt-get remove --purge -y libnode-dev libnode72 nodejs npm && apt-get autoremove -y", shell=True)
-    subprocess.run("apt-get install -y zstd git curl psmisc", shell=True, check=True)
+    subprocess.run("apt-get install -y zstd git curl psmisc pciutils lshw", shell=True, check=True)
     subprocess.run("curl -fsSL https://deb.nodesource.com/setup_22.x | bash -", shell=True, check=True)
     subprocess.run('apt-get install -y -o Dpkg::Options::="--force-overwrite" nodejs', shell=True, check=True)
     print("✅ Node.js 22 LTS installed.")
@@ -164,7 +164,7 @@ conn.close()
 
 # Launch OmniRoute daemon safely with log redirection
 omni_log = open("/tmp/omniroute.log", "w")
-omniroute_proc = subprocess.Popen(["omniroute", "serve"], env=dict(os.environ), stdout=omni_log, stderr=subprocess.STDOUT)
+omniroute_proc = subprocess.Popen(["omniroute", "serve"], env=dict(os.environ), stdout=omni_log, stderr=subprocess.STDOUT, start_new_session=True)
 
 # Health check: wait up to 30 seconds for OmniRoute to become responsive
 print("⏳ Waiting for OmniRoute to become ready on http://localhost:20128...")
@@ -213,15 +213,22 @@ ollama_ready = False
 try:
     os.environ["OLLAMA_HOST"] = "127.0.0.1:11434"
     os.environ["OLLAMA_ORIGINS"] = "*"
-    subprocess.run("pkill -f ollama", shell=True)
+    os.environ["OLLAMA_KEEP_ALIVE"] = "24h"
+    os.environ["OLLAMA_NUM_PARALLEL"] = "1"
+    subprocess.run("pkill -9 -x ollama 2>/dev/null; fuser -k 11434/tcp 2>/dev/null || true", shell=True)
     time.sleep(1)
     
     ollama_log = open("/tmp/ollama.log", "w")
-    ollama_proc = subprocess.Popen(["ollama", "serve"], stdout=ollama_log, stderr=subprocess.STDOUT)
+    ollama_proc = subprocess.Popen(
+        ["ollama", "serve"],
+        stdout=ollama_log,
+        stderr=subprocess.STDOUT,
+        start_new_session=True
+    )
     time.sleep(3)
 
     # Check if Ollama daemon is responsive
-    for _ in range(10):
+    for _ in range(12):
         try:
             with urllib.request.urlopen("http://127.0.0.1:11434/api/tags", timeout=2) as r:
                 if r.status == 200:
@@ -243,10 +250,16 @@ try:
             target_gpu_model = "qwen2.5:7b"
             print("✅ Qwen 2.5 7B is already cached in Ollama!")
         else:
-            # Use 7B or 14B: ultra-safe for Kaggle disk quota (<5GB), instant download, zero risk of status code 44
+            # Use 7B: fast, ultra-safe for Kaggle disk quota (<5GB), instant download, zero risk of status code 44
             target_gpu_model = "qwen2.5:7b"
             print(f"📥 Loading {target_gpu_model} into Dual T4 VRAM (~4.7 GB, fast & disk-safe)...")
-            pull_proc = subprocess.Popen(["ollama", "pull", target_gpu_model], stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True)
+            pull_proc = subprocess.Popen(
+                ["ollama", "pull", target_gpu_model],
+                stdout=subprocess.PIPE,
+                stderr=subprocess.STDOUT,
+                text=True,
+                start_new_session=True
+            )
             for line in pull_proc.stdout:
                 if "100%" in line or "verifying" in line or "success" in line:
                     print(f"  [Ollama Pull] {line.strip()}")
@@ -255,11 +268,11 @@ try:
             print(f"⚙ Configuring 64K context window on {target_gpu_model} for Hermes Agent...")
             with open("/tmp/Modelfile.qwen", "w") as mf:
                 mf.write(f"FROM {target_gpu_model}\nPARAMETER num_ctx 65536\n")
-            subprocess.run(["ollama", "create", target_gpu_model, "-f", "/tmp/Modelfile.qwen"])
+            subprocess.run(["ollama", "create", target_gpu_model, "-f", "/tmp/Modelfile.qwen"], start_new_session=True)
 
         print(f"✅ Ollama GPU Engine is active and {target_gpu_model} is loaded!")
     else:
-        print("⚠ Ollama did not start within 10s. Continuing with Cloud Antigravity...")
+        print("⚠ Ollama did not start within 12s. Continuing with Cloud Antigravity...")
 except Exception as oe:
     print(f"⚠ Local GPU Ollama skipped: {oe}. Primary Antigravity Google AI Pro is fully operational!")
 
