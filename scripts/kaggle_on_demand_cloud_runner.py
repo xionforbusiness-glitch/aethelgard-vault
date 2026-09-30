@@ -26,12 +26,14 @@ VAULT_DIR = "/kaggle/working/vault"
 HERMES_PROFILE_DIR = "/root/.hermes/profiles/llm-wiki"
 OMNIROUTE_DIR = "/root/.omniroute"
 
-# ── 2. System Prerequisites & Node.js ─────────────────────────────────────────
+# ── 2. System Prerequisites & Node.js 22 LTS ──────────────────────────────────
 print("\n" + "=" * 60)
-print("🚀 [1/6] Installing System Dependencies, Node.js & OmniRoute...")
+print("🚀 [1/6] Installing Node.js 22 LTS, OmniRoute & Dependencies...")
 print("=" * 60)
 
-subprocess.run("apt-get update -y && apt-get install -y zstd git curl nodejs npm", shell=True, check=True)
+subprocess.run("apt-get update -y && apt-get install -y zstd git curl", shell=True, check=True)
+subprocess.run("curl -fsSL https://deb.nodesource.com/setup_22.x | bash -", shell=True, check=True)
+subprocess.run("apt-get install -y nodejs", shell=True, check=True)
 subprocess.run("npm install -g omniroute", shell=True, check=True)
 subprocess.run("curl -fsSL https://ollama.com/install.sh | sh", shell=True, check=True)
 subprocess.run("pip install -q hermes-agent requests", shell=True, check=True)
