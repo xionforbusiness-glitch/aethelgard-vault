@@ -1,0 +1,13 @@
+2026-09-14T17:00:54Z INSTALL actual-setup official:builtin dangerous sha256:9d420b159e639ae9
+2026-09-14T17:00:57Z INSTALL adversarial-ux-test official:builtin safe sha256:b191394abf052fa2
+2026-09-14T17:01:03Z INSTALL agent-merge-conflict-arbiter official:builtin safe sha256:c708cdd11f94e914
+2026-09-14T17:01:09Z INSTALL agentmail official:builtin safe sha256:888878d7ad4a0d27
+2026-09-14T17:01:25Z INSTALL antigravity-cli official:builtin dangerous sha256:7c5c9609254e7d2f
+2026-09-14T17:01:37Z INSTALL ast-grep official:builtin caution sha256:253f76e069be5d8e
+2026-09-14T17:01:47Z INSTALL bioinformatics official:builtin caution sha256:d036e1fb69ad600b
+2026-09-14T17:01:54Z INSTALL blackbox official:builtin safe sha256:6e217db3c63c53d4
+2026-09-14T17:02:04Z INSTALL canvas official:builtin dangerous sha256:d280cb38260037a4
+2026-09-14T17:02:11Z INSTALL chroma official:builtin safe sha256:04488c920d3ccfcd
+2026-09-14T17:02:30Z INSTALL code-wiki official:builtin safe sha256:2e06c1bd5a903431
+2026-09-14T17:02:41Z INSTALL concept-diagrams official:builtin caution sha256:bf3682a001fd9095
+2026-09-14T17:02:43Z INSTALL creative-ideation official:builtin safe sha256:7fe271b209c35bf2

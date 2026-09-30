@@ -1,0 +1,12 @@
+# OS & Temporary files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+*.tmp
+*.temp
+
+# Local locks & caches
+*.lock
+.curator_backups/

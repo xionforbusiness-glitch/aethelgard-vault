@@ -1,0 +1,91 @@
+{
+  "bundle_hash": "sha256:9d420b159e639ae957cdff652739cad31be7dba3eea74b970dd399d6a3cb1451",
+  "scanner_version": "skills-guard-v2",
+  "source": "official",
+  "source_url": "official/devops/actual-setup",
+  "verdict": "dangerous",
+  "trust_level": "builtin",
+  "findings": [
+    {
+      "pattern_id": "env_exfil_curl",
+      "severity": "critical",
+      "category": "exfiltration",
+      "file": "SKILL.md",
+      "line": 55,
+      "match": "curl -s https://api.actual.inc/v1/models -H \"Authorization: Bearer $ACTUAL_API_KEY\"",
+      "description": "curl command interpolating secret environment variable"
+    },
+    {
+      "pattern_id": "hermes_env_access",
+      "severity": "critical",
+      "category": "exfiltration",
+      "file": "SKILL.md",
+      "line": 52,
+      "match": "append `ACTUAL_API_KEY=ac_...` to `~/.hermes/.env`.",
+      "description": "directly references Hermes secrets file"
+    },
+    {
+      "pattern_id": "hermes_env_access",
+      "severity": "critical",
+      "category": "exfiltration",
+      "file": "SKILL.md",
+      "line": 80,
+      "match": "append `ACTUAL_BASE_URL=http://127.0.0.1:8080` to `~/.hermes/.env`, then:",
+      "description": "directly references Hermes secrets file"
+    },
+    {
+      "pattern_id": "hardcoded_ip_port",
+      "severity": "medium",
+      "category": "network",
+      "file": "SKILL.md",
+      "line": 20,
+      "match": "on-device daemon at `http://127.0.0.1:8080` (no auth on loopback). This skill",
+      "description": "hardcoded IP address with port"
+    },
+    {
+      "pattern_id": "hardcoded_ip_port",
+      "severity": "medium",
+      "category": "network",
+      "file": "SKILL.md",
+      "line": 80,
+      "match": "append `ACTUAL_BASE_URL=http://127.0.0.1:8080` to `~/.hermes/.env`, then:",
+      "description": "hardcoded IP address with port"
+    },
+    {
+      "pattern_id": "hardcoded_ip_port",
+      "severity": "medium",
+      "category": "network",
+      "file": "SKILL.md",
+      "line": 95,
+      "match": "| Local daemon | `http://127.0.0.1:8080/v1` (no auth on loopback) |",
+      "description": "hardcoded IP address with port"
+    },
+    {
+      "pattern_id": "curl_pipe_shell",
+      "severity": "critical",
+      "category": "supply_chain",
+      "file": "SKILL.md",
+      "line": 41,
+      "match": "(`curl -fsSL \"https://actual.inc/install\" | bash`) and completed device",
+      "description": "curl piped to shell (download-and-execute)"
+    },
+    {
+      "pattern_id": "hermes_env_access",
+      "severity": "critical",
+      "category": "exfiltration",
+      "file": "references\\opencode.md",
+      "line": 13,
+      "match": "is typically only in `~/.hermes/.env`, not a shell profile, so the env form",
+      "description": "directly references Hermes secrets file"
+    }
+  ],
+  "rules": [
+    "curl_pipe_shell",
+    "env_exfil_curl",
+    "hardcoded_ip_port",
+    "hermes_env_access"
+  ],
+  "scanned_at": "2026-09-14T17:00:54.917170+00:00",
+  "summary": "actual-setup: dangerous \u2014 8 finding(s) in exfiltration, network, supply_chain",
+  "fresh": true
+}

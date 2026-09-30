@@ -1,0 +1,9 @@
+{
+  "last_report_path": "C:\\Users\\omara\\AppData\\Local\\hermes\\profiles\\llm-wiki\\logs\\curator\\20260930-050648",
+  "last_run_at": "2026-09-30T05:06:48.961063+00:00",
+  "last_run_duration_seconds": 3.745336,
+  "last_run_summary": "auto: 2 marked stale; llm: skipped (consolidation off)",
+  "last_run_summary_shown_at": null,
+  "paused": false,
+  "run_count": 2
+}

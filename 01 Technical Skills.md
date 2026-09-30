@@ -1,0 +1,33 @@
+---
+aliases: [Technical Skills, Tech Stack, Core Skills]
+tags: [moc, skills, tech, ai, llm]
+created: 2026-09-19
+updated: 2026-09-30
+---
+
+# Technical Skills & Stack
+
+## 1. Cloud AI, LLM Inference & Agent Infrastructure
+- **Remote Cloud Inference:** [[kaggle-llm-backend-deployment|Kaggle Dual Tesla T4 Ollama Backend]] running `qwen2.5:14b` with Ngrok secure reverse proxy tunneling.
+- **Autonomous Agent Ecosystem:** [[00 Profile|Hermes Agent]] (llm-wiki profile), OmniRoute AI model gateway integration, Telegram bot bridges.
+- **Decision Engines & Micro-Models:** [[laya-system-1-decision-engine|Laya System 1 Decision Engine]] (ModernBERT-large, mmBERT-base) for sub-35ms structured decision routing.
+
+## 2. Software & Web Development
+- **Languages:** Python, JavaScript, Node.js, PHP, HTML5, CSS3, C++
+- **Domains:** Full-stack scripts, automation daemons, educational canvas apps, REST API integrations
+
+## 3. Systems, Security & Automation
+- **OS & CLI:** Linux terminal mastery, shell automation scripts ([[linux_cli_bash_automation_reference]]), process management
+- **Networking & Packet Analysis:** [[networking_wireshark_playbook|Wireshark]] protocol analysis, handshake debugging, latency troubleshooting
+- **Security & Tunneling:** [[openvpn_network_tunneling_architecture|OpenVPN]] client profiles, TLS authentication, Ngrok reverse proxies
+
+## 4. Computer Vision & Machine Learning
+- **Frameworks & Libraries:** [[computer_vision_deep_learning_pipelines|YOLOv8]], OpenCV
+- **Facial Recognition & Processing:** MTCNN multi-stage detection, ArcFace normalized feature embeddings
+- **Pipelines:** Multi-stream live video inferencing and object localization
+
+## 5. Embedded Systems & Robotics
+- **Microcontrollers:** [[arduino_embedded_systems_reference|Arduino]] (Uno, Nano)
+- **Actuators & Sensors:** SG90 micro servos, HW-504 joysticks, 28BYJ-48 stepper motors
+- **Educational Robotics:** [[lego_spike_prime_robotics_curriculum|LEGO SPIKE Prime]]
+- **Digital Fabrication:** 3D CAD parametric modeling for mechanical enclosures and articulated brackets

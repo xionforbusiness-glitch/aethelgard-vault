@@ -1,0 +1,1183 @@
+model:
+  default: auto/best-coding
+  api_mode: chat_completions
+  provider: first-time
+  base_url: http://localhost:20128/v1
+  key_env: HERMES_CUSTOM_FIRST_TIME_API_KEY
+providers:
+  openai:
+    name: bluesminde
+    base_url: https://api.bluesminds.com/v1
+    model: claude-sonnet-5
+    discover_models: false
+    models:
+      cx/gpt-5-codex: {}
+      meta/llama-3.1-8b-instruct: {}
+      nvidia/nemotron-3-nano-omni-30b-a3b-reasoning: {}
+      nvidia/nemotron-mini-4b-instruct: {}
+      gpt-5.5: {}
+      nvidia/llama-3.1-nemoguard-8b-content-safety: {}
+      kimi-k2.5: {}
+      nvidia/nvidia-nemotron-nano-9b-v2: {}
+      openai/gpt-oss-20b: {}
+      nvidia/riva-translate-4b-instruct-v1.1: {}
+      nvidia/llama-3.3-nemotron-super-49b-v1: {}
+      gemma-4-26b: {}
+      nvidia/llama-3.1-nemotron-nano-vl-8b-v1: {}
+      meta/llama-3.2-11b-vision-instruct: {}
+      meta/llama-3.1-70b-instruct: {}
+      gpt-oss-20b: {}
+      meta/llama-3.3-70b-instruct: {}
+      nvidia/llama-3.1-nemoguard-8b-topic-control: {}
+      nvidia/llama-3.3-nemotron-super-49b-v1.5: {}
+      google/diffusiongemma-26b-a4b-it: {}
+      deepseek/deepseek-v4-pro-0813: {}
+      openai/gpt-5.5: {}
+      claude-sonnet-5: {}
+    key_env: HERMES_CUSTOM_OPENAI_API_KEY
+  first-time:
+    name: omnirouter
+    base_url: http://localhost:20128/v1
+    model: auto/best-coding
+    discover_models: true
+    models:
+      claude-sonnet-5: {}
+      cx/gpt-5-codex: {}
+      meta/llama-3.1-8b-instruct: {}
+      nvidia/nemotron-3-nano-omni-30b-a3b-reasoning: {}
+      nvidia/nemotron-mini-4b-instruct: {}
+      gpt-5.5: {}
+      nvidia/llama-3.1-nemoguard-8b-content-safety: {}
+      kimi-k2.5: {}
+      nvidia/nvidia-nemotron-nano-9b-v2: {}
+      openai/gpt-oss-20b: {}
+      nvidia/riva-translate-4b-instruct-v1.1: {}
+      nvidia/llama-3.3-nemotron-super-49b-v1: {}
+      gemma-4-26b: {}
+      nvidia/llama-3.1-nemotron-nano-vl-8b-v1: {}
+      meta/llama-3.2-11b-vision-instruct: {}
+      meta/llama-3.1-70b-instruct: {}
+      gpt-oss-20b: {}
+      meta/llama-3.3-70b-instruct: {}
+      nvidia/llama-3.1-nemoguard-8b-topic-control: {}
+      nvidia/llama-3.3-nemotron-super-49b-v1.5: {}
+      google/diffusiongemma-26b-a4b-it: {}
+      deepseek/deepseek-v4-pro-0813: {}
+      openai/gpt-5.5: {}
+      auto/best-coding: {}
+      auto/best-reasoning: {}
+      auto/best-fast: {}
+      auto/best-vision: {}
+      auto/best-chat: {}
+      auto/best-coding-fast: {}
+      auto/pro-coding: {}
+      auto/pro-reasoning: {}
+      auto/pro-vision: {}
+      auto/pro-chat: {}
+      auto/pro-fast: {}
+      auto/coding: {}
+      auto/fast: {}
+      auto/chat: {}
+      auto/cheap: {}
+      auto/offline: {}
+      auto/smart: {}
+      auto/claude-opus: {}
+      auto/claude-sonnet: {}
+      auto/best-free: {}
+      auto/best-chaos: {}
+      auto/chaos: {}
+      auto/coding:fast: {}
+      auto/coding:cheap: {}
+      auto/coding:free: {}
+      auto/coding:pro: {}
+      auto/coding:reliable: {}
+      auto/reasoning: {}
+      auto/reasoning:pro: {}
+      auto/vision: {}
+      auto/multimodal: {}
+      auto/glm: {}
+      auto/minimax: {}
+      auto/mimo: {}
+      auto/zai: {}
+      auto/gemma: {}
+      auto/llama: {}
+      auto/gemini: {}
+      FIRST-TIME: {}
+      kr/claude-sonnet-5: {}
+      kiro/claude-sonnet-5: {}
+      kr/claude-sonnet-4.5: {}
+      kiro/claude-sonnet-4.5: {}
+      kr/claude-haiku-4.5: {}
+      kiro/claude-haiku-4.5: {}
+      kr/deepseek-3.2: {}
+      kiro/deepseek-3.2: {}
+      kr/minimax-m2.5: {}
+      kiro/minimax-m2.5: {}
+      kr/minimax-m2.1: {}
+      kiro/minimax-m2.1: {}
+      kr/glm-5: {}
+      kiro/glm-5: {}
+      kr/qwen3-coder-next: {}
+      kiro/qwen3-coder-next: {}
+      kr/gpt-5.6-sol: {}
+      kiro/gpt-5.6-sol: {}
+      kr/gpt-5.6-terra: {}
+      kiro/gpt-5.6-terra: {}
+      kr/gpt-5.6-luna: {}
+      kiro/gpt-5.6-luna: {}
+      kr/claude-sonnet-5-low: {}
+      kr/claude-sonnet-5-medium: {}
+      kr/claude-sonnet-5-high: {}
+      kr/claude-sonnet-5-xhigh: {}
+      kiro/claude-sonnet-5-low: {}
+      kiro/claude-sonnet-5-medium: {}
+      kiro/claude-sonnet-5-high: {}
+      kiro/claude-sonnet-5-xhigh: {}
+      kr/claude-sonnet-4.5-low: {}
+      kr/claude-sonnet-4.5-medium: {}
+      kr/claude-sonnet-4.5-high: {}
+      kiro/claude-sonnet-4.5-low: {}
+      kiro/claude-sonnet-4.5-medium: {}
+      kiro/claude-sonnet-4.5-high: {}
+      kr/claude-haiku-4.5-low: {}
+      kr/claude-haiku-4.5-medium: {}
+      kr/claude-haiku-4.5-high: {}
+      kiro/claude-haiku-4.5-low: {}
+      kiro/claude-haiku-4.5-medium: {}
+      kiro/claude-haiku-4.5-high: {}
+      no-think/kr/claude-sonnet-5: {}
+      no-think/kiro/claude-sonnet-5: {}
+      no-think/kr/claude-sonnet-4.5: {}
+      no-think/kiro/claude-sonnet-4.5: {}
+      no-think/kr/claude-haiku-4.5: {}
+      no-think/kiro/claude-haiku-4.5: {}
+      antigravity/gemini-3.7-flash-high: {}
+      antigravity/gemini-3.7-flash-medium: {}
+      antigravity/gemini-3.7-flash-low: {}
+      antigravity/gemini-3.7-flash-tiered: {}
+      antigravity/gemini-pro-agent: {}
+      antigravity/gemini-3.1-pro-low: {}
+      antigravity/gemini-3.1-flash-lite: {}
+      antigravity/claude-opus-4-6-thinking: {}
+      antigravity/claude-sonnet-4-6: {}
+      antigravity/gpt-oss-120b-medium: {}
+      antigravity/gemini-3.1-flash-image: {}
+      antigravity/claude-opus-4-6-thinking-low: {}
+      antigravity/claude-opus-4-6-thinking-medium: {}
+      antigravity/claude-opus-4-6-thinking-high: {}
+      antigravity/claude-sonnet-4-6-low: {}
+      antigravity/claude-sonnet-4-6-medium: {}
+      antigravity/claude-sonnet-4-6-high: {}
+      no-think/antigravity/claude-opus-4-6-thinking: {}
+      no-think/antigravity/claude-sonnet-4-6: {}
+      dva/swe-1-7-lightning: {}
+      dva/swe-1-7: {}
+      dva/swe-1-6-fast: {}
+      dva/swe-1-6: {}
+      dva/claude-5-fable-max: {}
+      dva/claude-5-fable-xhigh: {}
+      dva/claude-5-fable-high: {}
+      dva/claude-5-fable-medium: {}
+      dva/claude-5-fable-low: {}
+      dva/claude-opus-5-max: {}
+      dva/claude-opus-5-xhigh: {}
+      dva/claude-opus-5-high: {}
+      dva/claude-opus-5-medium: {}
+      dva/claude-opus-5-low: {}
+      dva/claude-opus-4-8-max: {}
+      dva/claude-opus-4-8-xhigh: {}
+      dva/claude-opus-4-8-high: {}
+      dva/claude-opus-4-8-medium: {}
+      dva/claude-opus-4-8-low: {}
+      dva/claude-opus-4-7-max: {}
+      dva/claude-opus-4-7-xhigh: {}
+      dva/claude-opus-4-7-high: {}
+      dva/claude-opus-4-7-medium: {}
+      dva/claude-opus-4-7-low: {}
+      dva/claude-opus-4-6-thinking-1m: {}
+      dva/claude-opus-4-6-thinking: {}
+      dva/claude-opus-4-6-1m: {}
+      dva/claude-opus-4-6: {}
+      dva/claude-sonnet-5-max: {}
+      dva/claude-sonnet-5-xhigh: {}
+      dva/claude-sonnet-5-high: {}
+      dva/claude-sonnet-5-medium: {}
+      dva/claude-sonnet-5-low: {}
+      dva/claude-sonnet-4-6-thinking-1m: {}
+      dva/claude-sonnet-4-6-thinking: {}
+      dva/claude-sonnet-4-6-1m: {}
+      dva/claude-sonnet-4-6: {}
+      dva/gpt-5-6-sol-max: {}
+      dva/gpt-5-6-sol-xhigh: {}
+      dva/gpt-5-6-sol-high: {}
+      dva/gpt-5-6-sol-medium: {}
+      dva/gpt-5-6-sol-low: {}
+      dva/gpt-5-6-terra-max: {}
+      dva/gpt-5-6-terra-xhigh: {}
+      dva/gpt-5-6-terra-high: {}
+      dva/gpt-5-6-terra-medium: {}
+      dva/gpt-5-6-terra-low: {}
+      dva/gpt-5-6-luna-max: {}
+      dva/gpt-5-6-luna-xhigh: {}
+      dva/gpt-5-6-luna-high: {}
+      dva/gpt-5-6-luna-medium: {}
+      dva/gpt-5-6-luna-low: {}
+      dva/gpt-5-5-xhigh: {}
+      dva/gpt-5-5-high: {}
+      dva/gpt-5-5-medium: {}
+      dva/gpt-5-5-low: {}
+      dva/gemini-3-1-pro-high: {}
+      dva/gemini-3-1-pro-low: {}
+      dva/gemini-3-7-flash-high: {}
+      dva/gemini-3-7-flash-medium: {}
+      dva/gemini-3-7-flash-low: {}
+      dva/gemini-3-7-flash-minimal: {}
+      dva/grok-4-5-high: {}
+      dva/grok-4-5-medium: {}
+      dva/grok-4-5-low: {}
+      dva/glm-5-2-max-1m: {}
+      dva/glm-5-2-max: {}
+      dva/glm-5-2-1m: {}
+      dva/glm-5-2: {}
+      dva/kimi-k3-max: {}
+      dva/kimi-k3-high: {}
+      dva/kimi-k3-low: {}
+      dva/kimi-k2-7: {}
+      dva/inkling-max: {}
+      dva/inkling-xhigh: {}
+      dva/inkling-high: {}
+      dva/inkling-medium: {}
+      dva/inkling-low: {}
+      dva/inkling-none: {}
+      dva/deepseek-v4: {}
+      dva/nemotron-3-ultra-nvfp4: {}
+      dva/claude-opus-5-max-low: {}
+      dva/claude-opus-5-max-medium: {}
+      dva/claude-opus-5-max-high: {}
+      dva/claude-opus-5-max-xhigh: {}
+      dva/claude-opus-4-8-max-low: {}
+      dva/claude-opus-4-8-max-medium: {}
+      dva/claude-opus-4-8-max-high: {}
+      dva/claude-opus-4-8-max-xhigh: {}
+      dva/claude-opus-4-7-max-low: {}
+      dva/claude-opus-4-7-max-medium: {}
+      dva/claude-opus-4-7-max-high: {}
+      dva/claude-opus-4-7-max-xhigh: {}
+      dva/claude-opus-4-6-thinking-1m-low: {}
+      dva/claude-opus-4-6-thinking-1m-medium: {}
+      dva/claude-opus-4-6-thinking-1m-high: {}
+      dva/claude-opus-4-6-thinking-1m-xhigh: {}
+      dva/claude-opus-4-6-thinking-low: {}
+      dva/claude-opus-4-6-thinking-medium: {}
+      dva/claude-opus-4-6-thinking-high: {}
+      dva/claude-opus-4-6-1m-low: {}
+      dva/claude-opus-4-6-1m-medium: {}
+      dva/claude-opus-4-6-1m-high: {}
+      dva/claude-opus-4-6-1m-xhigh: {}
+      dva/claude-opus-4-6-low: {}
+      dva/claude-opus-4-6-medium: {}
+      dva/claude-opus-4-6-high: {}
+      dva/claude-sonnet-5-max-low: {}
+      dva/claude-sonnet-5-max-medium: {}
+      dva/claude-sonnet-5-max-high: {}
+      dva/claude-sonnet-5-max-xhigh: {}
+      dva/claude-sonnet-4-6-thinking-1m-low: {}
+      dva/claude-sonnet-4-6-thinking-1m-medium: {}
+      dva/claude-sonnet-4-6-thinking-1m-high: {}
+      dva/claude-sonnet-4-6-thinking-1m-xhigh: {}
+      dva/claude-sonnet-4-6-thinking-low: {}
+      dva/claude-sonnet-4-6-thinking-medium: {}
+      dva/claude-sonnet-4-6-thinking-high: {}
+      dva/claude-sonnet-4-6-1m-low: {}
+      dva/claude-sonnet-4-6-1m-medium: {}
+      dva/claude-sonnet-4-6-1m-high: {}
+      dva/claude-sonnet-4-6-1m-xhigh: {}
+      dva/claude-sonnet-4-6-low: {}
+      dva/claude-sonnet-4-6-medium: {}
+      dva/claude-sonnet-4-6-high: {}
+      no-think/dva/claude-opus-5-max: {}
+      no-think/dva/claude-opus-4-8-max: {}
+      no-think/dva/claude-opus-4-7-max: {}
+      no-think/dva/claude-opus-4-6-thinking-1m: {}
+      no-think/dva/claude-opus-4-6-thinking: {}
+      no-think/dva/claude-opus-4-6-1m: {}
+      no-think/dva/claude-opus-4-6: {}
+      no-think/dva/claude-sonnet-5-max: {}
+      no-think/dva/claude-sonnet-4-6-thinking-1m: {}
+      no-think/dva/claude-sonnet-4-6-thinking: {}
+      no-think/dva/claude-sonnet-4-6-1m: {}
+      no-think/dva/claude-sonnet-4-6: {}
+      oc/hy3-free: {}
+      oc/north-mini-code-free: {}
+      oc/claude-fable-5: {}
+      opencode/claude-fable-5: {}
+      oc/claude-fable-5-1: {}
+      opencode/claude-fable-5-1: {}
+      oc/claude-opus-5: {}
+      opencode/claude-opus-5: {}
+      oc/claude-opus-4-8: {}
+      opencode/claude-opus-4-8: {}
+      oc/claude-opus-4-7: {}
+      opencode/claude-opus-4-7: {}
+      oc/claude-opus-4-6: {}
+      opencode/claude-opus-4-6: {}
+      oc/claude-opus-4-5: {}
+      opencode/claude-opus-4-5: {}
+      oc/claude-sonnet-5: {}
+      opencode/claude-sonnet-5: {}
+      oc/claude-sonnet-4-6: {}
+      opencode/claude-sonnet-4-6: {}
+      oc/claude-sonnet-4-5: {}
+      opencode/claude-sonnet-4-5: {}
+      oc/claude-sonnet-4: {}
+      opencode/claude-sonnet-4: {}
+      oc/claude-haiku-4-5: {}
+      opencode/claude-haiku-4-5: {}
+      oc/gemini-3.6-flash: {}
+      opencode/gemini-3.6-flash: {}
+      oc/gemini-3.8-flash: {}
+      opencode/gemini-3.8-flash: {}
+      oc/gemini-3.7-flash: {}
+      opencode/gemini-3.7-flash: {}
+      oc/gemini-3.5-flash-lite: {}
+      opencode/gemini-3.5-flash-lite: {}
+      oc/gemini-3.5-flash: {}
+      opencode/gemini-3.5-flash: {}
+      oc/gemini-3.1-pro: {}
+      opencode/gemini-3.1-pro: {}
+      oc/gemini-3-flash: {}
+      opencode/gemini-3-flash: {}
+      oc/gpt-6-astra: {}
+      opencode/gpt-6-astra: {}
+      oc/gpt-5.6-sol: {}
+      opencode/gpt-5.6-sol: {}
+      oc/gpt-5.6-terra: {}
+      opencode/gpt-5.6-terra: {}
+      oc/gpt-5.6-luna: {}
+      opencode/gpt-5.6-luna: {}
+      oc/gpt-5.5: {}
+      opencode/gpt-5.5: {}
+      oc/gpt-5.5-pro: {}
+      opencode/gpt-5.5-pro: {}
+      oc/gpt-5.4: {}
+      opencode/gpt-5.4: {}
+      oc/gpt-5.4-pro: {}
+      opencode/gpt-5.4-pro: {}
+      oc/gpt-5.4-mini: {}
+      opencode/gpt-5.4-mini: {}
+      oc/gpt-5.4-nano: {}
+      opencode/gpt-5.4-nano: {}
+      oc/gpt-5.3-codex-spark: {}
+      opencode/gpt-5.3-codex-spark: {}
+      oc/gpt-5.3-codex: {}
+      opencode/gpt-5.3-codex: {}
+      oc/gpt-5.2: {}
+      opencode/gpt-5.2: {}
+      oc/gpt-5.2-codex: {}
+      opencode/gpt-5.2-codex: {}
+      oc/gpt-5.1: {}
+      opencode/gpt-5.1: {}
+      oc/gpt-5.1-codex-max: {}
+      opencode/gpt-5.1-codex-max: {}
+      oc/gpt-5.1-codex: {}
+      opencode/gpt-5.1-codex: {}
+      oc/gpt-5.1-codex-mini: {}
+      opencode/gpt-5.1-codex-mini: {}
+      oc/gpt-5: {}
+      opencode/gpt-5: {}
+      oc/gpt-5-codex: {}
+      opencode/gpt-5-codex: {}
+      oc/gpt-5-nano: {}
+      opencode/gpt-5-nano: {}
+      oc/grok-build-0.1: {}
+      opencode/grok-build-0.1: {}
+      oc/grok-4.6: {}
+      opencode/grok-4.6: {}
+      oc/grok-4.5: {}
+      opencode/grok-4.5: {}
+      oc/muse-spark-1.3: {}
+      opencode/muse-spark-1.3: {}
+      oc/muse-spark-1.2: {}
+      opencode/muse-spark-1.2: {}
+      oc/deepseek-v4-pro: {}
+      opencode/deepseek-v4-pro: {}
+      oc/deepseek-v4-flash: {}
+      opencode/deepseek-v4-flash: {}
+      oc/deepseek-v4-flash-vision-exp: {}
+      opencode/deepseek-v4-flash-vision-exp: {}
+      oc/glm-5.3-flash: {}
+      opencode/glm-5.3-flash: {}
+      oc/glm-5.3: {}
+      opencode/glm-5.3: {}
+      oc/glm-5.2: {}
+      opencode/glm-5.2: {}
+      oc/glm-5.1: {}
+      opencode/glm-5.1: {}
+      oc/glm-5: {}
+      opencode/glm-5: {}
+      oc/minimax-m3: {}
+      opencode/minimax-m3: {}
+      oc/minimax-m2.7: {}
+      opencode/minimax-m2.7: {}
+      oc/minimax-m2.5: {}
+      opencode/minimax-m2.5: {}
+      oc/kimi-k3: {}
+      opencode/kimi-k3: {}
+      oc/kimi-k2.7-code: {}
+      opencode/kimi-k2.7-code: {}
+      oc/kimi-k2.6: {}
+      opencode/kimi-k2.6: {}
+      oc/kimi-k2.5: {}
+      opencode/kimi-k2.5: {}
+      oc/qwen3.6-plus: {}
+      opencode/qwen3.6-plus: {}
+      oc/qwen3.5-plus: {}
+      opencode/qwen3.5-plus: {}
+      oc/big-pickle: {}
+      opencode/big-pickle: {}
+      oc/deepseek-v4-flash-free: {}
+      opencode/deepseek-v4-flash-free: {}
+      oc/muse-spark-1.3-contributor-free: {}
+      opencode/muse-spark-1.3-contributor-free: {}
+      oc/muse-spark-1.2-contributor-free: {}
+      opencode/muse-spark-1.2-contributor-free: {}
+      oc/mimo-v2.5-free: {}
+      opencode/mimo-v2.5-free: {}
+      oc/ling-3.0-flash-fin-free: {}
+      opencode/ling-3.0-flash-fin-free: {}
+      oc/nemotron-3-ultra-free: {}
+      opencode/nemotron-3-ultra-free: {}
+      oc/nemotron-3.5-lightning-free: {}
+      opencode/nemotron-3.5-lightning-free: {}
+      oc/claude-fable-5-low: {}
+      oc/claude-fable-5-medium: {}
+      oc/claude-fable-5-high: {}
+      oc/claude-fable-5-xhigh: {}
+      opencode/claude-fable-5-low: {}
+      opencode/claude-fable-5-medium: {}
+      opencode/claude-fable-5-high: {}
+      opencode/claude-fable-5-xhigh: {}
+      oc/claude-fable-5-1-low: {}
+      oc/claude-fable-5-1-medium: {}
+      oc/claude-fable-5-1-high: {}
+      oc/claude-fable-5-1-xhigh: {}
+      opencode/claude-fable-5-1-low: {}
+      opencode/claude-fable-5-1-medium: {}
+      opencode/claude-fable-5-1-high: {}
+      opencode/claude-fable-5-1-xhigh: {}
+      oc/claude-opus-5-low: {}
+      oc/claude-opus-5-medium: {}
+      oc/claude-opus-5-high: {}
+      oc/claude-opus-5-xhigh: {}
+      opencode/claude-opus-5-low: {}
+      opencode/claude-opus-5-medium: {}
+      opencode/claude-opus-5-high: {}
+      opencode/claude-opus-5-xhigh: {}
+      oc/claude-opus-4-8-low: {}
+      oc/claude-opus-4-8-medium: {}
+      oc/claude-opus-4-8-high: {}
+      oc/claude-opus-4-8-xhigh: {}
+      opencode/claude-opus-4-8-low: {}
+      opencode/claude-opus-4-8-medium: {}
+      opencode/claude-opus-4-8-high: {}
+      opencode/claude-opus-4-8-xhigh: {}
+      oc/claude-opus-4-7-low: {}
+      oc/claude-opus-4-7-medium: {}
+      oc/claude-opus-4-7-high: {}
+      oc/claude-opus-4-7-xhigh: {}
+      opencode/claude-opus-4-7-low: {}
+      opencode/claude-opus-4-7-medium: {}
+      opencode/claude-opus-4-7-high: {}
+      opencode/claude-opus-4-7-xhigh: {}
+      oc/claude-opus-4-6-low: {}
+      oc/claude-opus-4-6-medium: {}
+      oc/claude-opus-4-6-high: {}
+      opencode/claude-opus-4-6-low: {}
+      opencode/claude-opus-4-6-medium: {}
+      opencode/claude-opus-4-6-high: {}
+      oc/claude-opus-4-5-low: {}
+      oc/claude-opus-4-5-medium: {}
+      oc/claude-opus-4-5-high: {}
+      opencode/claude-opus-4-5-low: {}
+      opencode/claude-opus-4-5-medium: {}
+      opencode/claude-opus-4-5-high: {}
+      oc/claude-sonnet-5-low: {}
+      oc/claude-sonnet-5-medium: {}
+      oc/claude-sonnet-5-high: {}
+      oc/claude-sonnet-5-xhigh: {}
+      opencode/claude-sonnet-5-low: {}
+      opencode/claude-sonnet-5-medium: {}
+      opencode/claude-sonnet-5-high: {}
+      opencode/claude-sonnet-5-xhigh: {}
+      oc/claude-sonnet-4-6-low: {}
+      oc/claude-sonnet-4-6-medium: {}
+      oc/claude-sonnet-4-6-high: {}
+      opencode/claude-sonnet-4-6-low: {}
+      opencode/claude-sonnet-4-6-medium: {}
+      opencode/claude-sonnet-4-6-high: {}
+      oc/claude-sonnet-4-5-low: {}
+      oc/claude-sonnet-4-5-medium: {}
+      oc/claude-sonnet-4-5-high: {}
+      opencode/claude-sonnet-4-5-low: {}
+      opencode/claude-sonnet-4-5-medium: {}
+      opencode/claude-sonnet-4-5-high: {}
+      no-think/oc/claude-opus-5: {}
+      no-think/opencode/claude-opus-5: {}
+      no-think/oc/claude-opus-4-8: {}
+      no-think/opencode/claude-opus-4-8: {}
+      no-think/oc/claude-opus-4-7: {}
+      no-think/opencode/claude-opus-4-7: {}
+      no-think/oc/claude-opus-4-6: {}
+      no-think/opencode/claude-opus-4-6: {}
+      no-think/oc/claude-opus-4-5: {}
+      no-think/opencode/claude-opus-4-5: {}
+      no-think/oc/claude-sonnet-5: {}
+      no-think/opencode/claude-sonnet-5: {}
+      no-think/oc/claude-sonnet-4-6: {}
+      no-think/opencode/claude-sonnet-4-6: {}
+      no-think/oc/claude-sonnet-4-5: {}
+      no-think/opencode/claude-sonnet-4-5: {}
+      ddgw/gpt-5.4-mini: {}
+      ddgw/gpt-5.4-nano: {}
+      ddgw/claude-haiku-4-5: {}
+      ddgw/mistral-small-2603: {}
+      ddgw/tinfoil/gpt-oss-120b: {}
+      ddgw/tinfoil/gemma4-31b: {}
+      cfp/zai-org/glm-5.2: {}
+      cfp/moonshotai/kimi-k2.7-code: {}
+      cfp/moonshotai/kimi-k2.6: {}
+      cfp/deepseek-ai/deepseek-v4-pro-0813: {}
+      cfp/deepseek-ai/deepseek-v4-flash-0731: {}
+      cfp/zai-org/glm-4.7-flash: {}
+      cfp/openai/gpt-oss-120b: {}
+      cfp/openai/gpt-oss-20b: {}
+      cfp/meta-llama/llama-3.3-70b-instruct-fp8-fast: {}
+      cfp/meta/llama-3.1-8b-instruct-fp8: {}
+      cfp/meta/llama-4-scout-17b-16e-instruct: {}
+      cfp/nvidia/nemotron-3-120b-a12b: {}
+      cfp/qwen/qwen2.5-coder-32b-instruct: {}
+      cfp/qwen/qwen3-30b-a3b-fp8: {}
+      cfp/qwen/qwq-32b: {}
+      cfp/deepseek-ai/deepseek-r1-distill-qwen-32b: {}
+      cfp/google/gemma-4-26b-a4b-it: {}
+      cfp/mistralai/mistral-small-3.1-24b-instruct: {}
+      cfp/ibm-granite/granite-4.0-h-micro: {}
+      cfp/aisingapore/gemma-sea-lion-v4-27b-it: {}
+      felo/felo-chat: {}
+      felo/felo-search: {}
+      felo/felo-scholar: {}
+      felo/felo-social: {}
+      felo/felo-document: {}
+      tllm/GPT_5_4: {}
+      tllm/GPT_5_3: {}
+      tllm/GPT_5_2: {}
+      tllm/GPT_5_1: {}
+      tllm/GPT_5: {}
+      tllm/GPT_o4_mini: {}
+      tllm/GPT_o3_mini: {}
+      tllm/gemini_3_pro: {}
+      tllm/gemini_2_5_pro: {}
+      tllm/gemini_2_0_flash: {}
+      tllm/gemini_1_5_flash: {}
+      tllm/CLAUDE_4_6_OPUS: {}
+      tllm/CLAUDE_4_6_SONNET: {}
+      tllm/CLAUDE_4_5_HAIKU: {}
+      tllm/openrouter_gpt_4_o: {}
+      tllm/openrouter_gpt_4_o_mini: {}
+      tllm/openrouter_grok_4: {}
+      tllm/together_deepseek_v3: {}
+      tllm/openrouter_deepseek_r1: {}
+      tllm/sonar-pro: {}
+      tllm/GPT_4o: {}
+      tllm/claude_opus_4: {}
+      tllm/claude_sonnet_4: {}
+      tllm/claude_haiku_3_5: {}
+      tllm/deepseek_v4: {}
+      tllm/gemini_3_flash: {}
+      pepper/pepper-1: {}
+      veoaifree-web/veo: {}
+      veoaifree-web/seedance: {}
+      veo-free/veo: {}
+      veo-free/seedance: {}
+      aug/sonnet4.6: {}
+      aug/fable-5: {}
+      aug/haiku4.5: {}
+      aug/sonnet4.5: {}
+      aug/sonnet4.6-500k: {}
+      aug/sonnet5-high: {}
+      aug/sonnet5-500k: {}
+      aug/opus4.5: {}
+      aug/opus4.6: {}
+      aug/opus4.6-500k: {}
+      aug/opus4.7: {}
+      aug/opus4.7-500k: {}
+      aug/opus4.8: {}
+      aug/gemini-3.1-pro-preview: {}
+      aug/gpt5: {}
+      aug/gpt5.1: {}
+      aug/gpt5.2: {}
+      aug/gpt5.4: {}
+      aug/gpt5.4-mini: {}
+      aug/gpt5.5: {}
+      aug/gpt5.6-luna: {}
+      aug/gpt5.6-sol: {}
+      aug/gpt5.6-terra: {}
+      aug/glm-5.2: {}
+      aug/kimi-k2.6: {}
+      aug/kimi-k2.7: {}
+      aug/prism-a: {}
+      aug/prism-b: {}
+      zc/glm-5.3: {}
+      zc/glm-5.3-max: {}
+      zc/glm-5.2: {}
+      zc/glm-5.1: {}
+      zc/glm-5: {}
+      zc/glm-5-turbo: {}
+      zc/glm-4.7-flash: {}
+      zc/glm-4.7: {}
+      zc/glm-4.6v: {}
+      zc/glm-4.6: {}
+      zc/glm-4.5v: {}
+      zc/glm-4.5: {}
+      zc/glm-4.5-air: {}
+      cxa/gpt-5.6-sol: {}
+      cxa/gpt-5.6-sol-ultra: {}
+      cxa/gpt-5.6-sol-max: {}
+      cxa/gpt-5.6-sol-xhigh: {}
+      cxa/gpt-5.6-sol-high: {}
+      cxa/gpt-5.6-sol-medium: {}
+      cxa/gpt-5.6-sol-low: {}
+      cxa/gpt-5.6-terra: {}
+      cxa/gpt-5.6-terra-ultra: {}
+      cxa/gpt-5.6-terra-max: {}
+      cxa/gpt-5.6-terra-xhigh: {}
+      cxa/gpt-5.6-terra-high: {}
+      cxa/gpt-5.6-terra-medium: {}
+      cxa/gpt-5.6-terra-low: {}
+      cxa/gpt-5.6-luna: {}
+      cxa/gpt-5.6-luna-max: {}
+      cxa/gpt-5.6-luna-xhigh: {}
+      cxa/gpt-5.6-luna-high: {}
+      cxa/gpt-5.6-luna-medium: {}
+      cxa/gpt-5.6-luna-low: {}
+      cxa/gpt-5.5: {}
+      cxa/gpt-5.5-xhigh: {}
+      cxa/gpt-5.5-high: {}
+      cxa/gpt-5.5-medium: {}
+      cxa/gpt-5.5-low: {}
+      cxa/gpt-5.3-codex-spark: {}
+      unc/adamo1139/Hermes-3-Llama-3.1-8B-FP8-Dynamic: {}
+      unc/qwen3.6:27b: {}
+      unc/gemma4:31b: {}
+      aihorde/2DN: {}
+      aihorde/526Mix-Animated: {}
+      aihorde/A-Zovya RPG Inpainting: {}
+      aihorde/AAM XL: {}
+      aihorde/AbsoluteReality: {}
+      aihorde/Abyss OrangeMix: {}
+      aihorde/AbyssOrangeMix-AfterDark: {}
+      aihorde/ACertainThing: {}
+      aihorde/AIO Pixel Art: {}
+      aihorde/AlbedoBase XL (SDXL): {}
+      aihorde/AlbedoBase XL 3.1: {}
+      aihorde/AMPonyXL: {}
+      aihorde/Analog Diffusion: {}
+      aihorde/Analog Madness: {}
+      aihorde/Anima-Turbo-v1.1: {}
+      aihorde/Animagine XL: {}
+      aihorde/Anime Pencil Diffusion: {}
+      aihorde/Anygen: {}
+      aihorde/AnyLoRA: {}
+      aihorde/Anything Diffusion: {}
+      aihorde/Anything Diffusion Inpainting: {}
+      aihorde/Anything v3: {}
+      aihorde/Anything v5: {}
+      aihorde/App Icon Diffusion: {}
+      aihorde/Art Of Mtg: {}
+      aihorde/Aurora: {}
+      aihorde/Babes: {}
+      aihorde/BB95 Furry Mix: {}
+      aihorde/BB95 Furry Mix v14: {}
+      aihorde/BigASP: {}
+      aihorde/Blank Canvas XL: {}
+      aihorde/BlenderMix Pony: {}
+      aihorde/BweshMix: {}
+      aihorde/CamelliaMix 2.5D: {}
+      aihorde/Cetus-Mix: {}
+      aihorde/Cheese Daddys Landscape Mix: {}
+      aihorde/Cheyenne: {}
+      aihorde/Comic-Diffusion: {}
+      aihorde/Counterfeit: {}
+      aihorde/CyberRealistic Pony: {}
+      aihorde/CyriousMix: {}
+      aihorde/Dan Mumford Style: {}
+      aihorde/Deliberate: {}
+      aihorde/Deliberate 3.0: {}
+      aihorde/Deliberate Inpainting: {}
+      aihorde/Double Exposure Diffusion: {}
+      aihorde/Dreamlike Diffusion: {}
+      aihorde/DreamLikeSamKuvshinov: {}
+      aihorde/Dreamshaper: {}
+      aihorde/DreamShaper Inpainting: {}
+      aihorde/DreamShaper XL: {}
+      aihorde/DucHaiten: {}
+      aihorde/DucHaiten Classic Anime: {}
+      aihorde/DucHaiten GameArt (Unreal) Pony: {}
+      aihorde/Dungeons and Diffusion: {}
+      aihorde/Dungeons n Waifus: {}
+      aihorde/Edge Of Realism: {}
+      aihorde/Eimis Anime Diffusion: {}
+      aihorde/Elysium Anime: {}
+      aihorde/Epic Diffusion: {}
+      aihorde/Epic Diffusion Inpainting: {}
+      aihorde/Ether Real Mix: {}
+      aihorde/Experience: {}
+      aihorde/ExpMix Line: {}
+      aihorde/FaeTastic: {}
+      aihorde/Fantasy Card Diffusion: {}
+      aihorde/Flat-2D Animerge: {}
+      aihorde/Flux.1-Schnell fp8 (Compact): {}
+      aihorde/Fustercluck: {}
+      aihorde/Galena Redux: {}
+      aihorde/Ghibli Diffusion: {}
+      aihorde/GhostMix: {}
+      aihorde/Grapefruit Hentai: {}
+      aihorde/GTA5 Artwork Diffusion: {}
+      aihorde/HASDX: {}
+      aihorde/Hassaku XL: {}
+      aihorde/Healy's Anime Blend: {}
+      aihorde/Hentai Diffusion: {}
+      aihorde/Hidden Canvas: {}
+      aihorde/HolyMix ILXL: {}
+      aihorde/HRL: {}
+      aihorde/ICBINP - I Can't Believe It's Not Photography: {}
+      aihorde/ICBINP XL: {}
+      aihorde/iCoMix: {}
+      aihorde/iCoMix Inpainting: {}
+      aihorde/Illuminati Diffusion: {}
+      aihorde/Inkpunk Diffusion: {}
+      aihorde/Jim Eidomode: {}
+      aihorde/Juggernaut XL: {}
+      aihorde/KaynegIllustriousXL: {}
+      aihorde/Krea2-Turbo_fp8: {}
+      aihorde/Lawlas's yiff mix: {}
+      aihorde/Liberty: {}
+      aihorde/Lyriel: {}
+      aihorde/majicMIX realistic: {}
+      aihorde/MeinaMix: {}
+      aihorde/MHXL - Aventis Horizon: {}
+      aihorde/Midjourney PaintArt: {}
+      aihorde/Mistoon Anime: {}
+      aihorde/ModernArt Diffusion: {}
+      aihorde/MoonMix Fantasy: {}
+      aihorde/Movie Diffusion: {}
+      aihorde/NatViS: {}
+      aihorde/Neurogen: {}
+      aihorde/NeverEnding Dream: {}
+      aihorde/NEW ERA: {}
+      aihorde/noob_v_pencil XL: {}
+      aihorde/noobEvo: {}
+      aihorde/Nova Anime XL: {}
+      aihorde/Nova Flat XL: {}
+      aihorde/Nova Furry Pony: {}
+      aihorde/Nova Furry XL: {}
+      aihorde/NTR MIX IL-Noob XL: {}
+      aihorde/Pastel Mix: {}
+      aihorde/Perfect World: {}
+      aihorde/PerfectDeliberate: {}
+      aihorde/Photon: {}
+      aihorde/Pixel Illustrious: {}
+      aihorde/Poison: {}
+      aihorde/Pony Diffusion XL: {}
+      aihorde/Pony Realism: {}
+      aihorde/PPP: {}
+      aihorde/Prefect Pony: {}
+      aihorde/Pretty 2.5D: {}
+      aihorde/Project Unreal Engine 5: {}
+      aihorde/Quiet Goodnight XL: {}
+      aihorde/Rag Illustrious Mix: {}
+      aihorde/Real Dos Mix: {}
+      aihorde/RealBiter: {}
+      aihorde/Realism Engine: {}
+      aihorde/Realistic Vision: {}
+      aihorde/Realistic Vision Inpainting: {}
+      aihorde/Reliberate: {}
+      aihorde/Rev Animated: {}
+      aihorde/Ri-Mix: {}
+      aihorde/RPG: {}
+      aihorde/Sci-Fi Diffusion: {}
+      aihorde/SD-Silicon: {}
+      aihorde/SDXL 1.0: {}
+      aihorde/Something: {}
+      aihorde/Stable Cascade 1.0: {}
+      aihorde/stable_diffusion: {}
+      aihorde/stable_diffusion_2.1: {}
+      aihorde/stable_diffusion_inpainting: {}
+      aihorde/SwamPonyXL: {}
+      aihorde/ToonYou: {}
+      aihorde/TUNIX Pony: {}
+      aihorde/Uhmami: {}
+      aihorde/Ultraspice: {}
+      aihorde/Unstable Diffusers XL: {}
+      aihorde/Unstable Ink Dream: {}
+      aihorde/URPM: {}
+      aihorde/Vector Art: {}
+      aihorde/WAI-ANI-NSFW-PONYXL: {}
+      aihorde/WAI-CUTE Pony: {}
+      aihorde/WAI-NSFW-illustrious-SDXL: {}
+      aihorde/waifu_diffusion: {}
+      aihorde/Western Animation Diffusion: {}
+      aihorde/White Pony Diffusion 4: {}
+      aihorde/Woop-Woop Photo: {}
+      aihorde/Yiffy: {}
+      aihorde/Z-Image-Turbo: {}
+      aihorde/ZavyChromaXL: {}
+      aihorde/Zeipher Female Model: {}
+      openrouter/auto: {}
+      openrouter/inclusionai/ling-3.0-flash-vl:free: {}
+      openrouter/nex-agi/nex-n2.5-mini:free: {}
+      openrouter/nex-agi/nex-n2.5-pro:free: {}
+      openrouter/inclusionai/ling-3.0-flash-sante:free: {}
+      openrouter/inclusionai/ling-3.0-flash-fin:free: {}
+      openrouter/dots-studio/dots-3-note-preview:free: {}
+      openrouter/liquid/lfm-2.5-2.6b:free: {}
+      openrouter/nvidia/nemotron-3.5-lightning:free: {}
+      openrouter/thinkingmachines/inkling-small:free: {}
+      openrouter/poolside/laguna-s-2.1:free: {}
+      openrouter/thinkingmachines/inkling:free: {}
+      openrouter/poolside/laguna-xs-2.1:free: {}
+      openrouter/cohere/north-mini-code:free: {}
+      openrouter/nvidia/nemotron-3.5-content-safety:free: {}
+      openrouter/nvidia/nemotron-3-ultra-550b-a55b:free: {}
+      openrouter/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free: {}
+      openrouter/google/gemma-4-26b-a4b-it:free: {}
+      openrouter/google/gemma-4-31b-it:free: {}
+      openrouter/google/lyria-3-pro-preview: {}
+      openrouter/google/lyria-3-clip-preview: {}
+      openrouter/nvidia/nemotron-3-super-120b-a12b:free: {}
+      openrouter/openrouter/free: {}
+      openrouter/openai/text-embedding-3-small: {}
+      openrouter/openai/text-embedding-3-large: {}
+      openrouter/qwen/qwen3-embedding-8b: {}
+      openrouter/qwen/qwen3-embedding-4b: {}
+      openrouter/baai/bge-m3: {}
+      openrouter/mistralai/mistral-embed-2312: {}
+      openrouter/google/gemini-embedding-001: {}
+      openrouter/google/gemini-embedding-2: {}
+      openrouter/google/gemini-embedding-2-preview: {}
+      openrouter/openai/gpt-5.4-image-2: {}
+      openrouter/openai/gpt-5-image-mini: {}
+      openrouter/google/gemini-3.1-flash-image-preview: {}
+      openrouter/google/gemini-3-pro-image-preview: {}
+      openrouter/black-forest-labs/flux.2-max: {}
+      openrouter/black-forest-labs/flux.2-pro: {}
+      openrouter/black-forest-labs/flux.2-flex: {}
+      openrouter/cohere/rerank-4-pro: {}
+      openrouter/cohere/rerank-4-fast: {}
+      openrouter/cohere/rerank-v3.5: {}
+      openrouter/deepgram/nova-3: {}
+      openrouter/microsoft/mai-transcribe-1.5: {}
+      openrouter/nvidia/parakeet-tdt-0.6b-v3: {}
+      openrouter/mistralai/voxtral-mini-transcribe: {}
+      openrouter/qwen/qwen3-asr-flash-2026-02-10: {}
+      openrouter/google/chirp-3: {}
+      openrouter/openai/gpt-4o-mini-transcribe: {}
+      openrouter/openai/whisper-large-v3: {}
+      openrouter/openai/whisper-large-v3-turbo: {}
+      openrouter/openai/whisper-1: {}
+      openrouter/openai/gpt-4o-transcribe: {}
+      openrouter/nex-agi/nex-n2.5-mini:free-high: {}
+      openrouter/nex-agi/nex-n2.5-mini:free-medium: {}
+      openrouter/nex-agi/nex-n2.5-mini:free-none: {}
+      openrouter/nex-agi/nex-n2.5-pro:free-high: {}
+      openrouter/nex-agi/nex-n2.5-pro:free-medium: {}
+      openrouter/nex-agi/nex-n2.5-pro:free-none: {}
+      openrouter/thinkingmachines/inkling-small:free-xhigh: {}
+      openrouter/thinkingmachines/inkling-small:free-high: {}
+      openrouter/thinkingmachines/inkling-small:free-medium: {}
+      openrouter/thinkingmachines/inkling-small:free-low: {}
+      openrouter/thinkingmachines/inkling-small:free-minimal: {}
+      openrouter/thinkingmachines/inkling-small:free-none: {}
+      openrouter/thinkingmachines/inkling:free-xhigh: {}
+      openrouter/thinkingmachines/inkling:free-high: {}
+      openrouter/thinkingmachines/inkling:free-medium: {}
+      openrouter/thinkingmachines/inkling:free-low: {}
+      openrouter/thinkingmachines/inkling:free-minimal: {}
+      openrouter/thinkingmachines/inkling:free-none: {}
+      openrouter/nvidia/nemotron-3-ultra-550b-a55b:free-high: {}
+      openrouter/nvidia/nemotron-3-ultra-550b-a55b:free-medium: {}
+      openrouter/nvidia/nemotron-3-super-120b-a12b:free-medium: {}
+      openrouter/nvidia/nemotron-3-super-120b-a12b:free-low: {}
+    key_env: HERMES_CUSTOM_FIRST_TIME_API_KEY
+database:
+  journal_mode: wal
+runtime:
+  nofile_soft_limit: 4096
+agent:
+  max_turns: 500
+  service_tier: ''
+  fast_auto_seconds: 60
+  verbose: false
+  reasoning_effort: max
+  personalities: {}
+terminal:
+  backend: local
+  cwd: .
+  timeout: 180
+  home_mode: auto
+  container_cpu: 1
+  container_memory: 5120
+  container_disk: 51200
+  container_persistent: true
+  docker_mount_cwd_to_workspace: false
+  lifetime_seconds: 300
+web:
+  backend: nous
+browser:
+  inactivity_timeout: 120
+  extension_control:
+    enabled: false
+  cloud_provider: nous
+tool_loop_guardrails:
+  warnings_enabled: true
+  hard_stop_enabled: false
+  non_interactive_hard_stop_enabled: true
+  warn_after:
+    exact_failure: 2
+    same_tool_failure: 3
+    idempotent_no_progress: 2
+  hard_stop_after:
+    exact_failure: 5
+    same_tool_failure: 8
+    idempotent_no_progress: 5
+compression:
+  enabled: true
+  checkpoint_required: false
+  progress_notices: false
+  threshold: 0.5
+  target_ratio: 0.2
+  protect_last_n: 20
+  min_tail_user_messages: 1
+  max_attempts: 3
+  proactive_prune_tokens: 0
+  proactive_prune_min_result_chars: 8000
+  proactive_prune_min_reclaim_tokens: 4096
+  hygiene_max_turn_hold_seconds: 10
+  protect_first_n: 3
+  codex_gpt55_autoraise: true
+  codex_app_server_auto: native
+  codex_responses_native: false
+  idle_compact_after_seconds: 0
+prompt_caching:
+  cache_ttl: 5m
+auxiliary:
+  vision:
+    provider: first-time
+    model: antigravity/gemini-3.7-flash-medium
+    base_url: http://localhost:20128/v1
+    key_env: HERMES_CUSTOM_FIRST_TIME_API_KEY
+  compression:
+    provider: openai
+    model: kimi-k2.5
+    base_url: https://api.bluesminds.com/v1
+  skills_hub:
+    provider: openai
+    model: meta/llama-3.1-8b-instruct
+    base_url: https://api.bluesminds.com/v1
+  approval:
+    provider: openai
+    model: nvidia/llama-3.1-nemoguard-8b-content-safety
+    base_url: https://api.bluesminds.com/v1
+  review:
+    provider: openai
+    model: gpt-5.5
+    base_url: https://api.bluesminds.com/v1
+  mcp:
+    provider: openai
+    model: meta/llama-3.1-70b-instruct
+    base_url: https://api.bluesminds.com/v1
+  title_generation:
+    provider: openai
+    model: nvidia/nemotron-mini-4b-instruct
+    base_url: https://api.bluesminds.com/v1
+  triage_specifier:
+    provider: openai
+    model: nvidia/llama-3.3-nemotron-super-49b-v1
+    base_url: https://api.bluesminds.com/v1
+  kanban_decomposer:
+    provider: openai
+    model: gpt-5.5
+    base_url: https://api.bluesminds.com/v1
+  profile_describer:
+    provider: openai
+    model: meta/llama-3.1-8b-instruct
+    base_url: https://api.bluesminds.com/v1
+  curator:
+    provider: openai
+    model: gemma-4-26b
+    base_url: https://api.bluesminds.com/v1
+display:
+  compact: false
+  busy_input_mode: interrupt
+  bell_on_complete: false
+  bell_on_prompt: false
+  show_reasoning: false
+  background_process_notifications: concise
+  streaming: true
+  skin: default
+  interim_assistant_messages: true
+  tool_progress: all
+  cleanup_progress: false
+  long_running_notifications: true
+  busy_ack_detail: true
+tts:
+  provider: nous
+stt:
+  enabled: true
+  language: en
+  local:
+    model: base
+  openai:
+    model: whisper-1
+    language: ''
+memory:
+  memory_enabled: true
+  user_profile_enabled: true
+  memory_char_limit: 2200
+  user_char_limit: 1375
+  nudge_interval: 10
+delegation:
+  max_iterations: 250
+skills:
+  creation_nudge_interval: 15
+command_allowlist:
+  - access to Hermes secrets (Windows path)
+  - execute_code
+  - force kill processes (taskkill /F)
+  - script execution via -e/-c flag
+  - stop/restart hermes gateway (kills running agents)
+cron:
+  catch_up_missed: true
+kanban:
+  review_dispatch: true
+code_execution:
+  timeout: 300
+  max_tool_calls: 50
+gateway:
+  signal_interrupt_grace_timeout: 1
+  delivery_ledger: true
+  platform_connect_timeout: 30
+  loop_watchdog: true
+  loop_watchdog_probe_interval_s: 30.0
+  loop_watchdog_probe_timeout_s: 10.0
+  loop_watchdog_max_strikes: 3
+  bot_loop_guard:
+    enabled: true
+    max_events: 20
+    window_seconds: 300
+    cooldown_seconds: 600
+  startup_watchdog: true
+  startup_watchdog_timeout_seconds: 300
+  write_sessions_json: true
+  auto_migrate: true
+  scale_to_zero:
+    idle_timeout_minutes: 2
+  restart_loop_guard:
+    max_restarts: 3
+    window_seconds: 60
+    max_gap_seconds: 300
+  respawn_storm:
+    max_starts: 5
+    window_seconds: 120
+  message_timestamps:
+    enabled: false
+  max_inbound_media_bytes: 134217728
+  trust_env: true
+  strict: false
+  media_delivery_allow_dirs: []
+  trust_recent_files: true
+  trust_recent_files_seconds: 600
+streaming:
+  enabled: false
+onboarding:
+  seen:
+    profile_build_offered: true
+    busy_input_prompt: true
+telemetry:
+  shared_metrics:
+    enabled: false
+    send: false
+updates:
+  check: true
+  pre_update_backup: false
+  backup_keep: 5
+  non_interactive_local_changes: stash
+_config_version: 44
+group_sessions_per_user: true
+platform_toolsets:
+  cli:
+    - hermes-cli
+  telegram:
+    - hermes-telegram
+  discord:
+    - hermes-discord
+  whatsapp:
+    - hermes-whatsapp
+  slack:
+    - hermes-slack
+  signal:
+    - hermes-signal
+  homeassistant:
+    - hermes-homeassistant
+  qqbot:
+    - hermes-qqbot
+  yuanbao:
+    - hermes-yuanbao
+  teams:
+    - hermes-teams
+  google_chat:
+    - hermes-google_chat
+image_gen:
+  provider: nous
+custom_providers:
+  - name: Api.omniroute.com
+    base_url: https://api.omniroute.com/v1
+    model: FIRST-TIME
+
+# ── Security ──────────────────────────────────────────────────────────
+# Secret redaction is ON by default — strings that look like API keys,
+# tokens, and passwords are masked in tool output, logs, and chat
+# responses before the model or user ever sees them. Set redact_secrets
+# to false to disable (e.g. when developing the redactor itself).
+# tirith pre-exec scanning is enabled by default when the tirith binary
+# is available. Configure via security.tirith_* keys or env vars
+# (TIRITH_ENABLED, TIRITH_BIN, TIRITH_TIMEOUT, TIRITH_FAIL_OPEN).
+#
+# security:
+#   redact_secrets: true
+#   tirith_enabled: true
+#   tirith_path: "tirith"
+#   tirith_timeout: 5
+#   tirith_fail_open: true
+
+# ── Fallback Model ────────────────────────────────────────────────────
+# Automatic provider failover when primary is unavailable.
+# Uncomment and configure to enable. Triggers on rate limits (429),
+# overload (529), service errors (503), or connection failures.
+#
+# Supported providers:
+#   openrouter   (OPENROUTER_API_KEY)  — routes to any model
+#   openai-codex (OAuth — hermes auth) — OpenAI Codex
+#   nous         (OAuth — hermes auth) — Nous Portal
+#   zai          (ZAI_API_KEY)         — Z.AI / GLM
+#   kimi-coding  (KIMI_API_KEY)        — Kimi / Moonshot
+#   kimi-coding-cn (KIMI_CN_API_KEY)   — Kimi / Moonshot (China)
+#   minimax      (MINIMAX_API_KEY)     — MiniMax
+#   minimax-cn   (MINIMAX_CN_API_KEY)  — MiniMax (China)
+#   bedrock      (AWS IAM / boto3)     — AWS Bedrock (Converse API)
+#
+# For custom OpenAI-compatible endpoints, add base_url and key_env.
+#
+# fallback_model:
+#   provider: openrouter
+#   model: anthropic/claude-sonnet-4
