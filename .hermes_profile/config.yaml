@@ -1,17 +1,15 @@
 model:
-  default: FIRST-TIME
-  provider: first-time
+  default: antigravity/gemini-3.7-flash-high
+  provider: custom
   base_url: http://localhost:20128/v1
   api_mode: chat_completions
-  key_env: HERMES_CUSTOM_FIRST_TIME_API_KEY
+  api_key: sk-omniroute
   aliases:
+    gemini: antigravity/gemini-3.7-flash-high
+    gemini-high: antigravity/gemini-3.7-flash-high
+    sonnet: antigravity/claude-sonnet-4-6
+    opus: antigravity/claude-opus-4-6-thinking
     qwen: custom/qwen2.5:32b
-    gemini: gemini/gemini-3.8-flash
-    gemini-high: gemini/gemini-3.8-flash
-    sonnet: openai/claude-sonnet-5
-    sonnet46: openai/claude-sonnet-4.6
-    opus: openai/claude-opus-4.6
-    omni: first-time/auto/best-coding
 providers:
   openai:
     name: bluesminde
