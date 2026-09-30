@@ -39,7 +39,7 @@ print("=" * 60)
 
 node_check = subprocess.run("node -v 2>/dev/null", shell=True, capture_output=True, text=True).stdout.strip()
 if not node_check.startswith("v22"):
-    subprocess.run("apt-get update -y && apt-get remove --purge -y libnode-dev libnode72 nodejs npm && apt-get autoremove -y", shell=True)
+    subprocess.run("apt-get update -y && apt-get remove --purge -y libnode-dev libnode72 nodejs npm", shell=True)
     subprocess.run("apt-get install -y zstd git curl psmisc pciutils lshw", shell=True, check=True)
     subprocess.run("curl -fsSL https://deb.nodesource.com/setup_22.x | bash -", shell=True, check=True)
     subprocess.run('apt-get install -y -o Dpkg::Options::="--force-overwrite" nodejs', shell=True, check=True)
@@ -318,6 +318,7 @@ if os.path.exists(f"{VAULT_DIR}/.hermes_profile"):
     subprocess.run(f"cp -r {VAULT_DIR}/.hermes_profile/config.yaml {HERMES_PROFILE_DIR}/", shell=True)
     if os.path.exists(f"{VAULT_DIR}/.hermes_profile/skills"):
         subprocess.run(f"cp -r {VAULT_DIR}/.hermes_profile/skills {HERMES_PROFILE_DIR}/", shell=True)
+    print("  📁 Vault configuration and skills synced to profile.", flush=True)
 
 # Write all verified keys directly to profile .env (100% full, no truncation)
 with open(f"{HERMES_PROFILE_DIR}/.env", "w") as f:
@@ -353,6 +354,7 @@ subprocess.run(["hermes", "config", "set", "model.default", "antigravity/gemini-
 subprocess.run(["hermes", "config", "set", "model.context_length", "1048576"])
 subprocess.run(["hermes", "config", "set", "model.base_url", "http://localhost:20128/v1"])
 subprocess.run(["hermes", "config", "set", "model.api_key", OMNIROUTE_API_KEY])
+print("  ⚙ Profile 'llm-wiki' activated & 1M context routing configured.", flush=True)
 
 def sync_vault(commit_msg="Auto-sync from Kaggle Hybrid Agent"):
     try:
@@ -370,9 +372,11 @@ def auto_sync_worker():
         sync_vault()
 
 threading.Thread(target=auto_sync_worker, daemon=True).start()
+print("  🔄 GitHub auto-sync worker initialized (180s cycle).", flush=True)
 
 # Background GPU Watchdog Worker (Dual T4 Activity Monitor)
 def gpu_watchdog_worker():
+    time.sleep(30)
     while True:
         try:
             import torch
@@ -385,6 +389,7 @@ def gpu_watchdog_worker():
         time.sleep(60)
 
 threading.Thread(target=gpu_watchdog_worker, daemon=True).start()
+print("  🛡 GPU keepalive watchdog initialized.", flush=True)
 
 # Clean cache directories to preserve container disk headroom
 subprocess.run("rm -rf /root/.cache/pip /root/.npm /var/cache/apt/archives/* /tmp/pip-* 2>/dev/null || true", shell=True)
