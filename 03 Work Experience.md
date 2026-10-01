@@ -2,7 +2,7 @@
 aliases: [Work Experience, Professional Background, Career]
 tags: [work, career, experience]
 created: 2026-09-19
-updated: 2026-09-30
+updated: 2026-10-01
 ---
 
 # Professional Background & Work Experience
@@ -20,3 +20,6 @@ updated: 2026-09-30
 - **Role:** Customer Service Advisor / Technical Support Specialist
 - **Engagements:** Concentrix, handling technical connectivity and service support for accounts including Optimum.
 - **Reference:** [[professional_work_history]] for deep role breakdown and metrics.
+
+## 4. Operational Tracking & Attendance
+- **Timesheets & Roster:** [[work_attendance_and_shift_roster]] — Detailed shift logs, check-in/out times, and colleague attendance records.

@@ -2,7 +2,7 @@
 
 > Comprehensive content catalog for the Aethelgard Obsidian Vault & LLM Wiki.
 > Read this first to locate notes, entities, concepts, and technical playbooks.
-> Last updated: 2026-09-30 | Total pages: 46
+> Last updated: 2026-10-01 | Total pages: 47
 
 ## 🧭 Maps of Content & Core Dashboards
 - [[vault_index_dashboard]] — Central navigation hub and high-level map of content.
@@ -16,6 +16,7 @@
 - [[03 Work Experience]] — Professional work summary and roles.
 - [[personal_biography_education]] — Omar Elnemr biography, academic background (UoPeople, SVU).
 - [[professional_work_history]] — Aviation ground ops, AI annotation, tech support history.
+- [[work_attendance_and_shift_roster]] — Operational timesheets, daily login/logout logs, and colleague shift tracking.
 
 ## 💻 Technical Stack & Systems
 - [[01 Technical Skills]] — Primary overview of technical stack and core competencies.

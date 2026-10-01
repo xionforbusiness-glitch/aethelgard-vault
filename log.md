@@ -3,6 +3,23 @@
 > Chronological, append-only record of all LLM Wiki actions (ingest, query, lint, update).
 > Format: `## [YYYY-MM-DD] action | subject`
 
+## [2026-10-01] update | Work Attendance & Shift Roster (Omar Elnemr: Sep 23–29)
+- **Action:** Created `work_attendance_and_shift_roster.md` tracking daily shift logins, logouts, duration calculations, and transport delays for Omar Elnemr.
+- **Data Ingested:**
+  - 2026-09-23: 07:20 AM – 03:50 PM (8h 30m; bus left team at 07:00 AM after waiting since 06:30 AM).
+  - 2026-09-24: 08:15 AM – 04:00 PM (7h 45m).
+  - 2026-09-25: 08:15 AM – 05:40 PM (9h 25m; overtime).
+  - 2026-09-26: 08:15 AM – 04:00 PM (7h 45m).
+  - 2026-09-27: 08:15 AM – 04:00 PM (7h 45m).
+  - 2026-09-28: 08:15 AM – 04:00 PM (7h 45m).
+  - 2026-09-29: 08:15 AM – 04:00 PM (7h 45m).
+  - Total Logged Duration: 56 hours 40 minutes over 7 days.
+- **Files Created/Modified:**
+  - Created: `work_attendance_and_shift_roster.md`
+  - Modified: `03 Work Experience.md` (Added Section 4 Operational Tracking & Attendance link)
+  - Modified: `index.md` (Registered note under Identity, Work & Education; bumped total pages to 47)
+- **Cross-linked:** [[work_attendance_and_shift_roster]], [[03 Work Experience]], [[professional_work_history]], [[00 Profile]], [[index]], [[log]]
+
 ## [2026-09-30] ingest | Facebook Reels Batch (Free Claude Code, 134+ Free APIs, Dual T4 Benchmarks, White House Press Ban)
 - **Sources Preserved:** `raw/articles/2026-09-30-facebook-reels-ingest-batch.md` (4 Facebook links ingested).
 - **Entity Created:** `entities/free-claude-code.md` (Ali Shahryar Khokhar's `free-claude-code` proxy, AGPL-3.0, 56.2k stars, SQLite QueuePool architecture with 8.65x throughput boost, p99 latency 15ms).
