@@ -209,7 +209,6 @@ for p in [
 
 if os.path.exists(f"{VAULT_DIR}/.hermes_profile"):
     subprocess.run(f"cp -r {VAULT_DIR}/.hermes_profile/SOUL.md {HERMES_PROFILE_DIR}/", shell=True)
-    subprocess.run(f"cp -r {VAULT_DIR}/.hermes_profile/config.yaml {HERMES_PROFILE_DIR}/", shell=True)
     if os.path.exists(f"{VAULT_DIR}/.hermes_profile/skills"):
         subprocess.run(f"cp -r {VAULT_DIR}/.hermes_profile/skills {HERMES_PROFILE_DIR}/", shell=True)
 
@@ -381,6 +380,8 @@ def stream_reader(pipe, log_f):
             pass
 
 GATEWAY_LOG_PATH = "/tmp/hermes_gateway_local.log"
+subprocess.run("pkill -9 -f 'hermes.*gateway' 2>/dev/null || true", shell=True)
+time.sleep(1)
 gateway_cmd = ["hermes", "-p", HERMES_PROFILE, "gateway", "run", "--replace", "--force", "--accept-hooks"]
 
 is_batch = os.environ.get("KAGGLE_KERNEL_RUN_TYPE") == "Batch"
