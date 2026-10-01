@@ -3,6 +3,16 @@
 > Chronological, append-only record of all LLM Wiki actions (ingest, query, lint, update).
 > Format: `## [YYYY-MM-DD] action | subject`
 
+## [2026-10-01] ingest | AI Red Teaming & LLM Hacking Playbook (NetworkChuck)
+- **Source:** NetworkChuck Video & Reel ("become an AI HACKER (it's easier than you think)").
+- **Raw File Created:** `raw/articles/2026-10-01-networkchuck-become-an-ai-hacker-roadmap.md`
+- **Asset Preserved:** `raw/assets/networkchuck_ai_hacker_screenshot.jpg`
+- **Concept Created:** `concepts/ai-red-teaming-and-llm-hacking-playbook.md` (Strategic roadmap connecting Omar's RLHF evaluation & Linux/networking background to offensive AI security: OWASP Top 10 for LLMs, direct/indirect prompt injection, agent RCE, markdown leak exfiltration, `garak`, `PyRIT`, `promptfoo`, and interactive labs on Gandalf/PortSwigger).
+- **Notes Updated:**
+  - `01 Technical Skills.md` (Added AI Red Teaming & LLM Security in Section 1)
+  - `index.md` (Registered concept under Concepts, bumped total pages to 52)
+- **Cross-linked:** [[ai-red-teaming-and-llm-hacking-playbook]], [[01 Technical Skills]], [[ai_evaluation_annotation_handbook]], [[03 Work Experience]], [[wazuh-siem-xdr-deployment-guide]], [[index]], [[log]]
+
 ## [2026-10-01] ingest | Vanta & Automated Security Compliance (NetworkChuck)
 - **Source:** NetworkChuck Reel & Sponsorship (`vanta.com/chuck`).
 - **Raw File Created:** `raw/articles/2026-10-01-vanta-automated-compliance-soc2-iso27001.md`
