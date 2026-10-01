@@ -33,3 +33,7 @@ updated: 2026-09-30
 - **Actuators & Sensors:** SG90 micro servos, HW-504 joysticks, 28BYJ-48 stepper motors
 - **Educational Robotics:** [[lego_spike_prime_robotics_curriculum|LEGO SPIKE Prime]]
 - **Digital Fabrication:** 3D CAD parametric modeling for mechanical enclosures and articulated brackets
+
+## 6. Motion Design, VFX & Video Engineering
+- **Tactical FUI & HUD Graphics:** [[kinetic-fui-motion-design-playbook|Kinetic FUI Motion Design & Tactical HUD Playbook]] — 32-bit optical bloom, dot matrix procedural grids, 3D camera parallax, and kinetic typography.
+- **UI/UX Design Stack:** [[ui-ux-design-tools-ecosystem|Modern UI/UX Design Tools Ecosystem]] — Motion, Anime.js, KokonutUI, Bklit, and animation pipelines.

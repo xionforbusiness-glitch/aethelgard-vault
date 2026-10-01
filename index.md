@@ -2,7 +2,7 @@
 
 > Comprehensive content catalog for the Aethelgard Obsidian Vault & LLM Wiki.
 > Read this first to locate notes, entities, concepts, and technical playbooks.
-> Last updated: 2026-10-01 | Total pages: 48
+> Last updated: 2026-10-01 | Total pages: 49
 
 ## 🧭 Maps of Content & Core Dashboards
 - [[vault_index_dashboard]] — Central navigation hub and high-level map of content.
@@ -56,6 +56,7 @@
 - [[ECC]] — Everything Claude Code: comprehensive agent harness and prompt optimization toolkit.
 
 ## 💡 Concepts
+- [[kinetic-fui-motion-design-playbook]] — Complete motion design & video editing playbook: 32-bit optical bloom, dot-matrix procedural grids, 3D camera parallax, and tactical FUI compositing.
 - [[kaggle-llm-backend-deployment]] — Zero-cost cloud LLM inference backend: Kaggle Dual Tesla T4 GPUs (~32 GB VRAM), Ollama daemon (`qwen2.5:14b` & `32b`), token speed benchmarks, and Ngrok tunnel.
 - [[free-tier-llm-api-endpoints-routing]] — 134 permanent free AI APIs across 40+ providers with custom base URL and API key routing for coding agents.
 - [[white-house-press-access-controversy]] — Analysis of executive media exclusion dynamics, press pool credentials, and Al Araby TV's Mamdani/Trump exchange.

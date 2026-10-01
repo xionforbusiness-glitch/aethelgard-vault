@@ -3,6 +3,16 @@
 > Chronological, append-only record of all LLM Wiki actions (ingest, query, lint, update).
 > Format: `## [YYYY-MM-DD] action | subject`
 
+## [2026-10-01] ingest | Kinetic FUI & Tactical HUD Motion Design Playbook (NeuronVisuals)
+- **Source:** Facebook Reel (`https://www.facebook.com/share/r/1JJLbf817b/`) by NeuronVisuals ("You have enough time to make things happen").
+- **Raw File Created:** `raw/articles/2026-10-01-neuronvisuals-fui-motion-graphics-breakdown.md`
+- **Asset Preserved:** `raw/assets/neuron_visuals_fui_motion_style.jpg`
+- **Concept Created:** `concepts/kinetic-fui-motion-design-playbook.md` (Comprehensive visual motion design breakdown: 3-beat narrative pacing, 7-layer compositing stack, 32-bit optical glow, staggered dot-matrix physics, 3D camera drift, sound design sync, and After Effects/Resolve runbook).
+- **Notes Updated:**
+  - `01 Technical Skills.md` (Added Section 6 Motion Design, VFX & Video Engineering)
+  - `index.md` (Registered concept under Concepts, bumped total pages to 49)
+- **Cross-linked:** [[kinetic-fui-motion-design-playbook]], [[01 Technical Skills]], [[ui-ux-design-tools-ecosystem]], [[04 Interests & Gear]], [[index]], [[log]]
+
 ## [2026-10-01] ingest | Komemaru (こめ丸) Japanese Street Kitchen (Damascus)
 - **Source:** Facebook Reel (`https://www.facebook.com/share/r/1GpH1PkUFY/`) by Ahmad Al Bezem.
 - **Raw File Created:** `raw/articles/2026-10-01-komemaru-japanese-restaurant-damascus-mashrou-dummar.md`
