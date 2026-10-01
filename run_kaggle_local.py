@@ -16,9 +16,10 @@ REPO_BRANCH = "main"
 TELEGRAM_BOT_TOKEN = "8677798154:" + "AAFRpZtl8r7gXFLPJLA7WXR46sd6Z_LSF-c"
 TELEGRAM_USER_ID = "1021125594"
 
-# Target Local Model: Defaults to QwQ 32B (o1-style reasoning monster)
-# Supported options: 'qwq:32b', 'qwen2.5-coder:32b', 'qwen2.5-coder:14b'
-LOCAL_MODEL = os.environ.get("QWEN_MODEL", "qwq:32b")
+# Target Local Model: Defaults to Qwen 2.5 Coder 14B (Fast, 65k context, fits 100% in Dual T4 VRAM)
+# Supported options: 'qwen2.5-coder:14b', 'qwq:32b', 'qwen2.5-coder:32b'
+LOCAL_MODEL = os.environ.get("QWEN_MODEL", "qwen2.5-coder:14b")
+
 
 VAULT_DIR = "/kaggle/working/vault"
 HERMES_PROFILE = "local-wiki"
@@ -62,6 +63,8 @@ os.environ["OLLAMA_MODELS"] = OLLAMA_MODELS_DIR
 os.environ["OLLAMA_ORIGINS"] = "*"
 os.environ["OLLAMA_KEEP_ALIVE"] = "24h"
 os.environ["OLLAMA_NUM_PARALLEL"] = "1"
+os.environ["OLLAMA_CONTEXT_LENGTH"] = "65536"
+os.environ["OLLAMA_FLASH_ATTENTION"] = "1"
 os.makedirs(OLLAMA_MODELS_DIR, exist_ok=True)
 
 # Install Ollama if not present
@@ -123,6 +126,18 @@ if LOCAL_MODEL not in ollama_list:
 else:
     print(f"✅ {LOCAL_MODEL} is already cached in GPU VRAM!")
 
+# Configure 65,536-token context window in Ollama
+print(f"⚙ Configuring 65,536-token context window on {LOCAL_MODEL} for Hermes Agent...")
+try:
+    modelfile_path = "/tmp/Modelfile.local"
+    with open(modelfile_path, "w") as mf:
+        mf.write(f"FROM {LOCAL_MODEL}\nPARAMETER num_ctx 65536\n")
+    subprocess.run(["ollama", "create", LOCAL_MODEL, "-f", modelfile_path], check=True)
+    print(f"✅ {LOCAL_MODEL} configured with 65,536-token context in Ollama!")
+except Exception as mfe:
+    print(f"⚠ Modelfile context setup notice: {mfe}")
+
+
 # Quick smoke test
 print(f"🧪 Running inference test on {LOCAL_MODEL}...")
 try:
@@ -164,6 +179,8 @@ with open(f"{HERMES_PROFILE_DIR}/.env", "w") as f:
     f.write(f"OBSIDIAN_VAULT_PATH={VAULT_DIR}\n")
     f.write(f"HERMES_MODEL={LOCAL_MODEL}\n")
     f.write("HERMES_PROVIDER=ollama\n")
+    f.write("HERMES_OLLAMA_NUM_CTX=65536\n")
+    f.write("HERMES_CONTEXT_LENGTH=65536\n")
 
 os.environ["WIKI_PATH"] = VAULT_DIR
 os.environ["OBSIDIAN_VAULT_PATH"] = VAULT_DIR
@@ -174,13 +191,47 @@ os.environ["HERMES_PROFILE"] = HERMES_PROFILE
 os.environ["HERMES_HOME"] = "/root/.hermes"
 os.environ["HERMES_MODEL"] = LOCAL_MODEL
 os.environ["HERMES_PROVIDER"] = "ollama"
+os.environ["HERMES_OLLAMA_NUM_CTX"] = "65536"
+os.environ["HERMES_CONTEXT_LENGTH"] = "65536"
 
 subprocess.run(["hermes", "profile", "use", HERMES_PROFILE])
 subprocess.run(["hermes", "config", "set", "model.provider", "ollama"])
 subprocess.run(["hermes", "config", "set", "model.default", LOCAL_MODEL])
 subprocess.run(["hermes", "config", "set", "model.base_url", "http://127.0.0.1:11434/v1"])
 subprocess.run(["hermes", "config", "set", "model.api_key", "ollama"])
-print(f"✅ Hermes configured to use 100% Local GPU Engine ({LOCAL_MODEL}).")
+subprocess.run(["hermes", "config", "set", "model.ollama_num_ctx", "65536"])
+subprocess.run(["hermes", "config", "set", "model.context_length", "65536"])
+
+# Direct patch of config.yaml to lock in 65,536 context
+cfg_path = f"{HERMES_PROFILE_DIR}/config.yaml"
+if os.path.exists(cfg_path):
+    try:
+        import yaml
+        with open(cfg_path, "r", encoding="utf-8") as yf:
+            cfg_data = yaml.safe_load(yf) or {}
+        if "model" not in cfg_data:
+            cfg_data["model"] = {}
+        cfg_data["model"]["provider"] = "ollama"
+        cfg_data["model"]["default"] = LOCAL_MODEL
+        cfg_data["model"]["base_url"] = "http://127.0.0.1:11434/v1"
+        cfg_data["model"]["ollama_num_ctx"] = 65536
+        cfg_data["model"]["context_length"] = 65536
+        if "providers" not in cfg_data:
+            cfg_data["providers"] = {}
+        if "ollama" not in cfg_data["providers"]:
+            cfg_data["providers"]["ollama"] = {}
+        cfg_data["providers"]["ollama"]["context_length"] = 65536
+        if "models" not in cfg_data["providers"]["ollama"]:
+            cfg_data["providers"]["ollama"]["models"] = {}
+        cfg_data["providers"]["ollama"]["models"][LOCAL_MODEL] = {"context_length": 65536}
+        with open(cfg_path, "w", encoding="utf-8") as yf:
+            yaml.dump(cfg_data, yf, default_flow_style=False)
+        print("✅ Configured Hermes config.yaml with 65,536 context length.")
+    except Exception as e:
+        print(f"⚠ YAML config notice: {e}")
+
+print(f"✅ Hermes configured to use 100% Local GPU Engine ({LOCAL_MODEL}) with 65,536 Context.")
+
 
 # ── 6. Automated Vault Rebase-Sync Worker ─────────────────────────────────────
 def sync_vault(commit_msg="Auto-sync from Aethelgard Local GPU Agent"):

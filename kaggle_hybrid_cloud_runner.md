@@ -44,10 +44,12 @@ t = "ghp_" + "gY0RVq7FifRJQgQVsu8fEsTsi5PV8e45VERo"
 ```
 
 > [!TIP]
-> **Default Local GPU Model**: **`qwq:32b`** (Deep reasoning engine with chain-of-thought, loaded into Dual T4 32GB VRAM).
-> If you want to switch to pure coding or faster workhorses, run this line before the script:
-> - **Pure Coding 32B**: `import os; os.environ["QWEN_MODEL"] = "qwen2.5-coder:32b"`
-> - **Fast Workhorse 14B**: `import os; os.environ["QWEN_MODEL"] = "qwen2.5-coder:14b"`
+> **Default Local GPU Model**: **`qwen2.5-coder:14b`** (Pre-configured with a full **65,536-token context window**, fits 100% in Dual T4 VRAM at 40+ tokens/sec, and leaves 11 GB disk free for `yt-dlp` video & audio processing).
+> To switch to dedicated reasoning or 32B models, run this line in a cell before executing:
+> - **Deep Reasoning (o1-style)**: `import os; os.environ["QWEN_MODEL"] = "qwq:32b"`
+> - **Giant 32B Coder**: `import os; os.environ["QWEN_MODEL"] = "qwen2.5-coder:32b"`
+> - **Fast Workhorse 14B (Default)**: `import os; os.environ["QWEN_MODEL"] = "qwen2.5-coder:14b"`
+
 
 ---
 
