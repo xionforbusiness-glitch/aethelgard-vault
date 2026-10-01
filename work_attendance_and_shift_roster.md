@@ -55,3 +55,4 @@ Comprehensive shift tracking, login/logout timesheets, and attendance logs for [
 - [[03 Work Experience]] — Overview of active and past professional engagements.
 - [[professional_work_history]] — Aviation ground operations, customer support, and AI evaluation metrics.
 - [[00 Profile]] — Personal profile, hardware, and operational setup.
+- **CSV Data Sheet:** `raw/attendance_september_2026.csv` (Raw tabular export for Excel / Sheets integration).
