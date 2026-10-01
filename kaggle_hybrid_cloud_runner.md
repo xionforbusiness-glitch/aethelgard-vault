@@ -44,14 +44,16 @@ t = "ghp_" + "gY0RVq7FifRJQgQVsu8fEsTsi5PV8e45VERo"
 ```
 
 > [!TIP]
-> **🚀 Dual Engine Active (`57.6 GiB` Disk)**: The runner now automatically pre-caches **both engines** into Ollama with a full **65,536-token context window**:
-> - **`qwen2.5-coder:14b`** (Active default: Blazing fast 40+ tokens/sec, tool execution, video/audio ingestion, and Obsidian writing).
-> - **`qwq:32b`** (Deep reasoning engine: Full o1-style chain-of-thought logic and competitive math).
+> **🚀 Qwen 2.5 Coder 32B + 80,000 Context Window Active**:
+> - **Primary Model**: **`qwen2.5-coder:32b`** (Alibaba's 32-billion parameter coding & reasoning flagship).
+> - **Context Window**: **`81,920` tokens** (~80,000 tokens) configured across Ollama and Hermes Agent.
+> - **Hardware Optimization**: Runs with `OLLAMA_FLASH_ATTENTION=1` and `OLLAMA_KV_CACHE_TYPE=q8_0`, fitting 100% inside Kaggle Dual T4 VRAM (29.8 GB out of 30 GB).
+> - **Disk Storage**: Takes only 19.8 GB out of Kaggle's 57.6 GiB disk, leaving **33+ GiB free**.
 > 
-> **How to switch models anytime inside Telegram chat:**
-> - Send `/model qwq` $\rightarrow$ Switches brain to QwQ-32B!
-> - Send `/model coder` $\rightarrow$ Switches brain to Qwen 2.5 Coder!
-> - To make QwQ the startup default: `import os; os.environ["QWEN_MODEL"] = "qwq:32b"`
+> **Optional Switches:**
+> - Switch to o1-reasoning monster: `import os; os.environ["QWEN_MODEL"] = "qwq:32b"`
+> - Enable Dual Engine mode (pre-cache both): `import os; os.environ["ENABLE_DUAL_MODELS"] = "true"`
+
 
 
 

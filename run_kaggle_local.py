@@ -16,19 +16,22 @@ REPO_BRANCH = "main"
 TELEGRAM_BOT_TOKEN = "8677798154:" + "AAFRpZtl8r7gXFLPJLA7WXR46sd6Z_LSF-c"
 TELEGRAM_USER_ID = "1021125594"
 
-# Target Local Model: Defaults to Qwen 2.5 Coder 14B (Fast, 65k context, fits 100% in Dual T4 VRAM)
-# Supported options: 'qwen2.5-coder:14b', 'qwq:32b', 'qwen2.5-coder:32b'
-LOCAL_MODEL = os.environ.get("QWEN_MODEL", "qwen2.5-coder:14b")
+# Target Local Model: Defaults to Qwen 2.5 Coder 32B (Coding + Reasoning Powerhouse)
+# Supported options: 'qwen2.5-coder:32b', 'qwq:32b', 'qwen2.5-coder:14b'
+LOCAL_MODEL = os.environ.get("QWEN_MODEL", "qwen2.5-coder:32b")
 
-# Dual Model Mode: Pre-loads BOTH Qwen Coder (coding/tools) and QwQ (deep reasoning)
-# Switch between them in Telegram chat with /model qwq or /model coder!
-ENABLE_DUAL_MODELS = os.environ.get("ENABLE_DUAL_MODELS", "true").lower() in ("true", "1", "yes")
+# Context window: Defaults to 81,920 tokens (~80,000 tokens)
+CONTEXT_LENGTH = int(os.environ.get("CONTEXT_LENGTH", "81920"))
+
+# Dual Model Mode: Set ENABLE_DUAL_MODELS=true to pre-cache both Coder & QwQ
+ENABLE_DUAL_MODELS = os.environ.get("ENABLE_DUAL_MODELS", "false").lower() in ("true", "1", "yes")
 
 MODELS_TO_LOAD = [LOCAL_MODEL]
 if ENABLE_DUAL_MODELS:
-    secondary_model = "qwq:32b" if "qwq" not in LOCAL_MODEL else "qwen2.5-coder:14b"
+    secondary_model = "qwq:32b" if "qwq" not in LOCAL_MODEL else "qwen2.5-coder:32b"
     if secondary_model not in MODELS_TO_LOAD:
         MODELS_TO_LOAD.append(secondary_model)
+
 
 
 
@@ -74,8 +77,9 @@ os.environ["OLLAMA_MODELS"] = OLLAMA_MODELS_DIR
 os.environ["OLLAMA_ORIGINS"] = "*"
 os.environ["OLLAMA_KEEP_ALIVE"] = "24h"
 os.environ["OLLAMA_NUM_PARALLEL"] = "1"
-os.environ["OLLAMA_CONTEXT_LENGTH"] = "65536"
+os.environ["OLLAMA_CONTEXT_LENGTH"] = str(CONTEXT_LENGTH)
 os.environ["OLLAMA_FLASH_ATTENTION"] = "1"
+os.environ["OLLAMA_KV_CACHE_TYPE"] = os.environ.get("OLLAMA_KV_CACHE_TYPE", "q8_0")
 os.makedirs(OLLAMA_MODELS_DIR, exist_ok=True)
 
 # Install Ollama if not present
@@ -138,15 +142,15 @@ for target_model in MODELS_TO_LOAD:
     else:
         print(f"✅ {target_model} is already cached on disk!")
 
-    # Configure 65,536-token context window in Ollama
-    print(f"⚙ Configuring 65,536-token context window on {target_model} for Hermes Agent...")
+    # Configure context window in Ollama
+    print(f"⚙ Configuring {CONTEXT_LENGTH:,}-token context window on {target_model} for Hermes Agent...")
     try:
         mf_name = target_model.replace(":", "_")
         modelfile_path = f"/tmp/Modelfile.{mf_name}"
         with open(modelfile_path, "w") as mf:
-            mf.write(f"FROM {target_model}\nPARAMETER num_ctx 65536\n")
+            mf.write(f"FROM {target_model}\nPARAMETER num_ctx {CONTEXT_LENGTH}\n")
         subprocess.run(["ollama", "create", target_model, "-f", modelfile_path], check=True)
-        print(f"✅ {target_model} configured with 65,536-token context in Ollama!")
+        print(f"✅ {target_model} configured with {CONTEXT_LENGTH:,}-token context in Ollama!")
     except Exception as mfe:
         print(f"⚠ Modelfile context setup notice for {target_model}: {mfe}")
 
@@ -193,8 +197,8 @@ with open(f"{HERMES_PROFILE_DIR}/.env", "w") as f:
     f.write(f"OBSIDIAN_VAULT_PATH={VAULT_DIR}\n")
     f.write(f"HERMES_MODEL={LOCAL_MODEL}\n")
     f.write("HERMES_PROVIDER=ollama\n")
-    f.write("HERMES_OLLAMA_NUM_CTX=65536\n")
-    f.write("HERMES_CONTEXT_LENGTH=65536\n")
+    f.write(f"HERMES_OLLAMA_NUM_CTX={CONTEXT_LENGTH}\n")
+    f.write(f"HERMES_CONTEXT_LENGTH={CONTEXT_LENGTH}\n")
 
 os.environ["WIKI_PATH"] = VAULT_DIR
 os.environ["OBSIDIAN_VAULT_PATH"] = VAULT_DIR
@@ -205,21 +209,21 @@ os.environ["HERMES_PROFILE"] = HERMES_PROFILE
 os.environ["HERMES_HOME"] = "/root/.hermes"
 os.environ["HERMES_MODEL"] = LOCAL_MODEL
 os.environ["HERMES_PROVIDER"] = "ollama"
-os.environ["HERMES_OLLAMA_NUM_CTX"] = "65536"
-os.environ["HERMES_CONTEXT_LENGTH"] = "65536"
+os.environ["HERMES_OLLAMA_NUM_CTX"] = str(CONTEXT_LENGTH)
+os.environ["HERMES_CONTEXT_LENGTH"] = str(CONTEXT_LENGTH)
 
 subprocess.run(["hermes", "profile", "use", HERMES_PROFILE])
 subprocess.run(["hermes", "config", "set", "model.provider", "ollama"])
 subprocess.run(["hermes", "config", "set", "model.default", LOCAL_MODEL])
 subprocess.run(["hermes", "config", "set", "model.base_url", "http://127.0.0.1:11434/v1"])
 subprocess.run(["hermes", "config", "set", "model.api_key", "ollama"])
-subprocess.run(["hermes", "config", "set", "model.ollama_num_ctx", "65536"])
-subprocess.run(["hermes", "config", "set", "model.context_length", "65536"])
+subprocess.run(["hermes", "config", "set", "model.ollama_num_ctx", str(CONTEXT_LENGTH)])
+subprocess.run(["hermes", "config", "set", "model.context_length", str(CONTEXT_LENGTH)])
 subprocess.run(["hermes", "config", "set", "model.aliases.qwq", "ollama/qwq:32b"])
-subprocess.run(["hermes", "config", "set", "model.aliases.coder", "ollama/qwen2.5-coder:14b"])
-subprocess.run(["hermes", "config", "set", "model.aliases.qwen", "ollama/qwen2.5-coder:14b"])
+subprocess.run(["hermes", "config", "set", "model.aliases.coder", f"ollama/{LOCAL_MODEL}"])
+subprocess.run(["hermes", "config", "set", "model.aliases.qwen", f"ollama/{LOCAL_MODEL}"])
 
-# Direct patch of config.yaml to lock in 65,536 context & model aliases
+# Direct patch of config.yaml to lock in context & model aliases
 cfg_path = f"{HERMES_PROFILE_DIR}/config.yaml"
 if os.path.exists(cfg_path):
     try:
@@ -231,29 +235,29 @@ if os.path.exists(cfg_path):
         cfg_data["model"]["provider"] = "ollama"
         cfg_data["model"]["default"] = LOCAL_MODEL
         cfg_data["model"]["base_url"] = "http://127.0.0.1:11434/v1"
-        cfg_data["model"]["ollama_num_ctx"] = 65536
-        cfg_data["model"]["context_length"] = 65536
+        cfg_data["model"]["ollama_num_ctx"] = CONTEXT_LENGTH
+        cfg_data["model"]["context_length"] = CONTEXT_LENGTH
         if "aliases" not in cfg_data["model"]:
             cfg_data["model"]["aliases"] = {}
         cfg_data["model"]["aliases"]["qwq"] = "ollama/qwq:32b"
-        cfg_data["model"]["aliases"]["coder"] = "ollama/qwen2.5-coder:14b"
-        cfg_data["model"]["aliases"]["qwen"] = "ollama/qwen2.5-coder:14b"
+        cfg_data["model"]["aliases"]["coder"] = f"ollama/{LOCAL_MODEL}"
+        cfg_data["model"]["aliases"]["qwen"] = f"ollama/{LOCAL_MODEL}"
         if "providers" not in cfg_data:
             cfg_data["providers"] = {}
         if "ollama" not in cfg_data["providers"]:
             cfg_data["providers"]["ollama"] = {}
-        cfg_data["providers"]["ollama"]["context_length"] = 65536
+        cfg_data["providers"]["ollama"]["context_length"] = CONTEXT_LENGTH
         if "models" not in cfg_data["providers"]["ollama"]:
             cfg_data["providers"]["ollama"]["models"] = {}
         for m in MODELS_TO_LOAD:
-            cfg_data["providers"]["ollama"]["models"][m] = {"context_length": 65536}
+            cfg_data["providers"]["ollama"]["models"][m] = {"context_length": CONTEXT_LENGTH}
         with open(cfg_path, "w", encoding="utf-8") as yf:
             yaml.dump(cfg_data, yf, default_flow_style=False)
-        print("✅ Configured Hermes config.yaml with 65,536 context length & model aliases.")
+        print(f"✅ Configured Hermes config.yaml with {CONTEXT_LENGTH:,} context length & model aliases.")
     except Exception as e:
         print(f"⚠ YAML config notice: {e}")
 
-print(f"✅ Hermes configured with active model {LOCAL_MODEL} and models ({', '.join(MODELS_TO_LOAD)}).")
+print(f"✅ Hermes configured with active model {LOCAL_MODEL} ({CONTEXT_LENGTH:,} context) and models ({', '.join(MODELS_TO_LOAD)}).")
 
 
 
@@ -292,6 +296,7 @@ try:
     tg_msg = (
         f"🏛️ Aethelgard Local GPU Lab is ONLINE on Kaggle Dual T4!\n\n"
         f"🧠 Active Brain: {LOCAL_MODEL}\n"
+        f"📏 Context Window: {CONTEXT_LENGTH:,} tokens\n"
         f"🔮 Engines Ready: {', '.join(MODELS_TO_LOAD)}\n"
         f"💡 Switch Engines: type /model qwq or /model coder anytime!\n"
         f"📁 Vault: Synced to origin/main\n"
