@@ -2,7 +2,7 @@
 
 > Comprehensive content catalog for the Aethelgard Obsidian Vault & LLM Wiki.
 > Read this first to locate notes, entities, concepts, and technical playbooks.
-> Last updated: 2026-10-01 | Total pages: 50
+> Last updated: 2026-10-01 | Total pages: 51
 
 ## 🧭 Maps of Content & Core Dashboards
 - [[vault_index_dashboard]] — Central navigation hub and high-level map of content.
@@ -56,6 +56,7 @@
 - [[ECC]] — Everything Claude Code: comprehensive agent harness and prompt optimization toolkit.
 
 ## 💡 Concepts
+- [[vanta-automated-security-compliance]] — Automated security compliance architecture: SOC 2 Type I/II, ISO 27001, continuous API evidence gathering, Vanta Agent endpoint tracking, and enterprise Trust Centers.
 - [[wazuh-siem-xdr-deployment-guide]] — Open-source Wazuh SIEM & XDR security deployment guide: File Integrity Monitoring (FIM), Active Response IP blocking, Docker cluster setup, and multi-OS agent enrollment.
 - [[kinetic-fui-motion-design-playbook]] — Complete motion design & video editing playbook: 32-bit optical bloom, dot-matrix procedural grids, 3D camera parallax, and tactical FUI compositing.
 - [[kaggle-llm-backend-deployment]] — Zero-cost cloud LLM inference backend: Kaggle Dual Tesla T4 GPUs (~32 GB VRAM), Ollama daemon (`qwen2.5:14b` & `32b`), token speed benchmarks, and Ngrok tunnel.

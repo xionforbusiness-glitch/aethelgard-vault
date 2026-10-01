@@ -3,6 +3,16 @@
 > Chronological, append-only record of all LLM Wiki actions (ingest, query, lint, update).
 > Format: `## [YYYY-MM-DD] action | subject`
 
+## [2026-10-01] ingest | Vanta & Automated Security Compliance (NetworkChuck)
+- **Source:** NetworkChuck Reel & Sponsorship (`vanta.com/chuck`).
+- **Raw File Created:** `raw/articles/2026-10-01-vanta-automated-compliance-soc2-iso27001.md`
+- **Asset Preserved:** `raw/assets/networkchuck_vanta_compliance_screenshot.jpg`
+- **Concept Created:** `concepts/vanta-automated-security-compliance.md` (Deep dive into continuous compliance automation, SOC 2 Type I/II, ISO 27001, HIPAA, GDPR, API evidence collection across AWS/GitHub/Okta, Vanta Agent laptop telemetry, and Trust Centers).
+- **Notes Updated:**
+  - `01 Technical Skills.md` (Added Security Compliance & Trust link)
+  - `index.md` (Registered concept under Concepts, bumped total pages to 51)
+- **Cross-linked:** [[vanta-automated-security-compliance]], [[01 Technical Skills]], [[wazuh-siem-xdr-deployment-guide]], [[index]], [[log]]
+
 ## [2026-10-01] ingest & reminder | Wazuh SIEM & XDR Security Operations (NetworkChuck)
 - **Source:** NetworkChuck Video (`https://www.facebook.com/share/v/17jPdRb5eX/` / `https://www.youtube.com/watch?v=3CaG2GI1kn0`).
 - **Raw File Created:** `raw/articles/2026-10-01-networkchuck-wazuh-siem-xdr-guide.md`
