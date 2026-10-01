@@ -16,9 +16,9 @@ REPO_BRANCH = "main"
 TELEGRAM_BOT_TOKEN = "8677798154:" + "AAFRpZtl8r7gXFLPJLA7WXR46sd6Z_LSF-c"
 TELEGRAM_USER_ID = "1021125594"
 
-# Target Local Model: Defaults to Qwen 2.5 Coder 14B (~9GB, 100% GPU VRAM, 40+ t/s)
-# Can also be set to 'qwen2.5:14b', 'qwen2.5-coder:7b', or 'qwen2.5:32b'
-LOCAL_MODEL = os.environ.get("QWEN_MODEL", "qwen2.5-coder:14b")
+# Target Local Model: Defaults to QwQ 32B (o1-style reasoning monster)
+# Supported options: 'qwq:32b', 'qwen2.5-coder:32b', 'qwen2.5-coder:14b'
+LOCAL_MODEL = os.environ.get("QWEN_MODEL", "qwq:32b")
 
 VAULT_DIR = "/kaggle/working/vault"
 HERMES_PROFILE = "local-wiki"
@@ -112,9 +112,12 @@ if LOCAL_MODEL not in ollama_list:
         stderr=subprocess.STDOUT,
         text=True
     )
+    last_print = time.time()
     for line in pull_proc.stdout:
-        if "100%" in line or "verifying" in line or "success" in line:
-            print(f"  [Ollama Pull] {line.strip()}", flush=True)
+        now = time.time()
+        if "100%" in line or "verifying" in line or "success" in line or (now - last_print >= 5 and "%" in line):
+            print(f"  [Ollama Download] {line.strip()}", flush=True)
+            last_print = now
     pull_proc.wait()
     print(f"✅ {LOCAL_MODEL} is loaded in GPU VRAM!")
 else:

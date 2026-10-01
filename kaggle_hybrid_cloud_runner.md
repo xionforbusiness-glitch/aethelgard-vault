@@ -43,6 +43,12 @@ t = "ghp_" + "gY0RVq7FifRJQgQVsu8fEsTsi5PV8e45VERo"
 %run /kaggle/working/vault/run_kaggle_local.py
 ```
 
+> [!TIP]
+> **Default Local GPU Model**: **`qwq:32b`** (Deep reasoning engine with chain-of-thought, loaded into Dual T4 32GB VRAM).
+> If you want to switch to pure coding or faster workhorses, run this line before the script:
+> - **Pure Coding 32B**: `import os; os.environ["QWEN_MODEL"] = "qwen2.5-coder:32b"`
+> - **Fast Workhorse 14B**: `import os; os.environ["QWEN_MODEL"] = "qwen2.5-coder:14b"`
+
 ---
 
 ### Option 2: Primary Cloud Custodian (`@hermes_pl7o4pzdk46axyzo_bot`)
