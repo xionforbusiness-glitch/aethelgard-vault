@@ -48,6 +48,12 @@ Speedsolving $3\times3$ cubes using the **CFOP Method** (Cross, F2L, OLL, PLL).
 ---
 
 ## 📚 Reading & Manga
+- **Current Reading:** Speculative fiction, technical computing, and worldbuilding lore.
+
+---
+
+## 🍣 Local Dining & Culinary Spots
+- **[[komemaru-japanese-restaurant-damascus|Komemaru (كوميمارو - こめ丸)]]:** Authentic Japanese street food kitchen in Damascus (Mashrou' Dummar) — Tokyo Drift box, Karaage chicken, Matcha noodles, and ramen.
 
 ### _Witch Hat Atelier_ (ورشة ذوي القبعات)
 - **Themes:** Detailed hand-drawn magic illustration systems, ethical dimensions of power, precision, and pedagogical philosophy.

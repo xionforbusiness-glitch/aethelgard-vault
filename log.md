@@ -3,6 +3,16 @@
 > Chronological, append-only record of all LLM Wiki actions (ingest, query, lint, update).
 > Format: `## [YYYY-MM-DD] action | subject`
 
+## [2026-10-01] ingest | Komemaru (こめ丸) Japanese Street Kitchen (Damascus)
+- **Source:** Facebook Reel (`https://www.facebook.com/share/r/1GpH1PkUFY/`) by Ahmad Al Bezem.
+- **Raw File Created:** `raw/articles/2026-10-01-komemaru-japanese-restaurant-damascus-mashrou-dummar.md`
+- **Asset Preserved:** `raw/assets/komemaru_japanese_restaurant_damascus.jpg`
+- **Entity Created:** `entities/komemaru-japanese-restaurant-damascus.md` (Detailed directions to Mashrou' Dummar, Neo-Tokyo neon street kiosk atmosphere, Tokyo Drift box, Karaage chicken, Matcha noodles, Mochi, and ramen menu breakdown).
+- **Notes Updated:**
+  - `gear_hobbies_lifestyle.md` (Added Local Dining & Culinary Spots section)
+  - `index.md` (Registered entity under Entities, bumped total pages to 48)
+- **Cross-linked:** [[komemaru-japanese-restaurant-damascus]], [[gear_hobbies_lifestyle]], [[04 Interests & Gear]], [[index]], [[log]]
+
 ## [2026-10-01] update | Work Attendance & Shift Roster (Omar Elnemr: Sep 23–29)
 - **Action:** Created `work_attendance_and_shift_roster.md` tracking daily shift logins, logouts, duration calculations, and transport delays for Omar Elnemr.
 - **Data Ingested:**

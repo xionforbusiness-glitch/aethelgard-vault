@@ -2,7 +2,7 @@
 
 > Comprehensive content catalog for the Aethelgard Obsidian Vault & LLM Wiki.
 > Read this first to locate notes, entities, concepts, and technical playbooks.
-> Last updated: 2026-10-01 | Total pages: 47
+> Last updated: 2026-10-01 | Total pages: 48
 
 ## 🧭 Maps of Content & Core Dashboards
 - [[vault_index_dashboard]] — Central navigation hub and high-level map of content.
@@ -50,6 +50,7 @@
 ---
 
 ## 🧬 Entities
+- [[komemaru-japanese-restaurant-damascus]] — Authentic Japanese street kitchen in Damascus (Mashrou' Dummar) serving Tokyo Drift boxes, Karaage chicken, Matcha noodles, and ramen.
 - [[free-claude-code]] — Free Claude Code proxy daemon (`alishahryar1/free-claude-code`) with SQLite QueuePool and zero-cost model translation.
 - [[typesafe-ai-jev]] — TypeSafe AI & Jev: proprietary System 1 non-autoregressive decision model founded by Diogo Almeida.
 - [[ECC]] — Everything Claude Code: comprehensive agent harness and prompt optimization toolkit.
