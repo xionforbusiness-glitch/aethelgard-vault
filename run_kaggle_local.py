@@ -38,7 +38,16 @@ if ENABLE_DUAL_MODELS:
 VAULT_DIR = "/kaggle/working/vault"
 HERMES_PROFILE = "local-wiki"
 HERMES_PROFILE_DIR = f"/root/.hermes/profiles/{HERMES_PROFILE}"
-OLLAMA_DIR = "/kaggle/working/.ollama"
+
+# Ollama Storage: Use /kaggle/tmp (57.6 GiB partition) instead of /kaggle/working (20 GiB quota)
+if os.path.exists("/kaggle"):
+    os.makedirs("/kaggle/tmp", exist_ok=True)
+    OLLAMA_DIR = "/kaggle/tmp/.ollama"
+    if os.path.exists("/kaggle/working/.ollama"):
+        shutil.rmtree("/kaggle/working/.ollama", ignore_errors=True)
+else:
+    OLLAMA_DIR = "/tmp/.ollama"
+
 OLLAMA_MODELS_DIR = f"{OLLAMA_DIR}/models"
 
 # ── 2. Install Dependencies & Media Tools ────────────────────────────────────
@@ -126,7 +135,7 @@ print("✅ Ollama GPU daemon is online!")
 for target_model in MODELS_TO_LOAD:
     ollama_list = subprocess.run("ollama list 2>/dev/null", shell=True, capture_output=True, text=True).stdout
     if target_model not in ollama_list:
-        print(f"📥 Pulling {target_model} into Dual T4 VRAM (stored in /kaggle/working)...")
+        print(f"📥 Pulling {target_model} into Ollama (stored in {OLLAMA_DIR})...")
         pull_proc = subprocess.Popen(
             ["ollama", "pull", target_model],
             stdout=subprocess.PIPE,
@@ -140,6 +149,9 @@ for target_model in MODELS_TO_LOAD:
                 print(f"  [{target_model}] {line.strip()}", flush=True)
                 last_print = now
         pull_proc.wait()
+        if pull_proc.returncode != 0:
+            print(f"❌ Error pulling {target_model} (exit code {pull_proc.returncode}). Check disk space or network.")
+            sys.exit(1)
         print(f"✅ {target_model} is cached on disk!")
     else:
         print(f"✅ {target_model} is already cached on disk!")
