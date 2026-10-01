@@ -170,17 +170,22 @@ for target_model in MODELS_TO_LOAD:
 
 
 
-# Quick smoke test
+# Quick smoke test (both native Ollama API and OpenAI /v1 endpoint)
 print(f"🧪 Running inference test on {LOCAL_MODEL}...")
 try:
     test_req = urllib.request.Request(
-        "http://127.0.0.1:11434/api/generate",
-        data=json.dumps({"model": LOCAL_MODEL, "prompt": "Say: 'Aethelgard Qwen GPU Online!' in 5 words.", "stream": False}).encode("utf-8"),
+        "http://127.0.0.1:11434/v1/chat/completions",
+        data=json.dumps({
+            "model": LOCAL_MODEL,
+            "messages": [{"role": "user", "content": "Say: 'Aethelgard Qwen GPU Online!' in 5 words."}],
+            "stream": False
+        }).encode("utf-8"),
         headers={"Content-Type": "application/json"}
     )
-    with urllib.request.urlopen(test_req, timeout=30) as t_resp:
+    with urllib.request.urlopen(test_req, timeout=45) as t_resp:
         res = json.loads(t_resp.read().decode("utf-8"))
-        print(f"🎉 LOCAL GPU TEST PASSED! Response: {res.get('response', '').strip()}")
+        msg = res.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+        print(f"🎉 LOCAL GPU TEST PASSED! Response: {msg}")
 except Exception as te:
     print(f"⚠ Smoke test notice: {te}")
 
@@ -191,8 +196,14 @@ print("=" * 60)
 
 os.makedirs(HERMES_PROFILE_DIR, exist_ok=True)
 
-# Clean stale profile session state
-for p in [f"{HERMES_PROFILE_DIR}/state.db", f"{HERMES_PROFILE_DIR}/sessions", f"{HERMES_PROFILE_DIR}/chats"]:
+# Clean stale profile session state & global sessions to prevent carrying over old reasoning params
+for p in [
+    f"{HERMES_PROFILE_DIR}/state.db",
+    f"{HERMES_PROFILE_DIR}/sessions",
+    f"{HERMES_PROFILE_DIR}/chats",
+    "/root/.hermes/sessions",
+    "/root/.hermes/state.db"
+]:
     if os.path.exists(p):
         shutil.rmtree(p, ignore_errors=True) if os.path.isdir(p) else os.remove(p)
 
@@ -237,7 +248,12 @@ subprocess.run(["hermes", "config", "set", "model.aliases.qwq", "ollama/qwq:32b"
 subprocess.run(["hermes", "config", "set", "model.aliases.coder", f"ollama/{LOCAL_MODEL}"])
 subprocess.run(["hermes", "config", "set", "model.aliases.qwen", f"ollama/{LOCAL_MODEL}"])
 
-# Direct patch of config.yaml to lock in context & model aliases
+# Crucial: Unset reasoning_effort & thinking so Ollama does not reject qwen2.5-coder:32b with 400 Bad Request
+subprocess.run(["hermes", "config", "unset", "agent.reasoning_effort"], capture_output=True)
+subprocess.run(["hermes", "config", "unset", "model.thinking"], capture_output=True)
+subprocess.run(["hermes", "config", "unset", "model.reasoning_effort"], capture_output=True)
+
+# Direct patch of config.yaml to lock in context, model aliases & purge thinking/reasoning
 cfg_path = f"{HERMES_PROFILE_DIR}/config.yaml"
 if os.path.exists(cfg_path):
     try:
@@ -251,6 +267,15 @@ if os.path.exists(cfg_path):
         cfg_data["model"]["base_url"] = "http://127.0.0.1:11434/v1"
         cfg_data["model"]["ollama_num_ctx"] = CONTEXT_LENGTH
         cfg_data["model"]["context_length"] = CONTEXT_LENGTH
+        if "thinking" in cfg_data["model"]:
+            del cfg_data["model"]["thinking"]
+        if "reasoning_effort" in cfg_data["model"]:
+            del cfg_data["model"]["reasoning_effort"]
+
+        if "agent" in cfg_data and isinstance(cfg_data["agent"], dict):
+            cfg_data["agent"].pop("reasoning_effort", None)
+            cfg_data["agent"].pop("reasoning_overrides", None)
+
         if "aliases" not in cfg_data["model"]:
             cfg_data["model"]["aliases"] = {}
         cfg_data["model"]["aliases"]["qwq"] = "ollama/qwq:32b"
@@ -267,7 +292,7 @@ if os.path.exists(cfg_path):
             cfg_data["providers"]["ollama"]["models"][m] = {"context_length": CONTEXT_LENGTH}
         with open(cfg_path, "w", encoding="utf-8") as yf:
             yaml.dump(cfg_data, yf, default_flow_style=False)
-        print(f"✅ Configured Hermes config.yaml with {CONTEXT_LENGTH:,} context length & model aliases.")
+        print(f"✅ Configured Hermes config.yaml with {CONTEXT_LENGTH:,} context length & model aliases (thinking disabled for dense coder).")
     except Exception as e:
         print(f"⚠ YAML config notice: {e}")
 

@@ -934,7 +934,6 @@ agent:
   service_tier: ''
   fast_auto_seconds: 60
   verbose: false
-  reasoning_effort: max
   personalities: {}
 terminal:
   backend: local
