@@ -20,6 +20,17 @@ TELEGRAM_USER_ID = "1021125594"
 # Supported options: 'qwen2.5-coder:14b', 'qwq:32b', 'qwen2.5-coder:32b'
 LOCAL_MODEL = os.environ.get("QWEN_MODEL", "qwen2.5-coder:14b")
 
+# Dual Model Mode: Pre-loads BOTH Qwen Coder (coding/tools) and QwQ (deep reasoning)
+# Switch between them in Telegram chat with /model qwq or /model coder!
+ENABLE_DUAL_MODELS = os.environ.get("ENABLE_DUAL_MODELS", "true").lower() in ("true", "1", "yes")
+
+MODELS_TO_LOAD = [LOCAL_MODEL]
+if ENABLE_DUAL_MODELS:
+    secondary_model = "qwq:32b" if "qwq" not in LOCAL_MODEL else "qwen2.5-coder:14b"
+    if secondary_model not in MODELS_TO_LOAD:
+        MODELS_TO_LOAD.append(secondary_model)
+
+
 
 VAULT_DIR = "/kaggle/working/vault"
 HERMES_PROFILE = "local-wiki"
@@ -105,37 +116,40 @@ if not ollama_ready:
 
 print("✅ Ollama GPU daemon is online!")
 
-# Check if model is already cached
-ollama_list = subprocess.run("ollama list 2>/dev/null", shell=True, capture_output=True, text=True).stdout
-if LOCAL_MODEL not in ollama_list:
-    print(f"📥 Pulling {LOCAL_MODEL} into Dual T4 VRAM (stored in /kaggle/working)...")
-    pull_proc = subprocess.Popen(
-        ["ollama", "pull", LOCAL_MODEL],
-        stdout=subprocess.PIPE,
-        stderr=subprocess.STDOUT,
-        text=True
-    )
-    last_print = time.time()
-    for line in pull_proc.stdout:
-        now = time.time()
-        if "100%" in line or "verifying" in line or "success" in line or (now - last_print >= 5 and "%" in line):
-            print(f"  [Ollama Download] {line.strip()}", flush=True)
-            last_print = now
-    pull_proc.wait()
-    print(f"✅ {LOCAL_MODEL} is loaded in GPU VRAM!")
-else:
-    print(f"✅ {LOCAL_MODEL} is already cached in GPU VRAM!")
+# Load and configure all requested models
+for target_model in MODELS_TO_LOAD:
+    ollama_list = subprocess.run("ollama list 2>/dev/null", shell=True, capture_output=True, text=True).stdout
+    if target_model not in ollama_list:
+        print(f"📥 Pulling {target_model} into Dual T4 VRAM (stored in /kaggle/working)...")
+        pull_proc = subprocess.Popen(
+            ["ollama", "pull", target_model],
+            stdout=subprocess.PIPE,
+            stderr=subprocess.STDOUT,
+            text=True
+        )
+        last_print = time.time()
+        for line in pull_proc.stdout:
+            now = time.time()
+            if "100%" in line or "verifying" in line or "success" in line or (now - last_print >= 5 and "%" in line):
+                print(f"  [{target_model}] {line.strip()}", flush=True)
+                last_print = now
+        pull_proc.wait()
+        print(f"✅ {target_model} is cached on disk!")
+    else:
+        print(f"✅ {target_model} is already cached on disk!")
 
-# Configure 65,536-token context window in Ollama
-print(f"⚙ Configuring 65,536-token context window on {LOCAL_MODEL} for Hermes Agent...")
-try:
-    modelfile_path = "/tmp/Modelfile.local"
-    with open(modelfile_path, "w") as mf:
-        mf.write(f"FROM {LOCAL_MODEL}\nPARAMETER num_ctx 65536\n")
-    subprocess.run(["ollama", "create", LOCAL_MODEL, "-f", modelfile_path], check=True)
-    print(f"✅ {LOCAL_MODEL} configured with 65,536-token context in Ollama!")
-except Exception as mfe:
-    print(f"⚠ Modelfile context setup notice: {mfe}")
+    # Configure 65,536-token context window in Ollama
+    print(f"⚙ Configuring 65,536-token context window on {target_model} for Hermes Agent...")
+    try:
+        mf_name = target_model.replace(":", "_")
+        modelfile_path = f"/tmp/Modelfile.{mf_name}"
+        with open(modelfile_path, "w") as mf:
+            mf.write(f"FROM {target_model}\nPARAMETER num_ctx 65536\n")
+        subprocess.run(["ollama", "create", target_model, "-f", modelfile_path], check=True)
+        print(f"✅ {target_model} configured with 65,536-token context in Ollama!")
+    except Exception as mfe:
+        print(f"⚠ Modelfile context setup notice for {target_model}: {mfe}")
+
 
 
 # Quick smoke test
@@ -201,8 +215,11 @@ subprocess.run(["hermes", "config", "set", "model.base_url", "http://127.0.0.1:1
 subprocess.run(["hermes", "config", "set", "model.api_key", "ollama"])
 subprocess.run(["hermes", "config", "set", "model.ollama_num_ctx", "65536"])
 subprocess.run(["hermes", "config", "set", "model.context_length", "65536"])
+subprocess.run(["hermes", "config", "set", "model.aliases.qwq", "ollama/qwq:32b"])
+subprocess.run(["hermes", "config", "set", "model.aliases.coder", "ollama/qwen2.5-coder:14b"])
+subprocess.run(["hermes", "config", "set", "model.aliases.qwen", "ollama/qwen2.5-coder:14b"])
 
-# Direct patch of config.yaml to lock in 65,536 context
+# Direct patch of config.yaml to lock in 65,536 context & model aliases
 cfg_path = f"{HERMES_PROFILE_DIR}/config.yaml"
 if os.path.exists(cfg_path):
     try:
@@ -216,6 +233,11 @@ if os.path.exists(cfg_path):
         cfg_data["model"]["base_url"] = "http://127.0.0.1:11434/v1"
         cfg_data["model"]["ollama_num_ctx"] = 65536
         cfg_data["model"]["context_length"] = 65536
+        if "aliases" not in cfg_data["model"]:
+            cfg_data["model"]["aliases"] = {}
+        cfg_data["model"]["aliases"]["qwq"] = "ollama/qwq:32b"
+        cfg_data["model"]["aliases"]["coder"] = "ollama/qwen2.5-coder:14b"
+        cfg_data["model"]["aliases"]["qwen"] = "ollama/qwen2.5-coder:14b"
         if "providers" not in cfg_data:
             cfg_data["providers"] = {}
         if "ollama" not in cfg_data["providers"]:
@@ -223,14 +245,16 @@ if os.path.exists(cfg_path):
         cfg_data["providers"]["ollama"]["context_length"] = 65536
         if "models" not in cfg_data["providers"]["ollama"]:
             cfg_data["providers"]["ollama"]["models"] = {}
-        cfg_data["providers"]["ollama"]["models"][LOCAL_MODEL] = {"context_length": 65536}
+        for m in MODELS_TO_LOAD:
+            cfg_data["providers"]["ollama"]["models"][m] = {"context_length": 65536}
         with open(cfg_path, "w", encoding="utf-8") as yf:
             yaml.dump(cfg_data, yf, default_flow_style=False)
-        print("✅ Configured Hermes config.yaml with 65,536 context length.")
+        print("✅ Configured Hermes config.yaml with 65,536 context length & model aliases.")
     except Exception as e:
         print(f"⚠ YAML config notice: {e}")
 
-print(f"✅ Hermes configured to use 100% Local GPU Engine ({LOCAL_MODEL}) with 65,536 Context.")
+print(f"✅ Hermes configured with active model {LOCAL_MODEL} and models ({', '.join(MODELS_TO_LOAD)}).")
+
 
 
 # ── 6. Automated Vault Rebase-Sync Worker ─────────────────────────────────────
@@ -267,7 +291,9 @@ try:
     tg_url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
     tg_msg = (
         f"🏛️ Aethelgard Local GPU Lab is ONLINE on Kaggle Dual T4!\n\n"
-        f"🧠 Model: {LOCAL_MODEL} (100% Local GPU Inference in 32GB VRAM)\n"
+        f"🧠 Active Brain: {LOCAL_MODEL}\n"
+        f"🔮 Engines Ready: {', '.join(MODELS_TO_LOAD)}\n"
+        f"💡 Switch Engines: type /model qwq or /model coder anytime!\n"
         f"📁 Vault: Synced to origin/main\n"
         f"🎥 Media Tools: yt-dlp & ffmpeg ready for video/audio links & voice notes!"
     )

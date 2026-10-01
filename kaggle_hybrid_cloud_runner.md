@@ -44,11 +44,15 @@ t = "ghp_" + "gY0RVq7FifRJQgQVsu8fEsTsi5PV8e45VERo"
 ```
 
 > [!TIP]
-> **Default Local GPU Model**: **`qwen2.5-coder:14b`** (Pre-configured with a full **65,536-token context window**, fits 100% in Dual T4 VRAM at 40+ tokens/sec, and leaves 11 GB disk free for `yt-dlp` video & audio processing).
-> To switch to dedicated reasoning or 32B models, run this line in a cell before executing:
-> - **Deep Reasoning (o1-style)**: `import os; os.environ["QWEN_MODEL"] = "qwq:32b"`
-> - **Giant 32B Coder**: `import os; os.environ["QWEN_MODEL"] = "qwen2.5-coder:32b"`
-> - **Fast Workhorse 14B (Default)**: `import os; os.environ["QWEN_MODEL"] = "qwen2.5-coder:14b"`
+> **🚀 Dual Engine Active (`57.6 GiB` Disk)**: The runner now automatically pre-caches **both engines** into Ollama with a full **65,536-token context window**:
+> - **`qwen2.5-coder:14b`** (Active default: Blazing fast 40+ tokens/sec, tool execution, video/audio ingestion, and Obsidian writing).
+> - **`qwq:32b`** (Deep reasoning engine: Full o1-style chain-of-thought logic and competitive math).
+> 
+> **How to switch models anytime inside Telegram chat:**
+> - Send `/model qwq` $\rightarrow$ Switches brain to QwQ-32B!
+> - Send `/model coder` $\rightarrow$ Switches brain to Qwen 2.5 Coder!
+> - To make QwQ the startup default: `import os; os.environ["QWEN_MODEL"] = "qwq:32b"`
+
 
 
 ---
