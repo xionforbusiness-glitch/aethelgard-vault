@@ -56,9 +56,9 @@ print(f"🚀 [1/5] Installing Media Tools & Python Libraries...")
 print("=" * 60)
 
 subprocess.run("apt-get update -y && apt-get install -y zstd git curl psmisc pciutils lshw ffmpeg", shell=True, check=True)
-subprocess.run("pip install -q hermes-agent requests yt-dlp pillow", shell=True, check=True)
+subprocess.run('pip install -q "hermes-agent[voice]" faster-whisper requests yt-dlp pillow', shell=True, check=True)
 subprocess.run("rm -rf /var/cache/apt/archives/* /root/.cache 2>/dev/null || true", shell=True)
-print("✅ Base dependencies and media tools installed.")
+print("✅ Base dependencies, voice STT (faster-whisper), and media tools installed.")
 
 # ── 3. Pull Aethelgard Vault from GitHub ──────────────────────────────────────
 print("\n" + "=" * 60)
@@ -212,6 +212,15 @@ if os.path.exists(f"{VAULT_DIR}/.hermes_profile"):
     subprocess.run(f"cp -r {VAULT_DIR}/.hermes_profile/config.yaml {HERMES_PROFILE_DIR}/", shell=True)
     if os.path.exists(f"{VAULT_DIR}/.hermes_profile/skills"):
         subprocess.run(f"cp -r {VAULT_DIR}/.hermes_profile/skills {HERMES_PROFILE_DIR}/", shell=True)
+
+# Append local environment awareness & model identity to SOUL.md
+soul_file = f"{HERMES_PROFILE_DIR}/SOUL.md"
+if os.path.exists(soul_file):
+    with open(soul_file, "a", encoding="utf-8") as sf:
+        sf.write(f"\n\n## 🖥️ Local GPU Lab Environment Details\n")
+        sf.write(f"- **Current Model Engine:** {LOCAL_MODEL} running on Kaggle Dual Tesla T4 GPUs (30 GB VRAM).\n")
+        sf.write(f"- **Context Window:** {CONTEXT_LENGTH:,} tokens.\n")
+        sf.write(f"- **Identity Grounding:** When asked about your model, hardware, or environment, explicitly state that you are {LOCAL_MODEL} running locally on Kaggle Dual Tesla T4 GPUs with an {CONTEXT_LENGTH:,}-token context window.\n")
 
 # Write credentials to profile .env
 with open(f"{HERMES_PROFILE_DIR}/.env", "w") as f:
