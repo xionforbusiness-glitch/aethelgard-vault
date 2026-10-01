@@ -20,6 +20,7 @@ updated: 2026-09-30
 
 ## 3. Systems, Security & Automation
 - **OS & CLI:** Linux terminal mastery, shell automation scripts ([[linux_cli_bash_automation_reference]]), process management
+- **SIEM & Endpoint Security:** [[wazuh-siem-xdr-deployment-guide|Wazuh SIEM & XDR]] — Endpoint detection, File Integrity Monitoring (FIM), vulnerability scanning, and Active Response automated IP blocking.
 - **Networking & Packet Analysis:** [[networking_wireshark_playbook|Wireshark]] protocol analysis, handshake debugging, latency troubleshooting
 - **Security & Tunneling:** [[openvpn_network_tunneling_architecture|OpenVPN]] client profiles, TLS authentication, Ngrok reverse proxies
 

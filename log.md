@@ -3,6 +3,16 @@
 > Chronological, append-only record of all LLM Wiki actions (ingest, query, lint, update).
 > Format: `## [YYYY-MM-DD] action | subject`
 
+## [2026-10-01] ingest & reminder | Wazuh SIEM & XDR Security Operations (NetworkChuck)
+- **Source:** NetworkChuck Video (`https://www.facebook.com/share/v/17jPdRb5eX/` / `https://www.youtube.com/watch?v=3CaG2GI1kn0`).
+- **Raw File Created:** `raw/articles/2026-10-01-networkchuck-wazuh-siem-xdr-guide.md`
+- **Concept Created:** `concepts/wazuh-siem-xdr-deployment-guide.md` (Architecture breakdown, Docker single-node deploy runbook, FIM, SCA, CVE detection, Active Response automated IP drop, and Linux/Windows agent deployment).
+- **Scheduled Reminder:** Created cron job `bb7add284d22` scheduled for **Tomorrow at 10:00 AM (2026-10-02)** with session reply attachment.
+- **Notes Updated:**
+  - `01 Technical Skills.md` (Added Section 3 SIEM & Endpoint Security link)
+  - `index.md` (Registered concept under Concepts, bumped total pages to 50)
+- **Cross-linked:** [[wazuh-siem-xdr-deployment-guide]], [[01 Technical Skills]], [[networking_wireshark_playbook]], [[linux_cli_bash_automation_reference]], [[index]], [[log]]
+
 ## [2026-10-01] ingest | Kinetic FUI & Tactical HUD Motion Design Playbook (NeuronVisuals)
 - **Source:** Facebook Reel (`https://www.facebook.com/share/r/1JJLbf817b/`) by NeuronVisuals ("You have enough time to make things happen").
 - **Raw File Created:** `raw/articles/2026-10-01-neuronvisuals-fui-motion-graphics-breakdown.md`
