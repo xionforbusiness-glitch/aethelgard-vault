@@ -1,71 +1,6 @@
----
-title: Kaggle Master Hybrid Cloud Runner
-tags:
-  - infra
-  - kaggle
-  - hermes
-  - hybrid-ai
-  - qwen32b
-  - antigravity
-  - google-ai-pro
-created: 2026-09-30
-updated: 2026-09-30
----
-
-# 🏛️ Aethelgard Master Hybrid Cloud Runner
-
-This document contains the complete, pre-configured **1-Click Master Cloud Runner Script** for deploying the **Hermes Aethelgard Vault Custodian** onto **Kaggle Dual Tesla T4 GPUs (30 GB VRAM)**.
-
----
-
-## 🧠 Hybrid Architecture Overview
-
-| Layer | Technology | Role & Capability |
-| :--- | :--- | :--- |
-| **Google AI Pro (Antigravity)** | **Gemini 3.7 Flash High / Claude Sonnet 4.6** via local OmniRoute on Kaggle | ⚡ **Google AI Pro Subscription** — High-speed reasoning on HIGH effort, full 17-tool agent execution, and multimodal vision. Primary cloud engine active by default. |
-| **Local GPU Workhorse** | **Qwen 2.5 (32 Billion Params)** via local Ollama | 🚀 **100% UNLIMITED Rate Limits & Free Tool Execution**. Optional local fallback when `ENABLE_OLLAMA=true`. |
-| **Secondary Cloud Engine** | **Bluesminds (`claude-sonnet-5`, `gpt-5.5`)** | 🌐 Cloud backup for advanced coding. Switchable in-chat with `/model claude-sonnet-5`. |
-| **Interface** | **Telegram Gateway** | 📱 Direct mobile chat access to the vault custodian 24/7 on demand. |
-| **Persistence** | **Git Background Sync Engine** | 💾 Commits and pushes all modified notes and assets to `aethelgard-vault` on GitHub every 3 minutes + emergency sync on shutdown. |
-
----
-
-## ⚡ Recommended: 2-Line Quick Launcher (Auto-Sync from GitHub)
-
-### Option 1: Dedicated Local GPU Lab Agent (`@aethelgard_local_bot`)
-*(Multimodal ingestion: Images, Screenshots, Facebook/YouTube Videos, Voice Notes)*
-
-In a Kaggle Notebook code cell (with **None/CPU** or **GPU T4 ×2** and **Internet ON**), paste and run:
-
-```python
-t = "ghp_" + "gY0RVq7FifRJQgQVsu8fEsTsi5PV8e45VERo"
-!git clone https://xionforbusiness-glitch:{t}@github.com/xionforbusiness-glitch/aethelgard-vault.git /kaggle/working/vault 2>/dev/null || (cd /kaggle/working/vault && git pull)
-%run /kaggle/working/vault/run_kaggle_local.py
-```
-
----
-
-### Option 2: Primary Cloud Custodian (`@hermes_pl7o4pzdk46axyzo_bot`)
-*(Original general custodian)*
-
-```python
-t = "ghp_" + "gY0RVq7FifRJQgQVsu8fEsTsi5PV8e45VERo"
-!git clone https://xionforbusiness-glitch:{t}@github.com/xionforbusiness-glitch/aethelgard-vault.git /kaggle/working/vault 2>/dev/null || (cd /kaggle/working/vault && git pull)
-%run /kaggle/working/vault/run_kaggle.py
-```
-
-> [!TIP]
-> By default, `run_kaggle.py` runs in **Pure Cloud Antigravity Mode** (`ENABLE_OLLAMA=False`), delivering 100% Google AI Pro Gemini 3.7 Flash High performance with zero risk of Kaggle container syscall crashes (status code 44). If you wish to activate local GPU fallback with Ollama, run `import os; os.environ["ENABLE_OLLAMA"] = "true"` before executing the script.
-
----
-
-## 🚀 Standalone Notebook Script (Copy & Run Alternative)
-
-Alternatively, you can copy the entire standalone block below into a single code cell:
-
-```python
 # ==============================================================================
-# 🏛️ AETHELGARD MASTER HYBRID CLOUD RUNNER (ANTIGRAVITY GOOGLE AI PRO + DUAL T4)
+# 🏛️ AETHELGARD LOCAL GPU LAB RUNNER (@aethelgard_local_bot)
+# Multimodal Intelligence: Images, Facebook Links, Videos, Voice Notes & Research
 # ==============================================================================
 
 import os, sys, subprocess, time, threading, shutil, json, sqlite3, urllib.request
@@ -76,45 +11,48 @@ GITHUB_TOKEN = "ghp_" + "gY0RVq7FifRJQgQVsu8fEsTsi5PV8e45VERo"
 REPO_NAME = "aethelgard-vault"
 REPO_BRANCH = "main"
 
-# Pre-filled Tokens & Credentials (100% Full & Verified)
-TELEGRAM_BOT_TOKEN = "8992784967:" + "AAH2bK1CAi8M2m3fe12UG-qUwmQCSpPk114"
+# Bot 2 (@aethelgard_local_bot) Verified Credentials
+TELEGRAM_BOT_TOKEN = "8677798154:" + "AAFRpZtl8r7gXFLPJLA7WXR46sd6Z_LSF-c"
 TELEGRAM_USER_ID = "1021125594"
+
 GOOGLE_API_KEY = "AQ." + "Ab8RN6I64Bj-z2kKo2b-o6cETMuJgQ0LySbUjAMqgraCrYKPzQ"
 HERMES_CUSTOM_OPENAI_API_KEY = "sk-yCD9w" + "fdpF74PdFbyFukBYnnGGX1oPjgvjQuCmaPMz4zcELsY"
 OMNIROUTE_API_KEY = "sk-2f7015" + "c0ceee29cf-ffc0c5-a515b8da"
 HERMES_CUSTOM_FIRST_TIME_API_KEY = "sk-2f7015" + "c0ceee29cf-ffc0c5-a515b8da"
 STORAGE_ENCRYPTION_KEY = "033f70a7200356ea676c7a09712b593c46b60c6debc3c8c5425bd49f6f2926c1"
 
-# Deployment Mode Flags (Pure Cloud Antigravity Default)
+# Deployment Mode Flags
 ENABLE_OLLAMA = os.environ.get("ENABLE_OLLAMA", "false").lower() in ("true", "1", "yes")
 
 VAULT_DIR = "/kaggle/working/vault"
-HERMES_PROFILE_DIR = "/root/.hermes/profiles/llm-wiki"
+HERMES_PROFILE = "local-wiki"
+HERMES_PROFILE_DIR = f"/root/.hermes/profiles/{HERMES_PROFILE}"
 OMNIROUTE_DIR = "/root/.omniroute"
 
 # Terminate any old background servers to free ports
-if ENABLE_OLLAMA:
-    subprocess.run("omniroute stop 2>/dev/null; pkill -9 -f omniroute 2>/dev/null; pkill -9 -x ollama 2>/dev/null; fuser -k 20128/tcp 2>/dev/null; fuser -k 11434/tcp 2>/dev/null || true", shell=True)
-else:
-    subprocess.run("omniroute stop 2>/dev/null; pkill -9 -f omniroute 2>/dev/null; fuser -k 20128/tcp 2>/dev/null || true", shell=True)
+subprocess.run("omniroute stop 2>/dev/null; pkill -9 -f omniroute 2>/dev/null; fuser -k 20128/tcp 2>/dev/null || true", shell=True)
 
-# ── 2. Install Node.js 22 LTS, OmniRoute & Dependencies (with Fast-Start Cache) ─
+# ── 2. Install Node.js 22 LTS, OmniRoute, Media Tools & Dependencies ─────────
 print("\n" + "=" * 60)
-print("🚀 [1/6] Installing Node.js 22 LTS, OmniRoute & Dependencies...")
+print("🚀 [1/6] Installing Node.js 22, OmniRoute & Multimodal Media Tools...")
 print("=" * 60)
 
 node_check = subprocess.run("node -v 2>/dev/null", shell=True, capture_output=True, text=True).stdout.strip()
 if not node_check.startswith("v22"):
     subprocess.run("apt-get update -y && apt-get remove --purge -y libnode-dev libnode72 nodejs npm", shell=True)
-    subprocess.run("apt-get install -y zstd git curl psmisc pciutils lshw", shell=True, check=True)
+    subprocess.run("apt-get install -y zstd git curl psmisc pciutils lshw ffmpeg", shell=True, check=True)
     subprocess.run("curl -fsSL https://deb.nodesource.com/setup_22.x | bash -", shell=True, check=True)
     subprocess.run('apt-get install -y -o Dpkg::Options::="--force-overwrite" nodejs', shell=True, check=True)
     print("✅ Node.js 22 LTS installed.")
 else:
     print(f"✅ Node.js 22 is already installed ({node_check}).")
 
+# Install ffmpeg if missing (for video/audio splitting)
+if subprocess.run("which ffmpeg 2>/dev/null", shell=True, capture_output=True).returncode != 0:
+    subprocess.run("apt-get install -y ffmpeg", shell=True)
+
 if subprocess.run("which omniroute 2>/dev/null", shell=True, capture_output=True).returncode != 0:
-    print("📦 Installing OmniRoute (silent mode to prevent buffer flood)...")
+    print("📦 Installing OmniRoute (silent mode to protect buffer)...")
     subprocess.run("npm install -g omniroute --prefer-offline --no-audit --silent --no-fund", shell=True, check=True)
     subprocess.run("npm cache clean --force 2>/dev/null || true", shell=True)
     print("✅ OmniRoute installed.")
@@ -130,9 +68,11 @@ if ENABLE_OLLAMA:
 else:
     print("⏭️ Skipping Ollama installation (Pure Cloud Antigravity Mode - saving ~1.5 GB disk).")
 
-subprocess.run("pip install -q hermes-agent requests", shell=True, check=True)
+# Install hermes-agent with yt-dlp (for Facebook, IG, YT video ingestion) and pillow (for image processing)
+print("📦 Installing Hermes Agent & Multimodal Ingest Libraries (yt-dlp, pillow)...")
+subprocess.run("pip install -q hermes-agent requests yt-dlp pillow", shell=True, check=True)
 
-# Free up disk space immediately to prevent Kaggle storage exhaustion
+# Free up disk space immediately to protect Kaggle container
 subprocess.run("apt-get clean 2>/dev/null; rm -rf /var/cache/apt/archives/* /root/.npm /root/.cache 2>/dev/null || true", shell=True)
 
 # ── 3. Pull Aethelgard Vault & Antigravity Keys from GitHub ──────────────────
@@ -143,12 +83,12 @@ print("=" * 60)
 auth_repo_url = f"https://{GITHUB_USER}:{GITHUB_TOKEN}@github.com/{GITHUB_USER}/{REPO_NAME}.git"
 
 if os.path.exists(VAULT_DIR):
-    subprocess.run(["git", "-C", VAULT_DIR, "pull", "origin", REPO_BRANCH])
+    subprocess.run(["git", "-C", VAULT_DIR, "pull", "--rebase", "origin", REPO_BRANCH])
 else:
     subprocess.run(["git", "clone", auth_repo_url, VAULT_DIR], check=True)
 
-subprocess.run(["git", "-C", VAULT_DIR, "config", "user.name", "Kaggle Hybrid Custodian"])
-subprocess.run(["git", "-C", VAULT_DIR, "config", "user.email", "agent@aethelgard.local"])
+subprocess.run(["git", "-C", VAULT_DIR, "config", "user.name", "Aethelgard Local GPU Custodian"])
+subprocess.run(["git", "-C", VAULT_DIR, "config", "user.email", "local-agent@aethelgard.local"])
 
 # ── 4. Restore OmniRoute & Launch Antigravity Google AI Pro ──────────────────
 print("\n" + "=" * 60)
@@ -164,11 +104,9 @@ with open(f"{OMNIROUTE_DIR}/.env", "w") as ef:
     ef.write(f"STORAGE_ENCRYPTION_KEY={STORAGE_ENCRYPTION_KEY}\n")
     ef.write("PORT=20128\n")
 
-# Kill any existing processes on port 20128
 subprocess.run("omniroute stop 2>/dev/null; pkill -9 -f omniroute 2>/dev/null; fuser -k 20128/tcp 2>/dev/null || true", shell=True)
 time.sleep(1)
 
-# Direct copy/decompression of pre-verified database with auto-repair
 print("📦 Restoring pre-verified Antigravity Google AI Pro OmniRoute database from repository...")
 db_dest = f"{OMNIROUTE_DIR}/storage.sqlite"
 db_gz = f"{VAULT_DIR}/.hermes_profile/omniroute/storage.sqlite.gz"
@@ -203,34 +141,6 @@ if not restored and os.path.exists(db_src):
     except Exception as e:
         print(f"⚠ Raw sqlite error: {e}")
 
-if not restored:
-    print("⚠ Using JSON backup fallback...")
-    backup_file = f"{VAULT_DIR}/.hermes_profile/omniroute_backup.json"
-    if os.path.exists(backup_file):
-        # Initialize schema via omniroute
-        omni_init = subprocess.Popen(["omniroute", "serve"], env=dict(os.environ))
-        time.sleep(5)
-        subprocess.run("omniroute stop 2>/dev/null; fuser -k 20128/tcp 2>/dev/null || true", shell=True)
-        try:
-            omni_init.terminate()
-            omni_init.wait(timeout=2)
-        except Exception:
-            omni_init.kill()
-        time.sleep(1)
-
-        with open(backup_file, "r", encoding="utf-8") as f:
-            seed_data = json.load(f)
-        conn = sqlite3.connect(db_dest)
-        for table_name, data in seed_data.items():
-            cols = data["columns"]
-            rows = data["rows"]
-            quoted_cols = ", ".join([f'"{c}"' for c in cols])
-            placeholders = ", ".join(["?"] * len(cols))
-            conn.executemany(f"INSERT OR REPLACE INTO {table_name} ({quoted_cols}) VALUES ({placeholders})", rows)
-        conn.commit()
-        conn.close()
-        print("✅ Restored from backup JSON!")
-
 # Verify DB content
 conn = sqlite3.connect(db_dest)
 c = conn.cursor()
@@ -261,7 +171,6 @@ for _ in range(30):
 
 if ready:
     print("✅ OmniRoute is active and responding on port 20128!")
-    # Smoke test Antigravity directly
     print("🧪 Running live inference test for Antigravity (gemini-3.7-flash-high)...")
     try:
         test_req = urllib.request.Request(
@@ -279,95 +188,17 @@ if ready:
     except Exception as te:
         print(f"⚠ Antigravity inference test warning: {te}")
 else:
-    print("⚠ Warning: OmniRoute health check timed out. Checking process status...")
+    print("⚠ Warning: OmniRoute health check timed out.")
 
-# ── 5. Start Ollama GPU Daemon & Load Local Model (Resilient) ───────────────
+# ── 5. Setup Local GPU Profile & Antigravity Pro Routing ─────────────────────
 print("\n" + "=" * 60)
-if not ENABLE_OLLAMA:
-    print("⚡ [4/6] Ollama Local GPU Engine: DISABLED (Pure Cloud Antigravity Mode Active - 100% Google AI Pro)")
-    print("=" * 60)
-else:
-    print("⚡ [4/6] Initializing Ollama GPU Engine (Optional Local Fallback)...")
-    print("=" * 60)
-    ollama_ready = False
-    try:
-        os.environ["OLLAMA_HOST"] = "127.0.0.1:11434"
-        os.environ["OLLAMA_ORIGINS"] = "*"
-        os.environ["OLLAMA_KEEP_ALIVE"] = "24h"
-        os.environ["OLLAMA_NUM_PARALLEL"] = "1"
-        subprocess.run("pkill -9 -x ollama 2>/dev/null; fuser -k 11434/tcp 2>/dev/null || true", shell=True)
-        time.sleep(1)
-        
-        ollama_log = open("/tmp/ollama.log", "w")
-        ollama_proc = subprocess.Popen(
-            ["ollama", "serve"],
-            stdout=ollama_log,
-            stderr=subprocess.STDOUT,
-            start_new_session=True
-        )
-        time.sleep(3)
-
-        # Check if Ollama daemon is responsive
-        for _ in range(12):
-            try:
-                with urllib.request.urlopen("http://127.0.0.1:11434/api/tags", timeout=2) as r:
-                    if r.status == 200:
-                        ollama_ready = True
-                        break
-            except Exception:
-                time.sleep(1)
-
-        if ollama_ready:
-            ollama_list = subprocess.run("ollama list 2>/dev/null", shell=True, capture_output=True, text=True).stdout
-            target_gpu_model = None
-            if "qwen2.5:32b" in ollama_list:
-                target_gpu_model = "qwen2.5:32b"
-                print("✅ Qwen 2.5 32B is already cached in Ollama!")
-            elif "qwen2.5:14b" in ollama_list:
-                target_gpu_model = "qwen2.5:14b"
-                print("✅ Qwen 2.5 14B is already cached in Ollama!")
-            elif "qwen2.5:7b" in ollama_list:
-                target_gpu_model = "qwen2.5:7b"
-                print("✅ Qwen 2.5 7B is already cached in Ollama!")
-            else:
-                # Use 7B: fast, ultra-safe for Kaggle disk quota (<5GB), instant download, zero risk of status code 44
-                target_gpu_model = "qwen2.5:7b"
-                print(f"📥 Loading {target_gpu_model} into Dual T4 VRAM (~4.7 GB, fast & disk-safe)...")
-                pull_proc = subprocess.Popen(
-                    ["ollama", "pull", target_gpu_model],
-                    stdout=subprocess.PIPE,
-                    stderr=subprocess.STDOUT,
-                    text=True,
-                    start_new_session=True
-                )
-                for line in pull_proc.stdout:
-                    if "100%" in line or "verifying" in line or "success" in line:
-                        print(f"  [Ollama Pull] {line.strip()}")
-                pull_proc.wait()
-                
-                print(f"⚙ Configuring 64K context window on {target_gpu_model} for Hermes Agent...")
-                with open("/tmp/Modelfile.qwen", "w") as mf:
-                    mf.write(f"FROM {target_gpu_model}\nPARAMETER num_ctx 65536\n")
-                subprocess.run(["ollama", "create", target_gpu_model, "-f", "/tmp/Modelfile.qwen"], start_new_session=True)
-
-            print(f"✅ Ollama GPU Engine is active and {target_gpu_model} is loaded!")
-        else:
-            print("⚠ Ollama did not start within 12s. Continuing with Cloud Antigravity...")
-    except Exception as oe:
-        print(f"⚠ Local GPU Ollama skipped: {oe}. Primary Antigravity Google AI Pro is fully operational!")
-
-# ── 6. Setup Profile & Hybrid Antigravity Routing ────────────────────────────
-print("\n" + "=" * 60)
-print("🔄 [5/6] Setting Up Profile & Antigravity Pro Routing...")
+print(f"🔄 [4/6] Setting Up Dedicated Profile '{HERMES_PROFILE}' & Media Skills...")
 print("=" * 60)
 
 os.makedirs(HERMES_PROFILE_DIR, exist_ok=True)
 
-# Wipe all old session cache and state database to eliminate stale sessions
+# Clean stale profile session state
 for p in [
-    "/root/.hermes/state.db",
-    "/root/.hermes/sessions",
-    "/root/.hermes/chats",
     f"{HERMES_PROFILE_DIR}/state.db",
     f"{HERMES_PROFILE_DIR}/sessions",
     f"{HERMES_PROFILE_DIR}/chats"
@@ -386,9 +217,9 @@ if os.path.exists(f"{VAULT_DIR}/.hermes_profile"):
     subprocess.run(f"cp -r {VAULT_DIR}/.hermes_profile/config.yaml {HERMES_PROFILE_DIR}/", shell=True)
     if os.path.exists(f"{VAULT_DIR}/.hermes_profile/skills"):
         subprocess.run(f"cp -r {VAULT_DIR}/.hermes_profile/skills {HERMES_PROFILE_DIR}/", shell=True)
-    print("  📁 Vault configuration and skills synced to profile.", flush=True)
+    print("  📁 Vault configuration, SOUL.md, and multimodal skills synced.", flush=True)
 
-# Write all verified keys directly to profile .env (100% full, no truncation)
+# Write credentials to profile .env
 with open(f"{HERMES_PROFILE_DIR}/.env", "w") as f:
     f.write(f"TELEGRAM_BOT_TOKEN={TELEGRAM_BOT_TOKEN}\n")
     f.write(f"TELEGRAM_ALLOWED_USERS={TELEGRAM_USER_ID}\n")
@@ -411,28 +242,30 @@ os.environ["GATEWAY_ALLOW_ALL_USERS"] = "true"
 os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
 os.environ["GEMINI_API_KEY"] = GOOGLE_API_KEY
 os.environ["HERMES_CUSTOM_OPENAI_API_KEY"] = HERMES_CUSTOM_OPENAI_API_KEY
-os.environ["HERMES_PROFILE"] = "llm-wiki"
+os.environ["HERMES_PROFILE"] = HERMES_PROFILE
 os.environ["HERMES_HOME"] = "/root/.hermes"
 os.environ["HERMES_MODEL"] = "antigravity/gemini-3.7-flash-high"
 os.environ["HERMES_PROVIDER"] = "first-time"
 
-subprocess.run(["hermes", "profile", "use", "llm-wiki"])
+subprocess.run(["hermes", "profile", "use", HERMES_PROFILE])
 subprocess.run(["hermes", "config", "set", "model.provider", "first-time"])
 subprocess.run(["hermes", "config", "set", "model.default", "antigravity/gemini-3.7-flash-high"])
 subprocess.run(["hermes", "config", "set", "model.context_length", "1048576"])
 subprocess.run(["hermes", "config", "set", "model.base_url", "http://localhost:20128/v1"])
 subprocess.run(["hermes", "config", "set", "model.api_key", OMNIROUTE_API_KEY])
-print("  ⚙ Profile 'llm-wiki' activated & 1M context routing configured.", flush=True)
+print(f"  ⚙ Profile '{HERMES_PROFILE}' active (1M Context + Multimodal Ingestion enabled).", flush=True)
 
-def sync_vault(commit_msg="Auto-sync from Kaggle Hybrid Agent"):
+# ── 6. Automated Vault Rebase-Sync Worker ─────────────────────────────────────
+def sync_vault(commit_msg="Auto-sync from Aethelgard Local GPU Agent"):
     try:
+        subprocess.run(["git", "-C", VAULT_DIR, "pull", "--rebase", "origin", REPO_BRANCH], capture_output=True)
         subprocess.run(["git", "-C", VAULT_DIR, "add", "."], check=True)
         res = subprocess.run(["git", "-C", VAULT_DIR, "commit", "-m", commit_msg], capture_output=True, text=True)
         if "nothing to commit" not in res.stdout:
             subprocess.run(["git", "-C", VAULT_DIR, "push", "origin", REPO_BRANCH], check=True)
-            print(f"[Vault Sync] Changes pushed to GitHub: {commit_msg}", flush=True)
+            print(f"[Vault Sync] Notes pushed to GitHub: {commit_msg}", flush=True)
     except Exception as e:
-        print(f"[Vault Sync Error] {e}", flush=True)
+        print(f"[Vault Sync Notice] {e}", flush=True)
 
 def auto_sync_worker():
     while True:
@@ -440,46 +273,46 @@ def auto_sync_worker():
         sync_vault()
 
 threading.Thread(target=auto_sync_worker, daemon=True).start()
-print("  🔄 GitHub auto-sync worker initialized (180s cycle).", flush=True)
+print("  🔄 GitHub rebase auto-sync worker initialized (180s cycle).", flush=True)
 
-# Clean cache directories to preserve container disk headroom
+# Clean cache directories to protect disk headroom
 subprocess.run("rm -rf /root/.cache/pip /root/.npm /var/cache/apt/archives/* /tmp/pip-* 2>/dev/null || true", shell=True)
 
-# ── 7. Launch Hermes Hybrid Gateway ───────────────────────────────────────────
+# ── 7. Launch Dedicated Gateway for @aethelgard_local_bot ─────────────────────
 print("\n" + "=" * 60)
-print("🤖 [6/6] HERMES HYBRID AGENT ONLINE (ANTIGRAVITY GOOGLE AI PRO + DUAL T4)")
+print("🤖 [5/6] AETHELGARD LOCAL GPU LAB ONLINE (@aethelgard_local_bot)")
 print("=" * 60)
 
-# Clear stale Telegram update queue & reset webhook
+# Clear Telegram queue & send startup message
 try:
-    print("🧹 Clearing stale Telegram updates & resetting webhook...", flush=True)
+    print("🧹 Clearing stale updates for @aethelgard_local_bot...", flush=True)
     urllib.request.urlopen(f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/deleteWebhook?drop_pending_updates=true", timeout=5)
     urllib.request.urlopen(f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/getUpdates?offset=-1", timeout=5)
-    print("✅ Telegram queue cleanly flushed.", flush=True)
-except Exception as te:
-    print(f"⚠ Telegram queue flush notice: {te}", flush=True)
-
-# Automated startup ping to Telegram
-try:
+    
     tg_url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
-    tg_msg = "🏛️ Hermes Aethelgard Vault Custodian is ONLINE on Kaggle Dual T4 (Pure Cloud Google AI Pro Engine)"
+    tg_msg = (
+        "🏛️ Aethelgard Local GPU Lab is ONLINE on Kaggle!\n\n"
+        "⚡ Engine: Antigravity Google AI Pro (Gemini 3.7 Flash High / 1M Context)\n"
+        "📁 Vault: Synced to origin/main\n"
+        "🎥 Multimodal Ingest: Ready for images, screenshots, voice notes, and Facebook/YouTube video links!"
+    )
     tg_data = json.dumps({"chat_id": TELEGRAM_USER_ID, "text": tg_msg}).encode("utf-8")
     tg_req = urllib.request.Request(tg_url, data=tg_data, headers={"Content-Type": "application/json"})
     with urllib.request.urlopen(tg_req, timeout=10) as tg_res:
         if tg_res.status == 200:
             res_json = json.loads(tg_res.read().decode("utf-8"))
             msg_id = res_json.get("result", {}).get("message_id", "unknown")
-            print(f"📱 Telegram startup notification delivered successfully to Omar (Message ID: {msg_id})!", flush=True)
+            print(f"📱 Telegram startup ping delivered to Omar on @aethelgard_local_bot (Message ID: {msg_id})!", flush=True)
 except Exception as tg_err:
     print(f"⚠ Telegram startup notification notice: {tg_err}", flush=True)
 
-# Decoupled Resilient Gateway Supervisor Loop with Real-Time Log Streaming & Heartbeat
+# ── 8. Dual Execution Mode (Interactive Daemon vs Batch 12-Hour Keepalive) ───
 def stream_reader(pipe, log_f):
     try:
         for line in iter(pipe.readline, ''):
             if line:
                 clean_line = line.rstrip()
-                print(f"[Hermes Gateway] {clean_line}", flush=True)
+                print(f"[Local Agent] {clean_line}", flush=True)
                 try:
                     log_f.write(line)
                     log_f.flush()
@@ -493,14 +326,14 @@ def stream_reader(pipe, log_f):
         except Exception:
             pass
 
-GATEWAY_LOG_PATH = "/tmp/hermes_gateway.log"
-gateway_cmd = ["hermes", "-p", "llm-wiki", "gateway", "run", "--replace", "--force", "--accept-hooks"]
+GATEWAY_LOG_PATH = "/tmp/hermes_gateway_local.log"
+gateway_cmd = ["hermes", "-p", HERMES_PROFILE, "gateway", "run", "--replace", "--force", "--accept-hooks"]
 
 is_batch = os.environ.get("KAGGLE_KERNEL_RUN_TYPE") == "Batch"
 
 if not is_batch:
-    # ── Interactive Mode: Launch as detached background process and complete cell cleanly ──
-    print("🚀 Launching Hermes Gateway in detached background mode...", flush=True)
+    # ── Interactive Mode: Launch as detached background process & complete cell cleanly ──
+    print("🚀 Launching Local Gateway in detached background mode...", flush=True)
     gateway_log_f = open(GATEWAY_LOG_PATH, "a+", encoding="utf-8")
     current_proc = subprocess.Popen(
         gateway_cmd,
@@ -514,23 +347,23 @@ if not is_batch:
     reader_thread = threading.Thread(target=stream_reader, args=(current_proc.stdout, gateway_log_f), daemon=True)
     reader_thread.start()
     
-    # Wait 10 seconds to confirm Gateway is stable and polling
+    # Wait 10 seconds to confirm Gateway stays alive
     time.sleep(10)
     if current_proc.poll() is None:
         print("\n" + "=" * 60)
-        print("🎉 [SUCCESS] HERMES CUSTODIAN IS ONLINE & ACTIVE IN BACKGROUND!")
-        print("📱 Telegram Bot is polling and ready for messages.")
+        print("🎉 [SUCCESS] @aethelgard_local_bot IS ACTIVE AND LISTENING!")
+        print("📱 Send an image, voice note, or Facebook/YouTube link to test it now!")
         print("=" * 60)
         print("\n💡 TO RUN FOR 12 HOURS WITH YOUR LAPTOP CLOSED:")
-        print("  1. Click 'Save Version' in the top right corner.")
+        print("  1. Click 'Save Version' in the top right corner of Kaggle.")
         print("  2. Select 'Save & Run All (Commit)'.")
         print("  3. Click 'Save' and close your laptop completely.")
         print("=" * 60)
     else:
-        print(f"⚠ Hermes Gateway exited prematurely with code {current_proc.returncode}")
+        print(f"⚠ Local Gateway exited prematurely with code {current_proc.returncode}")
 else:
     # ── Batch Mode (Commit): Keep process alive for 12 hours with unbuffered heartbeats ──
-    print("🚀 Running in Kaggle Headless Batch Mode (12-hour continuous cloud execution)...", flush=True)
+    print("🚀 Running in Kaggle Headless Batch Mode (12-hour continuous execution)...", flush=True)
     max_restarts = 5
     restart_count = 0
     backoff = 3
@@ -538,7 +371,7 @@ else:
     
     try:
         while restart_count < max_restarts:
-            print(f"🚀 Starting Hermes Gateway process (Attempt {restart_count + 1}/{max_restarts})...", flush=True)
+            print(f"🚀 Starting Local Gateway process (Attempt {restart_count + 1}/{max_restarts})...", flush=True)
             gateway_log_f = open(GATEWAY_LOG_PATH, "a+", encoding="utf-8")
             
             current_proc = subprocess.Popen(
@@ -559,12 +392,12 @@ else:
                 now = time.time()
                 if now - last_heartbeat >= 25:
                     current_time = time.strftime("%H:%M:%S")
-                    print(f"💓 [{current_time}] Hermes Gateway Online | Polling Telegram | Antigravity Google AI Pro Active", flush=True)
+                    print(f"💓 [{current_time}] @aethelgard_local_bot Online | Polling Telegram | Antigravity 1M Active", flush=True)
                     last_heartbeat = now
                     sys.stdout.flush()
             
             exit_code = current_proc.returncode
-            print(f"⚠ Hermes Gateway process exited with code {exit_code}", flush=True)
+            print(f"⚠ Local Gateway process exited with code {exit_code}", flush=True)
             try:
                 gateway_log_f.close()
             except Exception:
@@ -572,7 +405,7 @@ else:
             
             restart_count += 1
             if restart_count < max_restarts:
-                print(f"🔄 Restarting Hermes Gateway in {backoff}s...", flush=True)
+                print(f"🔄 Restarting Local Gateway in {backoff}s...", flush=True)
                 time.sleep(backoff)
                 backoff = min(backoff * 2, 30)
     except KeyboardInterrupt:
@@ -586,18 +419,3 @@ else:
     finally:
         sync_vault("Final session sync before Kaggle shutdown")
         print("✨ Clean shutdown complete. All changes pushed to GitHub.", flush=True)
-```
-
----
-
-## ⚙️ In-Chat Model Commands on Telegram
-
-You can dynamically switch between your models directly in Telegram:
-
-| Command | Model Activated | Best Used For |
-| :--- | :--- | :--- |
-| **`/model omni`** | **Antigravity (Google AI Pro)** | ⚡ **Google AI Pro Reasoning (High Effort)** — auto-routing to Gemini 3.7 Flash High on your Pro subscription. |
-| **`/model qwen`** | **Qwen 2.5 32B** (Dual T4 GPU) | 🚀 **Local GPU workhorse** — unlimited local execution in 19.8 GB VRAM, zero rate limits. |
-| **`/model sonnet`** | **Claude Sonnet 4.6 / 5** | 🛠️ **Deep coding architecture** & structured refactoring via Bluesminds. |
-| **`/model opus`** | **Claude Opus 4.6** | 🧠 **Maximum reasoning depth** and complex multi-domain synthesis. |
-| **`/status`** | System Diagnostics | 📊 Check currently active model, memory status, and tool availability. |
