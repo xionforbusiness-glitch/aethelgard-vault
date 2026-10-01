@@ -79,7 +79,9 @@ os.environ["OLLAMA_KEEP_ALIVE"] = "24h"
 os.environ["OLLAMA_NUM_PARALLEL"] = "1"
 os.environ["OLLAMA_CONTEXT_LENGTH"] = str(CONTEXT_LENGTH)
 os.environ["OLLAMA_FLASH_ATTENTION"] = "1"
-os.environ["OLLAMA_KV_CACHE_TYPE"] = os.environ.get("OLLAMA_KV_CACHE_TYPE", "q8_0")
+# Auto-select q4_0 KV cache for 32B models at high context to guarantee a 5GB VRAM safety margin
+default_kv_type = "q4_0" if ("32b" in LOCAL_MODEL and CONTEXT_LENGTH >= 64000) else "q8_0"
+os.environ["OLLAMA_KV_CACHE_TYPE"] = os.environ.get("OLLAMA_KV_CACHE_TYPE", default_kv_type)
 os.makedirs(OLLAMA_MODELS_DIR, exist_ok=True)
 
 # Install Ollama if not present
