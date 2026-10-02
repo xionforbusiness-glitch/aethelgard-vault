@@ -56,6 +56,7 @@
 - [[ECC]] — Everything Claude Code: comprehensive agent harness and prompt optimization toolkit.
 
 ## 💡 Concepts
+- [[runway-windshear-and-crosswind-analyzer]] — Aeronautical windshear & crosswind analyzer (ICAO Doc 9817 / Bowles F-Factor model): real-time vector decomposition for Damascus International Airport (OSDI/DAM), microburst detection, and fleet limits.
 - [[ssd-layer-streaming-moe-inference]] — SSD layer weight streaming vs VRAM inference (Colibri, AirLLM, MoE expert offloading): memory bandwidth bottlenecks ($3.5\text{ GB/s}$ vs $640\text{ GB/s}$), Kaggle storage ceilings, and real-world token speed.
 - [[ai-powered-offensive-security-and-osint-playbook]] — Deep-learning OSINT & security operations: PimEyes facial vector embeddings, Picarta quadtree geolocation, Censys NLP query translation, ANY.RUN interactive sandboxing, and VT Code Insight.
 - [[top-13-offensive-security-and-red-teaming-tools]] — Top 13 offensive security, OSINT, and penetration testing tools across 4 phases: Shodan, Maltego, BBOT, CloudFox, Evilginx3 (MFA bypass), Caido, Nuclei, and BloodHound (AD graphs).
