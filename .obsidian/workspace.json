@@ -65,7 +65,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Team Leaderboard",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 211.90000915527344
+    "width": 200
   },
   "right": {
     "id": "3c80e166ed35b3f8",
@@ -198,6 +198,7 @@
   },
   "active": "2412d150b93c69b3",
   "lastOpenFiles": [
+    "~$attendance_september_2026.xlsx",
     "attendance_september_2026.xlsx",
     "raw/attendance_september_2026.csv",
     "raw/assets/rasheed_akel_schedule_september_2026.jpg",
@@ -241,7 +242,6 @@
     "scripts",
     "_archive",
     "queries",
-    "comparisons",
-    "concepts"
+    "comparisons"
   ]
 }
