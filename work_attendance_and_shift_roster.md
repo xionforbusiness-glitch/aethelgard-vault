@@ -20,17 +20,17 @@ Master timesheet, shift tracking, and duration metrics for [[03 Work Experience|
 
 | # | Employee / Team Member | Days Logged | Regular Shifts | Dawn / Extended Shifts | Days Off | Total Accumulated Time | Decimal Hours | Avg Daily Duration |
 | :-: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| 🥇 | **Mohamed Adnan** | 7 days | 3 | 4 *(03:40 AM & 04:00 AM starts)* | 0 | **74 hours 40 mins** | `74.67 hrs` | **10.67 hrs/day** |
-| 🥈 | **Rasheed Akel** | 7 days | 3 | 4 *(06:30, 07:00 & 03:00 AM starts)*| 0 | **66 hours 30 mins** | `66.50 hrs` | **9.50 hrs/day** |
-| 🥉 | **Joudi Alghorani** | 7 days | 2 | 5 *(06:30, 07:00 & 03:15 AM starts)*| 0 | **65 hours 45 mins** | `65.75 hrs` | **9.39 hrs/day** |
-| 4 | **Hanan** | 7 days | 3 | 4 *(06:30, 07:00 & 03:30 AM starts)*| 0 | **65 hours 05 mins** | `65.08 hrs` | **9.30 hrs/day** |
-| 5 | **Khaled** | 7 days | 4 | 3 *(06:30 & 07:00 AM starts)* | 0 | **62 hours 30 mins** | `62.50 hrs` | **8.93 hrs/day** |
-| 6 | **Raboushee** | 7 days | 3 | 4 *(06:30, 07:15 & 07:20 AM starts)*| 0 | **59 hours 00 mins** | `59.00 hrs` | **8.43 hrs/day** |
+| 🥇 | **Mohamed Adnan** | 7 days | 3 | 4 *(03:40 AM & 04:00 AM starts)* | 0 | **75 hours 20 mins** | `75.33 hrs` | **10.76 hrs/day** |
+| 🥈 | **Rasheed Akel** | 7 days | 3 | 4 *(07:20, 07:00 & 03:00 AM starts)*| 0 | **65 hours 40 mins** | `65.67 hrs` | **9.38 hrs/day** |
+| 🥉 | **Joudi Alghorani** | 7 days | 2 | 5 *(07:20, 07:00 & 03:15 AM starts)*| 0 | **64 hours 55 mins** | `64.92 hrs` | **9.27 hrs/day** |
+| 4 | **Hanan** | 7 days | 3 | 4 *(07:20, 07:00 & 03:30 AM starts)*| 0 | **64 hours 15 mins** | `64.25 hrs` | **9.18 hrs/day** |
+| 5 | **Khaled** | 7 days | 4 | 3 *(07:20 & 07:00 AM starts)* | 0 | **61 hours 40 mins** | `61.67 hrs` | **8.81 hrs/day** |
+| 6 | **Raboushee** | 7 days | 3 | 4 *(07:20, 07:15 & 07:20 AM starts)*| 0 | **58 hours 10 mins** | `58.17 hrs` | **8.31 hrs/day** |
 | 7 | **Omar Elnemr** | 7 days | 5 | 2 *(07:20 start & 17:40 exit)* | 0 | **56 hours 40 mins** | `56.67 hrs` | **8.10 hrs/day** |
-| 8 | **Tarek Orfhly** | 6 days | 1 | 5 *(06:30 & 07:00 AM starts)* | 1 *(Fri)*| **55 hours 00 mins** | `55.00 hrs` | **9.17 hrs/day** |
-| 9 | **Yasmeen** | 6 days | 2 | 4 *(07:00 AM starts)* | 1 *(Sat)*| **52 hours 00 mins** | `52.00 hrs` | **8.67 hrs/day** |
+| 8 | **Tarek Orfhly** | 6 days | 1 | 5 *(07:20 & 07:00 AM starts)* | 1 *(Fri)*| **54 hours 10 mins** | `54.17 hrs` | **9.03 hrs/day** |
+| 9 | **Yasmeen** | 6 days | 2 | 4 *(07:20 & 07:00 AM starts)* | 1 *(Sat)*| **51 hours 40 mins** | `51.67 hrs` | **8.61 hrs/day** |
 | 10 | **Talal** | 4 days | 0 | 4 *(03:00 AM & 07:00 AM starts)* | 3 *(Wed-Fri)*| **44 hours 30 mins** | `44.50 hrs` | **11.12 hrs/day** |
-| **🏆** | **Total Team Output** | **58 shifts** | **26** | **32** | **5** | **601 hours 40 mins** | `601.67 hrs` | **9.40 hrs/shift** |
+| **🏆** | **Total Team Output** | **58 shifts** | **26** | **32** | **5** | **597 hours 00 mins** | `597.00 hrs` | **10.29 hrs/shift** |
 
 ---
 
@@ -38,7 +38,7 @@ Master timesheet, shift tracking, and duration metrics for [[03 Work Experience|
 
 | Date / Day | Omar Elnemr | Khaled | Rasheed Akel | Talal | Mohamed Adnan | Tarek Orfhly | Yasmeen | Joudi Alghorani | Hanan | Raboushee |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **Wed (23/09)** | `07:20 → 15:50` *(8.5h)* | `06:30 → 16:30` *(10h)* | `06:30 → 16:30` *(10h)* | *Off* | `08:00 → 16:30` *(8.5h)* | `06:30 → 16:30` *(10h)* | `07:00 → 16:00` *(9.0h)* | `06:30 → 16:00` *(9.5h)* | `06:30 → 16:00` *(9.5h)* | `06:30 → 16:00` *(9.5h)* |
+| **Wed (23/09)** | `07:20 → 15:50` *(8.5h)* | `07:20 → 16:30` *(9.17h)* | `07:20 → 16:30` *(9.17h)* | *Off* | `07:20 → 16:30` *(9.17h)* | `07:20 → 16:30` *(9.17h)* | `07:20 → 16:00` *(8.67h)* | `07:20 → 16:00` *(8.67h)* | `07:20 → 16:00` *(8.67h)* | `07:20 → 16:00` *(8.67h)* |
 | **Thu (24/09)** | `08:15 → 16:00` *(7.75h)*| `08:00 → 16:30` *(8.5h)* | `08:00 → 16:30` *(8.5h)* | *Off* | `08:00 → 16:30` *(8.5h)* | `08:00 → 16:30` *(8.5h)* | `08:00 → 16:00` *(8.0h)* | `08:00 → 16:00` *(8.0h)* | `08:10 → 16:00` *(7.83h)*| `08:20 → 16:00` *(7.67h)*|
 | **Fri (25/09)** | `08:15 → 17:40` *(9.42h)*| `08:00 → 16:30` *(8.5h)* | `08:00 → 16:30` *(8.5h)* | *Off* | `08:00 → 16:30` *(8.5h)* | **OFF** | `08:00 → 16:00` *(8.0h)* | `08:00 → 16:00` *(8.0h)* | `08:15 → 16:00` *(7.75h)*| `08:15 → 15:45` *(7.5h)* |
 | **Sat (26/09)** | `08:15 → 16:00` *(7.75h)*| `08:00 → 16:30` *(8.5h)* | `08:00 → 16:30` *(8.5h)* | `07:00 → 16:30` *(9.5h)* | `03:40 → 16:30` *(12.83h)*| `07:00 → 16:30` *(9.5h)* | **OFF** | `03:15 → 16:30` *(13.25h)*| `03:30 → 16:30` *(13.0h)* | `08:15 → 16:30` *(8.25h)*|
@@ -67,112 +67,112 @@ Master timesheet, shift tracking, and duration metrics for [[03 Work Experience|
 ### 2. Khaled
 | Date                 |   Log In   |  Log Out   |  Duration   | Shift Notes                                      |
 | :------------------- | :--------: | :--------: | :---------: | :----------------------------------------------- |
-| **2026-09-23** (Wed) | `06:30 AM` | `04:30 PM` | **10h 00m** | Early arrival flight handling (10.0 hrs).        |
+| **2026-09-23** (Wed) | `07:20 AM` | `04:30 PM` | **9h 10m** | Log In (Bus Sync 07:20 AM) — 9h 10m.            |
 | **2026-09-24** (Thu) | `08:00 AM` | `04:30 PM` | **8h 30m**  | Standard daytime shift.                          |
 | **2026-09-25** (Fri) | `08:00 AM` | `04:30 PM` | **8h 30m**  | Standard daytime shift.                          |
 | **2026-09-26** (Sat) | `08:00 AM` | `04:30 PM` | **8h 30m**  | Standard daytime shift.                          |
 | **2026-09-27** (Sun) | `07:00 AM` | `04:00 PM` | **9h 00m**  | Morning departure processing *(4:00 PM return)*. |
 | **2026-09-28** (Mon) | `07:00 AM` | `04:00 PM` | **9h 00m**  | Morning departure processing *(4:00 PM return)*. |
 | **2026-09-29** (Tue) | `07:00 AM` | `04:00 PM` | **9h 00m**  | Morning departure processing *(4:00 PM return)*. |
-| **Total**            |     —      |     —      | **62h 30m** | `62.50 hrs` across 7 days                        |
+| **Total**            |     —      |     —      | **61h 40m** | `61.67 hrs` across 7 days                        |
 
 ---
 
 ### 3. Rasheed Akel
 | Date | Log In | Log Out | Duration | Shift Notes |
 | :--- | :---: | :---: | :---: | :--- |
-| **2026-09-23** (Wed) | `06:30 AM` | `04:30 PM` | **10h 00m** | Early arrival flight handling (10.0 hrs). |
+| **2026-09-23** (Wed) | `07:20 AM` | `04:30 PM` | **9h 10m** | Log In (Bus Sync 07:20 AM) — 9h 10m. |
 | **2026-09-24** (Thu) | `08:00 AM` | `04:30 PM` | **8h 30m** | Standard daytime shift. |
 | **2026-09-25** (Fri) | `08:00 AM` | `04:30 PM` | **8h 30m** | Standard daytime shift. |
 | **2026-09-26** (Sat) | `08:00 AM` | `04:30 PM` | **8h 30m** | Standard daytime shift. |
 | **2026-09-27** (Sun) | `07:00 AM` | `04:00 PM` | **9h 00m** | Morning departure processing *(4:00 PM return)*. |
 | **2026-09-28** (Mon) | `07:00 AM` | `04:00 PM` | **9h 00m** | Morning departure processing *(4:00 PM return)*. |
 | **2026-09-29** (Tue) | `03:00 AM` | `04:00 PM` | **13h 00m** | ✈️ Early dawn flight departure handling *(4:00 PM return)*. |
-| **Total** | — | — | **66h 30m** | `66.50 hrs` across 7 days |
+| **Total** | — | — | **65h 40m** | `65.67 hrs` across 7 days |
 
 ---
 
 ### 4. Joudi Alghorani
 | Date | Log In | Log Out | Duration | Shift Notes |
 | :--- | :---: | :---: | :---: | :--- |
-| **2026-09-23** (Wed) | `06:30 AM` | `04:00 PM` | **9h 30m** | Early morning flight shift (9.5 hrs). |
+| **2026-09-23** (Wed) | `07:20 AM` | `04:00 PM` | **8h 40m** | Log In (Bus Sync 07:20 AM) — 8h 40m. |
 | **2026-09-24** (Thu) | `08:00 AM` | `04:00 PM` | **8h 00m** | Standard shift. |
 | **2026-09-25** (Fri) | `08:00 AM` | `04:00 PM` | **8h 00m** | Standard shift. |
 | **2026-09-26** (Sat) | `03:15 AM` | `04:30 PM` | **13h 15m** | ✈️ Early dawn flight check-in & boarding (13h 15m). |
 | **2026-09-27** (Sun) | `07:00 AM` | `04:00 PM` | **9h 00m** | Morning departure processing *(4:00 PM return)*. |
 | **2026-09-28** (Mon) | `07:00 AM` | `04:00 PM` | **9h 00m** | Morning shift. |
 | **2026-09-29** (Tue) | `07:00 AM` | `04:00 PM` | **9h 00m** | Morning departure processing. |
-| **Total** | — | — | **65h 45m** | `65.75 hrs` across 7 days |
+| **Total** | — | — | **64h 55m** | `64.92 hrs` across 7 days |
 
 ---
 
 ### 5. Hanan
 | Date | Log In | Log Out | Duration | Shift Notes |
 | :--- | :---: | :---: | :---: | :--- |
-| **2026-09-23** (Wed) | `06:30 AM` | `04:00 PM` | **9h 30m** | Early morning flight shift (9.5 hrs). |
+| **2026-09-23** (Wed) | `07:20 AM` | `04:00 PM` | **8h 40m** | Log In (Bus Sync 07:20 AM) — 8h 40m. |
 | **2026-09-24** (Thu) | `08:10 AM` | `04:00 PM` | **7h 50m** | Standard daytime shift (7h 50m). |
 | **2026-09-25** (Fri) | `08:15 AM` | `04:00 PM` | **7h 45m** | Standard daytime shift (7h 45m). |
 | **2026-09-26** (Sat) | `03:30 AM` | `04:30 PM` | **13h 00m** | ✈️ Early dawn flight check-in & departure (13.0 hrs). |
 | **2026-09-27** (Sun) | `07:00 AM` | `04:00 PM` | **9h 00m** | Morning departure processing *(4:00 PM return)*. |
 | **2026-09-28** (Mon) | `07:00 AM` | `04:00 PM` | **9h 00m** | Morning departure processing *(4:00 PM return)*. |
 | **2026-09-29** (Tue) | `07:00 AM` | `04:00 PM` | **9h 00m** | Morning departure processing. |
-| **Total** | — | — | **65h 05m** | `65.08 hrs` across 7 days |
+| **Total** | — | — | **64h 15m** | `64.25 hrs` across 7 days |
 
 ---
 
 ### 6. Raboushee
 | Date | Log In | Log Out | Duration | Shift Notes |
 | :--- | :---: | :---: | :---: | :--- |
-| **2026-09-23** (Wed) | `06:30 AM` | `04:00 PM` | **9h 30m** | Early morning flight shift (9.5 hrs). |
+| **2026-09-23** (Wed) | `07:20 AM` | `04:00 PM` | **8h 40m** | Log In (Bus Sync 07:20 AM) — 8h 40m. |
 | **2026-09-24** (Thu) | `08:20 AM` | `04:00 PM` | **7h 40m** | Standard daytime shift (7h 40m). |
 | **2026-09-25** (Fri) | `08:15 AM` | `03:45 PM` | **7h 30m** | Standard daytime shift (7h 30m). |
 | **2026-09-26** (Sat) | `08:15 AM` | `04:30 PM` | **8h 15m** | Standard daytime shift (8h 15m). |
 | **2026-09-27** (Sun) | `07:15 AM` | `04:00 PM` | **8h 45m** | Morning departure processing. |
 | **2026-09-28** (Mon) | `07:20 AM` | `04:00 PM` | **8h 40m** | Morning departure processing. |
 | **2026-09-29** (Tue) | `07:20 AM` | `04:00 PM` | **8h 40m** | Morning departure processing. |
-| **Total** | — | — | **59h 00m** | `59.00 hrs` across 7 days |
+| **Total** | — | — | **58h 10m** | `58.17 hrs` across 7 days |
 
 ---
 
 ### 7. Mohamed Adnan
 | Date | Log In | Log Out | Duration | Shift Notes |
 | :--- | :---: | :---: | :---: | :--- |
-| **2026-09-23** (Wed) | `08:00 AM` | `04:30 PM` | **8h 30m** | Standard shift. |
+| **2026-09-23** (Wed) | `07:20 AM` | `04:30 PM` | **9h 10m** | Log In (Bus Sync 07:20 AM) — 9h 10m. |
 | **2026-09-24** (Thu) | `08:00 AM` | `04:30 PM` | **8h 30m** | Standard shift. |
 | **2026-09-25** (Fri) | `08:00 AM` | `04:30 PM` | **8h 30m** | Standard shift. |
 | **2026-09-26** (Sat) | `03:40 AM` | `04:30 PM` | **12h 50m** | ✈️ Dawn flight check-in & boarding ops (12.83 hrs). |
 | **2026-09-27** (Sun) | `03:40 AM` | `04:00 PM` | **12h 20m** | ✈️ Dawn flight check-in & boarding ops *(4:00 PM return)*. |
 | **2026-09-28** (Mon) | `04:00 AM` | `04:00 PM` | **12h 00m** | ✈️ Early morning departure ops *(4:00 PM return)*. |
 | **2026-09-29** (Tue) | `04:00 AM` | `04:00 PM` | **12h 00m** | ✈️ Early morning departure ops *(4:00 PM return)*. |
-| **Total** | — | — | **74h 40m** | `74.67 hrs` across 7 days |
+| **Total** | — | — | **75h 20m** | `75.33 hrs` across 7 days |
 
 ---
 
 ### 8. Tarek Orfhly
 | Date | Log In | Log Out | Duration | Shift Notes |
 | :--- | :---: | :---: | :---: | :--- |
-| **2026-09-23** (Wed) | `06:30 AM` | `04:30 PM` | **10h 00m** | Early arrival flight handling (10.0 hrs). |
+| **2026-09-23** (Wed) | `07:20 AM` | `04:30 PM` | **9h 10m** | Log In (Bus Sync 07:20 AM) — 9h 10m. |
 | **2026-09-24** (Thu) | `08:00 AM` | `04:30 PM` | **8h 30m** | Standard shift. |
 | **2026-09-25** (Fri) | **OFF** | **OFF** | **0h 00m** | Scheduled weekly day off. |
 | **2026-09-26** (Sat) | `07:00 AM` | `04:30 PM` | **9h 30m** | Morning flight shift. |
 | **2026-09-27** (Sun) | `07:00 AM` | `04:00 PM` | **9h 00m** | Morning flight shift *(4:00 PM return)*. |
 | **2026-09-28** (Mon) | `07:00 AM` | `04:00 PM` | **9h 00m** | Morning flight shift *(4:00 PM return)*. |
 | **2026-09-29** (Tue) | `07:00 AM` | `04:00 PM` | **9h 00m** | Morning flight shift *(4:00 PM return)*. |
-| **Total** | — | — | **55h 00m** | `55.00 hrs` across 6 working days |
+| **Total** | — | — | **54h 10m** | `54.17 hrs` across 6 working days |
 
 ---
 
 ### 9. Yasmeen
 | Date | Log In | Log Out | Duration | Shift Notes |
 | :--- | :---: | :---: | :---: | :--- |
-| **2026-09-23** (Wed) | `07:00 AM` | `04:00 PM` | **9h 00m** | Morning flight shift. |
+| **2026-09-23** (Wed) | `07:20 AM` | `04:00 PM` | **8h 40m** | Log In (Bus Sync 07:20 AM) — 8h 40m. |
 | **2026-09-24** (Thu) | `08:00 AM` | `04:00 PM` | **8h 00m** | Standard shift. |
 | **2026-09-25** (Fri) | `08:00 AM` | `04:00 PM` | **8h 00m** | Standard shift. |
 | **2026-09-26** (Sat) | **OFF** | **OFF** | **0h 00m** | Scheduled weekly day off. |
 | **2026-09-27** (Sun) | `07:00 AM` | `04:00 PM` | **9h 00m** | Morning flight shift. |
 | **2026-09-28** (Mon) | `07:00 AM` | `04:00 PM` | **9h 00m** | Morning flight shift. |
 | **2026-09-29** (Tue) | `07:00 AM` | `04:00 PM` | **9h 00m** | Morning flight shift *(4:00 PM return)*. |
-| **Total** | — | — | **52h 00m** | `52.00 hrs` across 6 working days |
+| **Total** | — | — | **51h 40m** | `51.67 hrs` across 6 working days |
 
 ---
 
