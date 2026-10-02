@@ -2,7 +2,7 @@
 
 > Comprehensive content catalog for the Aethelgard Obsidian Vault & LLM Wiki.
 > Read this first to locate notes, entities, concepts, and technical playbooks.
-> Last updated: 2026-10-01 | Total pages: 55
+> Last updated: 2026-10-01 | Total pages: 56
 
 ## 🧭 Maps of Content & Core Dashboards
 - [[vault_index_dashboard]] — Central navigation hub and high-level map of content.
@@ -56,6 +56,7 @@
 - [[ECC]] — Everything Claude Code: comprehensive agent harness and prompt optimization toolkit.
 
 ## 💡 Concepts
+- [[ssd-layer-streaming-moe-inference]] — SSD layer weight streaming vs VRAM inference (Colibri, AirLLM, MoE expert offloading): memory bandwidth bottlenecks ($3.5\text{ GB/s}$ vs $640\text{ GB/s}$), Kaggle storage ceilings, and real-world token speed.
 - [[ai-powered-offensive-security-and-osint-playbook]] — Deep-learning OSINT & security operations: PimEyes facial vector embeddings, Picarta quadtree geolocation, Censys NLP query translation, ANY.RUN interactive sandboxing, and VT Code Insight.
 - [[top-13-offensive-security-and-red-teaming-tools]] — Top 13 offensive security, OSINT, and penetration testing tools across 4 phases: Shodan, Maltego, BBOT, CloudFox, Evilginx3 (MFA bypass), Caido, Nuclei, and BloodHound (AD graphs).
 - [[damascus-apartment-rental-guide]] — Damascus apartment rental intelligence ($100–$250/mo unfurnished): neighborhood pricing tiers (Dahiyet Qudsaya, Rukn al-Din, Midan, Jaramana), ampere/solar power audits, and broker strategies.

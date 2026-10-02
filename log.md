@@ -3,6 +3,15 @@
 > Chronological, append-only record of all LLM Wiki actions (ingest, query, lint, update).
 > Format: `## [YYYY-MM-DD] action | subject`
 
+## [2026-10-02] ingest & analysis | SSD Layer Weight Streaming vs VRAM Inference (Colibri / AirLLM)
+- **Source:** Facebook Reel (`https://www.facebook.com/share/r/1K9aNy13hD/`) by Alan Brown ("Running 744B parameter model on laptop with no GPU").
+- **Raw File Created:** `raw/articles/2026-10-01-ssd-streaming-744b-model-inference-colibri.md`
+- **Concept Created:** `concepts/ssd-layer-streaming-moe-inference.md` (Deep dive into MoE layer streaming vs full VRAM loading, PCIe NVMe SSD bandwidth limits vs VRAM memory bandwidth, mathematical token generation speed ceilings, and why Kaggle scratch disk limits prevent running 700B+ models).
+- **Notes Updated:**
+  - `01 Technical Skills.md` (Added Inference Optimization & Offloading link in Section 1)
+  - `index.md` (Registered concept under Concepts, bumped total pages to 56)
+- **Cross-linked:** [[ssd-layer-streaming-moe-inference]], [[kaggle_hybrid_cloud_runner]], [[kaggle-llm-backend-deployment]], [[01 Technical Skills]], [[index]], [[log]]
+
 ## [2026-10-02] reminder & brief | Wazuh SIEM & XDR Lab Deployment
 - **Context:** Delivered automated briefing and quick-start deployment reminder for the open-source Wazuh SIEM & XDR lab based on NetworkChuck's architecture guide.
 - **Vault References:** [[wazuh-siem-xdr-deployment-guide]], [[01 Technical Skills]], `raw/articles/2026-10-01-networkchuck-wazuh-siem-xdr-guide.md`

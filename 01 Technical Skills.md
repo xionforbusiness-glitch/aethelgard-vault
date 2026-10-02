@@ -9,6 +9,7 @@ updated: 2026-09-30
 
 ## 1. Cloud AI, LLM Inference & Agent Infrastructure
 - **Remote Cloud Inference:** [[kaggle-llm-backend-deployment|Kaggle Dual Tesla T4 Ollama Backend]] running `qwen2.5:14b` / `qwen2.5:32b` with Ngrok secure reverse proxy tunneling.
+- **Inference Optimization & Offloading:** [[ssd-layer-streaming-moe-inference|SSD Layer Weight Streaming vs VRAM Inference]] — Physical bandwidth limits ($3.5\text{ GB/s}$ NVMe vs $640\text{ GB/s}$ VRAM), AirLLM/Colibri MoE streaming, and hardware trade-offs.
 - **AI Red Teaming & LLM Security:** [[ai-red-teaming-and-llm-hacking-playbook|AI Red Teaming & LLM Hacking]] — Prompt injection (direct/indirect), jailbreak testing, OWASP Top 10 for LLMs, `garak`, and adversarial testing.
 - **Zero-Cost Coding Harnesses & Proxies:** [[entities/free-claude-code|Free Claude Code Proxy]] (`alishahryar1/free-claude-code`), Anthropic protocol adaptation, and SQLite QueuePool concurrency.
 - **Permanent Free-Tier Endpoints:** [[free-tier-llm-api-endpoints-routing|134+ Free LLM APIs]] across Gemini, Grok, Groq, OpenRouter, and NVIDIA NIM with custom base URL configuration.
