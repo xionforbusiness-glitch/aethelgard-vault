@@ -13,6 +13,13 @@ Date,Day,Employee,Log_In,Log_Out,Duration_Formatted,Decimal_Hours,Status,Notes
 2026-09-27,Sunday,Khaled,07:00 AM,04:30 PM,9h 30m,9.50,Morning,Morning 9.5h shift
 2026-09-28,Monday,Khaled,07:00 AM,04:30 PM,9h 30m,9.50,Morning,Morning 9.5h shift
 2026-09-29,Tuesday,Khaled,07:00 AM,04:30 PM,9h 30m,9.50,Morning,Morning 9.5h shift
+2026-09-23,Wednesday,Rasheed Akel,06:30 AM,04:30 PM,10h 00m,10.00,Extended,Early arrival flight handling (10.0 hrs)
+2026-09-24,Thursday,Rasheed Akel,08:00 AM,04:30 PM,8h 30m,8.50,Standard,Standard daytime shift (8.5 hrs)
+2026-09-25,Friday,Rasheed Akel,08:00 AM,04:30 PM,8h 30m,8.50,Standard,Standard daytime shift (8.5 hrs)
+2026-09-26,Saturday,Rasheed Akel,08:00 AM,04:30 PM,8h 30m,8.50,Standard,Standard daytime shift (8.5 hrs)
+2026-09-27,Sunday,Rasheed Akel,07:00 AM,04:30 PM,9h 30m,9.50,Morning,Morning departure processing (9.5 hrs)
+2026-09-28,Monday,Rasheed Akel,07:00 AM,04:30 PM,9h 30m,9.50,Morning,Morning departure processing (9.5 hrs)
+2026-09-29,Tuesday,Rasheed Akel,03:00 AM,04:30 PM,13h 30m,13.50,Dawn/Overtime,Early dawn flight departure handling (13.5 hrs)
 2026-09-26,Saturday,Talal,07:00 AM,04:30 PM,9h 30m,9.50,Morning,Morning 9.5h shift
 2026-09-27,Sunday,Talal,03:00 AM,04:30 PM,13h 30m,13.50,Dawn/Overtime,Early dawn flight departure shift (13.5 hours)
 2026-09-28,Monday,Talal,07:00 AM,04:30 PM,9h 30m,9.50,Morning,Morning 9.5h shift
@@ -31,3 +38,16 @@ Date,Day,Employee,Log_In,Log_Out,Duration_Formatted,Decimal_Hours,Status,Notes
 2026-09-27,Sunday,Tarek Orfhly,07:00 AM,04:30 PM,9h 30m,9.50,Morning,Morning 9.5h shift
 2026-09-28,Monday,Tarek Orfhly,07:00 AM,04:30 PM,9h 30m,9.50,Morning,Morning 9.5h shift
 2026-09-29,Tuesday,Tarek Orfhly,07:00 AM,04:30 PM,9h 30m,9.50,Morning,Morning 9.5h shift
+2026-09-23,Wednesday,Yasmeen,07:00 AM,04:00 PM,9h 00m,9.00,Morning,Morning shift (9.0 hrs)
+2026-09-24,Thursday,Yasmeen,08:00 AM,04:00 PM,8h 00m,8.00,Standard,Standard shift (8.0 hrs)
+2026-09-25,Friday,Yasmeen,08:00 AM,04:00 PM,8h 00m,8.00,Standard,Standard shift (8.0 hrs)
+2026-09-26,Saturday,Yasmeen,OFF,OFF,0h 00m,0.00,Day Off,Scheduled weekly day off
+2026-09-27,Sunday,Yasmeen,07:00 AM,04:00 PM,9h 00m,9.00,Morning,Morning shift (9.0 hrs)
+2026-09-28,Monday,Yasmeen,07:00 AM,04:00 PM,9h 00m,9.00,Morning,Morning shift (9.0 hrs)
+2026-09-29,Tuesday,Yasmeen,07:00 AM,04:30 PM,9h 30m,9.50,Extended,Extended morning shift (9.5 hrs)
+2026-09-23,Wednesday,Joudi Alghorani,06:30 AM,04:00 PM,9h 30m,9.50,Extended,Early morning flight shift (9.5 hrs)
+2026-09-24,Thursday,Joudi Alghorani,08:00 AM,04:00 PM,8h 00m,8.00,Standard,Standard shift (8.0 hrs)
+2026-09-25,Friday,Joudi Alghorani,08:00 AM,04:00 PM,8h 00m,8.00,Standard,Standard shift (8.0 hrs)
+2026-09-26,Saturday,Joudi Alghorani,03:15 AM,04:30 PM,13h 15m,13.25,Dawn/Overtime,Early dawn flight check-in & boarding (13h 15m)
+2026-09-27,Sunday,Joudi Alghorani,07:00 AM,04:30 PM,9h 30m,9.50,Morning,Morning departure processing (9.5 hrs)
+2026-09-28,Monday,Joudi Alghorani,07:00 AM,04:00 PM,9h 00m,9.00,Morning,Morning shift (9.0 hrs)
