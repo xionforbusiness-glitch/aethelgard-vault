@@ -65,7 +65,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "work_attendance_and_shift_roste",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,8 +89,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -198,6 +197,7 @@
   },
   "active": "dac06efd9ae26f08",
   "lastOpenFiles": [
+    "~$attendance_september_2026_standardized.xlsx",
     "attendance_september_2026_standardized.xlsx",
     "03 Work Experience.md",
     "work_attendance_and_shift_roster.md",
@@ -241,7 +241,6 @@
     "raw/assets/20260921_laya_vs_jev_system1_decision_model.jpg",
     "scripts/overseer_bridge.py",
     "scripts",
-    "_archive",
-    "queries"
+    "_archive"
   ]
 }
