@@ -3,6 +3,11 @@
 > Chronological, append-only record of all LLM Wiki actions (ingest, query, lint, update).
 > Format: `## [YYYY-MM-DD] action | subject`
 
+## [2026-10-02] reminder & brief | Wazuh SIEM & XDR Lab Deployment
+- **Context:** Delivered automated briefing and quick-start deployment reminder for the open-source Wazuh SIEM & XDR lab based on NetworkChuck's architecture guide.
+- **Vault References:** [[wazuh-siem-xdr-deployment-guide]], [[01 Technical Skills]], `raw/articles/2026-10-01-networkchuck-wazuh-siem-xdr-guide.md`
+- **Topics Covered:** Single-node Docker deployment, OpenSearch indexing, FIM, Vulnerability scanning (CVE), SCA benchmarks, and automated Active Response.
+
 ## [2026-10-01] ingest | AI-Powered Offensive Security & Advanced OSINT (2026)
 - **Source:** Hacking Tutorials Daily Video (`https://www.facebook.com/share/v/1CfVXVhTR6/` — "AI Hacking Tools So Powerful They Feel Illegal In 2026").
 - **Raw File Created:** `raw/articles/2026-10-01-ai-hacking-tools-intelligence-playbook-2026.md`
