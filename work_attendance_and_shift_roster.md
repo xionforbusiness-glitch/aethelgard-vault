@@ -65,16 +65,16 @@ Master timesheet, shift tracking, and duration metrics for [[03 Work Experience|
 ---
 
 ### 2. Khaled
-| Date | Log In | Log Out | Duration | Shift Notes |
-| :--- | :---: | :---: | :---: | :--- |
-| **2026-09-23** (Wed) | `06:30 AM` | `04:30 PM` | **10h 00m** | Early arrival flight handling (10.0 hrs). |
-| **2026-09-24** (Thu) | `08:00 AM` | `04:30 PM` | **8h 30m** | Standard daytime shift. |
-| **2026-09-25** (Fri) | `08:00 AM` | `04:30 PM` | **8h 30m** | Standard daytime shift. |
-| **2026-09-26** (Sat) | `08:00 AM` | `04:30 PM` | **8h 30m** | Standard daytime shift. |
-| **2026-09-27** (Sun) | `07:00 AM` | `04:00 PM` | **9h 00m** | Morning departure processing *(4:00 PM return)*. |
-| **2026-09-28** (Mon) | `07:00 AM` | `04:00 PM` | **9h 00m** | Morning departure processing *(4:00 PM return)*. |
-| **2026-09-29** (Tue) | `07:00 AM` | `04:00 PM` | **9h 00m** | Morning departure processing *(4:00 PM return)*. |
-| **Total** | — | — | **62h 30m** | `62.50 hrs` across 7 days |
+| Date                 |   Log In   |  Log Out   |  Duration   | Shift Notes                                      |
+| :------------------- | :--------: | :--------: | :---------: | :----------------------------------------------- |
+| **2026-09-23** (Wed) | `06:30 AM` | `04:30 PM` | **10h 00m** | Early arrival flight handling (10.0 hrs).        |
+| **2026-09-24** (Thu) | `08:00 AM` | `04:30 PM` | **8h 30m**  | Standard daytime shift.                          |
+| **2026-09-25** (Fri) | `08:00 AM` | `04:30 PM` | **8h 30m**  | Standard daytime shift.                          |
+| **2026-09-26** (Sat) | `08:00 AM` | `04:30 PM` | **8h 30m**  | Standard daytime shift.                          |
+| **2026-09-27** (Sun) | `07:00 AM` | `04:00 PM` | **9h 00m**  | Morning departure processing *(4:00 PM return)*. |
+| **2026-09-28** (Mon) | `07:00 AM` | `04:00 PM` | **9h 00m**  | Morning departure processing *(4:00 PM return)*. |
+| **2026-09-29** (Tue) | `07:00 AM` | `04:00 PM` | **9h 00m**  | Morning departure processing *(4:00 PM return)*. |
+| **Total**            |     —      |     —      | **62h 30m** | `62.50 hrs` across 7 days                        |
 
 ---
 

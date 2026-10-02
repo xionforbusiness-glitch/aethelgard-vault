@@ -65,7 +65,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Team Leaderboard",
+                "query": "work_attendance_and_shift_roste",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -198,6 +198,7 @@
   },
   "active": "dac06efd9ae26f08",
   "lastOpenFiles": [
+    "03 Work Experience.md",
     "work_attendance_and_shift_roster.md",
     "~$attendance_september_2026.xlsx",
     "attendance_september_2026.xlsx",
@@ -225,7 +226,6 @@
     "concepts/damascus-apartment-rental-guide.md",
     "concepts/ai-red-teaming-and-llm-hacking-playbook.md",
     "concepts/ai-powered-offensive-security-and-osint-playbook.md",
-    "03 Work Experience.md",
     "02 Projects.md",
     "01 Technical Skills.md",
     "00 Profile.md",
