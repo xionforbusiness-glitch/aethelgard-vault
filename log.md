@@ -3,6 +3,15 @@
 > Chronological, append-only record of all LLM Wiki actions (ingest, query, lint, update).
 > Format: `## [YYYY-MM-DD] action | subject`
 
+## [2026-10-02] update | October 2026 Shift Ingest (Yasmin, Tarek Orfhly, Rasheed Akel: Oct 01)
+- **Action:** Ingested October 1, 2026 shifts (`07:45 AM – 02:00 PM` = 6h 15m) for Yasmin, Tarek Orfhly, and Rasheed Akel.
+- **Files Created/Updated:** `raw/attendance_october_2026.csv`, `raw/attendance_september_2026.csv`, `work_attendance_and_shift_roster.md`.
+- **New Individual Totals:**
+  - **Rasheed Akel:** 72h 15m (72.25 hrs across 8 shifts).
+  - **Tarek Orfhly:** 60h 45m (60.75 hrs across 7 shifts).
+  - **Yasmin:** 58h 45m (58.75 hrs across 7 shifts).
+- **Cross-linked:** [[work_attendance_and_shift_roster]], [[03 Work Experience]], [[professional_work_history]], [[index]], [[log]]
+
 ## [2026-10-02] update | Full Team Shift Roster & 06:30 AM / 04:00 PM Final Normalization (10 Members)
 - **Action:** Standardized Wednesday 23/09 shifts to **06:30 AM – 04:00 PM (9h 30m)** and Sep 27–29 log out times to **04:00 PM (16:00)** across `work_attendance_and_shift_roster.md` and `raw/attendance_september_2026.csv`.
 - **Adjusted Final Team Totals (602h 40m Total Across 58 Shifts):**

@@ -48,7 +48,15 @@ Master timesheet, shift tracking, and duration metrics for [[03 Work Experience|
 
 ---
 
-## 👤 3. Individual Shift Timesheets (Final Standardized)
+## 🍁 3. October 2026 Shift Cycle (Oct 01 – Ongoing)
+
+| Date / Day | Yasmin | Tarek Orfhly | Rasheed Akel | Shift Focus & Notes |
+| :--- | :---: | :---: | :---: | :--- |
+| **Thu (01/10/2026)** | `07:45 → 14:00` *(6.25h)* | `07:45 → 14:00` *(6.25h)* | `07:45 → 14:00` *(6.25h)* | ✈️ Daytime airport station check-in & departure ops (6h 15m). |
+
+---
+
+## 👤 4. Individual Shift Timesheets (Detailed)
 
 ### 1. Omar Elnemr
 | Date | Log In | Log Out | Duration | Shift Notes |
