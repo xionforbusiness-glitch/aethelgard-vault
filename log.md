@@ -3,6 +3,15 @@
 > Chronological, append-only record of all LLM Wiki actions (ingest, query, lint, update).
 > Format: `## [YYYY-MM-DD] action | subject`
 
+## [2026-10-01] ingest | AI-Powered Offensive Security & Advanced OSINT (2026)
+- **Source:** Hacking Tutorials Daily Video (`https://www.facebook.com/share/v/1CfVXVhTR6/` — "AI Hacking Tools So Powerful They Feel Illegal In 2026").
+- **Raw File Created:** `raw/articles/2026-10-01-ai-hacking-tools-intelligence-playbook-2026.md`
+- **Concept Created:** `concepts/ai-powered-offensive-security-and-osint-playbook.md` (Deep dive into 7 AI security mechanisms: PimEyes CNN vector facial embeddings, Picarta.ai quadtree vision geolocation, Lenso.ai perceptual hashing & CLIP embeddings, Censys NLP query translation, ANY.RUN interactive sandboxing with AI MITRE narration, VirusTotal Code Insight semantic deobfuscation, and Threat Intelligence pivoting).
+- **Notes Updated:**
+  - `01 Technical Skills.md` (Added AI-Powered OSINT & Threat Intel in Section 3)
+  - `index.md` (Registered concept under Concepts, bumped total pages to 55)
+- **Cross-linked:** [[ai-powered-offensive-security-and-osint-playbook]], [[01 Technical Skills]], [[ai-red-teaming-and-llm-hacking-playbook]], [[top-13-offensive-security-and-red-teaming-tools]], [[wazuh-siem-xdr-deployment-guide]], [[index]], [[log]]
+
 ## [2026-10-01] ingest | Top 13 Offensive Security & Red Teaming Tools (Thom Code)
 - **Source:** Thom Code Video (`https://www.facebook.com/share/v/1DboQFbYXt/` — "I Tried 500+ Hacking Tools, These 13 Should Be ILLEGAL").
 - **Raw File Created:** `raw/articles/2026-10-01-thom-code-13-essential-hacking-tools-playbook.md`
