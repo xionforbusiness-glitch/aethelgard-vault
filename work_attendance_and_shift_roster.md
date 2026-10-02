@@ -12,7 +12,7 @@ contradictions: []
 
 # 🕒 Work Attendance & Team Shift Roster (September 2026)
 
-Master timesheet, shift tracking, and duration metrics for [[03 Work Experience|Omar Elnemr]] and all team colleagues (**Khaled**, **Rasheed Akel**, **Talal**, **Mohamed Adnan**, **Tarek Orfhly**, **Yasmeen**, **Joudi Alghorani**, **Hanan**) covering the operating cycle of **September 23 – September 29, 2026**.
+Master timesheet, shift tracking, and duration metrics for [[03 Work Experience|Omar Elnemr]] and all team colleagues (**Khaled**, **Rasheed Akel**, **Talal**, **Mohamed Adnan**, **Tarek Orfhly**, **Yasmeen**, **Joudi Alghorani**, **Hanan**, **Raboushee**) covering the operating cycle of **September 23 – September 29, 2026**.
 
 ---
 
@@ -25,25 +25,26 @@ Master timesheet, shift tracking, and duration metrics for [[03 Work Experience|
 | 🥉 | **Joudi Alghorani** | 7 days | 2 | 5 *(06:30, 07:00 & 03:15 AM starts)*| 0 | **66 hours 15 mins** | `66.25 hrs` | **9.46 hrs/day** |
 | 4 | **Hanan** | 7 days | 3 | 4 *(06:30, 07:00 & 03:30 AM starts)*| 0 | **66 hours 05 mins** | `66.08 hrs` | **9.44 hrs/day** |
 | 5 | **Khaled** | 7 days | 4 | 3 *(06:30 & 07:00 AM starts)* | 0 | **64 hours 00 mins** | `64.00 hrs` | **9.14 hrs/day** |
-| 6 | **Omar Elnemr** | 7 days | 5 | 2 *(07:20 start & 17:40 exit)* | 0 | **56 hours 40 mins** | `56.67 hrs` | **8.10 hrs/day** |
-| 7 | **Tarek Orfhly** | 6 days | 1 | 5 *(06:30 & 07:00 AM starts)* | 1 *(Fri)*| **56 hours 30 mins** | `56.50 hrs` | **9.42 hrs/day** |
-| 8 | **Yasmeen** | 6 days | 2 | 4 *(07:00 AM starts)* | 1 *(Sat)*| **52 hours 30 mins** | `52.50 hrs` | **8.75 hrs/day** |
-| 9 | **Talal** | 4 days | 0 | 4 *(03:00 AM & 07:00 AM starts)* | 3 *(Wed-Fri)*| **46 hours 00 mins** | `46.00 hrs` | **11.50 hrs/day** |
-| **🏆** | **Total Team Output** | **51 shifts** | **23** | **28** | **5** | **552 hours 10 mins** | `552.17 hrs` | **9.52 hrs/shift** |
+| 6 | **Raboushee** | 7 days | 3 | 4 *(06:30, 07:15 & 07:20 AM starts)*| 0 | **59 hours 00 mins** | `59.00 hrs` | **8.43 hrs/day** |
+| 7 | **Omar Elnemr** | 7 days | 5 | 2 *(07:20 start & 17:40 exit)* | 0 | **56 hours 40 mins** | `56.67 hrs` | **8.10 hrs/day** |
+| 8 | **Tarek Orfhly** | 6 days | 1 | 5 *(06:30 & 07:00 AM starts)* | 1 *(Fri)*| **56 hours 30 mins** | `56.50 hrs` | **9.42 hrs/day** |
+| 9 | **Yasmeen** | 6 days | 2 | 4 *(07:00 AM starts)* | 1 *(Sat)*| **52 hours 30 mins** | `52.50 hrs` | **8.75 hrs/day** |
+| 10 | **Talal** | 4 days | 0 | 4 *(03:00 AM & 07:00 AM starts)* | 3 *(Wed-Fri)*| **46 hours 00 mins** | `46.00 hrs` | **11.50 hrs/day** |
+| **🏆** | **Total Team Output** | **58 shifts** | **26** | **32** | **5** | **611 hours 10 mins** | `611.17 hrs` | **9.55 hrs/shift** |
 
 ---
 
 ## 📅 2. Cross-Colleague Daily Attendance Matrix (Sep 23 – 29, 2026)
 
-| Date / Day | Omar Elnemr | Khaled | Rasheed Akel | Talal | Mohamed Adnan | Tarek Orfhly | Yasmeen | Joudi Alghorani | Hanan |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **Wed (23/09)** | `07:20 → 15:50` *(8.5h)* | `06:30 → 16:30` *(10h)* | `06:30 → 16:30` *(10h)* | *Off* | `08:00 → 16:30` *(8.5h)* | `06:30 → 16:30` *(10h)* | `07:00 → 16:00` *(9.0h)* | `06:30 → 16:00` *(9.5h)* | `06:30 → 16:00` *(9.5h)* |
-| **Thu (24/09)** | `08:15 → 16:00` *(7.75h)*| `08:00 → 16:30` *(8.5h)* | `08:00 → 16:30` *(8.5h)* | *Off* | `08:00 → 16:30` *(8.5h)* | `08:00 → 16:30` *(8.5h)* | `08:00 → 16:00` *(8.0h)* | `08:00 → 16:00` *(8.0h)* | `08:10 → 16:00` *(7.83h)*|
-| **Fri (25/09)** | `08:15 → 17:40` *(9.42h)*| `08:00 → 16:30` *(8.5h)* | `08:00 → 16:30` *(8.5h)* | *Off* | `08:00 → 16:30` *(8.5h)* | **OFF** | `08:00 → 16:00` *(8.0h)* | `08:00 → 16:00` *(8.0h)* | `08:15 → 16:00` *(7.75h)*|
-| **Sat (26/09)** | `08:15 → 16:00` *(7.75h)*| `08:00 → 16:30` *(8.5h)* | `08:00 → 16:30` *(8.5h)* | `07:00 → 16:30` *(9.5h)* | `03:40 → 16:30` *(12.83h)*| `07:00 → 16:30` *(9.5h)* | **OFF** | `03:15 → 16:30` *(13.25h)*| `03:30 → 16:30` *(13.0h)* |
-| **Sun (27/09)** | `08:15 → 16:00` *(7.75h)*| `07:00 → 16:30` *(9.5h)* | `07:00 → 16:30` *(9.5h)* | `03:00 → 16:30` *(13.5h)*| `03:40 → 16:30` *(12.83h)*| `07:00 → 16:30` *(9.5h)* | `07:00 → 16:00` *(9.0h)* | `07:00 → 16:30` *(9.5h)* | `07:00 → 16:30` *(9.5h)* |
-| **Mon (28/09)** | `08:15 → 16:00` *(7.75h)*| `07:00 → 16:30` *(9.5h)* | `07:00 → 16:30` *(9.5h)* | `07:00 → 16:30` *(9.5h)* | `04:00 → 16:30` *(12.5h)* | `07:00 → 16:30` *(9.5h)* | `07:00 → 16:00` *(9.0h)* | `07:00 → 16:00` *(9.0h)* | `07:00 → 16:30` *(9.5h)* |
-| **Tue (29/09)** | `08:15 → 16:00` *(7.75h)*| `07:00 → 16:30` *(9.5h)* | `03:00 → 16:30` *(13.5h)*| `03:00 → 16:30` *(13.5h)*| `04:00 → 16:30` *(12.5h)* | `07:00 → 16:30` *(9.5h)* | `07:00 → 16:30` *(9.5h)* | `07:00 → 16:00` *(9.0h)* | `07:00 → 16:00` *(9.0h)* |
+| Date / Day | Omar Elnemr | Khaled | Rasheed Akel | Talal | Mohamed Adnan | Tarek Orfhly | Yasmeen | Joudi Alghorani | Hanan | Raboushee |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Wed (23/09)** | `07:20 → 15:50` *(8.5h)* | `06:30 → 16:30` *(10h)* | `06:30 → 16:30` *(10h)* | *Off* | `08:00 → 16:30` *(8.5h)* | `06:30 → 16:30` *(10h)* | `07:00 → 16:00` *(9.0h)* | `06:30 → 16:00` *(9.5h)* | `06:30 → 16:00` *(9.5h)* | `06:30 → 16:00` *(9.5h)* |
+| **Thu (24/09)** | `08:15 → 16:00` *(7.75h)*| `08:00 → 16:30` *(8.5h)* | `08:00 → 16:30` *(8.5h)* | *Off* | `08:00 → 16:30` *(8.5h)* | `08:00 → 16:30` *(8.5h)* | `08:00 → 16:00` *(8.0h)* | `08:00 → 16:00` *(8.0h)* | `08:10 → 16:00` *(7.83h)*| `08:20 → 16:00` *(7.67h)*|
+| **Fri (25/09)** | `08:15 → 17:40` *(9.42h)*| `08:00 → 16:30` *(8.5h)* | `08:00 → 16:30` *(8.5h)* | *Off* | `08:00 → 16:30` *(8.5h)* | **OFF** | `08:00 → 16:00` *(8.0h)* | `08:00 → 16:00` *(8.0h)* | `08:15 → 16:00` *(7.75h)*| `08:15 → 15:45` *(7.5h)* |
+| **Sat (26/09)** | `08:15 → 16:00` *(7.75h)*| `08:00 → 16:30` *(8.5h)* | `08:00 → 16:30` *(8.5h)* | `07:00 → 16:30` *(9.5h)* | `03:40 → 16:30` *(12.83h)*| `07:00 → 16:30` *(9.5h)* | **OFF** | `03:15 → 16:30` *(13.25h)*| `03:30 → 16:30` *(13.0h)* | `08:15 → 16:30` *(8.25h)*|
+| **Sun (27/09)** | `08:15 → 16:00` *(7.75h)*| `07:00 → 16:30` *(9.5h)* | `07:00 → 16:30` *(9.5h)* | `03:00 → 16:30` *(13.5h)*| `03:40 → 16:30` *(12.83h)*| `07:00 → 16:30` *(9.5h)* | `07:00 → 16:00` *(9.0h)* | `07:00 → 16:30` *(9.5h)* | `07:00 → 16:30` *(9.5h)* | `07:15 → 16:00` *(8.75h)*|
+| **Mon (28/09)** | `08:15 → 16:00` *(7.75h)*| `07:00 → 16:30` *(9.5h)* | `07:00 → 16:30` *(9.5h)* | `07:00 → 16:30` *(9.5h)* | `04:00 → 16:30` *(12.5h)* | `07:00 → 16:30` *(9.5h)* | `07:00 → 16:00` *(9.0h)* | `07:00 → 16:00` *(9.0h)* | `07:00 → 16:30` *(9.5h)* | `07:20 → 16:00` *(8.67h)*|
+| **Tue (29/09)** | `08:15 → 16:00` *(7.75h)*| `07:00 → 16:30` *(9.5h)* | `03:00 → 16:30` *(13.5h)*| `03:00 → 16:30` *(13.5h)*| `04:00 → 16:30` *(12.5h)* | `07:00 → 16:30` *(9.5h)* | `07:00 → 16:30` *(9.5h)* | `07:00 → 16:00` *(9.0h)* | `07:00 → 16:00` *(9.0h)* | `07:20 → 16:00` *(8.67h)*|
 
 ---
 
@@ -114,12 +115,26 @@ Master timesheet, shift tracking, and duration metrics for [[03 Work Experience|
 | **2026-09-26** (Sat) | `03:30 AM` | `04:30 PM` | **13h 00m** | ✈️ Early dawn flight check-in & departure (13.0 hrs). |
 | **2026-09-27** (Sun) | `07:00 AM` | `04:30 PM` | **9h 30m** | Morning departure processing (9.5 hrs). |
 | **2026-09-28** (Mon) | `07:00 AM` | `04:30 PM` | **9h 30m** | Morning departure processing (9.5 hrs). |
-| **2026-09-29** (Tue) | `07:00 AM` | `04:00 PM` | **9h 00m** | Morning departure processing (9.0 hrs) *(New)* |
+| **2026-09-29** (Tue) | `07:00 AM` | `04:00 PM` | **9h 00m** | Morning departure processing (9.0 hrs). |
 | **Total** | — | — | **66h 05m** | `66.08 hrs` across 7 days |
 
 ---
 
-### 6. Mohamed Adnan
+### 6. Raboushee
+| Date | Log In | Log Out | Duration | Shift Notes |
+| :--- | :---: | :---: | :---: | :--- |
+| **2026-09-23** (Wed) | `06:30 AM` | `04:00 PM` | **9h 30m** | Early morning flight shift (9.5 hrs). |
+| **2026-09-24** (Thu) | `08:20 AM` | `04:00 PM` | **7h 40m** | Standard daytime shift (7h 40m). |
+| **2026-09-25** (Fri) | `08:15 AM` | `03:45 PM` | **7h 30m** | Standard daytime shift (7h 30m). |
+| **2026-09-26** (Sat) | `08:15 AM` | `04:30 PM` | **8h 15m** | Standard daytime shift (8h 15m). |
+| **2026-09-27** (Sun) | `07:15 AM` | `04:00 PM` | **8h 45m** | Morning departure processing (8h 45m). |
+| **2026-09-28** (Mon) | `07:20 AM` | `04:00 PM` | **8h 40m** | Morning departure processing (8h 40m). |
+| **2026-09-29** (Tue) | `07:20 AM` | `04:00 PM` | **8h 40m** | Morning departure processing (8h 40m). |
+| **Total** | — | — | **59h 00m** | `59.00 hrs` across 7 days |
+
+---
+
+### 7. Mohamed Adnan
 | Date | Log In | Log Out | Duration | Shift Notes |
 | :--- | :---: | :---: | :---: | :--- |
 | **2026-09-23** (Wed) | `08:00 AM` | `04:30 PM` | **8h 30m** | Standard shift. |
@@ -133,7 +148,7 @@ Master timesheet, shift tracking, and duration metrics for [[03 Work Experience|
 
 ---
 
-### 7. Tarek Orfhly
+### 8. Tarek Orfhly
 | Date | Log In | Log Out | Duration | Shift Notes |
 | :--- | :---: | :---: | :---: | :--- |
 | **2026-09-23** (Wed) | `06:30 AM` | `04:30 PM` | **10h 00m** | Early arrival flight handling (10.0 hrs). |
@@ -147,7 +162,7 @@ Master timesheet, shift tracking, and duration metrics for [[03 Work Experience|
 
 ---
 
-### 8. Yasmeen
+### 9. Yasmeen
 | Date | Log In | Log Out | Duration | Shift Notes |
 | :--- | :---: | :---: | :---: | :--- |
 | **2026-09-23** (Wed) | `07:00 AM` | `04:00 PM` | **9h 00m** | Morning flight shift. |
@@ -161,7 +176,7 @@ Master timesheet, shift tracking, and duration metrics for [[03 Work Experience|
 
 ---
 
-### 9. Talal
+### 10. Talal
 | Date | Log In | Log Out | Duration | Shift Notes |
 | :--- | :---: | :---: | :---: | :--- |
 | **2026-09-23** (Wed) | — | — | **0h 00m** | Off / Not scheduled. |
@@ -178,5 +193,5 @@ Master timesheet, shift tracking, and duration metrics for [[03 Work Experience|
 ## 🔗 Related Notes & Data Exports
 - [[03 Work Experience]] — Professional work summary and airport operations.
 - [[professional_work_history]] — Station ground handling, check-in operations, and DCS systems.
-- **CSV Data Sheet:** `raw/attendance_september_2026.csv` (Complete dataset containing all 51 shift logs ready for Excel/Sheets).
+- **CSV Data Sheet:** `raw/attendance_september_2026.csv` (Complete dataset containing all 58 shift logs ready for Excel/Sheets).
 - **Screenshot Asset:** `raw/assets/rasheed_akel_schedule_september_2026.jpg`
