@@ -88,7 +88,8 @@ Master timesheet, shift tracking, and duration metrics for [[03 Work Experience|
 | **2026-09-27** (Sun) | `07:00 AM` | `04:00 PM` | **9h 00m** | Morning departure processing *(4:00 PM return)*. |
 | **2026-09-28** (Mon) | `07:00 AM` | `04:00 PM` | **9h 00m** | Morning departure processing *(4:00 PM return)*. |
 | **2026-09-29** (Tue) | `03:00 AM` | `04:00 PM` | **13h 00m** | ✈️ Early dawn flight departure handling *(4:00 PM return)*. |
-| **Total** | — | — | **66h 00m** | `66.00 hrs` across 7 days |
+| **2026-10-01** (Thu) | `07:45 AM` | `02:00 PM` | **6h 15m** | ✈️ Daytime airport station flight handling *(6.25 hrs)*. |
+| **Total** | — | — | **72h 15m** | `72.25 hrs` across 8 shifts (Sep: 66.0h + Oct: 6.25h) |
 
 ---
 
@@ -158,7 +159,8 @@ Master timesheet, shift tracking, and duration metrics for [[03 Work Experience|
 | **2026-09-27** (Sun) | `07:00 AM` | `04:00 PM` | **9h 00m** | Morning flight shift *(4:00 PM return)*. |
 | **2026-09-28** (Mon) | `07:00 AM` | `04:00 PM` | **9h 00m** | Morning flight shift *(4:00 PM return)*. |
 | **2026-09-29** (Tue) | `07:00 AM` | `04:00 PM` | **9h 00m** | Morning flight shift *(4:00 PM return)*. |
-| **Total** | — | — | **54h 30m** | `54.50 hrs` across 6 working days |
+| **2026-10-01** (Thu) | `07:45 AM` | `02:00 PM` | **6h 15m** | ✈️ Daytime airport station flight handling *(6.25 hrs)*. |
+| **Total** | — | — | **60h 45m** | `60.75 hrs` across 7 shifts (Sep: 54.5h + Oct: 6.25h) |
 
 ---
 
@@ -172,7 +174,8 @@ Master timesheet, shift tracking, and duration metrics for [[03 Work Experience|
 | **2026-09-27** (Sun) | `07:00 AM` | `04:00 PM` | **9h 00m** | Morning flight shift. |
 | **2026-09-28** (Mon) | `07:00 AM` | `04:00 PM` | **9h 00m** | Morning flight shift. |
 | **2026-09-29** (Tue) | `07:00 AM` | `04:00 PM` | **9h 00m** | Morning flight shift *(4:00 PM return)*. |
-| **Total** | — | — | **52h 30m** | `52.50 hrs` across 6 working days |
+| **2026-10-01** (Thu) | `07:45 AM` | `02:00 PM` | **6h 15m** | ✈️ Daytime airport station flight handling *(6.25 hrs)*. |
+| **Total** | — | — | **58h 45m** | `58.75 hrs` across 7 shifts (Sep: 52.5h + Oct: 6.25h) |
 
 ---
 

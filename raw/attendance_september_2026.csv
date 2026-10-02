@@ -66,3 +66,6 @@ Date,Day,Employee,Log_In,Log_Out,Duration_Formatted,Decimal_Hours,Status,Notes
 2026-09-27,Sunday,Raboushee,07:15 AM,04:00 PM,8h 45m,8.75,Morning,Morning departure processing (8h 45m)
 2026-09-28,Monday,Raboushee,07:20 AM,04:00 PM,8h 40m,8.67,Morning,Morning departure processing (8h 40m)
 2026-09-29,Tuesday,Raboushee,07:20 AM,04:00 PM,8h 40m,8.67,Morning,Morning departure processing (8h 40m)
+2026-10-01,Thursday,Yasmin,07:45 AM,02:00 PM,6h 15m,6.25,Daytime,Daytime airport station shift (6h 15m)
+2026-10-01,Thursday,Tarek Orfhly,07:45 AM,02:00 PM,6h 15m,6.25,Daytime,Daytime airport station shift (6h 15m)
+2026-10-01,Thursday,Rasheed Akel,07:45 AM,02:00 PM,6h 15m,6.25,Daytime,Daytime airport station shift (6h 15m)
