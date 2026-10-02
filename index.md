@@ -102,3 +102,8 @@
 - [[ui-ux-resources-batch-2026-09-20|Ui Ux Resources Batch 2026 09 20]] (`raw\articles`)
 - [[youtube-7CKYk8FX6UY-selling-ai-automations-roi|Youtube 7Ckyk8Fx6Uy Selling Ai Automations Roi]] (`raw\transcripts`)
 - [[2026-W40-executive-review|2026 W40 Executive Review]] (`reviews`)
+
+
+## 📚 Newly Ingested & Cataloged Notes (Automated Librarian)
+
+- [[2026-10-expenses|2026 10 Expenses]] (`finances`)
