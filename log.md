@@ -3,6 +3,16 @@
 > Chronological, append-only record of all LLM Wiki actions (ingest, query, lint, update).
 > Format: `## [YYYY-MM-DD] action | subject`
 
+## [2026-10-02] upgrade | Runway Windshear & Crosswind Vector Engine Deployment
+- **Authorization:** `runway_windshear_analyzer` engine upgrade authorized by Omar Elnemr.
+- **Engine Script Created:** `scripts/runway_windshear_analyzer.py` (Implements ICAO Doc 9817 LLWAS models, NASA/FAA Bowles F-Factor hazard indices, headwind/crosswind/tailwind decompositions, wet/dry runway fleet limits for B777/A320/B787/A330, and Damascus International Airport OSDI/DAM 05R/23L & 05L/23R runway configurations).
+- **Concept Created:** `concepts/runway-windshear-and-crosswind-analyzer.md`.
+- **Notes Updated:**
+  - `01 Technical Skills.md` (Added Section 7: Aviation Systems & Flight Operations Engineering).
+  - `index.md` (Registered concept under Concepts, updated catalog).
+- **Files Modified/Created:** `scripts/runway_windshear_analyzer.py`, `concepts/runway-windshear-and-crosswind-analyzer.md`, `01 Technical Skills.md`, `index.md`, `log.md`.
+- **Cross-linked:** [[runway-windshear-and-crosswind-analyzer]], [[aviation_ground_operations_dcs_guide]], [[03 Work Experience]], [[01 Technical Skills]], [[index]], [[log]]
+
 ## [2026-10-02] lint | Vault Health Audit & Link Graph Diagnostics
 - **Action:** Executed full vault health check and linting pass across all 75 markdown notes.
 - **Findings:**
