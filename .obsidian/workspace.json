@@ -198,6 +198,7 @@
   },
   "active": "2412d150b93c69b3",
   "lastOpenFiles": [
+    "attendance_september_2026.xlsx",
     "raw/attendance_september_2026.csv",
     "raw/assets/rasheed_akel_schedule_september_2026.jpg",
     "raw/assets/neuron_visuals_fui_motion_style.jpg",
@@ -241,7 +242,6 @@
     "_archive",
     "queries",
     "comparisons",
-    "concepts",
-    "concepts/entities"
+    "concepts"
   ]
 }
