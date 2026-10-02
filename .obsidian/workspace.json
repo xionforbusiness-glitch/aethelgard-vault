@@ -8,7 +8,21 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2412d150b93c69b3",
+            "id": "dac06efd9ae26f08",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "work_attendance_and_shift_roster.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "work_attendance_and_shift_roster"
+            }
+          },
+          {
+            "id": "0b15ec98abce57c7",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -51,7 +65,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "work_attendance_and_shift_roste",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -75,11 +89,12 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 211.90000915527344
+    "width": 200
   },
   "right": {
     "id": "3c80e166ed35b3f8",
@@ -181,8 +196,37 @@
       "bases:Create new base": false
     }
   },
-  "active": "2412d150b93c69b3",
+  "active": "dac06efd9ae26f08",
   "lastOpenFiles": [
+    "attendance_september_2026_standardized.xlsx",
+    "03 Work Experience.md",
+    "work_attendance_and_shift_roster.md",
+    "~$attendance_september_2026.xlsx",
+    "attendance_september_2026.xlsx",
+    "raw/attendance_september_2026.csv",
+    "raw/assets/rasheed_akel_schedule_september_2026.jpg",
+    "raw/assets/neuron_visuals_fui_motion_style.jpg",
+    "raw/assets/networkchuck_vanta_compliance_screenshot.jpg",
+    "raw/assets/networkchuck_ai_hacker_screenshot.jpg",
+    "raw/assets/komemaru_japanese_restaurant_damascus.jpg",
+    "raw/assets/hermes_agent_desktop_status.png",
+    "raw/articles/2026-10-01-vanta-automated-compliance-soc2-iso27001.md",
+    "raw/articles/2026-10-01-thom-code-13-essential-hacking-tools-playbook.md",
+    "raw/articles/2026-10-01-ssd-streaming-744b-model-inference-colibri.md",
+    "raw/articles/2026-10-01-neuronvisuals-fui-motion-graphics-breakdown.md",
+    "raw/articles/2026-10-01-networkchuck-wazuh-siem-xdr-guide.md",
+    "raw/articles/2026-10-01-networkchuck-become-an-ai-hacker-roadmap.md",
+    "raw/articles/2026-10-01-komemaru-japanese-restaurant-damascus-mashrou-dummar.md",
+    "raw/articles/2026-10-01-ai-hacking-tools-intelligence-playbook-2026.md",
+    "entities/komemaru-japanese-restaurant-damascus.md",
+    "concepts/wazuh-siem-xdr-deployment-guide.md",
+    "concepts/vanta-automated-security-compliance.md",
+    "concepts/top-13-offensive-security-and-red-teaming-tools.md",
+    "concepts/ssd-layer-streaming-moe-inference.md",
+    "concepts/kinetic-fui-motion-design-playbook.md",
+    "concepts/damascus-apartment-rental-guide.md",
+    "concepts/ai-red-teaming-and-llm-hacking-playbook.md",
+    "concepts/ai-powered-offensive-security-and-osint-playbook.md",
     "02 Projects.md",
     "01 Technical Skills.md",
     "00 Profile.md",
@@ -190,37 +234,14 @@
     "2026-09-21.md",
     "concepts/ai-automation-business-roi-framework.md",
     "raw/articles/ui-ux-resources-batch-2026-09-20.md",
-    "concepts/macrodroid-doomscroll-overseer.md",
-    "raw/articles/20260921_macrodroid_doomscroll_overseer_macro.md",
     "raw/assets/20260921_macrodroid_doomscroll_macro_config.jpg",
-    "concepts/laya-system-1-decision-engine.md",
-    "index.md",
     "scripts/overseer_dashboard.html",
     "scripts/test_overseer_evaluation.py",
-    "raw/articles/aitmpl-claude-code-plugins-directory.md",
-    "raw/articles/findquestions-com-seo-tool.md",
-    "raw/articles/2026-09-21-laya-system1-decision-model-open-source.md",
-    "ECC.md",
-    "concepts/laya-system-1-installation-deployment-plan.md",
-    "comparisons/laya-vs-typesafe-jev.md",
-    "entities/typesafe-ai-jev.md",
     "entities",
     "raw/assets/20260921_laya_vs_jev_system1_decision_model.jpg",
     "scripts/overseer_bridge.py",
     "scripts",
-    "personal_biography_education.md",
-    "raw/articles/n8n-workflow-automation.md",
-    "vault_index_dashboard.md",
-    "technical_skills_knowledge_base.md",
-    "sea_of_conquest_tactical_guide.md",
-    "SCHEMA.md",
-    "arabic_tracing_engine_architecture.md",
-    "concepts/claude-code-plugins-ecosystem.md",
-    "concepts/n8n-workflow-automation.md",
     "_archive",
-    "queries",
-    "comparisons",
-    "concepts",
-    "concepts/entities"
+    "queries"
   ]
 }
