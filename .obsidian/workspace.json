@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2412d150b93c69b3",
+            "id": "dac06efd9ae26f08",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -196,8 +196,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "2412d150b93c69b3",
+  "active": "dac06efd9ae26f08",
   "lastOpenFiles": [
+    "work_attendance_and_shift_roster.md",
     "~$attendance_september_2026.xlsx",
     "attendance_september_2026.xlsx",
     "raw/attendance_september_2026.csv",
@@ -224,7 +225,6 @@
     "concepts/damascus-apartment-rental-guide.md",
     "concepts/ai-red-teaming-and-llm-hacking-playbook.md",
     "concepts/ai-powered-offensive-security-and-osint-playbook.md",
-    "work_attendance_and_shift_roster.md",
     "03 Work Experience.md",
     "02 Projects.md",
     "01 Technical Skills.md",
@@ -241,7 +241,6 @@
     "scripts/overseer_bridge.py",
     "scripts",
     "_archive",
-    "queries",
-    "comparisons"
+    "queries"
   ]
 }
