@@ -81,3 +81,23 @@
 
 ## 🔍 Queries & Syntheses
 <!-- Dynamically populated during LLM Wiki Query -->
+
+
+## 📚 Newly Ingested & Cataloged Notes (Automated Librarian)
+
+- [[2026-09-21-laya-system1-decision-model-open-source|2026 09 21 Laya System1 Decision Model Open Source]] (`raw\articles`)
+- [[2026-09-30-facebook-reels-ingest-batch|2026 09 30 Facebook Reels Ingest Batch]] (`raw\articles`)
+- [[2026-10-01-ai-hacking-tools-intelligence-playbook-2026|2026 10 01 Ai Hacking Tools Intelligence Playbook 2026]] (`raw\articles`)
+- [[2026-10-01-komemaru-japanese-restaurant-damascus-mashrou-dummar|2026 10 01 Komemaru Japanese Restaurant Damascus Mashrou Dummar]] (`raw\articles`)
+- [[2026-10-01-networkchuck-become-an-ai-hacker-roadmap|2026 10 01 Networkchuck Become An Ai Hacker Roadmap]] (`raw\articles`)
+- [[2026-10-01-networkchuck-wazuh-siem-xdr-guide|2026 10 01 Networkchuck Wazuh Siem Xdr Guide]] (`raw\articles`)
+- [[2026-10-01-neuronvisuals-fui-motion-graphics-breakdown|2026 10 01 Neuronvisuals Fui Motion Graphics Breakdown]] (`raw\articles`)
+- [[2026-10-01-ssd-streaming-744b-model-inference-colibri|2026 10 01 Ssd Streaming 744B Model Inference Colibri]] (`raw\articles`)
+- [[2026-10-01-thom-code-13-essential-hacking-tools-playbook|2026 10 01 Thom Code 13 Essential Hacking Tools Playbook]] (`raw\articles`)
+- [[2026-10-01-vanta-automated-compliance-soc2-iso27001|2026 10 01 Vanta Automated Compliance Soc2 Iso27001]] (`raw\articles`)
+- [[20260921_macrodroid_doomscroll_overseer_macro|20260921 Macrodroid Doomscroll Overseer Macro]] (`raw\articles`)
+- [[aitmpl-claude-code-plugins-directory|Aitmpl Claude Code Plugins Directory]] (`raw\articles`)
+- [[kaggle-llm-backend-deployment-guide|Kaggle Llm Backend Deployment Guide]] (`raw\articles`)
+- [[ui-ux-resources-batch-2026-09-20|Ui Ux Resources Batch 2026 09 20]] (`raw\articles`)
+- [[youtube-7CKYk8FX6UY-selling-ai-automations-roi|Youtube 7Ckyk8Fx6Uy Selling Ai Automations Roi]] (`raw\transcripts`)
+- [[2026-W40-executive-review|2026 W40 Executive Review]] (`reviews`)
