@@ -3,6 +3,15 @@
 > Chronological, append-only record of all LLM Wiki actions (ingest, query, lint, update).
 > Format: `## [YYYY-MM-DD] action | subject`
 
+## [2026-10-01] ingest | Top 13 Offensive Security & Red Teaming Tools (Thom Code)
+- **Source:** Thom Code Video (`https://www.facebook.com/share/v/1DboQFbYXt/` — "I Tried 500+ Hacking Tools, These 13 Should Be ILLEGAL").
+- **Raw File Created:** `raw/articles/2026-10-01-thom-code-13-essential-hacking-tools-playbook.md`
+- **Concept Created:** `concepts/top-13-offensive-security-and-red-teaming-tools.md` (Curated 4-phase attack lifecycle blueprint: Shodan/Maltego OSINT, BBOT/CloudFox cloud attack surfaces, Evilginx3 MitM MFA bypass, Caido Rust web proxy, Nuclei scanner, BloodHound AD attack graphs, and CyberChef deobfuscation).
+- **Notes Updated:**
+  - `01 Technical Skills.md` (Added Offensive Security & Red Teaming link in Section 3)
+  - `index.md` (Registered concept under Concepts, bumped total pages to 54)
+- **Cross-linked:** [[top-13-offensive-security-and-red-teaming-tools]], [[01 Technical Skills]], [[ai-red-teaming-and-llm-hacking-playbook]], [[wazuh-siem-xdr-deployment-guide]], [[networking_wireshark_playbook]], [[index]], [[log]]
+
 ## [2026-10-01] query & guide | Damascus Apartment Rental Intelligence ($100–$250/mo)
 - **Subject:** Unfurnished apartment rental market analysis in Damascus and connected suburbs within $100–$250 USD/month.
 - **Concept Created:** `concepts/damascus-apartment-rental-guide.md` (Neighborhood tier breakdowns across Dahiyet Qudsaya, Rukn al-Din, Midan, Barzeh, Jaramana, critical power/ampere & water infrastructure audits, contract norms, and broker search methods).

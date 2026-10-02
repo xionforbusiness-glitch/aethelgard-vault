@@ -21,6 +21,7 @@ updated: 2026-09-30
 
 ## 3. Systems, Security & Automation
 - **OS & CLI:** Linux terminal mastery, shell automation scripts ([[linux_cli_bash_automation_reference]]), process management
+- **Offensive Security & Red Teaming:** [[top-13-offensive-security-and-red-teaming-tools|Top 13 Offensive Security Tools]] — Recon/OSINT (Shodan, Maltego), cloud attack paths (CloudFox, BBOT), exploitation (Evilginx3, Nuclei), and Active Directory domination (BloodHound).
 - **SIEM & Endpoint Security:** [[wazuh-siem-xdr-deployment-guide|Wazuh SIEM & XDR]] — Endpoint detection, File Integrity Monitoring (FIM), vulnerability scanning, and Active Response automated IP blocking.
 - **Security Compliance & Trust:** [[vanta-automated-security-compliance|Vanta Automated Security Compliance]] — Continuous compliance automation, SOC 2 / ISO 27001 evidence pipelines, and Trust Centers.
 - **Networking & Packet Analysis:** [[networking_wireshark_playbook|Wireshark]] protocol analysis, handshake debugging, latency troubleshooting

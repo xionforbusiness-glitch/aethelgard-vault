@@ -2,7 +2,7 @@
 
 > Comprehensive content catalog for the Aethelgard Obsidian Vault & LLM Wiki.
 > Read this first to locate notes, entities, concepts, and technical playbooks.
-> Last updated: 2026-10-01 | Total pages: 53
+> Last updated: 2026-10-01 | Total pages: 54
 
 ## 🧭 Maps of Content & Core Dashboards
 - [[vault_index_dashboard]] — Central navigation hub and high-level map of content.
@@ -56,6 +56,7 @@
 - [[ECC]] — Everything Claude Code: comprehensive agent harness and prompt optimization toolkit.
 
 ## 💡 Concepts
+- [[top-13-offensive-security-and-red-teaming-tools]] — Top 13 offensive security, OSINT, and penetration testing tools across 4 phases: Shodan, Maltego, BBOT, CloudFox, Evilginx3 (MFA bypass), Caido, Nuclei, and BloodHound (AD graphs).
 - [[damascus-apartment-rental-guide]] — Damascus apartment rental intelligence ($100–$250/mo unfurnished): neighborhood pricing tiers (Dahiyet Qudsaya, Rukn al-Din, Midan, Jaramana), ampere/solar power audits, and broker strategies.
 - [[ai-red-teaming-and-llm-hacking-playbook]] — AI Red Teaming & LLM Hacking playbook: prompt injection vectors, jailbreak engineering, OWASP Top 10 for LLMs, automated scanner tooling (`garak`, `PyRIT`, `promptfoo`), and interactive practice CTFs.
 - [[vanta-automated-security-compliance]] — Automated security compliance architecture: SOC 2 Type I/II, ISO 27001, continuous API evidence gathering, Vanta Agent endpoint tracking, and enterprise Trust Centers.
