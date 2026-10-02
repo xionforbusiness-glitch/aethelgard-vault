@@ -52,7 +52,7 @@ Master timesheet, shift tracking, and duration metrics for [[03 Work Experience|
 
 | Date / Day | Yasmin | Tarek Orfhly | Rasheed Akel | Shift Focus & Notes |
 | :--- | :---: | :---: | :---: | :--- |
-| **Thu (01/10/2026)** | `07:45 → 14:00` *(6.25h)* | `07:45 → 14:00` *(6.25h)* | `07:45 → 14:00` *(6.25h)* | ✈️ Daytime airport station check-in & departure ops (6h 15m). |
+| **Thu (01/10/2026)** | `07:45 → 14:00` *(6.25h)* | `07:45 → 14:00` *(6.25h)* | `07:45 → 14:00` *(6.25h)* | 🎓 Saudia (Saudi Arabian Airlines) Training Session (6h 15m). |
 
 ---
 
@@ -96,7 +96,7 @@ Master timesheet, shift tracking, and duration metrics for [[03 Work Experience|
 | **2026-09-27** (Sun) | `07:00 AM` | `04:00 PM` | **9h 00m** | Morning departure processing *(4:00 PM return)*. |
 | **2026-09-28** (Mon) | `07:00 AM` | `04:00 PM` | **9h 00m** | Morning departure processing *(4:00 PM return)*. |
 | **2026-09-29** (Tue) | `03:00 AM` | `04:00 PM` | **13h 00m** | ✈️ Early dawn flight departure handling *(4:00 PM return)*. |
-| **2026-10-01** (Thu) | `07:45 AM` | `02:00 PM` | **6h 15m** | ✈️ Daytime airport station flight handling *(6.25 hrs)*. |
+| **2026-10-01** (Thu) | `07:45 AM` | `02:00 PM` | **6h 15m** | 🎓 Saudia (Saudi Arabian Airlines) Training Session *(6.25 hrs)*. |
 | **Total** | — | — | **72h 15m** | `72.25 hrs` across 8 shifts (Sep: 66.0h + Oct: 6.25h) |
 
 ---
@@ -167,7 +167,7 @@ Master timesheet, shift tracking, and duration metrics for [[03 Work Experience|
 | **2026-09-27** (Sun) | `07:00 AM` | `04:00 PM` | **9h 00m** | Morning flight shift *(4:00 PM return)*. |
 | **2026-09-28** (Mon) | `07:00 AM` | `04:00 PM` | **9h 00m** | Morning flight shift *(4:00 PM return)*. |
 | **2026-09-29** (Tue) | `07:00 AM` | `04:00 PM` | **9h 00m** | Morning flight shift *(4:00 PM return)*. |
-| **2026-10-01** (Thu) | `07:45 AM` | `02:00 PM` | **6h 15m** | ✈️ Daytime airport station flight handling *(6.25 hrs)*. |
+| **2026-10-01** (Thu) | `07:45 AM` | `02:00 PM` | **6h 15m** | 🎓 Saudia (Saudi Arabian Airlines) Training Session *(6.25 hrs)*. |
 | **Total** | — | — | **60h 45m** | `60.75 hrs` across 7 shifts (Sep: 54.5h + Oct: 6.25h) |
 
 ---
@@ -182,7 +182,7 @@ Master timesheet, shift tracking, and duration metrics for [[03 Work Experience|
 | **2026-09-27** (Sun) | `07:00 AM` | `04:00 PM` | **9h 00m** | Morning flight shift. |
 | **2026-09-28** (Mon) | `07:00 AM` | `04:00 PM` | **9h 00m** | Morning flight shift. |
 | **2026-09-29** (Tue) | `07:00 AM` | `04:00 PM` | **9h 00m** | Morning flight shift *(4:00 PM return)*. |
-| **2026-10-01** (Thu) | `07:45 AM` | `02:00 PM` | **6h 15m** | ✈️ Daytime airport station flight handling *(6.25 hrs)*. |
+| **2026-10-01** (Thu) | `07:45 AM` | `02:00 PM` | **6h 15m** | 🎓 Saudia (Saudi Arabian Airlines) Training Session *(6.25 hrs)*. |
 | **Total** | — | — | **58h 45m** | `58.75 hrs` across 7 shifts (Sep: 52.5h + Oct: 6.25h) |
 
 ---

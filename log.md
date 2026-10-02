@@ -3,10 +3,10 @@
 > Chronological, append-only record of all LLM Wiki actions (ingest, query, lint, update).
 > Format: `## [YYYY-MM-DD] action | subject`
 
-## [2026-10-02] update | October 2026 Shift Ingest (Yasmin, Tarek Orfhly, Rasheed Akel: Oct 01)
-- **Action:** Ingested October 1, 2026 shifts (`07:45 AM – 02:00 PM` = 6h 15m) for Yasmin, Tarek Orfhly, and Rasheed Akel.
-- **Files Created/Updated:** `raw/attendance_october_2026.csv`, `raw/attendance_september_2026.csv`, `work_attendance_and_shift_roster.md`.
-- **New Individual Totals:**
+## [2026-10-02] update | October 2026 Shift Ingest (Saudia Airlines Training Session — Oct 01)
+- **Action:** Updated October 1, 2026 shift logs (`07:45 AM – 02:00 PM` = 6h 15m) for Yasmin, Tarek Orfhly, and Rasheed Akel to specify **Saudia (Saudi Arabian Airlines) Training Session**.
+- **Files Updated:** `raw/attendance_october_2026.csv`, `raw/attendance_september_2026.csv`, `work_attendance_and_shift_roster.md`.
+- **Cumulative Totals:**
   - **Rasheed Akel:** 72h 15m (72.25 hrs across 8 shifts).
   - **Tarek Orfhly:** 60h 45m (60.75 hrs across 7 shifts).
   - **Yasmin:** 58h 45m (58.75 hrs across 7 shifts).
