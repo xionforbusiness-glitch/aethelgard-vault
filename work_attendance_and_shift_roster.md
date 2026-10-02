@@ -23,13 +23,13 @@ Master timesheet, shift tracking, and duration metrics for [[03 Work Experience|
 | 🥇 | **Mohamed Adnan** | 7 days | 3 | 4 *(03:40 AM & 04:00 AM starts)* | 0 | **76 hours 10 mins** | `76.17 hrs` | **10.88 hrs/day** |
 | 🥈 | **Rasheed Akel** | 7 days | 3 | 4 *(06:30, 07:00 & 03:00 AM starts)*| 0 | **68 hours 00 mins** | `68.00 hrs` | **9.71 hrs/day** |
 | 🥉 | **Joudi Alghorani** | 7 days | 2 | 5 *(06:30, 07:00 & 03:15 AM starts)*| 0 | **66 hours 15 mins** | `66.25 hrs` | **9.46 hrs/day** |
-| 4 | **Khaled** | 7 days | 4 | 3 *(06:30 & 07:00 AM starts)* | 0 | **64 hours 00 mins** | `64.00 hrs` | **9.14 hrs/day** |
-| 5 | **Hanan** | 6 days | 2 | 4 *(06:30, 07:00 & 03:30 AM starts)*| 1 *(Tue)*| **57 hours 05 mins** | `57.08 hrs` | **9.51 hrs/day** |
+| 4 | **Hanan** | 7 days | 3 | 4 *(06:30, 07:00 & 03:30 AM starts)*| 0 | **66 hours 05 mins** | `66.08 hrs` | **9.44 hrs/day** |
+| 5 | **Khaled** | 7 days | 4 | 3 *(06:30 & 07:00 AM starts)* | 0 | **64 hours 00 mins** | `64.00 hrs` | **9.14 hrs/day** |
 | 6 | **Omar Elnemr** | 7 days | 5 | 2 *(07:20 start & 17:40 exit)* | 0 | **56 hours 40 mins** | `56.67 hrs` | **8.10 hrs/day** |
 | 7 | **Tarek Orfhly** | 6 days | 1 | 5 *(06:30 & 07:00 AM starts)* | 1 *(Fri)*| **56 hours 30 mins** | `56.50 hrs` | **9.42 hrs/day** |
 | 8 | **Yasmeen** | 6 days | 2 | 4 *(07:00 AM starts)* | 1 *(Sat)*| **52 hours 30 mins** | `52.50 hrs` | **8.75 hrs/day** |
 | 9 | **Talal** | 4 days | 0 | 4 *(03:00 AM & 07:00 AM starts)* | 3 *(Wed-Fri)*| **46 hours 00 mins** | `46.00 hrs` | **11.50 hrs/day** |
-| **🏆** | **Total Team Output** | **50 shifts** | **22** | **28** | **6** | **543 hours 10 mins** | `543.17 hrs` | **9.53 hrs/shift** |
+| **🏆** | **Total Team Output** | **51 shifts** | **23** | **28** | **5** | **552 hours 10 mins** | `552.17 hrs` | **9.52 hrs/shift** |
 
 ---
 
@@ -43,7 +43,7 @@ Master timesheet, shift tracking, and duration metrics for [[03 Work Experience|
 | **Sat (26/09)** | `08:15 → 16:00` *(7.75h)*| `08:00 → 16:30` *(8.5h)* | `08:00 → 16:30` *(8.5h)* | `07:00 → 16:30` *(9.5h)* | `03:40 → 16:30` *(12.83h)*| `07:00 → 16:30` *(9.5h)* | **OFF** | `03:15 → 16:30` *(13.25h)*| `03:30 → 16:30` *(13.0h)* |
 | **Sun (27/09)** | `08:15 → 16:00` *(7.75h)*| `07:00 → 16:30` *(9.5h)* | `07:00 → 16:30` *(9.5h)* | `03:00 → 16:30` *(13.5h)*| `03:40 → 16:30` *(12.83h)*| `07:00 → 16:30` *(9.5h)* | `07:00 → 16:00` *(9.0h)* | `07:00 → 16:30` *(9.5h)* | `07:00 → 16:30` *(9.5h)* |
 | **Mon (28/09)** | `08:15 → 16:00` *(7.75h)*| `07:00 → 16:30` *(9.5h)* | `07:00 → 16:30` *(9.5h)* | `07:00 → 16:30` *(9.5h)* | `04:00 → 16:30` *(12.5h)* | `07:00 → 16:30` *(9.5h)* | `07:00 → 16:00` *(9.0h)* | `07:00 → 16:00` *(9.0h)* | `07:00 → 16:30` *(9.5h)* |
-| **Tue (29/09)** | `08:15 → 16:00` *(7.75h)*| `07:00 → 16:30` *(9.5h)* | `03:00 → 16:30` *(13.5h)*| `03:00 → 16:30` *(13.5h)*| `04:00 → 16:30` *(12.5h)* | `07:00 → 16:30` *(9.5h)* | `07:00 → 16:30` *(9.5h)* | `07:00 → 16:00` *(9.0h)* | *Off / Unscheduled* |
+| **Tue (29/09)** | `08:15 → 16:00` *(7.75h)*| `07:00 → 16:30` *(9.5h)* | `03:00 → 16:30` *(13.5h)*| `03:00 → 16:30` *(13.5h)*| `04:00 → 16:30` *(12.5h)* | `07:00 → 16:30` *(9.5h)* | `07:00 → 16:30` *(9.5h)* | `07:00 → 16:00` *(9.0h)* | `07:00 → 16:00` *(9.0h)* |
 
 ---
 
@@ -114,8 +114,8 @@ Master timesheet, shift tracking, and duration metrics for [[03 Work Experience|
 | **2026-09-26** (Sat) | `03:30 AM` | `04:30 PM` | **13h 00m** | ✈️ Early dawn flight check-in & departure (13.0 hrs). |
 | **2026-09-27** (Sun) | `07:00 AM` | `04:30 PM` | **9h 30m** | Morning departure processing (9.5 hrs). |
 | **2026-09-28** (Mon) | `07:00 AM` | `04:30 PM` | **9h 30m** | Morning departure processing (9.5 hrs). |
-| **2026-09-29** (Tue) | — | — | **0h 00m** | Off / Not scheduled. |
-| **Total** | — | — | **57h 05m** | `57.08 hrs` across 6 working days |
+| **2026-09-29** (Tue) | `07:00 AM` | `04:00 PM` | **9h 00m** | Morning departure processing (9.0 hrs) *(New)* |
+| **Total** | — | — | **66h 05m** | `66.08 hrs` across 7 days |
 
 ---
 
@@ -178,5 +178,5 @@ Master timesheet, shift tracking, and duration metrics for [[03 Work Experience|
 ## 🔗 Related Notes & Data Exports
 - [[03 Work Experience]] — Professional work summary and airport operations.
 - [[professional_work_history]] — Station ground handling, check-in operations, and DCS systems.
-- **CSV Data Sheet:** `raw/attendance_september_2026.csv` (Complete dataset containing all 50 shift logs ready for Excel/Sheets).
+- **CSV Data Sheet:** `raw/attendance_september_2026.csv` (Complete dataset containing all 51 shift logs ready for Excel/Sheets).
 - **Screenshot Asset:** `raw/assets/rasheed_akel_schedule_september_2026.jpg`
