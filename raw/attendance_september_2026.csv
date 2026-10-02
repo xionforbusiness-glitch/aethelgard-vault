@@ -58,3 +58,4 @@ Date,Day,Employee,Log_In,Log_Out,Duration_Formatted,Decimal_Hours,Status,Notes
 2026-09-26,Saturday,Hanan,03:30 AM,04:30 PM,13h 00m,13.00,Dawn/Overtime,Early dawn flight check-in & departure (13.0 hrs)
 2026-09-27,Sunday,Hanan,07:00 AM,04:30 PM,9h 30m,9.50,Morning,Morning departure processing (9.5 hrs)
 2026-09-28,Monday,Hanan,07:00 AM,04:30 PM,9h 30m,9.50,Morning,Morning departure processing (9.5 hrs)
+2026-09-29,Tuesday,Hanan,07:00 AM,04:00 PM,9h 00m,9.00,Morning,Morning departure processing (9.0 hrs)
