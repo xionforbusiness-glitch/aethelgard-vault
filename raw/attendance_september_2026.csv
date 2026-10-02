@@ -1,19 +1,19 @@
 Date,Day,Employee,Log_In,Log_Out,Duration_Formatted,Decimal_Hours,Status,Notes
-2026-09-23,Wednesday,Omar Elnemr,07:20 AM,03:50 PM,8h 30m,8.50,Irregular,Waited until 07:00 AM - company bus departed without team - logged in 07:20 AM
+2026-09-23,Wednesday,Omar Elnemr,06:30 AM,04:00 PM,9h 30m,9.50,Standard,Standardized 23rd shift: 06:30 AM – 04:00 PM (9.5h)
 2026-09-24,Thursday,Omar Elnemr,08:15 AM,04:00 PM,7h 45m,7.75,Standard,Standard shift completed
 2026-09-25,Friday,Omar Elnemr,08:15 AM,05:40 PM,9h 25m,9.42,Overtime,Extended shift (+1h 40m overtime)
 2026-09-26,Saturday,Omar Elnemr,08:15 AM,04:00 PM,7h 45m,7.75,Standard,Standard shift completed
 2026-09-27,Sunday,Omar Elnemr,08:15 AM,04:00 PM,7h 45m,7.75,Standard,Standard shift (4:00 PM return)
 2026-09-28,Monday,Omar Elnemr,08:15 AM,04:00 PM,7h 45m,7.75,Standard,Standard shift (4:00 PM return)
 2026-09-29,Tuesday,Omar Elnemr,08:15 AM,04:00 PM,7h 45m,7.75,Standard,Standard shift (4:00 PM return)
-2026-09-23,Wednesday,Khaled,07:20 AM,04:30 PM,9h 10m,9.17,Standard,Standardized 7:20 AM bus arrival login
+2026-09-23,Wednesday,Khaled,06:30 AM,04:00 PM,9h 30m,9.50,Standard,Standardized 23rd shift: 06:30 AM – 04:00 PM (9.5h)
 2026-09-24,Thursday,Khaled,08:00 AM,04:30 PM,8h 30m,8.50,Standard,Standard 8.5h shift
 2026-09-25,Friday,Khaled,08:00 AM,04:30 PM,8h 30m,8.50,Standard,Standard 8.5h shift
 2026-09-26,Saturday,Khaled,08:00 AM,04:30 PM,8h 30m,8.50,Standard,Standard 8.5h shift
 2026-09-27,Sunday,Khaled,07:00 AM,04:00 PM,9h 00m,9.00,Morning,Morning shift (4:00 PM return)
 2026-09-28,Monday,Khaled,07:00 AM,04:00 PM,9h 00m,9.00,Morning,Morning shift (4:00 PM return)
 2026-09-29,Tuesday,Khaled,07:00 AM,04:00 PM,9h 00m,9.00,Morning,Morning shift (4:00 PM return)
-2026-09-23,Wednesday,Rasheed Akel,07:20 AM,04:30 PM,9h 10m,9.17,Standard,Standardized 7:20 AM bus arrival login
+2026-09-23,Wednesday,Rasheed Akel,06:30 AM,04:00 PM,9h 30m,9.50,Standard,Standardized 23rd shift: 06:30 AM – 04:00 PM (9.5h)
 2026-09-24,Thursday,Rasheed Akel,08:00 AM,04:30 PM,8h 30m,8.50,Standard,Standard daytime shift (8.5 hrs)
 2026-09-25,Friday,Rasheed Akel,08:00 AM,04:30 PM,8h 30m,8.50,Standard,Standard daytime shift (8.5 hrs)
 2026-09-26,Saturday,Rasheed Akel,08:00 AM,04:30 PM,8h 30m,8.50,Standard,Standard daytime shift (8.5 hrs)
@@ -24,42 +24,42 @@ Date,Day,Employee,Log_In,Log_Out,Duration_Formatted,Decimal_Hours,Status,Notes
 2026-09-27,Sunday,Talal,03:00 AM,04:00 PM,13h 00m,13.00,Dawn/Overtime,Early dawn flight departure shift (4:00 PM return)
 2026-09-28,Monday,Talal,07:00 AM,04:00 PM,9h 00m,9.00,Morning,Morning shift (4:00 PM return)
 2026-09-29,Tuesday,Talal,03:00 AM,04:00 PM,13h 00m,13.00,Dawn/Overtime,Early dawn flight departure shift (4:00 PM return)
-2026-09-23,Wednesday,Mohamed Adnan,07:20 AM,04:30 PM,9h 10m,9.17,Standard,Standardized 7:20 AM bus arrival login
+2026-09-23,Wednesday,Mohamed Adnan,06:30 AM,04:00 PM,9h 30m,9.50,Standard,Standardized 23rd shift: 06:30 AM – 04:00 PM (9.5h)
 2026-09-24,Thursday,Mohamed Adnan,08:00 AM,04:30 PM,8h 30m,8.50,Standard,Standard 8.5h shift
 2026-09-25,Friday,Mohamed Adnan,08:00 AM,04:30 PM,8h 30m,8.50,Standard,Standard 8.5h shift
 2026-09-26,Saturday,Mohamed Adnan,03:40 AM,04:30 PM,12h 50m,12.83,Dawn/Overtime,Early dawn flight processing shift (12h 50m)
 2026-09-27,Sunday,Mohamed Adnan,03:40 AM,04:00 PM,12h 20m,12.33,Dawn/Overtime,Early dawn flight processing shift (4:00 PM return)
 2026-09-28,Monday,Mohamed Adnan,04:00 AM,04:00 PM,12h 00m,12.00,Dawn/Overtime,Early morning flight departure shift (4:00 PM return)
 2026-09-29,Tuesday,Mohamed Adnan,04:00 AM,04:00 PM,12h 00m,12.00,Dawn/Overtime,Early morning flight departure shift (4:00 PM return)
-2026-09-23,Wednesday,Tarek Orfhly,07:20 AM,04:30 PM,9h 10m,9.17,Standard,Standardized 7:20 AM bus arrival login
+2026-09-23,Wednesday,Tarek Orfhly,06:30 AM,04:00 PM,9h 30m,9.50,Standard,Standardized 23rd shift: 06:30 AM – 04:00 PM (9.5h)
 2026-09-24,Thursday,Tarek Orfhly,08:00 AM,04:30 PM,8h 30m,8.50,Standard,Standard 8.5h shift
 2026-09-25,Friday,Tarek Orfhly,OFF,OFF,0h 00m,0.00,Day Off,Scheduled weekly day off
 2026-09-26,Saturday,Tarek Orfhly,07:00 AM,04:30 PM,9h 30m,9.50,Morning,Morning 9.5h shift
 2026-09-27,Sunday,Tarek Orfhly,07:00 AM,04:00 PM,9h 00m,9.00,Morning,Morning flight shift (4:00 PM return)
 2026-09-28,Monday,Tarek Orfhly,07:00 AM,04:00 PM,9h 00m,9.00,Morning,Morning flight shift (4:00 PM return)
 2026-09-29,Tuesday,Tarek Orfhly,07:00 AM,04:00 PM,9h 00m,9.00,Morning,Morning flight shift (4:00 PM return)
-2026-09-23,Wednesday,Yasmeen,07:20 AM,04:00 PM,8h 40m,8.67,Morning,Standardized 7:20 AM bus arrival login
+2026-09-23,Wednesday,Yasmeen,06:30 AM,04:00 PM,9h 30m,9.50,Standard,Standardized 23rd shift: 06:30 AM – 04:00 PM (9.5h)
 2026-09-24,Thursday,Yasmeen,08:00 AM,04:00 PM,8h 00m,8.00,Standard,Standard shift (8.0 hrs)
 2026-09-25,Friday,Yasmeen,08:00 AM,04:00 PM,8h 00m,8.00,Standard,Standard shift (8.0 hrs)
 2026-09-26,Saturday,Yasmeen,OFF,OFF,0h 00m,0.00,Day Off,Scheduled weekly day off
 2026-09-27,Sunday,Yasmeen,07:00 AM,04:00 PM,9h 00m,9.00,Morning,Morning flight shift (9.0 hrs)
 2026-09-28,Monday,Yasmeen,07:00 AM,04:00 PM,9h 00m,9.00,Morning,Morning flight shift (9.0 hrs)
 2026-09-29,Tuesday,Yasmeen,07:00 AM,04:00 PM,9h 00m,9.00,Morning,Morning flight shift (4:00 PM return)
-2026-09-23,Wednesday,Joudi Alghorani,07:20 AM,04:00 PM,8h 40m,8.67,Standard,Standardized 7:20 AM bus arrival login
+2026-09-23,Wednesday,Joudi Alghorani,06:30 AM,04:00 PM,9h 30m,9.50,Standard,Standardized 23rd shift: 06:30 AM – 04:00 PM (9.5h)
 2026-09-24,Thursday,Joudi Alghorani,08:00 AM,04:00 PM,8h 00m,8.00,Standard,Standard shift (8.0 hrs)
 2026-09-25,Friday,Joudi Alghorani,08:00 AM,04:00 PM,8h 00m,8.00,Standard,Standard shift (8.0 hrs)
 2026-09-26,Saturday,Joudi Alghorani,03:15 AM,04:30 PM,13h 15m,13.25,Dawn/Overtime,Early dawn flight check-in & boarding (13h 15m)
 2026-09-27,Sunday,Joudi Alghorani,07:00 AM,04:00 PM,9h 00m,9.00,Morning,Morning departure processing (4:00 PM return)
 2026-09-28,Monday,Joudi Alghorani,07:00 AM,04:00 PM,9h 00m,9.00,Morning,Morning shift (9.0 hrs)
 2026-09-29,Tuesday,Joudi Alghorani,07:00 AM,04:00 PM,9h 00m,9.00,Morning,Morning flight shift (9.0 hrs)
-2026-09-23,Wednesday,Hanan,07:20 AM,04:00 PM,8h 40m,8.67,Standard,Standardized 7:20 AM bus arrival login
+2026-09-23,Wednesday,Hanan,06:30 AM,04:00 PM,9h 30m,9.50,Standard,Standardized 23rd shift: 06:30 AM – 04:00 PM (9.5h)
 2026-09-24,Thursday,Hanan,08:10 AM,04:00 PM,7h 50m,7.83,Standard,Standard daytime shift (7h 50m)
 2026-09-25,Friday,Hanan,08:15 AM,04:00 PM,7h 45m,7.75,Standard,Standard daytime shift (7h 45m)
 2026-09-26,Saturday,Hanan,03:30 AM,04:30 PM,13h 00m,13.00,Dawn/Overtime,Early dawn flight check-in & departure (13.0 hrs)
 2026-09-27,Sunday,Hanan,07:00 AM,04:00 PM,9h 00m,9.00,Morning,Morning departure processing (4:00 PM return)
 2026-09-28,Monday,Hanan,07:00 AM,04:00 PM,9h 00m,9.00,Morning,Morning departure processing (4:00 PM return)
 2026-09-29,Tuesday,Hanan,07:00 AM,04:00 PM,9h 00m,9.00,Morning,Morning departure processing (9.0 hrs)
-2026-09-23,Wednesday,Raboushee,07:20 AM,04:00 PM,8h 40m,8.67,Standard,Standardized 7:20 AM bus arrival login
+2026-09-23,Wednesday,Raboushee,06:30 AM,04:00 PM,9h 30m,9.50,Standard,Standardized 23rd shift: 06:30 AM – 04:00 PM (9.5h)
 2026-09-24,Thursday,Raboushee,08:20 AM,04:00 PM,7h 40m,7.67,Standard,Standard daytime shift (7h 40m)
 2026-09-25,Friday,Raboushee,08:15 AM,03:45 PM,7h 30m,7.50,Standard,Standard daytime shift (7h 30m)
 2026-09-26,Saturday,Raboushee,08:15 AM,04:30 PM,8h 15m,8.25,Standard,Standard daytime shift (8h 15m)
