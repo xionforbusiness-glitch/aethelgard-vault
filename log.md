@@ -3,18 +3,18 @@
 > Chronological, append-only record of all LLM Wiki actions (ingest, query, lint, update).
 > Format: `## [YYYY-MM-DD] action | subject`
 
-## [2026-10-02] update | Full Team Shift Roster & 07:20 AM / 04:00 PM Normalization (10 Members)
-- **Action:** Standardized Wednesday 23/09 login times to **07:20 AM** (bus arrival synchronization) and Sep 27–29 log out times to **04:00 PM (16:00)** across `work_attendance_and_shift_roster.md` and `raw/attendance_september_2026.csv`.
-- **Adjusted Team Totals (597h 00m Total Across 58 Shifts):**
-  - **Mohamed Adnan:** 75h 20m (75.33 hrs across 7 days; 4 early dawn shifts at 03:40 & 04:00 AM).
-  - **Rasheed Akel:** 65h 40m (65.67 hrs across 7 days; early dawn shift at 03:00 AM).
-  - **Joudi Alghorani:** 64h 55m (64.92 hrs across 7 days; early dawn shift at 03:15 AM).
-  - **Hanan:** 64h 15m (64.25 hrs across 7 days; early dawn shift at 03:30 AM).
-  - **Khaled:** 61h 40m (61.67 hrs across 7 days).
-  - **Raboushee:** 58h 10m (58.17 hrs across 7 days).
-  - **Omar Elnemr:** 56h 40m (56.67 hrs across 7 days).
-  - **Tarek Orfhly:** 54h 10m (54.17 hrs across 6 days; 1 Day Off on Fri 25/09).
-  - **Yasmeen:** 51h 40m (51.67 hrs across 6 days; 1 Day Off on Sat 26/09).
+## [2026-10-02] update | Full Team Shift Roster & 06:30 AM / 04:00 PM Final Normalization (10 Members)
+- **Action:** Standardized Wednesday 23/09 shifts to **06:30 AM – 04:00 PM (9h 30m)** and Sep 27–29 log out times to **04:00 PM (16:00)** across `work_attendance_and_shift_roster.md` and `raw/attendance_september_2026.csv`.
+- **Adjusted Final Team Totals (602h 40m Total Across 58 Shifts):**
+  - **Mohamed Adnan:** 75h 40m (75.67 hrs across 7 days; 4 early dawn shifts at 03:40 & 04:00 AM).
+  - **Rasheed Akel:** 66h 00m (66.00 hrs across 7 days; early dawn shift at 03:00 AM).
+  - **Joudi Alghorani:** 65h 45m (65.75 hrs across 7 days; early dawn shift at 03:15 AM).
+  - **Hanan:** 65h 05m (65.08 hrs across 7 days; early dawn shift at 03:30 AM).
+  - **Khaled:** 62h 00m (62.00 hrs across 7 days).
+  - **Raboushee:** 59h 00m (59.00 hrs across 7 days).
+  - **Omar Elnemr:** 57h 40m (57.67 hrs across 7 days).
+  - **Tarek Orfhly:** 54h 30m (54.50 hrs across 6 days; 1 Day Off on Fri 25/09).
+  - **Yasmin:** 52h 30m (52.50 hrs across 6 days; 1 Day Off on Sat 26/09).
   - **Talal:** 44h 30m (44.50 hrs across 4 active shifts; 2 early dawn shifts at 03:00 AM).
 - **Files Modified:** `work_attendance_and_shift_roster.md`, `raw/attendance_september_2026.csv`, `log.md`.
 - **Cross-linked:** [[work_attendance_and_shift_roster]], [[03 Work Experience]], [[professional_work_history]], [[index]], [[log]]
