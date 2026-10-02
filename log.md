@@ -3,6 +3,13 @@
 > Chronological, append-only record of all LLM Wiki actions (ingest, query, lint, update).
 > Format: `## [YYYY-MM-DD] action | subject`
 
+## [2026-10-01] query & guide | Damascus Apartment Rental Intelligence ($100–$250/mo)
+- **Subject:** Unfurnished apartment rental market analysis in Damascus and connected suburbs within $100–$250 USD/month.
+- **Concept Created:** `concepts/damascus-apartment-rental-guide.md` (Neighborhood tier breakdowns across Dahiyet Qudsaya, Rukn al-Din, Midan, Barzeh, Jaramana, critical power/ampere & water infrastructure audits, contract norms, and broker search methods).
+- **Notes Updated:**
+  - `index.md` (Registered concept under Concepts, bumped total pages to 53)
+- **Cross-linked:** [[damascus-apartment-rental-guide]], [[00 Profile]], [[04 Interests & Gear]], [[index]], [[log]]
+
 ## [2026-10-01] ingest | AI Red Teaming & LLM Hacking Playbook (NetworkChuck)
 - **Source:** NetworkChuck Video & Reel ("become an AI HACKER (it's easier than you think)").
 - **Raw File Created:** `raw/articles/2026-10-01-networkchuck-become-an-ai-hacker-roadmap.md`
