@@ -3,6 +3,17 @@
 > Chronological, append-only record of all LLM Wiki actions (ingest, query, lint, update).
 > Format: `## [YYYY-MM-DD] action | subject`
 
+## [2026-10-02] update | Full Team Shift Roster & Attendance Ingest (Sep 23–29, 2026)
+- **Action:** Updated `work_attendance_and_shift_roster.md` and `raw/attendance_september_2026.csv` with complete shift logs and duration metrics for Omar and all 4 colleagues.
+- **Team Output Summary (299h 20m Total):**
+  - **Mohamed Adnan:** 76h 10m (76.17 hrs across 7 days; 4 early dawn shifts at 03:40 & 04:00 AM).
+  - **Khaled:** 64h 00m (64.00 hrs across 7 days).
+  - **Omar Elnemr:** 56h 40m (56.67 hrs across 7 days).
+  - **Tarek Orfhly:** 56h 30m (56.50 hrs across 6 days; 1 Day Off on Fri 25/09).
+  - **Talal:** 46h 00m (46.00 hrs across 4 active shifts; 2 early dawn shifts at 03:00 AM).
+- **Files Modified:** `work_attendance_and_shift_roster.md`, `raw/attendance_september_2026.csv`, `log.md`.
+- **Cross-linked:** [[work_attendance_and_shift_roster]], [[03 Work Experience]], [[professional_work_history]], [[index]], [[log]]
+
 ## [2026-10-02] ingest & analysis | SSD Layer Weight Streaming vs VRAM Inference (Colibri / AirLLM)
 - **Source:** Facebook Reel (`https://www.facebook.com/share/r/1K9aNy13hD/`) by Alan Brown ("Running 744B parameter model on laptop with no GPU").
 - **Raw File Created:** `raw/articles/2026-10-01-ssd-streaming-744b-model-inference-colibri.md`

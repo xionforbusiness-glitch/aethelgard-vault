@@ -1,8 +1,33 @@
-Date,Day,Name,Transport_Window,Log_In,Log_Out,Duration_Hours,Decimal_Hours,Status,Notes
-2026-09-23,Wednesday,Omar Elnemr,06:30 AM - 07:00 AM,07:20 AM,03:50 PM,8h 30m,8.50,Irregular,Waited until 07:00 AM - company bus departed without team - logged in 07:20 AM
-2026-09-24,Thursday,Omar Elnemr,Standard,08:15 AM,04:00 PM,7h 45m,7.75,Standard,Standard shift completed
-2026-09-25,Friday,Omar Elnemr,Standard,08:15 AM,05:40 PM,9h 25m,9.42,Overtime,Extended shift (+1h 40m overtime)
-2026-09-26,Saturday,Omar Elnemr,Standard,08:15 AM,04:00 PM,7h 45m,7.75,Standard,Standard shift completed
-2026-09-27,Sunday,Omar Elnemr,Standard,08:15 AM,04:00 PM,7h 45m,7.75,Standard,Standard shift completed
-2026-09-28,Monday,Omar Elnemr,Standard,08:15 AM,04:00 PM,7h 45m,7.75,Standard,Standard shift completed
-2026-09-29,Tuesday,Omar Elnemr,Standard,08:15 AM,04:00 PM,7h 45m,7.75,Standard,Standard shift completed
+Date,Day,Employee,Log_In,Log_Out,Duration_Formatted,Decimal_Hours,Status,Notes
+2026-09-23,Wednesday,Omar Elnemr,07:20 AM,03:50 PM,8h 30m,8.50,Irregular,Waited until 07:00 AM - company bus departed without team - logged in 07:20 AM
+2026-09-24,Thursday,Omar Elnemr,08:15 AM,04:00 PM,7h 45m,7.75,Standard,Standard shift completed
+2026-09-25,Friday,Omar Elnemr,08:15 AM,05:40 PM,9h 25m,9.42,Overtime,Extended shift (+1h 40m overtime)
+2026-09-26,Saturday,Omar Elnemr,08:15 AM,04:00 PM,7h 45m,7.75,Standard,Standard shift completed
+2026-09-27,Sunday,Omar Elnemr,08:15 AM,04:00 PM,7h 45m,7.75,Standard,Standard shift completed
+2026-09-28,Monday,Omar Elnemr,08:15 AM,04:00 PM,7h 45m,7.75,Standard,Standard shift completed
+2026-09-29,Tuesday,Omar Elnemr,08:15 AM,04:00 PM,7h 45m,7.75,Standard,Standard shift completed
+2026-09-23,Wednesday,Khaled,06:30 AM,04:30 PM,10h 00m,10.00,Extended,Early arrival shift (10 hours)
+2026-09-24,Thursday,Khaled,08:00 AM,04:30 PM,8h 30m,8.50,Standard,Standard 8.5h shift
+2026-09-25,Friday,Khaled,08:00 AM,04:30 PM,8h 30m,8.50,Standard,Standard 8.5h shift
+2026-09-26,Saturday,Khaled,08:00 AM,04:30 PM,8h 30m,8.50,Standard,Standard 8.5h shift
+2026-09-27,Sunday,Khaled,07:00 AM,04:30 PM,9h 30m,9.50,Morning,Morning 9.5h shift
+2026-09-28,Monday,Khaled,07:00 AM,04:30 PM,9h 30m,9.50,Morning,Morning 9.5h shift
+2026-09-29,Tuesday,Khaled,07:00 AM,04:30 PM,9h 30m,9.50,Morning,Morning 9.5h shift
+2026-09-26,Saturday,Talal,07:00 AM,04:30 PM,9h 30m,9.50,Morning,Morning 9.5h shift
+2026-09-27,Sunday,Talal,03:00 AM,04:30 PM,13h 30m,13.50,Dawn/Overtime,Early dawn flight departure shift (13.5 hours)
+2026-09-28,Monday,Talal,07:00 AM,04:30 PM,9h 30m,9.50,Morning,Morning 9.5h shift
+2026-09-29,Tuesday,Talal,03:00 AM,04:30 PM,13h 30m,13.50,Dawn/Overtime,Early dawn flight departure shift (13.5 hours)
+2026-09-23,Wednesday,Mohamed Adnan,08:00 AM,04:30 PM,8h 30m,8.50,Standard,Standard 8.5h shift
+2026-09-24,Thursday,Mohamed Adnan,08:00 AM,04:30 PM,8h 30m,8.50,Standard,Standard 8.5h shift
+2026-09-25,Friday,Mohamed Adnan,08:00 AM,04:30 PM,8h 30m,8.50,Standard,Standard 8.5h shift
+2026-09-26,Saturday,Mohamed Adnan,03:40 AM,04:30 PM,12h 50m,12.83,Dawn/Overtime,Early dawn flight processing shift (12h 50m)
+2026-09-27,Sunday,Mohamed Adnan,03:40 AM,04:30 PM,12h 50m,12.83,Dawn/Overtime,Early dawn flight processing shift (12h 50m)
+2026-09-28,Monday,Mohamed Adnan,04:00 AM,04:30 PM,12h 30m,12.50,Dawn/Overtime,Early morning flight departure shift (12.5 hours)
+2026-09-29,Tuesday,Mohamed Adnan,04:00 AM,04:30 PM,12h 30m,12.50,Dawn/Overtime,Early morning flight departure shift (12.5 hours)
+2026-09-23,Wednesday,Tarek Orfhly,06:30 AM,04:30 PM,10h 00m,10.00,Extended,Early arrival shift (10 hours)
+2026-09-24,Thursday,Tarek Orfhly,08:00 AM,04:30 PM,8h 30m,8.50,Standard,Standard 8.5h shift
+2026-09-25,Friday,Tarek Orfhly,OFF,OFF,0h 00m,0.00,Day Off,Scheduled weekly day off
+2026-09-26,Saturday,Tarek Orfhly,07:00 AM,04:30 PM,9h 30m,9.50,Morning,Morning 9.5h shift
+2026-09-27,Sunday,Tarek Orfhly,07:00 AM,04:30 PM,9h 30m,9.50,Morning,Morning 9.5h shift
+2026-09-28,Monday,Tarek Orfhly,07:00 AM,04:30 PM,9h 30m,9.50,Morning,Morning 9.5h shift
+2026-09-29,Tuesday,Tarek Orfhly,07:00 AM,04:30 PM,9h 30m,9.50,Morning,Morning 9.5h shift
