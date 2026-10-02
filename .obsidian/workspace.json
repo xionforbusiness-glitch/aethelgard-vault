@@ -197,6 +197,9 @@
   },
   "active": "dac06efd9ae26f08",
   "lastOpenFiles": [
+    "finances/2026-10-expenses.md",
+    "finances/expenses_2026.csv",
+    "finances",
     "~$attendance_september_2026_standardized.xlsx",
     "attendance_september_2026_standardized.xlsx",
     "03 Work Experience.md",
@@ -238,9 +241,6 @@
     "scripts/overseer_dashboard.html",
     "scripts/test_overseer_evaluation.py",
     "entities",
-    "raw/assets/20260921_laya_vs_jev_system1_decision_model.jpg",
-    "scripts/overseer_bridge.py",
-    "scripts",
-    "_archive"
+    "raw/assets/20260921_laya_vs_jev_system1_decision_model.jpg"
   ]
 }
