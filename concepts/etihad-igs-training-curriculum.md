@@ -18,16 +18,24 @@ Official ground operations reference and pre-training study guide for the **Etih
 
 ---
 
-## 📅 1. Training Overview & Core Objectives
+## 📅 1. Training Schedule, Timezone & System Requirements
 
-* **Course Name:** International Ground Services (IGS) Airport Operations Training
-* **Commencement:** Monday Morning Session
-* **Target Airline:** [[entities/etihad-airways-station-operations|Etihad Airways (EY / ETD)]]
-* **Station Alignment:** Damascus International Airport (DAM / OSDI)
-* **Core Reference Manuals Distributed:**
+* **Course Name:** Introduction to Ground Services (IGS) Airport Operations Training
+* **Dates:** **Monday, Oct 05 – Tuesday, Oct 06, 2026** (2-Day Intensive Session)
+* **Session Timings:**
+  * **Abu Dhabi Local Time (AUH / GST UTC+4):** `09:00 AM – 05:00 PM` (8 hours)
+  * **Damascus Local Time (DAM / UTC+3):** **`08:00 AM – 04:00 PM`**
+* **Instructor / L&D Lead:** **Vanessa Mascarenhas** (*Training Officer – Operations Training, L&D*)
+* **Platform:** **Microsoft Teams (MS Teams)** with active Camera & Microphone participation.
+
+### ⚠️ Mandatory System & Hardware Prerequisites
+1. **Device:** **Laptop or Desktop PC ONLY**. (Strict policy: *No mobile phones, iPads, or tablets permitted for exam/DCS compliance*).
+2. **Network:** Steady wired/home broadband connection (*No mobile hotspot sharing*).
+3. **Camera & Audio:** Operational webcam and clear microphone for live interactive roleplay and assessments.
+4. **Course Reference Materials Distributed:**
   1. `Guest Service Manual (GSM)` — Operational authority for passenger processing, disruptions, and lounge access.
   2. `Airport Service Standards & Visual Standards Guide` — Grooming, etiquette, counter branding, and VIP protocol.
-  3. `Exercise Book for IGS` — Real-world check-in scenarios, boarding reconciliation, and gate problems.
+  3. `Exercise Book for IGS` — Real-world check-in scenarios, boarding reconciliation, and gate problems (*print physical copy recommended*).
   4. `Handouts & Reference Packs` — General Special Service Requests (SSRs), Special Meal Codes (SPML), and global IATA 3-letter airport codes.
 
 ---
