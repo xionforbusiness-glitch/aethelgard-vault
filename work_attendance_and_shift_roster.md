@@ -55,6 +55,9 @@ Master timesheet, shift tracking, and duration metrics for [[03 Work Experience|
 | **Thu (01/10/2026)** | *Off* | *Off* | `07:45→14:00` *(6.25h)* | *Off* | *Off* | `07:45→14:00` *(6.25h)* | `07:45→14:00` *(6.25h)* | *Off* | *Off* | *Off* | 🎓 Saudia Training Session (6h 15m) |
 | **Fri (02/10/2026)** | **OFF** | **OFF** | **OFF** | **OFF** | **OFF** | **OFF** | **OFF** | **OFF** | **OFF** | **OFF** | 🌴 Scheduled Team Day Off (No shift) |
 | **Sat (03/10/2026)** | **OFF** | *TBD* | *TBD* | *TBD* | *TBD* | *TBD* | *TBD* | *TBD* | *TBD* | *TBD* | 🌴 Scheduled Day Off for Omar (No shift) |
+| **Sun (04/10/2026)** | *TBD* | *TBD* | *TBD* | *TBD* | *TBD* | *TBD* | *TBD* | *TBD* | *TBD* | *TBD* | Pre-training prep / Roster TBD |
+| **Mon (05/10/2026)** | `08:00→16:00` *(8.0h)* | `08:00→16:00` | `08:00→16:00` | `08:00→16:00` | `08:00→16:00` | `08:00→16:00` | `08:00→16:00` | `08:00→16:00` | `08:00→16:00` | `08:00→16:00` | 🎓 **Etihad IGS Training Day 1** (09:00 AUH / 08:00 DAM, MS Teams) |
+| **Tue (06/10/2026)** | `08:00→16:00` *(8.0h)* | `08:00→16:00` | `08:00→16:00` | `08:00→16:00` | `08:00→16:00` | `08:00→16:00` | `08:00→16:00` | `08:00→16:00` | `08:00→16:00` | `08:00→16:00` | 🎓 **Etihad IGS Training Day 2** (09:00 AUH / 08:00 DAM, MS Teams) |
 
 ---
 
