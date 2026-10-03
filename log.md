@@ -3,6 +3,13 @@
 > Chronological, append-only record of all LLM Wiki actions (ingest, query, lint, update).
 > Format: `## [YYYY-MM-DD] action | subject`
 
+## [2026-10-03] ingest | Etihad Airways IGS Training Curriculum & Study Pack
+- **Source:** Official Operations Training email from Vanessa Mascarenhas (L&D).
+- **Asset Preserved:** `raw/assets/etihad_igs_training_materials_email.jpg`.
+- **Concept Created:** `concepts/etihad-igs-training-curriculum.md` (Comprehensive study guide covering the Guest Service Manual, Airport Service & Visual Standards, IATA SSR codes (WCHR/WCHS/UMNR/MEDA/INAD), Special Meal SPML codes, and Abu Dhabi hub transit network).
+- **Notes Updated:** `entities/etihad-airways-station-operations.md`, `index.md`, `log.md`.
+- **Cross-linked:** [[concepts/etihad-igs-training-curriculum]], [[entities/etihad-airways-station-operations]], [[aviation_ground_operations_dcs_guide]], [[03 Work Experience]], [[index]], [[log]]
+
 ## [2026-10-03] update | Saturday Oct 03 Day Off Logged for Omar
 - **Action:** Recorded Saturday, October 03, 2026 as a **Scheduled Day Off (No shift)** for Omar Elnemr.
 - **Files Modified:** `work_attendance_and_shift_roster.md`, `raw/attendance_october_2026.csv`, `log.md`.

@@ -76,6 +76,7 @@ Having **Saudia (`SV`)** and **Etihad Airways (`EY`)** on your ground handling p
 ---
 
 ## 🔗 Related Notes & Skills
+- [[concepts/etihad-igs-training-curriculum|Etihad IGS Training Curriculum & Study Guide]] — Official reference guide covering GSM manuals, SSR codes, Special Meals (SPML), and visual service standards.
 - [[aviation_ground_operations_dcs_guide]] — Damascus Airport station operations, DCS systems, and Saudia procedures.
 - [[03 Work Experience]] / [[professional_work_history]] — Aviation ground operations and airport handling history.
 - [[01 Technical Skills]] — Systems, operations, and aviation infrastructure.
