@@ -110,3 +110,12 @@
 ## 📚 Newly Ingested & Cataloged Notes (Automated Librarian)
 
 - [[2026-10-expenses|2026 10 Expenses]] (`finances`)
+
+
+## 📚 Newly Ingested & Cataloged Notes (Automated Librarian)
+
+- [[collision-kaggle_hybrid_c-ai-powered-offe|Collision Kaggle Hybrid C Ai Powered Offe]] (`concepts`)
+- [[etihad-igs-training-curriculum|Etihad Igs Training Curriculum]] (`concepts`)
+- [[flight-simulation-pc-build-and-cockpit-gear-guide|Flight Simulation Pc Build And Cockpit Gear Guide]] (`concepts`)
+- [[syrian-airlines-brand-identity-and-uniforms|Syrian Airlines Brand Identity And Uniforms]] (`concepts`)
+- [[etihad-airways-station-operations|Etihad Airways Station Operations]] (`entities`)
