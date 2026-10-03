@@ -8,9 +8,11 @@ updated: 2026-10-01
 # Professional Background & Work Experience
 
 ## 1. Aviation & Ground Services
-- **Role:** Airport Check-in Agent
-- **Location:** Damascus International Airport
-- **Assignment:** [[aviation_ground_operations_dcs_guide|Saudia]] counter operations, flight processing, DCS departure control systems, and traveler verification.
+- **Role:** Airport Check-in Agent & Ground Operations Specialist
+- **Location:** Damascus International Airport (DAM / OSDI)
+- **Carrier Assignments:**
+  - [[aviation_ground_operations_dcs_guide|Saudia (Saudi Arabian Airlines)]] — Counter check-in, flight processing, DCS departure control systems, and traveler document verification.
+  - [[entities/etihad-airways-station-operations|Etihad Airways (EY / ETD)]] — Premium UAE flag carrier operations, Amadeus Altéa DCS handling, transit visa auditing for Abu Dhabi (AUH) super-hub connections, and baggage reconciliation.
 
 ## 2. AI Annotation & Evaluation
 - **Platforms:** Alignerr, Outlier, TaskVerse, DataForce, RWS
