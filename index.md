@@ -57,6 +57,7 @@
 - [[ECC]] — Everything Claude Code: comprehensive agent harness and prompt optimization toolkit.
 
 ## 💡 Concepts
+- [[concepts/syrian-airlines-brand-identity-and-uniforms|syrian-airlines-brand-identity-and-uniforms]] — Syrian Airlines (RB/SYR) visual identity, aircraft livery redesign, and ground/cabin crew uniform dress code standards.
 - [[concepts/etihad-igs-training-curriculum|etihad-igs-training-curriculum]] — Etihad Airways International Ground Services (IGS) training handbook: GSM manuals, IATA SSR codes (WCHR/UMNR/MEDA), Special Meals (SPML), and visual standards.
 - [[runway-windshear-and-crosswind-analyzer]] — Aeronautical windshear & crosswind analyzer (ICAO Doc 9817 / Bowles F-Factor model): real-time vector decomposition for Damascus International Airport (OSDI/DAM), microburst detection, and fleet limits.
 - [[ssd-layer-streaming-moe-inference]] — SSD layer weight streaming vs VRAM inference (Colibri, AirLLM, MoE expert offloading): memory bandwidth bottlenecks ($3.5\text{ GB/s}$ vs $640\text{ GB/s}$), Kaggle storage ceilings, and real-world token speed.
