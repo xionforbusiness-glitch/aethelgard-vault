@@ -3,6 +3,16 @@
 > Chronological, append-only record of all LLM Wiki actions (ingest, query, lint, update).
 > Format: `## [YYYY-MM-DD] action | subject`
 
+## [2026-10-03] update | Etihad IGS Training MS Teams Invite & System Requirements (Oct 5–6)
+- **Source:** Calendar invite email from Vanessa Mascarenhas (`Training Officer - Operations Training, L&D`).
+- **Asset Preserved:** `raw/assets/etihad_igs_training_calendar_invite.jpg`.
+- **Key Details Ingested:**
+  - Schedule: Monday Oct 05 – Tuesday Oct 06, 2026 (2 days x 8 hours).
+  - Timezone: 09:00 AM AUH Local Time = **08:00 AM Damascus Local Time**.
+  - Mandatory Hardware: Laptop/Desktop PC ONLY with wired/steady broadband, operational webcam & microphone on Microsoft Teams.
+- **Notes Updated:** `concepts/etihad-igs-training-curriculum.md`, `work_attendance_and_shift_roster.md`, `log.md`.
+- **Cross-linked:** [[concepts/etihad-igs-training-curriculum]], [[entities/etihad-airways-station-operations]], [[work_attendance_and_shift_roster]], [[log]]
+
 ## [2026-10-03] ingest | Etihad Airways IGS Training Curriculum & Study Pack
 - **Source:** Official Operations Training email from Vanessa Mascarenhas (L&D).
 - **Asset Preserved:** `raw/assets/etihad_igs_training_materials_email.jpg`.
