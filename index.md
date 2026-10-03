@@ -50,6 +50,7 @@
 ---
 
 ## 🧬 Entities
+- [[entities/etihad-airways-station-operations|etihad-airways-station-operations]] — Etihad Airways (EY/ETD) station & ground handling operations: UAE flag carrier standards, Amadeus Altéa DCS, Abu Dhabi (AUH) transit visa auditing, and baggage reconciliation.
 - [[komemaru-japanese-restaurant-damascus]] — Authentic Japanese street kitchen in Damascus (Mashrou' Dummar) serving Tokyo Drift boxes, Karaage chicken, Matcha noodles, and ramen.
 - [[free-claude-code]] — Free Claude Code proxy daemon (`alishahryar1/free-claude-code`) with SQLite QueuePool and zero-cost model translation.
 - [[typesafe-ai-jev]] — TypeSafe AI & Jev: proprietary System 1 non-autoregressive decision model founded by Diogo Almeida.

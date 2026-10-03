@@ -3,6 +3,11 @@
 > Chronological, append-only record of all LLM Wiki actions (ingest, query, lint, update).
 > Format: `## [YYYY-MM-DD] action | subject`
 
+## [2026-10-02] analysis & entity | Etihad Airways (EY / ETD) Station Operations Playbook
+- **Action:** Created `entities/etihad-airways-station-operations.md` covering airline profile, comparison against Turkish/Air Arabia/AJet/Syrian Air, Amadeus Altéa DCS handling, Abu Dhabi (AUH) transit visa auditing, and career impact.
+- **Notes Updated:** `03 Work Experience.md` (Added Etihad Airways carrier assignment), `index.md` (Registered entity), `log.md`.
+- **Cross-linked:** [[entities/etihad-airways-station-operations]], [[aviation_ground_operations_dcs_guide]], [[03 Work Experience]], [[professional_work_history]], [[01 Technical Skills]], [[index]], [[log]]
+
 ## [2026-10-02] update | October 02 Team Day Off Logged
 - **Action:** Recorded Friday, October 02, 2026 as a **Scheduled Team Day Off (No shift)** across all 10 members.
 - **Files Modified:** `work_attendance_and_shift_roster.md`, `raw/attendance_october_2026.csv`, `log.md`.
