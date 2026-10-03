@@ -54,6 +54,7 @@ Master timesheet, shift tracking, and duration metrics for [[03 Work Experience|
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
 | **Thu (01/10/2026)** | *Off* | *Off* | `07:45→14:00` *(6.25h)* | *Off* | *Off* | `07:45→14:00` *(6.25h)* | `07:45→14:00` *(6.25h)* | *Off* | *Off* | *Off* | 🎓 Saudia Training Session (6h 15m) |
 | **Fri (02/10/2026)** | **OFF** | **OFF** | **OFF** | **OFF** | **OFF** | **OFF** | **OFF** | **OFF** | **OFF** | **OFF** | 🌴 Scheduled Team Day Off (No shift) |
+| **Sat (03/10/2026)** | **OFF** | *TBD* | *TBD* | *TBD* | *TBD* | *TBD* | *TBD* | *TBD* | *TBD* | *TBD* | 🌴 Scheduled Day Off for Omar (No shift) |
 
 ---
 

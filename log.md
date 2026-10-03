@@ -3,6 +3,11 @@
 > Chronological, append-only record of all LLM Wiki actions (ingest, query, lint, update).
 > Format: `## [YYYY-MM-DD] action | subject`
 
+## [2026-10-03] update | Saturday Oct 03 Day Off Logged for Omar
+- **Action:** Recorded Saturday, October 03, 2026 as a **Scheduled Day Off (No shift)** for Omar Elnemr.
+- **Files Modified:** `work_attendance_and_shift_roster.md`, `raw/attendance_october_2026.csv`, `log.md`.
+- **Cross-linked:** [[work_attendance_and_shift_roster]], [[03 Work Experience]], [[log]]
+
 ## [2026-10-02] analysis & entity | Etihad Airways (EY / ETD) Station Operations Playbook
 - **Action:** Created `entities/etihad-airways-station-operations.md` covering airline profile, comparison against Turkish/Air Arabia/AJet/Syrian Air, Amadeus Altéa DCS handling, Abu Dhabi (AUH) transit visa auditing, and career impact.
 - **Notes Updated:** `03 Work Experience.md` (Added Etihad Airways carrier assignment), `index.md` (Registered entity), `log.md`.
