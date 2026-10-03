@@ -3,6 +3,11 @@
 > Chronological, append-only record of all LLM Wiki actions (ingest, query, lint, update).
 > Format: `## [YYYY-MM-DD] action | subject`
 
+## [2026-10-03] concept | Syrian Airlines Visual Identity, Livery & Uniform Dress Code Standards
+- **Action:** Created `concepts/syrian-airlines-brand-identity-and-uniforms.md` detailing the visual identity rebrand, aircraft livery overhaul, and uniform dress code standards for ground handling staff, cabin crew, and flight deck.
+- **Notes Updated:** `index.md`, `01 Technical Skills.md`, `log.md`.
+- **Cross-linked:** [[concepts/syrian-airlines-brand-identity-and-uniforms]], [[aviation_ground_operations_dcs_guide]], [[03 Work Experience]], [[index]], [[log]]
+
 ## [2026-10-03] update | Etihad IGS Training MS Teams Invite & System Requirements (Oct 5–6)
 - **Source:** Calendar invite email from Vanessa Mascarenhas (`Training Officer - Operations Training, L&D`).
 - **Asset Preserved:** `raw/assets/etihad_igs_training_calendar_invite.jpg`.
