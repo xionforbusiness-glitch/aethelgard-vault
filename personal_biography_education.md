@@ -12,12 +12,12 @@ A versatile technologist operating at the intersection of **Computer Science**, 
 
 ## 🎓 Academic Foundations & Education
 
-### 1. [[University of the People]]
+### 1. [[00 Profile]]
 - **Program:** Degree Coursework in Computer Science
 - **Core Competencies:** Data structures, algorithms, discrete mathematics, software engineering methodologies, and object-oriented programming.
 - **Modality:** Rigorous asynchronous, global peer-reviewed academic environment.
 
-### 2. [[Syrian Virtual University]]
+### 2. [[00 Profile]]
 - **Focus:** Foundational computing theory, mathematical principles, and practical systems fundamentals.
 - **Key Takeaways:** Deepening structural CS concepts, computational logic, and algorithmic thinking.
 

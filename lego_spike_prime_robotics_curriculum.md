@@ -2,7 +2,7 @@
 aliases: [LEGO Robotics, SPIKE Prime, STEM Curriculum, Robotics Pedagogy]
 tags: [robotics, education, stem, python, hardware]
 created: 2026-09-19
-up: "[[Projects/Portfolio_Projects]]"
+up: "[[02 Projects]]"
 ---
 
 # 🤖 LEGO SPIKE Prime Curriculum & Robotics Engineering

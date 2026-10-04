@@ -2,7 +2,7 @@
 aliases: [Linux CLI, Bash Scripting, Sysadmin, Shell Commands]
 tags: [linux, sysadmin, bash, automation]
 created: 2026-09-19
-up: "[[Technical/Skills_and_Stack]]"
+up: "[[01 Technical Skills]]"
 ---
 
 # 🐧 Linux CLI Administration & Bash Automation

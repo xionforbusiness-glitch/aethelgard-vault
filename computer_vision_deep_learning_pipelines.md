@@ -2,8 +2,8 @@
 aliases: [CV Pipeline, YOLO, ArcFace, MTCNN]
 tags: [technical, ai, computervision, python]
 created: 2026-09-19
-up: "[[Technical/Skills_and_Stack]]"
-related: ["[[Projects/Portfolio_Projects]]"]
+up: "[[01 Technical Skills]]"
+related: ["[[02 Projects]]", "[[detailed_project_documentation]]"]
 ---
 
 # 👁️ Computer Vision & Deep Learning Pipelines
