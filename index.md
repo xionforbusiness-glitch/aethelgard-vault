@@ -81,7 +81,7 @@
 - [[macrodroid-doomscroll-overseer]] — MacroDroid Android automation powering the doomscroll overseer pipeline: app launch triggers, video title extraction, and Hermes integration.
 
 ## ⚖️ Comparisons
-- [[laya-vs-typesafe-jev]] — Side-by-side analysis comparing TypeSafe Jev against ConvAI Innovations' open-source Laya.
+- [[laya-vs-typesafe]] — Side-by-side analysis comparing TypeSafe Jev against ConvAI Innovations' open-source Laya.
 
 ## 🔍 Queries & Syntheses
 <!-- Dynamically populated during LLM Wiki Query -->
