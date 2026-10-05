@@ -3,6 +3,12 @@
 > Chronological, append-only record of all LLM Wiki actions (ingest, query, lint, update).
 > Format: `## [YYYY-MM-DD] action | subject`
 
+## [2026-10-03] update | Etihad IGS Training Session Logged (08:00–16:00 DAM)
+- **Action:** Logged active 8.0-hour Etihad IGS Training session on Saturday, October 03, 2026 (08:00 AM – 04:00 PM DAM / MS Teams).
+- **Attendance Metrics:** Added 8h 00m to October cycle; Omar's cumulative total updated to **65h 40m** (65.67 hrs across 8 shifts).
+- **Files Modified:** `work_attendance_and_shift_roster.md`, `raw/attendance_october_2026.csv`, `concepts/etihad-igs-training-curriculum.md`, `log.md`.
+- **Cross-linked:** [[work_attendance_and_shift_roster]], [[concepts/etihad-igs-training-curriculum]], [[entities/etihad-airways-station-operations]], [[03 Work Experience]], [[log]]
+
 ## [2026-10-03] concept | Syrian Airlines Visual Identity, Livery & Uniform Dress Code Standards
 - **Action:** Created `concepts/syrian-airlines-brand-identity-and-uniforms.md` detailing the visual identity rebrand, aircraft livery overhaul, and uniform dress code standards for ground handling staff, cabin crew, and flight deck.
 - **Notes Updated:** `index.md`, `01 Technical Skills.md`, `log.md`.

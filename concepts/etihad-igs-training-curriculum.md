@@ -21,7 +21,7 @@ Official ground operations reference and pre-training study guide for the **Etih
 ## 📅 1. Training Schedule, Timezone & System Requirements
 
 * **Course Name:** Introduction to Ground Services (IGS) Airport Operations Training
-* **Dates:** **Monday, Oct 05 – Tuesday, Oct 06, 2026** (2-Day Intensive Session)
+* **Dates:** **Saturday, Oct 03, 2026** (Session 1 Attended — 8h 00m) & **Monday, Oct 05 – Tuesday, Oct 06, 2026** (Main Intensive Sessions)
 * **Session Timings:**
   * **Abu Dhabi Local Time (AUH / GST UTC+4):** `09:00 AM – 05:00 PM` (8 hours)
   * **Damascus Local Time (DAM / UTC+3):** **`08:00 AM – 04:00 PM`**
