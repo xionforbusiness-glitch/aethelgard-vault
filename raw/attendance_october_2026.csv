@@ -12,4 +12,4 @@ Date,Day,Employee,Log_In,Log_Out,Duration_Formatted,Decimal_Hours,Status,Notes
 2026-10-02,Friday,Joudi Alghorani,OFF,OFF,0h 00m,0.00,Day Off,Scheduled team day off (No shift)
 2026-10-02,Friday,Hanan,OFF,OFF,0h 00m,0.00,Day Off,Scheduled team day off (No shift)
 2026-10-02,Friday,Raboushee,OFF,OFF,0h 00m,0.00,Day Off,Scheduled team day off (No shift)
-2026-10-03,Saturday,Omar Elnemr,OFF,OFF,0h 00m,0.00,Day Off,Scheduled day off (No shift)
+2026-10-03,Saturday,Omar Elnemr,08:00 AM,04:00 PM,8h 00m,8.00,Training,🎓 Etihad IGS Training Session (MS Teams)
