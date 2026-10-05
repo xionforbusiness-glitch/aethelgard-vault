@@ -119,3 +119,9 @@
 - [[flight-simulation-pc-build-and-cockpit-gear-guide|Flight Simulation Pc Build And Cockpit Gear Guide]] (`concepts`)
 - [[syrian-airlines-brand-identity-and-uniforms|Syrian Airlines Brand Identity And Uniforms]] (`concepts`)
 - [[etihad-airways-station-operations|Etihad Airways Station Operations]] (`entities`)
+
+
+## 📚 Newly Ingested & Cataloged Notes (Automated Librarian)
+
+- [[laya-vs-typesafe-jev|Laya Vs Typesafe Jev]] (`comparisons`)
+- [[etihad-igs-exercise-book-solved|Etihad Igs Exercise Book Solved]] (`concepts`)
