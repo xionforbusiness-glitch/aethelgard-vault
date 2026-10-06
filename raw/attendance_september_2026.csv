@@ -1,71 +1,81 @@
 Date,Day,Employee,Log_In,Log_Out,Duration_Formatted,Decimal_Hours,Status,Notes
-2026-09-23,Wednesday,Omar Elnemr,06:30 AM,04:00 PM,9h 30m,9.50,Standard,Standardized 23rd shift: 06:30 AM – 04:00 PM (9.5h)
-2026-09-24,Thursday,Omar Elnemr,08:15 AM,04:00 PM,7h 45m,7.75,Standard,Standard shift completed
-2026-09-25,Friday,Omar Elnemr,08:15 AM,05:40 PM,9h 25m,9.42,Overtime,Extended shift (+1h 40m overtime)
-2026-09-26,Saturday,Omar Elnemr,08:15 AM,04:00 PM,7h 45m,7.75,Standard,Standard shift completed
-2026-09-27,Sunday,Omar Elnemr,08:15 AM,04:00 PM,7h 45m,7.75,Standard,Standard shift (4:00 PM return)
-2026-09-28,Monday,Omar Elnemr,08:15 AM,04:00 PM,7h 45m,7.75,Standard,Standard shift (4:00 PM return)
-2026-09-29,Tuesday,Omar Elnemr,08:15 AM,04:00 PM,7h 45m,7.75,Standard,Standard shift (4:00 PM return)
-2026-09-23,Wednesday,Khaled,06:30 AM,04:00 PM,9h 30m,9.50,Standard,Standardized 23rd shift: 06:30 AM – 04:00 PM (9.5h)
-2026-09-24,Thursday,Khaled,08:00 AM,04:30 PM,8h 30m,8.50,Standard,Standard 8.5h shift
-2026-09-25,Friday,Khaled,08:00 AM,04:30 PM,8h 30m,8.50,Standard,Standard 8.5h shift
-2026-09-26,Saturday,Khaled,08:00 AM,04:30 PM,8h 30m,8.50,Standard,Standard 8.5h shift
-2026-09-27,Sunday,Khaled,07:00 AM,04:00 PM,9h 00m,9.00,Morning,Morning shift (4:00 PM return)
-2026-09-28,Monday,Khaled,07:00 AM,04:00 PM,9h 00m,9.00,Morning,Morning shift (4:00 PM return)
-2026-09-29,Tuesday,Khaled,07:00 AM,04:00 PM,9h 00m,9.00,Morning,Morning shift (4:00 PM return)
-2026-09-23,Wednesday,Rasheed Akel,06:30 AM,04:00 PM,9h 30m,9.50,Standard,Standardized 23rd shift: 06:30 AM – 04:00 PM (9.5h)
-2026-09-24,Thursday,Rasheed Akel,08:00 AM,04:30 PM,8h 30m,8.50,Standard,Standard daytime shift (8.5 hrs)
-2026-09-25,Friday,Rasheed Akel,08:00 AM,04:30 PM,8h 30m,8.50,Standard,Standard daytime shift (8.5 hrs)
-2026-09-26,Saturday,Rasheed Akel,08:00 AM,04:30 PM,8h 30m,8.50,Standard,Standard daytime shift (8.5 hrs)
-2026-09-27,Sunday,Rasheed Akel,07:00 AM,04:00 PM,9h 00m,9.00,Morning,Morning departure processing (4:00 PM return)
-2026-09-28,Monday,Rasheed Akel,07:00 AM,04:00 PM,9h 00m,9.00,Morning,Morning departure processing (4:00 PM return)
-2026-09-29,Tuesday,Rasheed Akel,03:00 AM,04:00 PM,13h 00m,13.00,Dawn/Overtime,Early dawn flight departure handling (4:00 PM return)
-2026-09-26,Saturday,Talal,07:00 AM,04:30 PM,9h 30m,9.50,Morning,Morning 9.5h shift
-2026-09-27,Sunday,Talal,03:00 AM,04:00 PM,13h 00m,13.00,Dawn/Overtime,Early dawn flight departure shift (4:00 PM return)
-2026-09-28,Monday,Talal,07:00 AM,04:00 PM,9h 00m,9.00,Morning,Morning shift (4:00 PM return)
-2026-09-29,Tuesday,Talal,03:00 AM,04:00 PM,13h 00m,13.00,Dawn/Overtime,Early dawn flight departure shift (4:00 PM return)
-2026-09-23,Wednesday,Mohamed Adnan,06:30 AM,04:00 PM,9h 30m,9.50,Standard,Standardized 23rd shift: 06:30 AM – 04:00 PM (9.5h)
-2026-09-24,Thursday,Mohamed Adnan,08:00 AM,04:30 PM,8h 30m,8.50,Standard,Standard 8.5h shift
-2026-09-25,Friday,Mohamed Adnan,08:00 AM,04:30 PM,8h 30m,8.50,Standard,Standard 8.5h shift
-2026-09-26,Saturday,Mohamed Adnan,03:40 AM,04:30 PM,12h 50m,12.83,Dawn/Overtime,Early dawn flight processing shift (12h 50m)
-2026-09-27,Sunday,Mohamed Adnan,03:40 AM,04:00 PM,12h 20m,12.33,Dawn/Overtime,Early dawn flight processing shift (4:00 PM return)
-2026-09-28,Monday,Mohamed Adnan,04:00 AM,04:00 PM,12h 00m,12.00,Dawn/Overtime,Early morning flight departure shift (4:00 PM return)
-2026-09-29,Tuesday,Mohamed Adnan,04:00 AM,04:00 PM,12h 00m,12.00,Dawn/Overtime,Early morning flight departure shift (4:00 PM return)
-2026-09-23,Wednesday,Tarek Orfhly,06:30 AM,04:00 PM,9h 30m,9.50,Standard,Standardized 23rd shift: 06:30 AM – 04:00 PM (9.5h)
-2026-09-24,Thursday,Tarek Orfhly,08:00 AM,04:30 PM,8h 30m,8.50,Standard,Standard 8.5h shift
-2026-09-25,Friday,Tarek Orfhly,OFF,OFF,0h 00m,0.00,Day Off,Scheduled weekly day off
-2026-09-26,Saturday,Tarek Orfhly,07:00 AM,04:30 PM,9h 30m,9.50,Morning,Morning 9.5h shift
-2026-09-27,Sunday,Tarek Orfhly,07:00 AM,04:00 PM,9h 00m,9.00,Morning,Morning flight shift (4:00 PM return)
-2026-09-28,Monday,Tarek Orfhly,07:00 AM,04:00 PM,9h 00m,9.00,Morning,Morning flight shift (4:00 PM return)
-2026-09-29,Tuesday,Tarek Orfhly,07:00 AM,04:00 PM,9h 00m,9.00,Morning,Morning flight shift (4:00 PM return)
-2026-09-23,Wednesday,Yasmin,06:30 AM,04:00 PM,9h 30m,9.50,Standard,Standardized 23rd shift: 06:30 AM – 04:00 PM (9.5h)
-2026-09-24,Thursday,Yasmin,08:00 AM,04:00 PM,8h 00m,8.00,Standard,Standard shift (8.0 hrs)
-2026-09-25,Friday,Yasmin,08:00 AM,04:00 PM,8h 00m,8.00,Standard,Standard shift (8.0 hrs)
-2026-09-26,Saturday,Yasmin,OFF,OFF,0h 00m,0.00,Day Off,Scheduled weekly day off
-2026-09-27,Sunday,Yasmin,07:00 AM,04:00 PM,9h 00m,9.00,Morning,Morning flight shift (9.0 hrs)
-2026-09-28,Monday,Yasmin,07:00 AM,04:00 PM,9h 00m,9.00,Morning,Morning flight shift (9.0 hrs)
-2026-09-29,Tuesday,Yasmin,07:00 AM,04:00 PM,9h 00m,9.00,Morning,Morning flight shift (4:00 PM return)
-2026-09-23,Wednesday,Joudi Alghorani,06:30 AM,04:00 PM,9h 30m,9.50,Standard,Standardized 23rd shift: 06:30 AM – 04:00 PM (9.5h)
-2026-09-24,Thursday,Joudi Alghorani,08:00 AM,04:00 PM,8h 00m,8.00,Standard,Standard shift (8.0 hrs)
-2026-09-25,Friday,Joudi Alghorani,08:00 AM,04:00 PM,8h 00m,8.00,Standard,Standard shift (8.0 hrs)
-2026-09-26,Saturday,Joudi Alghorani,03:15 AM,04:30 PM,13h 15m,13.25,Dawn/Overtime,Early dawn flight check-in & boarding (13h 15m)
-2026-09-27,Sunday,Joudi Alghorani,07:00 AM,04:00 PM,9h 00m,9.00,Morning,Morning departure processing (4:00 PM return)
-2026-09-28,Monday,Joudi Alghorani,07:00 AM,04:00 PM,9h 00m,9.00,Morning,Morning shift (9.0 hrs)
-2026-09-29,Tuesday,Joudi Alghorani,07:00 AM,04:00 PM,9h 00m,9.00,Morning,Morning flight shift (9.0 hrs)
-2026-09-23,Wednesday,Hanan,06:30 AM,04:00 PM,9h 30m,9.50,Standard,Standardized 23rd shift: 06:30 AM – 04:00 PM (9.5h)
+2026-09-23,Wednesday,Omar Elnemr,06:30 AM,04:00 PM,9h 30m,9.5,Standardized,Standardized 23rd shift: 06:30 AM – 04:00 PM (9.5h)
+2026-09-24,Thursday,Omar Elnemr,08:15 AM,04:00 PM,7h 45m,7.75,Standard,Standard daytime shift
+2026-09-25,Friday,Omar Elnemr,08:15 AM,05:40 PM,9h 25m,9.42,Overtime,⚡ Extended shift (+1h 40m overtime)
+2026-09-26,Saturday,Omar Elnemr,08:15 AM,04:00 PM,7h 45m,7.75,Standard,Standard daytime shift
+2026-09-27,Sunday,Omar Elnemr,08:15 AM,04:00 PM,7h 45m,7.75,Standard,Standard daytime shift (4:00 PM return)
+2026-09-28,Monday,Omar Elnemr,08:15 AM,04:00 PM,7h 45m,7.75,Standard,Standard daytime shift (4:00 PM return)
+2026-09-29,Tuesday,Omar Elnemr,08:15 AM,04:00 PM,7h 45m,7.75,Standard,Standard daytime shift (4:00 PM return)
+2026-09-30,Wednesday,Omar Elnemr,07:00 AM,04:00 PM,9h 00m,9.0,Paid Standby,🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid)
+2026-09-23,Wednesday,Khaled,06:30 AM,04:00 PM,9h 30m,9.5,Standardized,Standardized 23rd shift: 06:30 AM – 04:00 PM (9.5h)
+2026-09-24,Thursday,Khaled,08:00 AM,04:30 PM,8h 30m,8.5,Standard,Standard daytime shift
+2026-09-25,Friday,Khaled,08:00 AM,04:30 PM,8h 30m,8.5,Standard,Standard daytime shift
+2026-09-26,Saturday,Khaled,08:00 AM,04:30 PM,8h 30m,8.5,Standard,Standard daytime shift
+2026-09-27,Sunday,Khaled,07:00 AM,04:00 PM,9h 00m,9.0,Standard,Morning departure processing (4:00 PM return)
+2026-09-28,Monday,Khaled,07:00 AM,04:00 PM,9h 00m,9.0,Standard,Morning departure processing (4:00 PM return)
+2026-09-29,Tuesday,Khaled,07:00 AM,04:00 PM,9h 00m,9.0,Standard,Morning departure processing (4:00 PM return)
+2026-09-30,Wednesday,Khaled,07:00 AM,04:00 PM,9h 00m,9.0,Paid Standby,🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid)
+2026-09-23,Wednesday,Rasheed Akel,06:30 AM,04:00 PM,9h 30m,9.5,Standardized,Standardized 23rd shift: 06:30 AM – 04:00 PM (9.5h)
+2026-09-24,Thursday,Rasheed Akel,08:00 AM,04:30 PM,8h 30m,8.5,Standard,Standard daytime shift
+2026-09-25,Friday,Rasheed Akel,08:00 AM,04:30 PM,8h 30m,8.5,Standard,Standard daytime shift
+2026-09-26,Saturday,Rasheed Akel,08:00 AM,04:30 PM,8h 30m,8.5,Standard,Standard daytime shift
+2026-09-27,Sunday,Rasheed Akel,07:00 AM,04:00 PM,9h 00m,9.0,Standard,Morning departure processing (4:00 PM return)
+2026-09-28,Monday,Rasheed Akel,07:00 AM,04:00 PM,9h 00m,9.0,Standard,Morning departure processing (4:00 PM return)
+2026-09-29,Tuesday,Rasheed Akel,03:00 AM,04:00 PM,13h 00m,13.0,Dawn Shift,✈️ Early dawn flight departure handling (13h 00m)
+2026-09-30,Wednesday,Rasheed Akel,07:00 AM,04:00 PM,9h 00m,9.0,Paid Standby,🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid)
+2026-09-23,Wednesday,Joudi Alghorani,06:30 AM,04:00 PM,9h 30m,9.5,Standardized,Standardized 23rd shift: 06:30 AM – 04:00 PM (9.5h)
+2026-09-24,Thursday,Joudi Alghorani,08:00 AM,04:00 PM,8h 00m,8.0,Standard,Standard daytime shift
+2026-09-25,Friday,Joudi Alghorani,08:00 AM,04:00 PM,8h 00m,8.0,Standard,Standard daytime shift
+2026-09-26,Saturday,Joudi Alghorani,03:15 AM,04:30 PM,13h 15m,13.25,Dawn Shift,✈️ Early dawn flight check-in & boarding (13h 15m)
+2026-09-27,Sunday,Joudi Alghorani,07:00 AM,04:00 PM,9h 00m,9.0,Standard,Morning departure processing (4:00 PM return)
+2026-09-28,Monday,Joudi Alghorani,07:00 AM,04:00 PM,9h 00m,9.0,Standard,Morning departure processing
+2026-09-29,Tuesday,Joudi Alghorani,07:00 AM,04:00 PM,9h 00m,9.0,Standard,Morning departure processing
+2026-09-30,Wednesday,Joudi Alghorani,07:00 AM,04:00 PM,9h 00m,9.0,Paid Standby,🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid)
+2026-09-23,Wednesday,Hanan,06:30 AM,04:00 PM,9h 30m,9.5,Standardized,Standardized 23rd shift: 06:30 AM – 04:00 PM (9.5h)
 2026-09-24,Thursday,Hanan,08:10 AM,04:00 PM,7h 50m,7.83,Standard,Standard daytime shift (7h 50m)
 2026-09-25,Friday,Hanan,08:15 AM,04:00 PM,7h 45m,7.75,Standard,Standard daytime shift (7h 45m)
-2026-09-26,Saturday,Hanan,03:30 AM,04:30 PM,13h 00m,13.00,Dawn/Overtime,Early dawn flight check-in & departure (13.0 hrs)
-2026-09-27,Sunday,Hanan,07:00 AM,04:00 PM,9h 00m,9.00,Morning,Morning departure processing (4:00 PM return)
-2026-09-28,Monday,Hanan,07:00 AM,04:00 PM,9h 00m,9.00,Morning,Morning departure processing (4:00 PM return)
-2026-09-29,Tuesday,Hanan,07:00 AM,04:00 PM,9h 00m,9.00,Morning,Morning departure processing (9.0 hrs)
-2026-09-23,Wednesday,Raboushee,06:30 AM,04:00 PM,9h 30m,9.50,Standard,Standardized 23rd shift: 06:30 AM – 04:00 PM (9.5h)
+2026-09-26,Saturday,Hanan,03:30 AM,04:30 PM,13h 00m,13.0,Dawn Shift,✈️ Early dawn flight check-in & departure (13.0 hrs)
+2026-09-27,Sunday,Hanan,07:00 AM,04:00 PM,9h 00m,9.0,Standard,Morning departure processing (4:00 PM return)
+2026-09-28,Monday,Hanan,07:00 AM,04:00 PM,9h 00m,9.0,Standard,Morning departure processing (4:00 PM return)
+2026-09-29,Tuesday,Hanan,07:00 AM,04:00 PM,9h 00m,9.0,Standard,Morning departure processing (4:00 PM return)
+2026-09-30,Wednesday,Hanan,07:00 AM,04:00 PM,9h 00m,9.0,Paid Standby,🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid)
+2026-09-23,Wednesday,Mohamed Adnan,06:30 AM,04:00 PM,9h 30m,9.5,Standardized,Standardized 23rd shift: 06:30 AM – 04:00 PM (9.5h)
+2026-09-24,Thursday,Mohamed Adnan,08:00 AM,04:30 PM,8h 30m,8.5,Standard,Standard daytime shift
+2026-09-25,Friday,Mohamed Adnan,08:00 AM,04:30 PM,8h 30m,8.5,Standard,Standard daytime shift
+2026-09-26,Saturday,Mohamed Adnan,03:40 AM,04:30 PM,12h 50m,12.83,Dawn Shift,✈️ Dawn flight check-in & boarding ops (12.83 hrs)
+2026-09-27,Sunday,Mohamed Adnan,03:40 AM,04:00 PM,12h 20m,12.33,Dawn Shift,✈️ Dawn flight check-in & boarding ops (12.33 hrs)
+2026-09-28,Monday,Mohamed Adnan,04:00 AM,04:00 PM,12h 00m,12.0,Dawn Shift,✈️ Early morning departure ops (12.0 hrs)
+2026-09-29,Tuesday,Mohamed Adnan,04:00 AM,04:00 PM,12h 00m,12.0,Dawn Shift,✈️ Early morning departure ops (12.0 hrs)
+2026-09-30,Wednesday,Mohamed Adnan,07:00 AM,04:00 PM,9h 00m,9.0,Paid Standby,🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid)
+2026-09-23,Wednesday,Raboushee,06:30 AM,04:00 PM,9h 30m,9.5,Standardized,Standardized 23rd shift: 06:30 AM – 04:00 PM (9.5h)
 2026-09-24,Thursday,Raboushee,08:20 AM,04:00 PM,7h 40m,7.67,Standard,Standard daytime shift (7h 40m)
-2026-09-25,Friday,Raboushee,08:15 AM,03:45 PM,7h 30m,7.50,Standard,Standard daytime shift (7h 30m)
+2026-09-25,Friday,Raboushee,08:15 AM,03:45 PM,7h 30m,7.5,Standard,Standard daytime shift (7h 30m)
 2026-09-26,Saturday,Raboushee,08:15 AM,04:30 PM,8h 15m,8.25,Standard,Standard daytime shift (8h 15m)
-2026-09-27,Sunday,Raboushee,07:15 AM,04:00 PM,8h 45m,8.75,Morning,Morning departure processing (8h 45m)
-2026-09-28,Monday,Raboushee,07:20 AM,04:00 PM,8h 40m,8.67,Morning,Morning departure processing (8h 40m)
-2026-09-29,Tuesday,Raboushee,07:20 AM,04:00 PM,8h 40m,8.67,Morning,Morning departure processing (8h 40m)
-2026-10-01,Thursday,Yasmin,07:45 AM,02:00 PM,6h 15m,6.25,Training,Saudia Airlines Training Session (6h 15m)
-2026-10-01,Thursday,Tarek Orfhly,07:45 AM,02:00 PM,6h 15m,6.25,Training,Saudia Airlines Training Session (6h 15m)
-2026-10-01,Thursday,Rasheed Akel,07:45 AM,02:00 PM,6h 15m,6.25,Training,Saudia Airlines Training Session (6h 15m)
+2026-09-27,Sunday,Raboushee,07:15 AM,04:00 PM,8h 45m,8.75,Standard,Morning departure processing (8h 45m)
+2026-09-28,Monday,Raboushee,07:20 AM,04:00 PM,8h 40m,8.67,Standard,Morning departure processing (8h 40m)
+2026-09-29,Tuesday,Raboushee,07:20 AM,04:00 PM,8h 40m,8.67,Standard,Morning departure processing (8h 40m)
+2026-09-30,Wednesday,Raboushee,07:00 AM,04:00 PM,9h 00m,9.0,Paid Standby,🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid)
+2026-09-23,Wednesday,Tarek Orfhly,06:30 AM,04:00 PM,9h 30m,9.5,Standardized,Standardized 23rd shift: 06:30 AM – 04:00 PM (9.5h)
+2026-09-24,Thursday,Tarek Orfhly,08:00 AM,04:30 PM,8h 30m,8.5,Standard,Standard daytime shift
+2026-09-25,Friday,Tarek Orfhly,OFF,OFF,0h 00m,0.0,Day Off,🌴 Scheduled weekly day off
+2026-09-26,Saturday,Tarek Orfhly,07:00 AM,04:30 PM,9h 30m,9.5,Standard,Morning flight shift (9h 30m)
+2026-09-27,Sunday,Tarek Orfhly,07:00 AM,04:00 PM,9h 00m,9.0,Standard,Morning flight shift (4:00 PM return)
+2026-09-28,Monday,Tarek Orfhly,07:00 AM,04:00 PM,9h 00m,9.0,Standard,Morning flight shift (4:00 PM return)
+2026-09-29,Tuesday,Tarek Orfhly,07:00 AM,04:00 PM,9h 00m,9.0,Standard,Morning flight shift (4:00 PM return)
+2026-09-30,Wednesday,Tarek Orfhly,07:00 AM,04:00 PM,9h 00m,9.0,Paid Standby,🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid)
+2026-09-23,Wednesday,Yasmin,06:30 AM,04:00 PM,9h 30m,9.5,Standardized,Standardized 23rd shift: 06:30 AM – 04:00 PM (9.5h)
+2026-09-24,Thursday,Yasmin,08:00 AM,04:00 PM,8h 00m,8.0,Standard,Standard daytime shift
+2026-09-25,Friday,Yasmin,08:00 AM,04:00 PM,8h 00m,8.0,Standard,Standard daytime shift
+2026-09-26,Saturday,Yasmin,OFF,OFF,0h 00m,0.0,Day Off,🌴 Scheduled weekly day off
+2026-09-27,Sunday,Yasmin,07:00 AM,04:00 PM,9h 00m,9.0,Standard,Morning flight shift
+2026-09-28,Monday,Yasmin,07:00 AM,04:00 PM,9h 00m,9.0,Standard,Morning flight shift
+2026-09-29,Tuesday,Yasmin,07:00 AM,04:00 PM,9h 00m,9.0,Standard,Morning flight shift (4:00 PM return)
+2026-09-30,Wednesday,Yasmin,07:00 AM,04:00 PM,9h 00m,9.0,Paid Standby,🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid)
+2026-09-23,Wednesday,Talal,OFF,OFF,0h 00m,0.0,Day Off,🌴 Off / Not scheduled
+2026-09-24,Thursday,Talal,OFF,OFF,0h 00m,0.0,Day Off,🌴 Off / Not scheduled
+2026-09-25,Friday,Talal,OFF,OFF,0h 00m,0.0,Day Off,🌴 Off / Not scheduled
+2026-09-26,Saturday,Talal,07:00 AM,04:30 PM,9h 30m,9.5,Standard,Morning flight shift (9h 30m)
+2026-09-27,Sunday,Talal,03:00 AM,04:00 PM,13h 00m,13.0,Dawn Shift,✈️ Early dawn flight departure handling (13h 00m)
+2026-09-28,Monday,Talal,07:00 AM,04:00 PM,9h 00m,9.0,Standard,Morning flight shift (4:00 PM return)
+2026-09-29,Tuesday,Talal,03:00 AM,04:00 PM,13h 00m,13.0,Dawn Shift,✈️ Early dawn flight departure handling (13h 00m)
+2026-09-30,Wednesday,Talal,07:00 AM,04:00 PM,9h 00m,9.0,Paid Standby,🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid)

@@ -1,15 +1,62 @@
 Date,Day,Employee,Log_In,Log_Out,Duration_Formatted,Decimal_Hours,Status,Notes
-2026-10-01,Thursday,Yasmin,07:45 AM,02:00 PM,6h 15m,6.25,Training,Saudia Airlines Training Session (6h 15m)
-2026-10-01,Thursday,Tarek Orfhly,07:45 AM,02:00 PM,6h 15m,6.25,Training,Saudia Airlines Training Session (6h 15m)
-2026-10-01,Thursday,Rasheed Akel,07:45 AM,02:00 PM,6h 15m,6.25,Training,Saudia Airlines Training Session (6h 15m)
-2026-10-02,Friday,Omar Elnemr,OFF,OFF,0h 00m,0.00,Day Off,Scheduled team day off (No shift)
-2026-10-02,Friday,Khaled,OFF,OFF,0h 00m,0.00,Day Off,Scheduled team day off (No shift)
-2026-10-02,Friday,Rasheed Akel,OFF,OFF,0h 00m,0.00,Day Off,Scheduled team day off (No shift)
-2026-10-02,Friday,Talal,OFF,OFF,0h 00m,0.00,Day Off,Scheduled team day off (No shift)
-2026-10-02,Friday,Mohamed Adnan,OFF,OFF,0h 00m,0.00,Day Off,Scheduled team day off (No shift)
-2026-10-02,Friday,Tarek Orfhly,OFF,OFF,0h 00m,0.00,Day Off,Scheduled team day off (No shift)
-2026-10-02,Friday,Yasmin,OFF,OFF,0h 00m,0.00,Day Off,Scheduled team day off (No shift)
-2026-10-02,Friday,Joudi Alghorani,OFF,OFF,0h 00m,0.00,Day Off,Scheduled team day off (No shift)
-2026-10-02,Friday,Hanan,OFF,OFF,0h 00m,0.00,Day Off,Scheduled team day off (No shift)
-2026-10-02,Friday,Raboushee,OFF,OFF,0h 00m,0.00,Day Off,Scheduled team day off (No shift)
-2026-10-03,Saturday,Omar Elnemr,08:00 AM,04:00 PM,8h 00m,8.00,Training,🎓 Etihad IGS Training Session (MS Teams)
+2026-10-01,Thursday,Omar Elnemr,07:00 AM,04:00 PM,9h 00m,9.0,Paid Standby,🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid)
+2026-10-01,Thursday,Khaled,07:00 AM,04:00 PM,9h 00m,9.0,Paid Standby,🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid)
+2026-10-01,Thursday,Rasheed Akel,07:45 AM,02:00 PM,6h 15m,6.25,Training,🎓 Saudia Airlines Training Session (6h 15m) + Paid Standby
+2026-10-01,Thursday,Talal,07:00 AM,04:00 PM,9h 00m,9.0,Paid Standby,🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid)
+2026-10-01,Thursday,Mohamed Adnan,07:00 AM,04:00 PM,9h 00m,9.0,Paid Standby,🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid)
+2026-10-01,Thursday,Tarek Orfhly,07:45 AM,02:00 PM,6h 15m,6.25,Training,🎓 Saudia Airlines Training Session (6h 15m) + Paid Standby
+2026-10-01,Thursday,Yasmin,07:45 AM,02:00 PM,6h 15m,6.25,Training,🎓 Saudia Airlines Training Session (6h 15m) + Paid Standby
+2026-10-01,Thursday,Joudi Alghorani,07:00 AM,04:00 PM,9h 00m,9.0,Paid Standby,🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid)
+2026-10-01,Thursday,Hanan,07:00 AM,04:00 PM,9h 00m,9.0,Paid Standby,🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid)
+2026-10-01,Thursday,Raboushee,07:00 AM,04:00 PM,9h 00m,9.0,Paid Standby,🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid)
+2026-10-02,Friday,Omar Elnemr,OFF,OFF,0h 00m,0.0,Day Off,🌴 Scheduled Team Rest Day (Contractual 1 Day Off in 7-day cycle)
+2026-10-02,Friday,Khaled,OFF,OFF,0h 00m,0.0,Day Off,🌴 Scheduled Team Rest Day (Contractual 1 Day Off in 7-day cycle)
+2026-10-02,Friday,Rasheed Akel,OFF,OFF,0h 00m,0.0,Day Off,🌴 Scheduled Team Rest Day (Contractual 1 Day Off in 7-day cycle)
+2026-10-02,Friday,Talal,OFF,OFF,0h 00m,0.0,Day Off,🌴 Scheduled Team Rest Day (Contractual 1 Day Off in 7-day cycle)
+2026-10-02,Friday,Mohamed Adnan,OFF,OFF,0h 00m,0.0,Day Off,🌴 Scheduled Team Rest Day (Contractual 1 Day Off in 7-day cycle)
+2026-10-02,Friday,Tarek Orfhly,OFF,OFF,0h 00m,0.0,Day Off,🌴 Scheduled Team Rest Day (Contractual 1 Day Off in 7-day cycle)
+2026-10-02,Friday,Yasmin,OFF,OFF,0h 00m,0.0,Day Off,🌴 Scheduled Team Rest Day (Contractual 1 Day Off in 7-day cycle)
+2026-10-02,Friday,Joudi Alghorani,OFF,OFF,0h 00m,0.0,Day Off,🌴 Scheduled Team Rest Day (Contractual 1 Day Off in 7-day cycle)
+2026-10-02,Friday,Hanan,OFF,OFF,0h 00m,0.0,Day Off,🌴 Scheduled Team Rest Day (Contractual 1 Day Off in 7-day cycle)
+2026-10-02,Friday,Raboushee,OFF,OFF,0h 00m,0.0,Day Off,🌴 Scheduled Team Rest Day (Contractual 1 Day Off in 7-day cycle)
+2026-10-03,Saturday,Omar Elnemr,08:00 AM,04:00 PM,8h 00m,8.0,Training / Paid,🎓 Etihad IGS Training Prep / Paid Administrative Standby (8h)
+2026-10-03,Saturday,Khaled,08:00 AM,04:00 PM,8h 00m,8.0,Training / Paid,🎓 Etihad IGS Training Prep / Paid Administrative Standby (8h)
+2026-10-03,Saturday,Rasheed Akel,08:00 AM,04:00 PM,8h 00m,8.0,Training / Paid,🎓 Etihad IGS Training Prep / Paid Administrative Standby (8h)
+2026-10-03,Saturday,Talal,08:00 AM,04:00 PM,8h 00m,8.0,Training / Paid,🎓 Etihad IGS Training Prep / Paid Administrative Standby (8h)
+2026-10-03,Saturday,Mohamed Adnan,08:00 AM,04:00 PM,8h 00m,8.0,Training / Paid,🎓 Etihad IGS Training Prep / Paid Administrative Standby (8h)
+2026-10-03,Saturday,Tarek Orfhly,08:00 AM,04:00 PM,8h 00m,8.0,Training / Paid,🎓 Etihad IGS Training Prep / Paid Administrative Standby (8h)
+2026-10-03,Saturday,Yasmin,08:00 AM,04:00 PM,8h 00m,8.0,Training / Paid,🎓 Etihad IGS Training Prep / Paid Administrative Standby (8h)
+2026-10-03,Saturday,Joudi Alghorani,08:00 AM,04:00 PM,8h 00m,8.0,Training / Paid,🎓 Etihad IGS Training Prep / Paid Administrative Standby (8h)
+2026-10-03,Saturday,Hanan,08:00 AM,04:00 PM,8h 00m,8.0,Training / Paid,🎓 Etihad IGS Training Prep / Paid Administrative Standby (8h)
+2026-10-03,Saturday,Raboushee,08:00 AM,04:00 PM,8h 00m,8.0,Training / Paid,🎓 Etihad IGS Training Prep / Paid Administrative Standby (8h)
+2026-10-04,Sunday,Omar Elnemr,07:45 AM,04:00 PM,8h 15m,8.25,Paid Shift,🏢 Airport Onboarding Shift / Logged in 07:45 AM (8h 15m)
+2026-10-04,Sunday,Khaled,07:45 AM,04:00 PM,8h 15m,8.25,Paid Shift,🏢 Airport Onboarding Shift / Logged in 07:45 AM (8h 15m)
+2026-10-04,Sunday,Rasheed Akel,07:00 AM,04:00 PM,9h 00m,9.0,Paid Standby,🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid)
+2026-10-04,Sunday,Talal,07:00 AM,04:00 PM,9h 00m,9.0,Paid Standby,🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid)
+2026-10-04,Sunday,Mohamed Adnan,07:00 AM,04:00 PM,9h 00m,9.0,Paid Standby,🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid)
+2026-10-04,Sunday,Tarek Orfhly,07:00 AM,04:00 PM,9h 00m,9.0,Paid Standby,🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid)
+2026-10-04,Sunday,Yasmin,07:00 AM,04:00 PM,9h 00m,9.0,Paid Standby,🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid)
+2026-10-04,Sunday,Joudi Alghorani,07:45 AM,04:00 PM,8h 15m,8.25,Paid Shift,🏢 Airport Onboarding Shift / Logged in 07:45 AM (8h 15m)
+2026-10-04,Sunday,Hanan,07:45 AM,04:00 PM,8h 15m,8.25,Paid Shift,🏢 Airport Onboarding Shift / Logged in 07:45 AM (8h 15m)
+2026-10-04,Sunday,Raboushee,07:45 AM,04:00 PM,8h 15m,8.25,Paid Shift,🏢 Airport Onboarding Shift / Logged in 07:45 AM (8h 15m)
+2026-10-04,Sunday,Osama Alkabbani,08:48 AM,04:00 PM,7h 12m,7.2,Paid Shift,🏢 Airport Onboarding Shift / Logged in 08:48 AM (7h 12m)
+2026-10-05,Monday,Omar Elnemr,08:00 AM,04:00 PM,8h 00m,8.0,Training / Paid,🎓 Etihad IGS Training Day 1 (MS Teams) / Saudi KSA Delegation / Paid Standby
+2026-10-05,Monday,Khaled,08:00 AM,04:00 PM,8h 00m,8.0,Training / Paid,🎓 Etihad IGS Training Day 1 (MS Teams) / Saudi KSA Delegation / Paid Standby
+2026-10-05,Monday,Rasheed Akel,08:00 AM,04:00 PM,8h 00m,8.0,Training / Paid,🎓 Etihad IGS Training Day 1 (MS Teams) / Saudi KSA Delegation / Paid Standby
+2026-10-05,Monday,Talal,08:00 AM,04:00 PM,8h 00m,8.0,Training / Paid,🎓 Etihad IGS Training Day 1 (MS Teams) / Saudi KSA Delegation / Paid Standby
+2026-10-05,Monday,Mohamed Adnan,08:00 AM,04:00 PM,8h 00m,8.0,Training / Paid,🎓 Etihad IGS Training Day 1 (MS Teams) / Saudi KSA Delegation / Paid Standby
+2026-10-05,Monday,Tarek Orfhly,08:00 AM,04:00 PM,8h 00m,8.0,Training / Paid,🎓 Etihad IGS Training Day 1 (MS Teams) / Saudi KSA Delegation / Paid Standby
+2026-10-05,Monday,Yasmin,08:00 AM,04:00 PM,8h 00m,8.0,Training / Paid,🎓 Etihad IGS Training Day 1 (MS Teams) / Saudi KSA Delegation / Paid Standby
+2026-10-05,Monday,Joudi Alghorani,08:00 AM,04:00 PM,8h 00m,8.0,Training / Paid,🎓 Etihad IGS Training Day 1 (MS Teams) / Saudi KSA Delegation / Paid Standby
+2026-10-05,Monday,Hanan,08:00 AM,04:00 PM,8h 00m,8.0,Training / Paid,🎓 Etihad IGS Training Day 1 (MS Teams) / Saudi KSA Delegation / Paid Standby
+2026-10-05,Monday,Raboushee,08:00 AM,04:00 PM,8h 00m,8.0,Training / Paid,🎓 Etihad IGS Training Day 1 (MS Teams) / Saudi KSA Delegation / Paid Standby
+2026-10-06,Tuesday,Omar Elnemr,08:00 AM,04:00 PM,8h 00m,8.0,Training / Paid,🎓 Etihad IGS Training Day 2 (MS Teams) / Saudi KSA Delegation / Paid Standby
+2026-10-06,Tuesday,Khaled,08:00 AM,04:00 PM,8h 00m,8.0,Training / Paid,🎓 Etihad IGS Training Day 2 (MS Teams) / Saudi KSA Delegation / Paid Standby
+2026-10-06,Tuesday,Rasheed Akel,08:00 AM,04:00 PM,8h 00m,8.0,Training / Paid,🎓 Etihad IGS Training Day 2 (MS Teams) / Saudi KSA Delegation / Paid Standby
+2026-10-06,Tuesday,Talal,08:00 AM,04:00 PM,8h 00m,8.0,Training / Paid,🎓 Etihad IGS Training Day 2 (MS Teams) / Saudi KSA Delegation / Paid Standby
+2026-10-06,Tuesday,Mohamed Adnan,08:00 AM,04:00 PM,8h 00m,8.0,Training / Paid,🎓 Etihad IGS Training Day 2 (MS Teams) / Saudi KSA Delegation / Paid Standby
+2026-10-06,Tuesday,Tarek Orfhly,08:00 AM,04:00 PM,8h 00m,8.0,Training / Paid,🎓 Etihad IGS Training Day 2 (MS Teams) / Saudi KSA Delegation / Paid Standby
+2026-10-06,Tuesday,Yasmin,08:00 AM,04:00 PM,8h 00m,8.0,Training / Paid,🎓 Etihad IGS Training Day 2 (MS Teams) / Saudi KSA Delegation / Paid Standby
+2026-10-06,Tuesday,Joudi Alghorani,08:00 AM,04:00 PM,8h 00m,8.0,Training / Paid,🎓 Etihad IGS Training Day 2 (MS Teams) / Saudi KSA Delegation / Paid Standby
+2026-10-06,Tuesday,Hanan,08:00 AM,04:00 PM,8h 00m,8.0,Training / Paid,🎓 Etihad IGS Training Day 2 (MS Teams) / Saudi KSA Delegation / Paid Standby
+2026-10-06,Tuesday,Raboushee,08:00 AM,04:00 PM,8h 00m,8.0,Training / Paid,🎓 Etihad IGS Training Day 2 (MS Teams) / Saudi KSA Delegation / Paid Standby
