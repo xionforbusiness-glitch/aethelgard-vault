@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AETHELGARD // 2060 NEURAL OPERATIONS DECK</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600;800&family=Orbitron:wght@500;700;900&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-deep: #05070d;
+            --bg-card: rgba(10, 16, 28, 0.75);
+            --border-glow: rgba(0, 240, 255, 0.25);
+            --cyan-glow: #00f0ff;
+            --amber-glow: #ffb800;
+            --emerald-glow: #00ff88;
+            --crimson-glow: #ff0055;
+            --purple-glow: #a855f7;
+            --text-primary: #e2e8f0;
+            --text-muted: #64748b;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            user-select: none;
+        }
+
+        body {
+            background-color: var(--bg-deep);
+            background-image: 
+                radial-gradient(circle at 15% 20%, rgba(0, 240, 255, 0.08) 0%, transparent 40%),
+                radial-gradient(circle at 85% 80%, rgba(168, 85, 247, 0.08) 0%, transparent 40%),
+                linear-gradient(rgba(255, 255, 255, 0.015) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255, 255, 255, 0.015) 1px, transparent 1px);
+            background-size: 100% 100%, 100% 100%, 30px 30px, 30px 30px;
+            color: var(--text-primary);
+            font-family: 'Rajdhani', sans-serif;
+            min-height: 100vh;
+            overflow-x: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Glassmorphism Scanline Overlay */
+        body::before {
+            content: " ";
+            position: fixed;
+            top: 0; left: 0; bottom: 0; right: 0;
+            background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%);
+            background-size: 100% 4px;
+            z-index: 1000;
+            pointer-events: none;
+            opacity: 0.6;
+        }
+
+        /* Top Cyber Header */
+        header {
+            padding: 20px 35px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid var(--border-glow);
+            background: rgba(8, 12, 22, 0.85);
+            backdrop-filter: blur(16px);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .brand-title {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 24px;
+            font-weight: 900;
+            letter-spacing: 3px;
+            color: var(--cyan-glow);
+            text-shadow: 0 0 15px rgba(0, 240, 255, 0.6);
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .brand-tag {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 10px;
+            padding: 3px 8px;
+            background: rgba(0, 240, 255, 0.12);
+            border: 1px solid var(--cyan-glow);
+            border-radius: 4px;
+            color: var(--cyan-glow);
+            letter-spacing: 1px;
+        }
+
+        .header-metrics {
+            display: flex;
+            gap: 30px;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 12px;
+        }
+
+        .metric-pill {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--text-muted);
+        }
+
+        .pulse-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: var(--emerald-glow);
+            box-shadow: 0 0 10px var(--emerald-glow);
+            animation: pulse 1.8s infinite;
+        }
+
+        @keyframes pulse {
+            0% { opacity: 0.4; transform: scale(0.9); }
+            50% { opacity: 1; transform: scale(1.2); }
+            100% { opacity: 0.4; transform: scale(0.9); }
+        }
+
+        /* Main Dashboard Grid */
+        main {
+            padding: 30px 35px;
+            display: grid;
+            grid-template-columns: 1fr 1.3fr 1fr;
+            gap: 25px;
+            flex: 1;
+        }
+
+        .hud-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-glow);
+            border-radius: 12px;
+            padding: 22px;
+            backdrop-filter: blur(20px);
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.4);
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+        }
+
+        .hud-card::after {
+            content: "";
+            position: absolute;
+            top: 0; left: 0; right: 0;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, var(--cyan-glow), transparent);
+        }
+
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .card-title {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 14px;
+            letter-spacing: 1.5px;
+            color: #94a3b8;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .card-title span {
+            color: var(--cyan-glow);
+        }
+
+        /* 1. Airport Radar Instrument Widget */
+        .radar-screen {
+            position: relative;
+            width: 100%;
+            height: 200px;
+            border-radius: 8px;
+            background: rgba(3, 8, 16, 0.9);
+            border: 1px dashed rgba(0, 240, 255, 0.3);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        .radar-sweep {
+            position: absolute;
+            width: 220px;
+            height: 220px;
+            border-radius: 50%;
+            border: 1px solid rgba(0, 240, 255, 0.2);
+        }
+
+        .sweep-arm {
+            position: absolute;
+            width: 50%;
+            height: 50%;
+            top: 0; left: 50%;
+            transform-origin: bottom left;
+            background: linear-gradient(45deg, rgba(0, 240, 255, 0.35) 0%, transparent 70%);
+            animation: sweep 4s linear infinite;
+        }
+
+        @keyframes sweep {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        .radar-info-box {
+            position: absolute;
+            bottom: 12px;
+            left: 15px;
+            right: 15px;
+            display: flex;
+            justify-content: space-between;
+            background: rgba(10, 16, 28, 0.85);
+            padding: 8px 12px;
+            border-radius: 6px;
+            border: 1px solid rgba(0, 240, 255, 0.2);
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+        }
+
+        /* 2. Circadian Bio-Shift Fatigue Curve */
+        .bio-chart {
+            height: 160px;
+            width: 100%;
+            position: relative;
+            display: flex;
+            align-items: flex-end;
+            padding-bottom: 25px;
+            gap: 12px;
+        }
+
+        .time-col {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100%;
+            justify-content: flex-end;
+            position: relative;
+        }
+
+        .bar {
+            width: 100%;
+            border-radius: 4px 4px 0 0;
+            background: linear-gradient(180deg, var(--cyan-glow), rgba(0, 240, 255, 0.1));
+            transition: all 0.3s;
+            position: relative;
+        }
+
+        .bar.alert-low {
+            background: linear-gradient(180deg, var(--crimson-glow), rgba(255, 0, 85, 0.15));
+            box-shadow: 0 0 10px rgba(255, 0, 85, 0.4);
+        }
+
+        .bar.alert-medium {
+            background: linear-gradient(180deg, var(--amber-glow), rgba(255, 184, 0, 0.15));
+        }
+
+        .time-label {
+            position: absolute;
+            bottom: -22px;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 9px;
+            color: var(--text-muted);
+        }
+
+        .pct-label {
+            position: absolute;
+            top: -18px;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 10px;
+            font-weight: 700;
+        }
+
+        /* 3. Colleague Roster Telemetry */
+        .roster-list {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .roster-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: rgba(15, 23, 42, 0.6);
+            padding: 10px 14px;
+            border-radius: 8px;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            transition: all 0.2s;
+        }
+
+        .roster-item:hover {
+            border-color: var(--cyan-glow);
+            transform: translateX(4px);
+        }
+
+        .member-info {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .member-avatar {
+            width: 28px;
+            height: 28px;
+            border-radius: 6px;
+            background: rgba(0, 240, 255, 0.15);
+            border: 1px solid var(--cyan-glow);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Orbitron', sans-serif;
+            font-size: 11px;
+            font-weight: 700;
+            color: var(--cyan-glow);
+        }
+
+        .member-name {
+            font-size: 15px;
+            font-weight: 600;
+        }
+
+        .member-shift {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            color: var(--text-muted);
+        }
+
+        .badge {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 10px;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-weight: 600;
+        }
+
+        .badge-dawn {
+            background: rgba(255, 0, 85, 0.15);
+            color: var(--crimson-glow);
+            border: 1px solid var(--crimson-glow);
+        }
+
+        .badge-standard {
+            background: rgba(0, 255, 136, 0.15);
+            color: var(--emerald-glow);
+            border: 1px solid var(--emerald-glow);
+        }
+
+        .badge-off {
+            background: rgba(100, 116, 139, 0.2);
+            color: #94a3b8;
+            border: 1px solid #475569;
+        }
+
+        /* 4. Autonomous Terminal & Voice Visualizer */
+        .terminal-feed {
+            background: #020408;
+            border-radius: 8px;
+            border: 1px solid rgba(0, 240, 255, 0.15);
+            padding: 14px;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            height: 210px;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .term-log {
+            line-height: 1.4;
+        }
+
+        .log-time { color: var(--cyan-glow); }
+        .log-ai { color: var(--purple-glow); }
+        .log-ok { color: var(--emerald-glow); }
+
+        /* Quick Action Bar */
+        .action-dock {
+            display: flex;
+            gap: 12px;
+        }
+
+        .cyber-btn {
+            flex: 1;
+            padding: 12px;
+            background: rgba(0, 240, 255, 0.08);
+            border: 1px solid var(--cyan-glow);
+            border-radius: 6px;
+            color: var(--cyan-glow);
+            font-family: 'Orbitron', sans-serif;
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            cursor: pointer;
+            transition: all 0.25s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .cyber-btn:hover {
+            background: var(--cyan-glow);
+            color: #000;
+            box-shadow: 0 0 20px rgba(0, 240, 255, 0.6);
+            transform: translateY(-2px);
+        }
+
+        .cyber-btn.danger {
+            border-color: var(--crimson-glow);
+            color: var(--crimson-glow);
+            background: rgba(255, 0, 85, 0.08);
+        }
+
+        .cyber-btn.danger:hover {
+            background: var(--crimson-glow);
+            color: #fff;
+            box-shadow: 0 0 20px rgba(255, 0, 85, 0.6);
+        }
+
+        /* Responsive */
+        @media (max-width: 1200px) {
+            main { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="brand-title">
+            <span>🏛️ AETHELGARD</span>
+            <span class="brand-tag">v2060.4 NEURAL OS</span>
+        </div>
+        <div class="header-metrics">
+            <div class="metric-pill">
+                <div class="pulse-dot"></div>
+                <span>CORE: GEMINI 3.7 FLASH PRO</span>
+            </div>
+            <div class="metric-pill">
+                <span>STATION: DAMASCUS (OSDI)</span>
+            </div>
+            <div class="metric-pill">
+                <span style="color: var(--cyan-glow);" id="clock">22:00:00</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- COLUMN 1: SENSORY RADAR & METAR -->
+        <div class="hud-card">
+            <div class="card-header">
+                <div class="card-title"><span>✈️</span> LIVE AIRPORT SENSORY RADAR</div>
+                <div class="badge badge-standard">VFR // ACTIVE</div>
+            </div>
+
+            <div class="radar-screen">
+                <div class="radar-sweep">
+                    <div class="sweep-arm"></div>
+                </div>
+                <div style="font-family: 'Orbitron'; font-size: 13px; letter-spacing: 2px; color: var(--cyan-glow); z-index: 2;">
+                    OSDI // DAMASCUS INTL
+                </div>
+                <div class="radar-info-box">
+                    <div>WIND: <span style="color: var(--cyan-glow);">230° @ 8KT</span></div>
+                    <div>VIS: <span style="color: var(--emerald-glow);">9999m (10km+)</span></div>
+                    <div>SURFACE: <span style="color: var(--amber-glow);">20°C / 1018 QNH</span></div>
+                </div>
+            </div>
+
+            <div class="card-header">
+                <div class="card-title"><span>🧬</span> CIRCADIAN BIO-RHYTHM ORACLE</div>
+                <div style="font-family: 'JetBrains Mono'; font-size: 11px; color: var(--amber-glow);">FATIGUE PREDICTOR</div>
+            </div>
+
+            <!-- Circadian Alertness Curve -->
+            <div class="bio-chart">
+                <div class="time-col">
+                    <div class="pct-label" style="color: var(--emerald-glow);">92%</div>
+                    <div class="bar" style="height: 92%;"></div>
+                    <div class="time-label">08:00</div>
+                </div>
+                <div class="time-col">
+                    <div class="pct-label" style="color: var(--emerald-glow);">85%</div>
+                    <div class="bar" style="height: 85%;"></div>
+                    <div class="time-label">12:00</div>
+                </div>
+                <div class="time-col">
+                    <div class="pct-label" style="color: var(--amber-glow);">68%</div>
+                    <div class="bar alert-medium" style="height: 68%;"></div>
+                    <div class="time-label">16:00</div>
+                </div>
+                <div class="time-col">
+                    <div class="pct-label" style="color: var(--crimson-glow);">38%</div>
+                    <div class="bar alert-low" style="height: 38%;"></div>
+                    <div class="time-label">03:00*</div>
+                </div>
+                <div class="time-col">
+                    <div class="pct-label" style="color: var(--amber-glow);">55%</div>
+                    <div class="bar alert-medium" style="height: 55%;"></div>
+                    <div class="time-label">06:00</div>
+                </div>
+            </div>
+            <div style="font-size: 12px; color: var(--text-muted); font-family: 'JetBrains Mono';">
+                ⚠️ *Notice: Dawn flight shift at 03:00 AM triggers 38% dip. Recommended pre-shift sleep anchor: 20:30–02:15.
+            </div>
+        </div>
+
+        <!-- COLUMN 2: ROSTER TELEMETRY & OPERATIONS -->
+        <div class="hud-card">
+            <div class="card-header">
+                <div class="card-title"><span>👥</span> GROUND OPERATIONS DUTY MATRIX</div>
+                <div style="font-family: 'JetBrains Mono'; font-size: 11px; color: var(--cyan-glow);">OCTOBER 2026</div>
+            </div>
+
+            <div class="roster-list">
+                <div class="roster-item">
+                    <div class="member-info">
+                        <div class="member-avatar">OE</div>
+                        <div>
+                            <div class="member-name">Omar Elnemr (Self)</div>
+                            <div class="member-shift">07:20 AM → 16:00 (Standardized)</div>
+                        </div>
+                    </div>
+                    <div class="badge badge-standard">ON DUTY</div>
+                </div>
+
+                <div class="roster-item">
+                    <div class="member-info">
+                        <div class="member-avatar">MA</div>
+                        <div>
+                            <div class="member-name">Mohamed Adnan</div>
+                            <div class="member-shift">03:40 AM → 16:30 (Dawn Specialist)</div>
+                        </div>
+                    </div>
+                    <div class="badge badge-dawn">DAWN (75.3h)</div>
+                </div>
+
+                <div class="roster-item">
+                    <div class="member-info">
+                        <div class="member-avatar">RA</div>
+                        <div>
+                            <div class="member-name">Rasheed Akel</div>
+                            <div class="member-shift">07:20 AM → 16:30 (Flight Handling)</div>
+                        </div>
+                    </div>
+                    <div class="badge badge-standard">DUTY (65.6h)</div>
+                </div>
+
+                <div class="roster-item">
+                    <div class="member-info">
+                        <div class="member-avatar">KH</div>
+                        <div>
+                            <div class="member-name">Khaled</div>
+                            <div class="member-shift">07:20 AM → 16:30 (Operations)</div>
+                        </div>
+                    </div>
+                    <div class="badge badge-standard">DUTY (61.6h)</div>
+                </div>
+
+                <div class="roster-item">
+                    <div class="member-info">
+                        <div class="member-avatar">TL</div>
+                        <div>
+                            <div class="member-name">Talal</div>
+                            <div class="member-shift">03:00 AM → 16:00 (Dawn Flight)</div>
+                        </div>
+                    </div>
+                    <div class="badge badge-dawn">DAWN (44.5h)</div>
+                </div>
+
+                <div class="roster-item">
+                    <div class="member-info">
+                        <div class="member-avatar" style="border-color: #64748b; color: #64748b;">YS</div>
+                        <div>
+                            <div class="member-name" style="color: #64748b;">Yasmeen</div>
+                            <div class="member-shift">Scheduled Weekly Rotation</div>
+                        </div>
+                    </div>
+                    <div class="badge badge-off">DAY OFF</div>
+                </div>
+            </div>
+
+            <!-- Quick Action Dock -->
+            <div class="action-dock">
+                <button class="cyber-btn" onclick="executeLog('BUS_SYNC')">🚌 BUS SYNC 07:20</button>
+                <button class="cyber-btn" onclick="executeLog('CHECKOUT')">🏁 WRAP 16:00</button>
+                <button class="cyber-btn danger" onclick="executeLog('WARGAME')">⚔️ WARGAME</button>
+            </div>
+        </div>
+
+        <!-- COLUMN 3: AUTONOMOUS TELEMETRY & VOICE INTERFACE -->
+        <div class="hud-card">
+            <div class="card-header">
+                <div class="card-title"><span>🧠</span> NEURAL STREAM & SELF-EVOLUTION</div>
+                <div class="badge badge-standard">COGNITIVE STREAM</div>
+            </div>
+
+            <div class="terminal-feed" id="terminal">
+                <div class="term-log"><span class="log-time">[22:00:15]</span> <span class="log-ok">INIT:</span> Aethelgard 2060 Core active. 1M Context mounted.</div>
+                <div class="term-log"><span class="log-time">[22:00:18]</span> <span class="log-ai">JARVIS:</span> Ryan (-4Hz pitch) calibrated for voice synthesis.</div>
+                <div class="term-log"><span class="log-time">[22:00:22]</span> <span class="log-ok">METAR:</span> OSDI feed synchronized. Visual flight category: VFR.</div>
+                <div class="term-log"><span class="log-time">[22:00:30]</span> <span class="log-ai">FINANCE:</span> Damascus Cash Ledger active (1 USD = 14,800 SYP).</div>
+                <div class="term-log"><span class="log-time">[22:01:05]</span> <span class="log-ok">SHIELD:</span> Cyber Armor active. Monitoring email & credential exposure.</div>
+                <div class="term-log"><span class="log-time">[22:02:40]</span> <span class="log-ai">AUTONOMY:</span> Night-Owl Cognitive Collision queued for 02:00 AM.</div>
+            </div>
+
+            <div class="card-header">
+                <div class="card-title"><span>🎙️</span> DIRECT VOICE INTERLINK</div>
+                <div style="font-family: 'JetBrains Mono'; font-size: 11px; color: var(--cyan-glow);">JARVIS (MALE UK)</div>
+            </div>
+
+            <div style="display: flex; gap: 10px; align-items: center; background: rgba(0, 240, 255, 0.05); padding: 12px; border-radius: 8px; border: 1px solid rgba(0, 240, 255, 0.2);">
+                <div style="font-size: 24px;">🎧</div>
+                <div style="flex: 1; font-family: 'JetBrains Mono'; font-size: 11px;">
+                    <div>VOICE SYNTHESIS: <span style="color: var(--cyan-glow);">ONLINE</span></div>
+                    <div style="color: var(--text-muted);">Telegram @aethelgard_vault_bot Interlinked</div>
+                </div>
+                <button class="cyber-btn" style="flex: 0 0 auto; padding: 6px 14px;" onclick="triggerVoicePing()">SPEAK</button>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        function updateClock() {
+            const now = new Date();
+            const timeStr = now.toLocaleTimeString('en-US', { hour12: false });
+            document.getElementById('clock').textContent = timeStr + ' DAMASCUS';
+        }
+        setInterval(updateClock, 1000);
+        updateClock();
+
+        function executeLog(type) {
+            const term = document.getElementById('terminal');
+            const now = new Date().toLocaleTimeString('en-US', { hour12: false });
+            const line = document.createElement('div');
+            line.className = 'term-log';
+            if (type === 'BUS_SYNC') {
+                line.innerHTML = `<span class="log-time">[${now}]</span> <span class="log-ok">COMMAND:</span> Logged 07:20 AM Bus Sync for Omar. Timesheet & Excel updated.`;
+            } else if (type === 'CHECKOUT') {
+                line.innerHTML = `<span class="log-time">[${now}]</span> <span class="log-ok">COMMAND:</span> Shift concluded at 16:00. Weekly Leaderboard recalculated.`;
+            } else if (type === 'WARGAME') {
+                line.innerHTML = `<span class="log-time">[${now}]</span> <span class="log-ai">WARGAME:</span> Adversarial Multi-Persona Engine standing by for scenario...`;
+            }
+            term.appendChild(line);
+            term.scrollTop = term.scrollHeight;
+        }
+
+        function triggerVoicePing() {
+            const term = document.getElementById('terminal');
+            const now = new Date().toLocaleTimeString('en-US', { hour12: false });
+            const line = document.createElement('div');
+            line.className = 'term-log';
+            line.innerHTML = `<span class="log-time">[${now}]</span> <span class="log-ai">JARVIS:</span> "All operational systems standing by, Omar."`;
+            term.appendChild(line);
+            term.scrollTop = term.scrollHeight;
+        }
+    </script>
+</body>
+</html>
