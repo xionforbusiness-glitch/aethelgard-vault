@@ -125,3 +125,8 @@
 
 - [[laya-vs-typesafe-jev|Laya Vs Typesafe Jev]] (`comparisons`)
 - [[etihad-igs-exercise-book-solved|Etihad Igs Exercise Book Solved]] (`concepts`)
+
+
+## 📚 Newly Ingested & Cataloged Notes (Automated Librarian)
+
+- [[collision-ai-powered-offe-2026-10-01-thom|Collision Ai Powered Offe 2026 10 01 Thom]] (`concepts`)
