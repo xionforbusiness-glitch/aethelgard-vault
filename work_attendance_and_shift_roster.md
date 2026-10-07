@@ -83,7 +83,7 @@ Master timesheet, shift tracking, duration metrics, and contractual hours ledger
 | **Sun (04/10)** | `07:45→16:00` *(8.25h)* | `07:45→16:00` *(8.25h)* | `07:00→16:00` *(9.0h)* | `07:00→16:00` *(9.0h)* | `07:00→16:00` *(9.0h)* | `07:00→16:00` *(9.0h)* | `07:00→16:00` *(9.0h)* | `07:45→16:00` *(8.25h)* | `07:45→16:00` *(8.25h)* | `07:45→16:00` *(8.25h)* | 🏢 Station Onboarding Shift (+ Osama Alkabbani: `08:48→16:00` 7.20h) |
 | **Mon (05/10)** | `08:00→16:00` *(8.0h)* | `08:00→16:00` *(8.0h)* | `08:00→16:00` *(8.0h)* | `08:00→16:00` *(8.0h)* | `08:00→16:00` *(8.0h)* | `08:00→16:00` *(8.0h)* | `08:00→16:00` *(8.0h)* | `08:00→16:00` *(8.0h)* | `08:00→16:00` *(8.0h)* | `08:00→16:00` *(8.0h)* | 🎓 **Etihad IGS Training Day 1** (MS Teams) / Saudi KSA Delegation |
 | **Tue (06/10)** | `08:00→16:00` *(8.0h)* | `08:00→16:00` *(8.0h)* | `08:00→16:00` *(8.0h)* | `08:00→16:00` *(8.0h)* | `08:00→16:00` *(8.0h)* | `08:00→16:00` *(8.0h)* | `08:00→16:00` *(8.0h)* | `08:00→16:00` *(8.0h)* | `08:00→16:00` *(8.0h)* | `08:00→16:00` *(8.0h)* | 🎓 **Etihad IGS Training Day 2** (MS Teams) / Saudi KSA Delegation |
-| **Wed (07/10)** | `07:00→16:00` *(9.0h)* | `07:00→16:00` | `07:00→16:00` | `07:00→16:00` | `07:00→16:00` | `07:00→16:00` | `07:00→16:00` | `07:00→16:00` | `07:00→16:00` | `07:00→16:00` | ✈️ **AIRPORT DUTY RESUMPTION** (Damascus International Airport Counter Ops) |
+| **Wed (07/10)** | `08:16→16:00` *(7.73h)* | `TBD` | `TBD` | `TBD` | `08:16→16:00` *(7.73h)* | `TBD` | `TBD` | `TBD` | `TBD` | `TBD` | ✈️ **AIRPORT DUTY ACTIVE** — Omar & Mohamed Adnan logged in 08:16 AM (DAM Counter Ops) |
 
 ---
 
@@ -120,9 +120,10 @@ Oct 12 – 13   [🎓 DCS TRAINING] Etihad Airways Amadeus Altéa Departure Cont
 | **2026-10-04** (Sun) | `07:45 AM` | `04:00 PM` | **8h 15m** | 🏢 Station Onboarding Shift (Logged in 07:45 AM). |
 | **2026-10-05** (Mon) | `08:00 AM` | `04:00 PM` | **8h 00m** | 🎓 Etihad IGS Training Day 1 (MS Teams / 08:00 DAM). |
 | **2026-10-06** (Tue) | `08:00 AM` | `04:00 PM` | **8h 00m** | 🎓 Etihad IGS Training Day 2 (MS Teams / 08:00 DAM). |
+| **2026-10-07** (Wed) | `08:16 AM` | `04:00 PM` | **7h 44m** | ✈️ Official Airport Ground Duty (Logged in 08:16 AM / DAM Station). |
 | **September Total** | — | — | **66h 40m** | `66.67 hrs` (8 days) |
-| **October Total** | — | — | **41h 15m** | `41.25 hrs` (6 days) |
-| **Cumulative Total** | — | — | **107h 55m** | `107.92 hrs` across 14 tracked days |
+| **October Total** | — | — | **48h 59m** | `48.98 hrs` (7 days) |
+| **Cumulative Total** | — | — | **115h 39m** | `115.65 hrs` across 15 tracked days |
 
 ---
 
@@ -258,9 +259,10 @@ Oct 12 – 13   [🎓 DCS TRAINING] Etihad Airways Amadeus Altéa Departure Cont
 | **2026-10-04** (Sun) | `07:00 AM` | `04:00 PM` | **9h 00m** | 🏢 Paid Administrative Standby (Company paid). |
 | **2026-10-05** (Mon) | `08:00 AM` | `04:00 PM` | **8h 00m** | 🎓 Etihad IGS Training Day 1 / Saudi KSA Delegation / Paid Standby. |
 | **2026-10-06** (Tue) | `08:00 AM` | `04:00 PM` | **8h 00m** | 🎓 Etihad IGS Training Day 2 / Saudi KSA Delegation / Paid Standby. |
+| **2026-10-07** (Wed) | `08:16 AM` | `04:00 PM` | **7h 44m** | ✈️ Official Airport Ground Duty (Logged in 08:16 AM / DAM Station). |
 | **September Total** | — | — | **84h 40m** | `84.66 hrs` (8 days) |
-| **October Total** | — | — | **42h 00m** | `42.00 hrs` (6 days) |
-| **Cumulative Total** | — | — | **126h 40m** | `126.66 hrs` across 14 tracked days |
+| **October Total** | — | — | **49h 44m** | `49.73 hrs` (7 days) |
+| **Cumulative Total** | — | — | **134h 24m** | `134.39 hrs` across 15 tracked days |
 
 ---
 

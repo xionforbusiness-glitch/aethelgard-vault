@@ -3,6 +3,15 @@
 > Chronological, append-only record of all LLM Wiki actions (ingest, query, lint, update).
 > Format: `## [YYYY-MM-DD] action | subject`
 
+## [2026-10-07] update | Airport Official Ground Duty Log-In (08:16 AM)
+- **Action:** Logged live station check-in for **Omar Elnemr** and **Mohamed Adnan** at Damascus International Airport (`DAM / OSDI`) with official log-in time `08:16 AM`.
+- **Shift Duration:** `08:16 AM → 04:00 PM` (7h 44m / `7.73 hrs`).
+- **Cumulative Metrics:**
+  - Omar Elnemr: **115h 39m** (`115.65 hrs` across 15 days).
+  - Mohamed Adnan: **134h 24m** (`134.39 hrs` across 15 days).
+- **Files Modified:** `work_attendance_and_shift_roster.md`, `raw/attendance_october_2026.csv`, `attendance_master_2026.xlsx`, `log.md`.
+- **Cross-linked:** [[work_attendance_and_shift_roster]], [[03 Work Experience]], [[log]]
+
 ## [2026-10-03] update | Etihad IGS Training Session Logged (08:00–16:00 DAM)
 - **Action:** Logged active 8.0-hour Etihad IGS Training session on Saturday, October 03, 2026 (08:00 AM – 04:00 PM DAM / MS Teams).
 - **Attendance Metrics:** Added 8h 00m to October cycle; Omar's cumulative total updated to **65h 40m** (65.67 hrs across 8 shifts).
