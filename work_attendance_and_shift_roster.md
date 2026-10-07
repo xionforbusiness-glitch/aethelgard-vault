@@ -39,20 +39,20 @@ Master timesheet, shift tracking, duration metrics, and contractual hours ledger
 
 ## 🏆 2. Cumulative Hours Leaderboard (September + October Cycles)
 
-| # | Employee / Team Member | September (8 Days) | October (6 Days) | Cumulative Output | Combined Decimal | Operating Status |
+| # | Employee / Team Member | September (8 Days) | October (7 Days) | Cumulative Output | Combined Decimal | Operating Status |
 | :-: | :--- | :---: | :---: | :---: | :---: | :--- |
-| 🥇 | **Mohamed Adnan** | 84h 40m | 42h 00m | **126 hours 40 mins** | `126.66 hrs` | Core Team / Dawn Shift Lead |
-| 🥈 | **Joudi Alghorani** | 74h 45m | 41h 15m | **116 hours 00 mins** | `116.00 hrs` | Core Team / Station Operations |
-| 🥉 | **Hanan** | 74h 05m | 41h 15m | **115 hours 20 mins** | `115.33 hrs` | Core Team / Station Operations |
-| 4 | **Rasheed Akel** | 75h 00m | 39h 15m | **114 hours 15 mins** | `114.25 hrs` | Core Team / Saudia & Etihad Ops |
-| 5 | **Khaled** | 71h 00m | 41h 15m | **112 hours 15 mins** | `112.25 hrs` | Core Team / Station Operations |
-| 6 | **Raboushee** | 68h 00m | 41h 15m | **109 hours 15 mins** | `109.25 hrs` | Core Team / Station Operations |
-| 7 | **Omar Elnemr** | 66h 40m | 41h 15m | **107 hours 55 mins** | `107.92 hrs` | Core Team / Systems & Ground Ops |
-| 8 | **Tarek Orfhly** | 63h 30m | 39h 15m | **102 hours 45 mins** | `102.75 hrs` | Core Team / Saudia & Etihad Ops |
-| 9 | **Yasmin** | 61h 30m | 39h 15m | **100 hours 45 mins** | `100.75 hrs` | Core Team / Saudia & Etihad Ops |
-| 10 | **Talal** | 53h 30m | 42h 00m | **95 hours 30 mins** | `95.50 hrs` | Core Team / Extended Shift Lead |
-| 11 | **Osama Alkabbani** | — | 7h 12m | **7 hours 12 mins** | `7.20 hrs` | Onboarding Member (Joined Oct 04) |
-| **🏆** | **Team Total Output** | **692h 40m** | **415h 27m** | **1,108 hours 07 mins** | `1,108.12 hrs` | **Full Damascus Ground Team** |
+| 🥇 | **Mohamed Adnan** | 84h 40m | 49h 44m | **134 hours 24 mins** | `134.39 hrs` | Core Team / Station Shift Lead (08:16 AM) |
+| 🥈 | **Joudi Alghorani** | 74h 45m | 54h 00m | **128 hours 45 mins** | `128.75 hrs` | Core Team / Dawn Flight Handling (03:15 AM) |
+| 🥉 | **Rasheed Akel** | 75h 00m | 52h 00m | **127 hours 00 mins** | `127.00 hrs` | Core Team / Dawn Flight Handling (03:15 AM) |
+| 4 | **Hanan** | 74h 05m | 50h 00m | **124 hours 05 mins** | `124.08 hrs` | Core Team / Morning Station Duty (07:15 AM) |
+| 5 | **Khaled** | 71h 00m | 50h 00m | **121 hours 00 mins** | `121.00 hrs` | Core Team / Morning Station Duty (07:15 AM) |
+| 6 | **Raboushee** | 68h 00m | 50h 00m | **118 hours 00 mins** | `118.00 hrs` | Core Team / Morning Station Duty (07:15 AM) |
+| 7 | **Omar Elnemr** | 66h 40m | 48h 59m | **115 hours 39 mins** | `115.65 hrs` | Core Team / Station Systems & Ops (08:16 AM) |
+| 8 | **Yasmin** | 61h 30m | 52h 00m | **113 hours 30 mins** | `113.50 hrs` | Core Team / Dawn Flight Handling (03:15 AM) |
+| 9 | **Tarek Orfhly** | 63h 30m | 48h 15m | **111 hours 45 mins** | `111.75 hrs` | Core Team / ID Delay - Paid Standby |
+| 10 | **Talal** | 53h 30m | 51h 00m | **104 hours 30 mins** | `104.50 hrs` | Core Team / ID Delay - Paid Standby |
+| 11 | **Osama Alkabbani** | — | 31h 57m | **31 hours 57 mins** | `31.95 hrs` | Onboarding / Morning Station Duty (07:15 AM) |
+| **🏆** | **Team Total Output** | **692h 40m** | **537h 11m** | **1,229 hours 51 mins** | `1,229.85 hrs` | **Full Damascus Ground Team** |
 
 ---
 
@@ -83,7 +83,7 @@ Master timesheet, shift tracking, duration metrics, and contractual hours ledger
 | **Sun (04/10)** | `07:45→16:00` *(8.25h)* | `07:45→16:00` *(8.25h)* | `07:00→16:00` *(9.0h)* | `07:00→16:00` *(9.0h)* | `07:00→16:00` *(9.0h)* | `07:00→16:00` *(9.0h)* | `07:00→16:00` *(9.0h)* | `07:45→16:00` *(8.25h)* | `07:45→16:00` *(8.25h)* | `07:45→16:00` *(8.25h)* | 🏢 Station Onboarding Shift (+ Osama Alkabbani: `08:48→16:00` 7.20h) |
 | **Mon (05/10)** | `08:00→16:00` *(8.0h)* | `08:00→16:00` *(8.0h)* | `08:00→16:00` *(8.0h)* | `08:00→16:00` *(8.0h)* | `08:00→16:00` *(8.0h)* | `08:00→16:00` *(8.0h)* | `08:00→16:00` *(8.0h)* | `08:00→16:00` *(8.0h)* | `08:00→16:00` *(8.0h)* | `08:00→16:00` *(8.0h)* | 🎓 **Etihad IGS Training Day 1** (MS Teams) / Saudi KSA Delegation |
 | **Tue (06/10)** | `08:00→16:00` *(8.0h)* | `08:00→16:00` *(8.0h)* | `08:00→16:00` *(8.0h)* | `08:00→16:00` *(8.0h)* | `08:00→16:00` *(8.0h)* | `08:00→16:00` *(8.0h)* | `08:00→16:00` *(8.0h)* | `08:00→16:00` *(8.0h)* | `08:00→16:00` *(8.0h)* | `08:00→16:00` *(8.0h)* | 🎓 **Etihad IGS Training Day 2** (MS Teams) / Saudi KSA Delegation |
-| **Wed (07/10)** | `08:16→16:00` *(7.73h)* | `TBD` | `TBD` | `TBD` | `08:16→16:00` *(7.73h)* | `TBD` | `TBD` | `TBD` | `TBD` | `TBD` | ✈️ **AIRPORT DUTY ACTIVE** — Omar & Mohamed Adnan logged in 08:16 AM (DAM Counter Ops) |
+| **Wed (07/10)** | `08:16→16:00` *(7.73h)* | `07:15→16:00` *(8.75h)* | `03:15→16:00` *(12.75h)* | `07:00→16:00` *(9.0h)* | `08:16→16:00` *(7.73h)* | `07:00→16:00` *(9.0h)* | `03:15→16:00` *(12.75h)* | `03:15→16:00` *(12.75h)* | `07:15→16:00` *(8.75h)* | `07:15→16:00` *(8.75h)* | ✈️ **AIRPORT DUTY LIVE** — 3 Waves: Dawn (03:15), Morning (07:15), Standard (08:16) + Osama (07:15) |
 
 ---
 
