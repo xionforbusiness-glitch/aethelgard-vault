@@ -41,18 +41,18 @@ Master timesheet, shift tracking, duration metrics, and contractual hours ledger
 
 | # | Employee / Team Member | September (8 Days) | October (7 Days) | Cumulative Output | Combined Decimal | Operating Status |
 | :-: | :--- | :---: | :---: | :---: | :---: | :--- |
-|| 🥇 | **Mohamed Adnan** | 84h 40m | 49h 49m | **134 hours 29 mins** | `134.48 hrs` | Core Team / Station Shift Lead (08:16 AM) |
-|| 🥈 | **Joudi Alghorani** | 74h 45m | 54h 05m | **128 hours 50 mins** | `128.83 hrs` | Core Team / Dawn Flight Handling (03:15 AM) |
-|| 🥉 | **Rasheed Akel** | 75h 00m | 52h 05m | **127 hours 05 mins** | `127.08 hrs` | Core Team / Dawn Flight Handling (03:15 AM) |
-|| 4 | **Hanan** | 74h 05m | 50h 05m | **124 hours 10 mins** | `124.17 hrs` | Core Team / Morning Station Duty (07:15 AM) |
-|| 5 | **Khaled** | 71h 00m | 50h 05m | **121 hours 05 mins** | `121.08 hrs` | Core Team / Morning Station Duty (07:15 AM) |
-|| 6 | **Raboushee** | 68h 00m | 50h 05m | **118 hours 05 mins** | `118.08 hrs` | Core Team / Morning Station Duty (07:15 AM) |
-|| 7 | **Omar Elnemr** | 66h 40m | 49h 04m | **115 hours 44 mins** | `115.73 hrs` | Core Team / Station Systems & Ops (08:16 AM) |
-|| 8 | **Yasmin** | 61h 30m | 52h 05m | **113 hours 35 mins** | `113.58 hrs` | Core Team / Dawn Flight Handling (03:15 AM) |
-|| 9 | **Tarek Orfhly** | 63h 30m | 49h 15m | **112 hours 45 mins** | `112.75 hrs` | Core Team / ID Delay - Paid Standby |
-|| 10 | **Talal** | 53h 30m | 52h 00m | **105 hours 30 mins** | `105.50 hrs` | Core Team / ID Delay - Paid Standby |
-|| 11 | **Osama Alkabbani** | — | 32h 02m | **32 hours 02 mins** | `32.03 hrs` | Onboarding / Morning Station Duty (07:15 AM) |
-|| **🏆** | **Team Total Output** | **692h 40m** | **545h 15m** | **1,237 hours 55 mins** | `1,237.92 hrs` | **Full Damascus Ground Team** |
+|| 🥇 | **Mohamed Adnan** | 84h 40m | 53h 30m | **138h 10m** | `138.17 hrs` | ... |
+|| 🥈 | **Hanan** | 74h 05m | 52h 45m | **126h 50m** | `126.83 hrs` | ... |
+|| 🥉 | **Rasheed Akel** | 75h 00m | 50h 45m | **125h 45m** | `125.75 hrs` | ... |
+|| 4 | **Joudi Alghorani** | 74h 45m | 48h 45m | **123h 30m** | `123.50 hrs` | ... |
+|| 5 | **Khaled** | 71h 00m | 48h 45m | **119h 45m** | `119.75 hrs` | ... |
+|| 6 | **Raboushee** | 68h 00m | 48h 45m | **116h 45m** | `116.75 hrs` | ... |
+|| 7 | **Omar Elnemr** | 66h 40m | 48h 45m | **115h 25m** | `115.42 hrs` | ... |
+|| 8 | **Tarek Orfhly** | 63h 30m | 49h 15m | **112h 45m** | `112.75 hrs` | ... |
+|| 9 | **Yasmin** | 61h 30m | 46h 45m | **108h 15m** | `108.25 hrs` | ... |
+|| 10 | **Talal** | 53h 30m | 52h 00m | **105h 30m** | `105.50 hrs` | ... |
+|| 11 | **Osama Alkabbani** | 0h 00m | 30h 42m | **30h 42m** | `30.70 hrs` | ... |
+|| **🏆** | **Team Total Output** | 692h 40m | 530h 42m | **1223h 22m** | `1223.37 hrs` | **Full Damascus Ground Team** |
 
 ---
 
@@ -83,7 +83,7 @@ Master timesheet, shift tracking, duration metrics, and contractual hours ledger
 | **Sun (04/10)** | `07:45→16:00` *(8.25h)* | `07:45→16:00` *(8.25h)* | `07:00→16:00` *(9.0h)* | `07:00→16:00` *(9.0h)* | `07:00→16:00` *(9.0h)* | `07:00→16:00` *(9.0h)* | `07:00→16:00` *(9.0h)* | `07:45→16:00` *(8.25h)* | `07:45→16:00` *(8.25h)* | `07:45→16:00` *(8.25h)* | 🏢 Station Onboarding Shift (+ Osama Alkabbani: `08:48→16:00` 7.20h) |
 | **Mon (05/10)** | `08:00→16:00` *(8.0h)* | `08:00→16:00` *(8.0h)* | `08:00→16:00` *(8.0h)* | `08:00→16:00` *(8.0h)* | `08:00→16:00` *(8.0h)* | `08:00→16:00` *(8.0h)* | `08:00→16:00` *(8.0h)* | `08:00→16:00` *(8.0h)* | `08:00→16:00` *(8.0h)* | `08:00→16:00` *(8.0h)* | 🎓 **Etihad IGS Training Day 1** (MS Teams) / Saudi KSA Delegation |
 || **Tue (06/10)** | `08:00→16:05` *(8.08h)* | `08:00→16:05` *(8.08h)* | `08:00→16:05` *(8.08h)* | `07:00→16:00` *(9.0h)* | `08:00→16:05` *(8.08h)* | `07:00→16:00` *(9.0h)* | `08:00→16:05` *(8.08h)* | `08:00→16:05` *(8.08h)* | `08:00→16:05` *(8.08h)* | `08:00→16:05` *(8.08h)* | 🎓 **Etihad IGS Training Day 2** (MS Teams) / Saudi KSA Delegation / Paid Standby |
-| **Wed (07/10)** | `08:16→16:00` *(7.73h)* | `07:15→16:00` *(8.75h)* | `03:15→16:00` *(12.75h)* | `07:00→16:00` *(9.0h)* | `08:16→16:00` *(7.73h)* | `07:00→16:00` *(9.0h)* | `03:15→16:00` *(12.75h)* | `03:15→16:00` *(12.75h)* | `07:15→16:00` *(8.75h)* | `07:15→16:00` *(8.75h)* | ✈️ **AIRPORT DUTY LIVE** — 3 Waves: Dawn (03:15), Morning (07:15), Standard (08:16) + Osama (07:15) |
+|| **Wed (07/10)** | `07:55→15:20` *(7.42h)* | `07:55→15:20` *(7.42h)* | `03:55→15:20` *(11.42h)* | `07:00→16:00` *(9.0h)* | `03:55→15:20` *(11.42h)* | `07:00→16:00` *(9.0h)* | `07:55→15:20` *(7.42h)* | `07:55→15:20` *(7.42h)* | `03:55→15:20` *(11.42h)* | `07:55→15:20` *(7.42h)* | ✈️ **AIRPORT DUTY LIVE** — Waves: Dawn(03:55), Morning/Standard(07:55) + Osama(07:55) |
 
 ---
 
@@ -339,8 +339,8 @@ Oct 12 – 13   [🎓 DCS TRAINING] Etihad Airways Amadeus Altéa Departure Cont
 | Date | Log In | Log Out | Duration | Shift Notes |
 | :--- | :---: | :---: | :---: | :--- |
 || **2026-10-04** (Sun) | `08:48 AM` | `04:00 PM` | **7h 12m** | 🏢 Station Onboarding Shift (Logged in 08:48 AM). |
-|| **2026-10-05** (Mon) | `08:00 AM` | `04:00 PM` | **8h 00m** | 🎓 Etihad IGS Training / Paid Standby. |
-|| **2026-10-06** (Tue) | `08:00 AM` | `04:05 PM` | **8h 05m** | 🎓 Etihad IGS Training / Paid Standby. |
+|| **2026-10-07** (Wed) | `07:55 AM` | `03:20 PM` | **7h 25m** | ✈️ Live Morning Airport Ground Duty. |
+|| **Total Logged** | — | — | **30h 42m** | `30.70 hrs` (Onboarding phase) |
 || **2026-10-07** (Wed) | `07:15 AM` | `04:00 PM` | **8h 45m** | ✈️ Live Morning Airport Ground Duty. |
 || **Total Logged** | — | — | **32h 02m** | `32.03 hrs` (Onboarding phase) |
 ---

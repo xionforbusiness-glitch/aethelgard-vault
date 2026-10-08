@@ -62,14 +62,14 @@ Date,Day,Employee,Log_In,Log_Out,Duration_Formatted,Decimal_Hours,Status,Notes
 2026-10-06,Tuesday,Hanan,08:00 AM,04:05 PM,8h 05m,8.08,Training / Paid,🎓 Etihad IGS Training Day 2 (MS Teams) / Saudi KSA Delegation / Paid Standby
 2026-10-06,Tuesday,Raboushee,08:00 AM,04:05 PM,8h 05m,8.08,Training / Paid,🎓 Etihad IGS Training Day 2 (MS Teams) / Saudi KSA Delegation / Paid Standby
 2026-10-06,Tuesday,Osama Alkabbani,08:00 AM,04:05 PM,8h 05m,8.08,Training / Paid,🎓 Etihad IGS Training / Paid Standby
-2026-10-07,Wednesday,Omar Elnemr,07:55 AM,04:00 PM,8h 05m,8.08,Official Duty,✈️ Live Airport Ground Station Duty (Logged in 07:55 AM / DAM Station)
-2026-10-07,Wednesday,Khaled,07:15 AM,04:00 PM,8h 45m,8.75,Official Duty,✈️ Live Morning Airport Ground Duty (Logged in 07:15 AM / DAM Station)
-2026-10-07,Wednesday,Rasheed Akel,03:15 AM,04:00 PM,12h 45m,12.75,Dawn Shift,✈️ Live Dawn Flight Departure Handling (Logged in 03:15 AM / DAM Station)
+2026-10-07,Wednesday,Omar Elnemr,07:55 AM,03:20 PM,7h 25m,7.42,Official Duty,✈️ Live Airport Ground Station Duty (Logged in 07:55 AM / Logged out 03:20 PM)
+2026-10-07,Wednesday,Khaled,07:55 AM,03:20 PM,7h 25m,7.42,Official Duty,✈️ Live Airport Ground Station Duty (Logged in 07:55 AM / Logged out 03:20 PM)
+2026-10-07,Wednesday,Rasheed Akel,03:55 AM,03:20 PM,11h 25m,11.42,Dawn Shift,✈️ Live Dawn Flight Departure Handling (Logged in 03:55 AM / Logged out 03:20 PM)
 2026-10-07,Wednesday,Talal,07:00 AM,04:00 PM,9h 00m,9.0,Paid Standby,🏢 Paid Administrative Standby (Damascus Airport ID Pass Delay - Company Paid)
-2026-10-07,Wednesday,Mohamed Adnan,08:16 AM,04:00 PM,7h 44m,7.73,Official Duty,✈️ Live Airport Ground Station Duty (Logged in 08:16 AM / DAM Station)
+2026-10-07,Wednesday,Mohamed Adnan,03:55 AM,03:20 PM,11h 25m,11.42,Official Duty,✈️ Live Airport Ground Station Duty (Logged in 03:55 AM / Logged out 03:20 PM)
 2026-10-07,Wednesday,Tarek Orfhly,07:00 AM,04:00 PM,9h 00m,9.0,Paid Standby,🏢 Paid Administrative Standby (Damascus Airport ID Pass Delay - Company Paid)
-2026-10-07,Wednesday,Yasmin,03:15 AM,04:00 PM,12h 45m,12.75,Dawn Shift,✈️ Live Dawn Flight Departure Handling (Logged in 03:15 AM / DAM Station)
-2026-10-07,Wednesday,Joudi Alghorani,03:15 AM,04:00 PM,12h 45m,12.75,Dawn Shift,✈️ Live Dawn Flight Departure Handling (Logged in 03:15 AM / DAM Station)
-2026-10-07,Wednesday,Hanan,07:15 AM,04:00 PM,8h 45m,8.75,Official Duty,✈️ Live Morning Airport Ground Duty (Logged in 07:15 AM / DAM Station)
-2026-10-07,Wednesday,Raboushee,07:15 AM,04:00 PM,8h 45m,8.75,Official Duty,✈️ Live Morning Airport Ground Duty (Logged in 07:15 AM / DAM Station)
-2026-10-07,Wednesday,Osama Alkabbani,07:55 AM,04:00 PM,8h 05m,8.08,Official Duty,✈️ Live Morning Airport Ground Duty (Logged in 07:55 AM / DAM Station)
+2026-10-07,Wednesday,Yasmin,07:55 AM,03:20 PM,7h 25m,7.42,Dawn Shift,✈️ Live Dawn Flight Departure Handling (Logged in 07:55 AM / Logged out 03:20 PM)
+2026-10-07,Wednesday,Joudi Alghorani,07:55 AM,03:20 PM,7h 25m,7.42,Dawn Shift,✈️ Live Dawn Flight Departure Handling (Logged in 07:55 AM / Logged out 03:20 PM)
+2026-10-07,Wednesday,Hanan,03:55 AM,03:20 PM,11h 25m,11.42,Dawn Shift,✈️ Live Dawn Flight Departure Handling (Logged in 03:55 AM / Logged out 03:20 PM)
+2026-10-07,Wednesday,Raboushee,07:55 AM,03:20 PM,7h 25m,7.42,Official Duty,✈️ Live Airport Ground Station Duty (Logged in 07:55 AM / Logged out 03:20 PM)
+2026-10-07,Wednesday,Osama Alkabbani,07:55 AM,03:20 PM,7h 25m,7.42,Official Duty,✈️ Live Morning Airport Ground Duty (Logged in 07:55 AM / Logged out 03:20 PM)
