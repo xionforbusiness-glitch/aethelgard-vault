@@ -62,7 +62,7 @@ Date,Day,Employee,Log_In,Log_Out,Duration_Formatted,Decimal_Hours,Status,Notes
 2026-09-27,Sunday,Tarek Orfhly,07:00 AM,04:00 PM,9h 00m,9.0,Standard,Morning flight shift (4:00 PM return)
 2026-09-28,Monday,Tarek Orfhly,07:00 AM,04:00 PM,9h 00m,9.0,Standard,Morning flight shift (4:00 PM return)
 2026-09-29,Tuesday,Tarek Orfhly,07:00 AM,04:00 PM,9h 00m,9.0,Standard,Morning flight shift (4:00 PM return)
-2026-09-30,Wednesday,Tarek Orfhly,07:00 AM,04:00 PM,9h 00m,9.0,Paid Standby,🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid)
+2026-09-30,Wednesday,Tarek Orfhly,OFF,OFF,0h 00m,0.0,Inactive,"🛑 Inactive / Terminated (Last active shift: Sep 29, 2026)"
 2026-09-23,Wednesday,Yasmin,06:30 AM,04:00 PM,9h 30m,9.5,Standardized,Standardized 23rd shift: 06:30 AM – 04:00 PM (9.5h)
 2026-09-24,Thursday,Yasmin,08:00 AM,04:00 PM,8h 00m,8.0,Standard,Standard daytime shift
 2026-09-25,Friday,Yasmin,08:00 AM,04:00 PM,8h 00m,8.0,Standard,Standard daytime shift
@@ -78,4 +78,4 @@ Date,Day,Employee,Log_In,Log_Out,Duration_Formatted,Decimal_Hours,Status,Notes
 2026-09-27,Sunday,Talal,03:00 AM,04:00 PM,13h 00m,13.0,Dawn Shift,✈️ Early dawn flight departure handling (13h 00m)
 2026-09-28,Monday,Talal,07:00 AM,04:00 PM,9h 00m,9.0,Standard,Morning flight shift (4:00 PM return)
 2026-09-29,Tuesday,Talal,03:00 AM,04:00 PM,13h 00m,13.0,Dawn Shift,✈️ Early dawn flight departure handling (13h 00m)
-2026-09-30,Wednesday,Talal,07:00 AM,04:00 PM,9h 00m,9.0,Paid Standby,🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid)
+2026-09-30,Wednesday,Talal,OFF,OFF,0h 00m,0.0,Inactive,"🛑 Inactive / Terminated (Last active shift: Sep 29, 2026)"
