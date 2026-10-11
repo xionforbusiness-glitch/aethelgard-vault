@@ -130,3 +130,9 @@
 ## 📚 Newly Ingested & Cataloged Notes (Automated Librarian)
 
 - [[collision-ai-powered-offe-2026-10-01-thom|Collision Ai Powered Offe 2026 10 01 Thom]] (`concepts`)
+
+
+## 📚 Newly Ingested & Cataloged Notes (Automated Librarian)
+
+- [[station_ops_and_dcs_study_playbook|Station Ops And Dcs Study Playbook]] (`concepts`)
+- [[2026-W41-executive-review|2026 W41 Executive Review]] (`reviews`)
