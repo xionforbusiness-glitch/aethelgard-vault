@@ -1,0 +1,12 @@
+Date,Day,Employee,Log_In,Log_Out,Duration_Formatted,Decimal_Hours,Status,Notes
+2026-10-01,Thursday,Omar Elnemr,07:00 AM,04:00 PM,9h 00m,9.0,Paid Standby,🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid)
+2026-10-02,Friday,Omar Elnemr,OFF,OFF,0h 00m,0.0,Day Off,🌴 Scheduled Team Rest Day (Contractual 1 Day Off in 7-day cycle)
+2026-10-03,Saturday,Omar Elnemr,08:00 AM,04:00 PM,8h 00m,8.0,Training / Paid,🎓 Etihad IGS Training Prep / Paid Administrative Standby (8h)
+2026-10-04,Sunday,Omar Elnemr,07:45 AM,04:00 PM,8h 15m,8.25,Paid Shift,🏢 Airport Onboarding Shift / Logged in 07:45 AM (8h 15m)
+2026-10-05,Monday,Omar Elnemr,08:00 AM,04:00 PM,8h 00m,8.0,Training / Paid,🎓 Etihad IGS Training Day 1 (MS Teams) / Saudi KSA Delegation / Paid Standby
+2026-10-06,Tuesday,Omar Elnemr,08:00 AM,04:05 PM,8h 05m,8.08,Training / Paid,🎓 Etihad IGS Training Day 2 (MS Teams) / Saudi KSA Delegation / Paid Standby
+2026-10-07,Wednesday,Omar Elnemr,07:55 AM,03:20 PM,7h 25m,7.42,Official Duty,✈️ Live Airport Ground Station Duty (Logged in 07:55 AM / Logged out 03:20 PM)
+2026-10-08,Thursday,Omar Elnemr,07:50 AM,03:20 PM,7h 30m,7.5,Official Duty,✈️ Live Daily Duty (Logged in 07:50 AM / Logged out 03:20 PM)
+2026-10-09,Friday,Omar Elnemr,07:50 AM,05:13 PM,9h 23m,9.38,,✈️ Live Daily Duty (Logged in 07:50 AM / Logged out 05:13 PM)
+2026-10-10,Saturday,Omar Elnemr,07:47 AM,03:35 PM,7h 48m,7.8,Official Duty,✈️ Live Daily Duty (Logged in 07:47 AM / Logged out 03:35 PM)
+2026-10-11,Sunday,Omar Elnemr,OFF,OFF,0h 00m,0.0,Day Off,🌴 Scheduled Team Weekly Rest Day (Full Station Off)
