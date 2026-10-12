@@ -136,3 +136,8 @@
 
 - [[station_ops_and_dcs_study_playbook|Station Ops And Dcs Study Playbook]] (`concepts`)
 - [[2026-W41-executive-review|2026 W41 Executive Review]] (`reviews`)
+
+
+## 📚 Newly Ingested & Cataloged Notes (Automated Librarian)
+
+- [[attendance_omar_october_2026|Attendance Omar October 2026]] (`attendance/2026/10`)
