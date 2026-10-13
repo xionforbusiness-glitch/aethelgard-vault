@@ -354,3 +354,4 @@ Oct 12 – 13   [🎓 DCS TRAINING] Etihad Airways Amadeus Altéa Departure Cont
 - **CSV Data Sheets:**
   - `raw/attendance_september_2026.csv` (80 records)
   - `raw/attendance_october_2026.csv` (61 records)
+| 2026-10-13 | Tuesday | Omar Elnemr | - | 04:00 PM | 0h 00m | 0.0 | Scheduled Off | No reply recorded - marked off |
