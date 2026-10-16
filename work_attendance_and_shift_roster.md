@@ -1,7 +1,7 @@
 ---
 title: Work Attendance & Shift Roster (Full Team Master Sheet)
 created: 2026-10-01
-updated: 2026-10-06
+updated: 2026-10-16
 type: reference
 tags: [work, career, attendance, timesheet, operations, team-roster, damascus-airport, etihad, saudia]
 sources: [raw/attendance_september_2026.csv, raw/attendance_october_2026.csv, raw/assets/rasheed_akel_schedule_september_2026.jpg]
@@ -119,11 +119,19 @@ Oct 12 – 13   [🎓 DCS TRAINING] Etihad Airways Amadeus Altéa Departure Cont
 | **2026-10-03** (Sat) | `08:00 AM` | `04:00 PM` | **8h 00m** | 🎓 Etihad IGS Training Preparation & Paid Standby. |
 | **2026-10-04** (Sun) | `07:45 AM` | `04:00 PM` | **8h 15m** | 🏢 Station Onboarding Shift (Logged in 07:45 AM). |
 | **2026-10-05** (Mon) | `08:00 AM` | `04:00 PM` | **8h 00m** | 🎓 Etihad IGS Training Day 1 (MS Teams / 08:00 DAM). |
-| **2026-10-06** (Tue) | `08:00 AM` | `04:00 PM` | **8h 00m** | 🎓 Etihad IGS Training Day 2 (MS Teams / 08:00 DAM). |
-| **2026-10-07** (Wed) | `08:16 AM` | `04:00 PM` | **7h 44m** | ✈️ Official Airport Ground Duty (Logged in 08:16 AM / DAM Station). |
+| **2026-10-06** (Tue) | `08:00 AM` | `04:05 PM` | **8h 05m** | 🎓 Etihad IGS Training Day 2 (MS Teams / 08:00 DAM). |
+| **2026-10-07** (Wed) | `07:55 AM` | `03:20 PM` | **7h 25m** | ✈️ Live Airport Ground Station Duty (Logged in 07:55 AM / Logged out 03:20 PM). |
+| **2026-10-08** (Thu) | `07:50 AM` | `03:20 PM` | **7h 30m** | ✈️ Live Daily Duty (Logged in 07:50 AM / Logged out 03:20 PM). |
+| **2026-10-09** (Fri) | `07:50 AM` | `05:13 PM` | **9h 23m** | ⚡ Extended Duty (Logged in 07:50 AM / Logged out 05:13 PM). |
+| **2026-10-10** (Sat) | `07:47 AM` | `03:35 PM` | **7h 48m** | ✈️ Live Daily Duty (Logged in 07:47 AM / Logged out 03:35 PM). |
+| **2026-10-11** (Sun) | **OFF** | **OFF** | **0h 00m** | 🌴 Scheduled Team Weekly Rest Day (Full Station Off). |
+| **2026-10-12** (Mon) | `08:00 AM` | `05:05 PM` | **9h 05m** | 🎓 Etihad DCS Systems Training & Station Duty (08:00 AM – 05:05 PM). |
+| **2026-10-13** (Tue) | `08:00 AM` | `04:30 PM` | **8h 30m** | 🎓 Etihad DCS Systems Training & Station Duty (08:00 AM – 04:30 PM). |
+| **2026-10-14** (Wed) | `08:00 AM` | `04:00 PM` | **8h 00m** | ✈️ Live Airport Ground Station Duty (08:00 AM – 04:00 PM). |
+| **2026-10-15** (Thu) | `07:55 AM` | `04:00 PM` | **8h 05m** | ✈️ Live Airport Ground Station Duty (07:55 AM – 04:00 PM). |
 | **September Total** | — | — | **66h 40m** | `66.67 hrs` (8 days) |
-| **October Total** | — | — | **48h 59m** | `48.98 hrs` (7 days) |
-| **Cumulative Total** | — | — | **115h 39m** | `115.65 hrs` across 15 tracked days |
+| **October Total** | — | — | **107h 06m** | `107.09 hrs` (15 days: 13 active + 2 off) |
+| **Cumulative Total** | — | — | **173h 46m** | `173.76 hrs` across 23 tracked days |
 
 ---
 
@@ -354,4 +362,3 @@ Oct 12 – 13   [🎓 DCS TRAINING] Etihad Airways Amadeus Altéa Departure Cont
 - **CSV Data Sheets:**
   - `raw/attendance_september_2026.csv` (80 records)
   - `raw/attendance_october_2026.csv` (61 records)
-| 2026-10-13 | Tuesday | Omar Elnemr | - | 04:00 PM | 0h 00m | 0.0 | Scheduled Off | No reply recorded - marked off |
