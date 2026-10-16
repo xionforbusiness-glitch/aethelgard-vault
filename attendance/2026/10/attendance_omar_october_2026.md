@@ -13,7 +13,8 @@
 | 2026-10-09 | Friday | 07:50 AM | 05:13 PM | 9h 23m | 9.38 |  | ✈️ Live Daily Duty (Logged in 07:50 AM / Logged out 05:13 PM) |
 | 2026-10-10 | Saturday | 07:47 AM | 03:35 PM | 7h 48m | 7.8 | Official Duty | ✈️ Live Daily Duty (Logged in 07:47 AM / Logged out 03:35 PM) |
 | 2026-10-11 | Sunday | OFF | OFF | 0h 00m | 0.0 | Day Off | 🌴 Scheduled Team Weekly Rest Day (Full Station Off) |
-| 2026-10-12 | Monday | 07:55 AM | 05:05 PM | 9h 10m | 9.17 | Official Duty | ✈️ Live Daily Duty (Logged in 07:55 AM / Logged out 05:05 PM) |
-| 2026-10-13 | Tuesday | 08:00 AM | 04:30 PM | 8h 30m | 8.5 | Official Duty | ✈️ Live Daily Duty (Logged in 08:00 AM / Logged out 04:30 PM) |
-| 2026-10-14 | Wednesday | 08:00 AM | 04:00 PM | 8h 00m | 8.0 | Official Duty | ✈️ Live Daily Duty (Logged in 08:00 AM / Logged out 04:00 PM) |
-| 2026-10-15 | Thursday | 07:55 AM | 04:00 PM | 8h 05m | 8.08 | Official Duty | ✈️ Live Daily Duty (Logged in 07:55 AM / Logged out 04:00 PM) |
+| 2026-10-12 | Monday | 07:55 AM | 05:05 PM | 9h 10m | 9.17 | Training / Paid | 🎓 Etihad Airways Altéa DCS System Training (Logged in 07:55 AM / Logged out 05:05 PM) |
+| 2026-10-13 | Tuesday | 08:00 AM | 04:30 PM | 8h 30m | 8.5 | Training / Paid | 🎓 Etihad Airways Altéa DCS System Training (Logged in 08:00 AM / Logged out 04:30 PM) |
+| 2026-10-14 | Wednesday | 08:00 AM | 04:00 PM | 8h 00m | 8.0 | Training / Paid | 🎓 Etihad Airways Altéa DCS System Training (Logged in 08:00 AM / Logged out 04:00 PM) |
+| 2026-10-15 | Thursday | 07:55 AM | 04:00 PM | 8h 05m | 8.08 | Training / Paid | 🎓 Etihad Airways Altéa DCS System Training (Logged in 07:55 AM / Logged out 04:00 PM) |
+| 2026-10-16 | Friday | 07:55 AM | 12:13 PM | 4h 18m | 4.3 | Training / Paid | 🎓 Etihad Airways Altéa DCS System Training (Logged in 07:55 AM / Logged out 12:13 PM) |
