@@ -144,3 +144,10 @@
 ## 📚 Newly Ingested & Cataloged Notes (Automated Librarian)
 
 - [[attendance_omar_october_2026|Attendance Omar October 2026]] (`attendance/2026/10`)
+
+
+## 📚 Newly Ingested & Cataloged Notes (Automated Librarian)
+
+- [[etihad-cadet-pilot-strategic-roadmap|Etihad Cadet Pilot Strategic Roadmap]] (`concepts`)
+- [[security-action-git-history-secrets-audit|Security Action Git History Secrets Audit]] (`concepts`)
+- [[vibe-coder-security-fix-kit|Vibe Coder Security Fix Kit]] (`concepts`)
