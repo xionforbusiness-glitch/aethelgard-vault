@@ -3,6 +3,12 @@
 > Chronological, append-only record of all LLM Wiki actions (ingest, query, lint, update).
 > Format: `## [YYYY-MM-DD] action | subject`
 
+## [2026-10-16] update | Etihad Altéa 91% Certification & Internal Cadet Pilot Roadmap
+- **Action:** Created `concepts/etihad-cadet-pilot-strategic-roadmap.md` documenting the multi-year trajectory for Omar Elnemr (SERAVIA Ground Handling -> Direct Etihad Staff -> Internal Cadet Pilot Sponsorship).
+- **Milestones:** Logged Altéa DCS certification completion with a 91% score. Outlined 4-phase strategic roadmap integrating professional milestones, marriage timeline (2027–2028), and cadet flight assessment before age 30.
+- **Files Modified:** `concepts/etihad-cadet-pilot-strategic-roadmap.md`, `index.md`, `log.md`.
+- **Cross-linked:** [[concepts/etihad-cadet-pilot-strategic-roadmap]], [[entities/etihad-airways-station-operations]], [[00 Profile]], [[index]], [[log]]
+
 ## [2026-10-07] update | Airport Official Ground Duty Log-In (08:16 AM)
 - **Action:** Logged live station check-in for **Omar Elnemr** and **Mohamed Adnan** at Damascus International Airport (`DAM / OSDI`) with official log-in time `08:16 AM`.
 - **Shift Duration:** `08:16 AM → 04:00 PM` (7h 44m / `7.73 hrs`).

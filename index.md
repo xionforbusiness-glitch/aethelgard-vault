@@ -15,6 +15,7 @@
 - [[00 Profile]] — Personal device gear, cubing, gaming, and reading profile.
 - [[03 Work Experience]] — Professional work summary and roles.
 - [[personal_biography_education]] — Omar Elnemr biography, academic background (UoPeople, SVU).
+- [[concepts/etihad-cadet-pilot-strategic-roadmap]] — Strategic career roadmap: Ground Handler to Etihad Airways First Officer.
 - [[professional_work_history]] — Aviation ground ops, AI annotation, tech support history.
 - [[work_attendance_and_shift_roster]] — Operational timesheets, daily login/logout logs, and colleague shift tracking.
 
