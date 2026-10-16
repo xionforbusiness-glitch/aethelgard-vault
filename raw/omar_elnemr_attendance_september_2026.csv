@@ -1,0 +1,9 @@
+Date,Day,Log_In,Log_Out,Duration_Formatted,Decimal_Hours,Status,Notes
+2026-09-23,Wednesday,06:30 AM,04:00 PM,9h 30m,9.5,Standardized,Standardized 23rd shift: 06:30 AM – 04:00 PM (9.5h)
+2026-09-24,Thursday,08:15 AM,04:00 PM,7h 45m,7.75,Standard,Standard daytime shift
+2026-09-25,Friday,08:15 AM,05:40 PM,9h 25m,9.42,Overtime,⚡ Extended shift (+1h 40m overtime)
+2026-09-26,Saturday,08:15 AM,04:00 PM,7h 45m,7.75,Standard,Standard daytime shift
+2026-09-27,Sunday,08:15 AM,04:00 PM,7h 45m,7.75,Standard,Standard daytime shift (4:00 PM return)
+2026-09-28,Monday,08:15 AM,04:00 PM,7h 45m,7.75,Standard,Standard daytime shift (4:00 PM return)
+2026-09-29,Tuesday,08:15 AM,04:00 PM,7h 45m,7.75,Standard,Standard daytime shift (4:00 PM return)
+2026-09-30,Wednesday,07:00 AM,04:00 PM,9h 00m,9.0,Paid Standby,🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid)
