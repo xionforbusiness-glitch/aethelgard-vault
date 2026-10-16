@@ -3,6 +3,11 @@
 > Chronological, append-only record of all LLM Wiki actions (ingest, query, lint, update).
 > Format: `## [YYYY-MM-DD] action | subject`
 
+## [2026-10-16] update | Vibe Coder Security Fix Kit & AppSec Hardening Playbook
+- **Action:** Created `concepts/vibe-coder-security-fix-kit.md` detailing the 6 critical attack vectors in AI-generated web apps (Rate limiting, Server-verified auth, Row-Level Security, Exposed secrets, Async queues, and Load testing).
+- **Tooling:** Included single-prompt copy-paste remedies and a Master 1-Pass Security Audit Prompt for AI coding assistants.
+- **Index:** Linked in `index.md` under concepts.
+
 ## [2026-10-16] update | Etihad Altéa 91% Certification & Internal Cadet Pilot Roadmap
 - **Action:** Created `concepts/etihad-cadet-pilot-strategic-roadmap.md` documenting the multi-year trajectory for Omar Elnemr (SERAVIA Ground Handling -> Direct Etihad Staff -> Internal Cadet Pilot Sponsorship).
 - **Milestones:** Logged Altéa DCS certification completion with a 91% score. Outlined 4-phase strategic roadmap integrating professional milestones, marriage timeline (2027–2028), and cadet flight assessment before age 30.
