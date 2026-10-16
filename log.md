@@ -3,6 +3,10 @@
 > Chronological, append-only record of all LLM Wiki actions (ingest, query, lint, update).
 > Format: `## [YYYY-MM-DD] action | subject`
 
+## [2026-10-16] security | Git History Secret Audit & Pending Rotation Advisory
+- **Action:** Created `concepts/security-action-git-history-secrets-audit.md` documenting leaked tokens in git history (PAT, Telegram bot token) and outlined the zero-downtime 4-step remediation plan for Omar to execute at a later scheduled time.
+- **Index:** Cataloged in `index.md`.
+
 ## [2026-10-16] update | Vibe Coder Security Fix Kit & AppSec Hardening Playbook
 - **Action:** Created `concepts/vibe-coder-security-fix-kit.md` detailing the 6 critical attack vectors in AI-generated web apps (Rate limiting, Server-verified auth, Row-Level Security, Exposed secrets, Async queues, and Load testing).
 - **Tooling:** Included single-prompt copy-paste remedies and a Master 1-Pass Security Audit Prompt for AI coding assistants.

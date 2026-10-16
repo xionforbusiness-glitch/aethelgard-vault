@@ -17,6 +17,7 @@
 - [[personal_biography_education]] — Omar Elnemr biography, academic background (UoPeople, SVU).
 - [[concepts/etihad-cadet-pilot-strategic-roadmap]] — Strategic career roadmap: Ground Handler to Etihad Airways First Officer.
 - [[concepts/vibe-coder-security-fix-kit]] — Hardening AI-generated web apps: rate limiting, server auth, RLS, secret audits.
+- [[concepts/security-action-git-history-secrets-audit]] — Pending security remediation: Git history secret scrubbing & token rotation protocol.
 - [[professional_work_history]] — Aviation ground ops, AI annotation, tech support history.
 - [[work_attendance_and_shift_roster]] — Operational timesheets, daily login/logout logs, and colleague shift tracking.
 
