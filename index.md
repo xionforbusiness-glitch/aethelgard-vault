@@ -151,3 +151,8 @@
 - [[etihad-cadet-pilot-strategic-roadmap|Etihad Cadet Pilot Strategic Roadmap]] (`concepts`)
 - [[security-action-git-history-secrets-audit|Security Action Git History Secrets Audit]] (`concepts`)
 - [[vibe-coder-security-fix-kit|Vibe Coder Security Fix Kit]] (`concepts`)
+
+
+## 📚 Newly Ingested & Cataloged Notes (Automated Librarian)
+
+- [[collision-obsidian_vault_-professional_wo|Collision Obsidian Vault  Professional Wo]] (`concepts`)
