@@ -17,6 +17,7 @@
 - [[personal_biography_education]] — Omar Elnemr biography, academic background (UoPeople, SVU).
 - [[concepts/etihad-cadet-pilot-strategic-roadmap]] — Strategic career roadmap: Ground Handler to Etihad Airways First Officer.
 - [[concepts/vibe-coder-security-fix-kit]] — Hardening AI-generated web apps: rate limiting, server auth, RLS, secret audits.
+- [[concepts/oracle-cloud-always-free-tier-guide]] — Oracle Cloud (OCI) Always Free tier: 3-4 servers, 24GB ARM RAM, 2 DBs, 10TB egress.
 - [[concepts/rea-reverse-engineer-anything-mcp]] — REA (Reverse Engineer Anything): 300k+ star MCP tool bridging Hopper/Ghidra with AI agents.
 - [[concepts/security-action-git-history-secrets-audit]] — Pending security remediation: Git history secret scrubbing & token rotation protocol.
 - [[professional_work_history]] — Aviation ground ops, AI annotation, tech support history.
