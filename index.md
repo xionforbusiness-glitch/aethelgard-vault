@@ -159,3 +159,12 @@
 ## 📚 Newly Ingested & Cataloged Notes (Automated Librarian)
 
 - [[collision-obsidian_vault_-professional_wo|Collision Obsidian Vault  Professional Wo]] (`concepts`)
+
+
+## 📚 Newly Ingested & Cataloged Notes (Automated Librarian)
+
+- [[collision-ai_evaluation_a-2026-09-30-face|Collision Ai Evaluation A 2026 09 30 Face]] (`concepts`)
+- [[linux-stealth-disable-icmp-ping-ufw|Linux Stealth Disable Icmp Ping Ufw]] (`concepts`)
+- [[oracle-cloud-always-free-tier-guide|Oracle Cloud Always Free Tier Guide]] (`concepts`)
+- [[rea-reverse-engineer-anything-mcp|Rea Reverse Engineer Anything Mcp]] (`concepts`)
+- [[2026-W42-executive-review|2026 W42 Executive Review]] (`reviews`)
