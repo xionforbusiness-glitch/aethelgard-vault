@@ -3,6 +3,10 @@
 > Chronological, append-only record of all LLM Wiki actions (ingest, query, lint, update).
 > Format: `## [YYYY-MM-DD] action | subject`
 
+## [2026-10-18] security | Linux Server Stealth Hardening: Disabling ICMP Ping in UFW
+- **Action:** Created `concepts/linux-stealth-disable-icmp-ping-ufw.md` documenting NetworkChuck's technique to hide Linux cloud servers from automated ping sweeps by dropping ICMP echo-request packets in `/etc/ufw/before.rules`.
+- **Index:** Cataloged in `index.md`.
+
 ## [2026-10-18] concept | Oracle Cloud (OCI) Always Free Tier Architecture Guide
 - **Action:** Created `concepts/oracle-cloud-always-free-tier-guide.md` documenting Oracle Cloud's Always Free tier (4 OCPUs / 24GB ARM RAM pool, 2 AMD Micro VMs, 200GB block storage, 10TB monthly egress) and designed a 3-server deployment architecture for hosting bots, Ollama LLMs, and backups.
 - **Index:** Cataloged in `index.md`.
