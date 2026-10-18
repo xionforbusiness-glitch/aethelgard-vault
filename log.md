@@ -3,6 +3,10 @@
 > Chronological, append-only record of all LLM Wiki actions (ingest, query, lint, update).
 > Format: `## [YYYY-MM-DD] action | subject`
 
+## [2026-10-18] concept | REA: Reverse Engineer Anything (morluto/rea MCP)
+- **Action:** Created `concepts/rea-reverse-engineer-anything-mcp.md` detailing the viral open-source MCP tool `morluto/rea` (300k+ stars on GitHub). Explains how it connects LLMs (Claude Code, Codex) directly to disassemblers (Hopper, Ghidra) for automated binary reverse engineering and behavioral cloning.
+- **Index:** Cataloged in `index.md`.
+
 ## [2026-10-16] security | Git History Secret Audit & Pending Rotation Advisory
 - **Action:** Created `concepts/security-action-git-history-secrets-audit.md` documenting leaked tokens in git history (PAT, Telegram bot token) and outlined the zero-downtime 4-step remediation plan for Omar to execute at a later scheduled time.
 - **Index:** Cataloged in `index.md`.
