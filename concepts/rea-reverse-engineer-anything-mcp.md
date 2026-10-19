@@ -4,7 +4,7 @@ created: 2026-10-18
 updated: 2026-10-18
 type: concept
 tags: [security, reverse-engineering, ai-agents, mcp, binary-analysis, hopper, ghidra, decompiler, appsec, offensive-security]
-sources: [morluto/rea GitHub (309k+ stars), Tech Secured Facebook Reel 2682011585592823]
+sources: [morluto/rea GitHub (309k+ stars), Tech Secured Facebook Reel 2682011585592823, Full Stack "Top 10 GitHub Repos" Oct 2026]
 confidence: high
 contested: false
 contradictions: []
