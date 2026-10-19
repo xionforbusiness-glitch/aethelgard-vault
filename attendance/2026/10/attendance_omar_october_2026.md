@@ -20,4 +20,4 @@
 | 2026-10-16 | Friday | 07:55 AM | 12:30 PM | 4h 35m | 4.58 | Training / Paid | 🎓 Etihad Airways Altéa DCS System Training (Logged in 07:55 AM / Logged out 12:30 PM) |
 | 2026-10-17 | Saturday | 08:00 AM | 03:37 PM | 7h 37m | 7.62 | Official Duty | ✈️ Live Daily Duty (Logged in 08:00 AM / Logged out 03:37 PM | Free Zone Bus: Arr 07:03 PM, Dep 07:23 PM) |
 | 2026-10-18 | Sunday | OFF | OFF | 0h 00m | 0.0 | Day Off | 🌴 Scheduled Rest Day (Off Duty) |
-| 2026-10-19 | Monday | 07:55 AM | To Be Updated | Pending | 0.0 | Official Duty | ✈️ Live Airport Ground Station Duty (Logged in 07:55 AM / Awaiting Checkout) |
+| 2026-10-19 | Monday | 07:55 AM | 03:20 PM | 7h 25m | 7.42 | Official Duty | ✈️ Live Daily Duty (Logged in 07:55 AM / Logged out 03:20 PM) |
