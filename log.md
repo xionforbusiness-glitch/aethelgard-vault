@@ -3,6 +3,10 @@
 > Chronological, append-only record of all LLM Wiki actions (ingest, query, lint, update).
 > Format: `## [YYYY-MM-DD] action | subject`
 
+## [2026-10-19] concept | Earshot: Audio Perception & Sound Synthesis for AI Agents
+- **Action:** Created `concepts/earshot-audio-toolkit-for-ai-agents.md` documenting `Leonxlnx/earshot`, an open-source audio perception and DSP sound effect synthesis toolkit for AI coding agents via MCP and Python.
+- **Index:** Cataloged in `index.md`.
+
 ## [2026-10-18] security | Linux Server Stealth Hardening: Disabling ICMP Ping in UFW
 - **Action:** Created `concepts/linux-stealth-disable-icmp-ping-ufw.md` documenting NetworkChuck's technique to hide Linux cloud servers from automated ping sweeps by dropping ICMP echo-request packets in `/etc/ufw/before.rules`.
 - **Index:** Cataloged in `index.md`.
