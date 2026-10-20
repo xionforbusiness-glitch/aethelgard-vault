@@ -175,3 +175,10 @@
 ## 📚 Newly Ingested & Cataloged Notes (Automated Librarian)
 
 - [[collision-aitmpl-claude-c-attendance_omar|Collision Aitmpl Claude C Attendance Omar]] (`concepts`)
+
+
+## 📚 Newly Ingested & Cataloged Notes (Automated Librarian)
+
+- [[collision-typesafe-ai-jev-ai-red-teaming-|Collision Typesafe Ai Jev Ai Red Teaming ]] (`concepts`)
+- [[earshot-audio-toolkit-for-ai-agents|Earshot Audio Toolkit For Ai Agents]] (`concepts`)
+- [[unlazy-anti-laziness-agent-skill|Unlazy Anti Laziness Agent Skill]] (`concepts`)
