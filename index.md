@@ -17,6 +17,7 @@
 - [[personal_biography_education]] — Omar Elnemr biography, academic background (UoPeople, SVU).
 - [[concepts/etihad-cadet-pilot-strategic-roadmap]] — Strategic career roadmap: Ground Handler to Etihad Airways First Officer.
 - [[concepts/vibe-coder-security-fix-kit]] — Hardening AI-generated web apps: rate limiting, server auth, RLS, secret audits.
+- [[concepts/earshot-audio-toolkit-for-ai-agents]] — Earshot: Open-source audio perception and DSP sound effect synthesis for AI agents.
 - [[concepts/linux-stealth-disable-icmp-ping-ufw]] — Linux stealth hardening: Disabling ICMP ping discovery in UFW (NetworkChuck).
 - [[concepts/oracle-cloud-always-free-tier-guide]] — Oracle Cloud (OCI) Always Free tier: 3-4 servers, 24GB ARM RAM, 2 DBs, 10TB egress.
 - [[concepts/rea-reverse-engineer-anything-mcp]] — REA (Reverse Engineer Anything): 300k+ star MCP tool bridging Hopper/Ghidra with AI agents.
