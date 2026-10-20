@@ -3,6 +3,10 @@
 > Chronological, append-only record of all LLM Wiki actions (ingest, query, lint, update).
 > Format: `## [YYYY-MM-DD] action | subject`
 
+## [2026-10-20] concept | Unlazy: Anti-Laziness & Runnable Gates Skill for AI Agents
+- **Action:** Created `concepts/unlazy-anti-laziness-agent-skill.md` documenting `Leonxlnx/unlazy` (4k+ stars), an agent completion discipline skill that enforces Depth Trees, machine-checkable runnable gates, and Git worktree parallelization to eliminate AI partial compliance.
+- **Index:** Cataloged in `index.md`.
+
 ## [2026-10-19] concept | Earshot: Audio Perception & Sound Synthesis for AI Agents
 - **Action:** Created `concepts/earshot-audio-toolkit-for-ai-agents.md` documenting `Leonxlnx/earshot`, an open-source audio perception and DSP sound effect synthesis toolkit for AI coding agents via MCP and Python.
 - **Index:** Cataloged in `index.md`.
