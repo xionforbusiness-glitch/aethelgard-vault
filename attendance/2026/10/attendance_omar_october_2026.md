@@ -3,7 +3,7 @@
 | Date | Day | Log-In | Log-Out | Duration | Decimal Hrs | Status | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 2026-10-01 | Thursday | 07:00 AM | 04:00 PM | 9h 00m | 9.0 | Paid Standby | 🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid) |
-| 2026-10-02 | Friday | OFF | OFF | 0h 00m | 0.0 | Day Off | 🌴 Scheduled Team Rest Day (Contractual 1 Day Off in 7-day cycle) |
+| 2026-10-02 | Friday | 07:00 AM | 04:00 PM | 9h 00m | 9.0 | Paid Standby | 🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid) |
 | 2026-10-03 | Saturday | 07:00 AM | 04:00 PM | 9h 00m | 9.0 | Paid Standby | 🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid) |
 | 2026-10-04 | Sunday | 07:00 AM | 04:00 PM | 9h 00m | 9.0 | Paid Standby | 🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid) |
 | 2026-10-05 | Monday | 07:20 AM | 04:40 PM | 9h 20m | 9.33 | Training / Paid | 🎓 Etihad IGS Training Day 1 (MS Teams) / Paid Standby |
