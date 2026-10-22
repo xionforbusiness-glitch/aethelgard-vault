@@ -187,3 +187,8 @@
 ## 📚 Newly Ingested & Cataloged Notes (Automated Librarian)
 
 - [[collision-openvpn_network-2026-w40-execut|Collision Openvpn Network 2026 W40 Execut]] (`concepts`)
+
+
+## 📚 Newly Ingested & Cataloged Notes (Automated Librarian)
+
+- [[collision-obsidian_vault_-white-house-pre|Collision Obsidian Vault  White House Pre]] (`concepts`)
