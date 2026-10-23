@@ -192,3 +192,8 @@
 ## 📚 Newly Ingested & Cataloged Notes (Automated Librarian)
 
 - [[collision-obsidian_vault_-white-house-pre|Collision Obsidian Vault  White House Pre]] (`concepts`)
+
+
+## 📚 Newly Ingested & Cataloged Notes (Automated Librarian)
+
+- [[collision-schema-professional_wo|Collision Schema Professional Wo]] (`concepts`)
