@@ -24,4 +24,4 @@
 | 2026-10-20 | Tuesday | 07:15 AM | 07:04 PM | 11h 49m | 11.82 | Official Duty | ⚡ Extended Shift / Overtime (Logged in 07:15 AM / Logged out 07:04 PM) |
 | 2026-10-21 | Wednesday | 07:15 AM | 05:00 PM | 9h 45m | 9.75 | Official Duty | ✈️ Live Daily Duty (Logged in 07:15 AM / Logged out 05:00 PM) |
 | 2026-10-22 | Thursday | 07:15 AM | 06:40 PM | 11h 25m | 11.42 | Official Duty | ⚡ Extended Shift / Overtime (Logged in 07:15 AM / Logged out 06:40 PM) |
-| 2026-10-23 | Friday | 07:20 AM | To Be Updated | Pending | 0.0 | Official Duty | ✈️ Live Daily Ground Duty (Logged in 07:20 AM / Awaiting Checkout) |
+| 2026-10-23 | Friday | 07:20 AM | 07:30 PM | 12h 10m | 12.17 | Official Duty | ⚡ Extended Shift / Overtime (Logged in 07:20 AM / Logged out 07:30 PM) |
