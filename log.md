@@ -3,6 +3,10 @@
 > Chronological, append-only record of all LLM Wiki actions (ingest, query, lint, update).
 > Format: `## [YYYY-MM-DD] action | subject`
 
+## [2026-10-24] concept | The Vibe Coder's Legal & Compliance Checklist (Don't Get Sued Playbook)
+- **Action:** Created `concepts/vibe-coder-legal-compliance-checklist.md` documenting essential legal and regulatory protections for AI-built apps and MVPs (GDPR/CCPA privacy disclosures, Terms of Service, consent banners, WCAG accessibility, commercial asset licensing, and anti-dark pattern requirements).
+- **Index:** Cataloged in `index.md`.
+
 ## [2026-10-20] concept | Unlazy: Anti-Laziness & Runnable Gates Skill for AI Agents
 - **Action:** Created `concepts/unlazy-anti-laziness-agent-skill.md` documenting `Leonxlnx/unlazy` (4k+ stars), an agent completion discipline skill that enforces Depth Trees, machine-checkable runnable gates, and Git worktree parallelization to eliminate AI partial compliance.
 - **Index:** Cataloged in `index.md`.
