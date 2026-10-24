@@ -199,3 +199,10 @@
 ## 📚 Newly Ingested & Cataloged Notes (Automated Librarian)
 
 - [[collision-schema-professional_wo|Collision Schema Professional Wo]] (`concepts`)
+
+
+## 📚 Newly Ingested & Cataloged Notes (Automated Librarian)
+
+- [[collision-ecc-linux_cli_bash_|Collision Ecc Linux Cli Bash ]] (`concepts`)
+- [[google-artemis-android-automation|Google Artemis Android Automation]] (`concepts`)
+- [[vibe-coder-legal-compliance-checklist|Vibe Coder Legal Compliance Checklist]] (`concepts`)
