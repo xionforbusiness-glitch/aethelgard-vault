@@ -3,6 +3,10 @@
 > Chronological, append-only record of all LLM Wiki actions (ingest, query, lint, update).
 > Format: `## [YYYY-MM-DD] action | subject`
 
+## [2026-10-24] concept | Google ARTEMIS: Autonomous Android Mobile Automation Framework
+- **Action:** Created `concepts/google-artemis-android-automation.md` documenting `google/artemis` (14k+ stars), Google's open-source framework connecting AI agents (Claude Code, Hermes, Antigravity) directly to Android hardware via ADB and MCP with a 99%+ success rate on AndroidWorld.
+- **Index:** Cataloged in `index.md`.
+
 ## [2026-10-24] concept | The Vibe Coder's Legal & Compliance Checklist (Don't Get Sued Playbook)
 - **Action:** Created `concepts/vibe-coder-legal-compliance-checklist.md` documenting essential legal and regulatory protections for AI-built apps and MVPs (GDPR/CCPA privacy disclosures, Terms of Service, consent banners, WCAG accessibility, commercial asset licensing, and anti-dark pattern requirements).
 - **Index:** Cataloged in `index.md`.
