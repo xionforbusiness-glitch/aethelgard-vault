@@ -3,6 +3,11 @@
 > Chronological, append-only record of all LLM Wiki actions (ingest, query, lint, update).
 > Format: `## [YYYY-MM-DD] action | subject`
 
+## [2026-10-25] concept | Minecraft Attack on Titan (AOT) ODM Gear & Shiganshina Modpack
+- **Action:** Created `concepts/minecraft-attack-on-titan-odm-modpack.md` cataloging the complete modpack, shaders (Complementary/BSL), and 1:1 Shiganshina Wall Maria map setup shown in GorillaCrafter's reel.
+- **Status:** Saved into the vault as a designated gaming profile ready to deploy when Omar gets his new gaming laptop/PC.
+- **Index:** Cataloged in `index.md`.
+
 ## [2026-10-25] skill | LLM Council (مجلس الذكاء الاصطناعي) Multi-Agent Decision Engine
 - **Action:** Implemented the full **LLM Council** skill into Hermes Agent (`~/.hermes/profiles/llm-wiki/skills/decision-making/llm-council/SKILL.md`) and created the conceptual reference note `concepts/llm-council-decision-framework.md`.
 - **Architecture:** Based on Andrej Karpathy's methodology—forces 5 distinct AI advisors (Contrarian, First Principles, Expansionist, Outsider, Executor) to independently analyze high-stakes questions, anonymously peer-review each other, and deliver a battle-tested Chairman verdict.
