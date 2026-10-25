@@ -1,364 +1,398 @@
 ---
-title: Work Attendance & Shift Roster (Full Team Master Sheet)
+title: "Work Attendance & Team Shift Roster (September & October 2026)"
 created: 2026-10-01
-updated: 2026-10-16
-type: reference
-tags: [work, career, attendance, timesheet, operations, team-roster, damascus-airport, etihad, saudia]
-sources: [raw/attendance_september_2026.csv, raw/attendance_october_2026.csv, raw/assets/rasheed_akel_schedule_september_2026.jpg]
+updated: 2026-10-25
+type: entity
+tags: [ground-ops, damascus-airport, attendance, roster, timesheets, seravia, etihad]
 confidence: high
-contested: false
-contradictions: []
 ---
 
-# 🕒 Work Attendance & Team Shift Roster (Master Operations Sheet)
+# ✈️ Damascus International Airport (`DAM / OSDI`) — Ground Operations Shift Roster
 
-Master timesheet, shift tracking, duration metrics, and contractual hours ledger for [[03 Work Experience|Omar Elnemr]] and all team colleagues (**Khaled**, **Rasheed Akel**, **Talal**, **Mohamed Adnan**, **Tarek Orfhly**, **Yasmin**, **Joudi Alghorani**, **Hanan**, **Raboushee**, plus onboarding staff **Osama Alkabbani**) stationed at **Damascus International Airport (DAM / OSDI)**.
-
----
-
-## 📜 1. Contractual Shift Policy & Company Paid Standby Framework
-
-### 🏢 A. Operational Working Baseline (54 Hours / Week)
-* **Weekly Schedule Cycle:** **6 working days + 1 scheduled rest day** in every 7-day period.
-* **Standard Shift Duration:** **9 hours per day** (e.g. `07:00 AM → 04:00 PM` or standardized station operating window).
-* **Target Weekly Output:** **54.00 hours per week** (6 days × 9.0 hrs = 54.00 hrs).
-
-### 🛡️ B. Company-Authorized Paid Administrative Standby Policy (ID Pass Delay)
-* **Context & Security Passes:** During station onboarding, physical security access ID passes for Damascus Airport were delayed in administrative issuance on the company's end.
-* **Official Company Resolution:** Because this onboarding gap was solely administrative and outside employee control, the company confirmed that **all affected days from September 30 through October 06 are 100% FULLY PAID** for all team members.
-* **Applicable Paid Dates:**
-  * **Wed Sep 30, 2026:** Paid Administrative Standby (9.0h).
-  * **Thu Oct 01, 2026:** Saudia Airlines Training Session / Paid Administrative Standby (9.0h).
-  * **Fri Oct 02, 2026:** Scheduled Team Weekly Rest Day (0.0h).
-  * **Sat Oct 03, 2026:** Etihad IGS Training Preparation & Paid Standby (8.0h / 9.0h).
-  * **Sun Oct 04, 2026:** Airport Shift & Paid Standby (8.25h / 9.0h).
-  * **Mon Oct 05, 2026:** Etihad IGS Training Day 1 (MS Teams) / Saudi KSA Delegation / Paid Standby (8.0h).
-  * **Tue Oct 06, 2026:** Etihad IGS Training Day 2 (MS Teams) / Saudi KSA Delegation / Paid Standby (8.0h).
+> **Operating Period:** September 23, 2026 – October 25, 2026 (Live & Ongoing)  
+> **Ground Handler:** SERAVIA / Syrian Ground Services  
+> **Master Sheets:** `attendance_team_individual_tabs_2026.xlsx`, `attendance_master_2026.xlsx`
 
 ---
 
-## 🏆 2. Cumulative Hours Leaderboard (September + October Cycles)
+## 🏆 Current Team Output Leaderboard (Combined Sep + Oct 2026)
 
-| # | Employee / Team Member | September (8 Days) | October (7 Days) | Cumulative Output | Combined Decimal | Operating Status |
+| Rank | Team Member | September Output | October Output (to Oct 25) | Total Cumulative Hours | Total Active Shifts | Operational Status |
 | :-: | :--- | :---: | :---: | :---: | :---: | :--- |
-|| 🥇 | **Mohamed Adnan** | 84h 40m | 53h 30m | **138h 10m** | `138.17 hrs` | ... |
-|| 🥈 | **Hanan** | 74h 05m | 52h 45m | **126h 50m** | `126.83 hrs` | ... |
-|| 🥉 | **Rasheed Akel** | 75h 00m | 50h 45m | **125h 45m** | `125.75 hrs` | ... |
-|| 4 | **Joudi Alghorani** | 74h 45m | 48h 45m | **123h 30m** | `123.50 hrs` | ... |
-|| 5 | **Khaled** | 71h 00m | 48h 45m | **119h 45m** | `119.75 hrs` | ... |
-|| 6 | **Raboushee** | 68h 00m | 48h 45m | **116h 45m** | `116.75 hrs` | ... |
-|| 7 | **Omar Elnemr** | 66h 40m | 48h 45m | **115h 25m** | `115.42 hrs` | ... |
-|| 8 | **Tarek Orfhly** | 63h 30m | 49h 15m | **112h 45m** | `112.75 hrs` | ... |
-|| 9 | **Yasmin** | 61h 30m | 46h 45m | **108h 15m** | `108.25 hrs` | ... |
-|| 10 | **Talal** | 53h 30m | 52h 00m | **105h 30m** | `105.50 hrs` | ... |
-|| 11 | **Osama Alkabbani** | 0h 00m | 30h 42m | **30h 42m** | `30.70 hrs` | ... |
-|| **🏆** | **Team Total Output** | 692h 40m | 530h 42m | **1223h 22m** | `1223.37 hrs` | **Full Damascus Ground Team** |
+| 1 | **Mohammad Almohammad** | 85.16 hrs | 210.50 hrs | **295.66 hrs** | 31 shifts | Active Duty |
+| 2 | **Rasheed Akel** | 77.00 hrs | 206.67 hrs | **283.67 hrs** | 30 shifts | Active Duty |
+| 3 | **Hanan** | 75.08 hrs | 204.17 hrs | **279.25 hrs** | 30 shifts | Active Duty |
+| 4 | **Osama Alkabbani** | 72.00 hrs | 205.00 hrs | **277.00 hrs** | 30 shifts | Active Duty |
+| 5 | **Yasmin** | 72.00 hrs | 204.09 hrs | **276.09 hrs** | 31 shifts | Active Duty |
+| 6 | **Omar Elnemr** | 66.67 hrs | 208.31 hrs | **274.98 hrs** | 30 shifts | Active Duty |
+| 7 | **Joudi Alghorani** | 74.75 hrs | 198.86 hrs | **273.61 hrs** | 31 shifts | Active Duty |
+| 8 | **Khaled** | 71.00 hrs | 191.60 hrs | **262.60 hrs** | 30 shifts | Active Duty |
+| 9 | **Raboushee** | 69.33 hrs | 189.67 hrs | **259.00 hrs** | 29 shifts | Active Duty |
+| 10 | **Tarek Orfhly** | 54.50 hrs | 0.00 hrs | **54.50 hrs** | 6 shifts | 🛑 Terminated / Inactive (Sep 29) |
+| 11 | **Talal** | 44.50 hrs | 0.00 hrs | **44.50 hrs** | 4 shifts | 🛑 Terminated / Inactive (Sep 29) |
 
 ---
 
-## 📅 3. Daily Attendance Matrices
+## 📋 Individual Attendance Breakdowns by Team Member
 
-### A. September 2026 Operating Cycle (Sep 23 – Sep 30, 2026)
+### 👤 Omar Elnemr
+* **Cumulative Hours:** `274.98 hrs` across `30` active shifts (`2` days off).
 
-| Date / Day | Omar Elnemr | Khaled | Rasheed Akel | Talal | Mohamed Adnan | Tarek Orfhly | Yasmin | Joudi Alghorani | Hanan | Raboushee |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **Wed (23/09)** | `06:30 → 16:00` *(9.5h)* | `06:30 → 16:00` *(9.5h)* | `06:30 → 16:00` *(9.5h)* | *Off* | `06:30 → 16:00` *(9.5h)* | `06:30 → 16:00` *(9.5h)* | `06:30 → 16:00` *(9.5h)* | `06:30 → 16:00` *(9.5h)* | `06:30 → 16:00` *(9.5h)* | `06:30 → 16:00` *(9.5h)* |
-| **Thu (24/09)** | `08:15 → 16:00` *(7.75h)*| `08:00 → 16:30` *(8.5h)* | `08:00 → 16:30` *(8.5h)* | *Off* | `08:00 → 16:30` *(8.5h)* | `08:00 → 16:30` *(8.5h)* | `08:00 → 16:00` *(8.0h)* | `08:00 → 16:00` *(8.0h)* | `08:10 → 16:00` *(7.83h)*| `08:20 → 16:00` *(7.67h)*|
-| **Fri (25/09)** | `08:15 → 17:40` *(9.42h)*| `08:00 → 16:30` *(8.5h)* | `08:00 → 16:30` *(8.5h)* | *Off* | `08:00 → 16:30` *(8.5h)* | **OFF** | `08:00 → 16:00` *(8.0h)* | `08:00 → 16:00` *(8.0h)* | `08:15 → 16:00` *(7.75h)*| `08:15 → 15:45` *(7.5h)* |
-| **Sat (26/09)** | `08:15 → 16:00` *(7.75h)*| `08:00 → 16:30` *(8.5h)* | `08:00 → 16:30` *(8.5h)* | `07:00 → 16:30` *(9.5h)* | `03:40 → 16:30` *(12.83h)*| `07:00 → 16:30` *(9.5h)* | **OFF** | `03:15 → 16:30` *(13.25h)*| `03:30 → 16:30` *(13.0h)* | `08:15 → 16:30` *(8.25h)*|
-| **Sun (27/09)** | `08:15 → 16:00` *(7.75h)*| `07:00 → 16:00` *(9.0h)* | `07:00 → 16:00` *(9.0h)* | `03:00 → 16:00` *(13.0h)*| `03:40 → 16:00` *(12.33h)*| `07:00 → 16:00` *(9.0h)* | `07:00 → 16:00` *(9.0h)* | `07:00 → 16:00` *(9.0h)* | `07:00 → 16:00` *(9.0h)* | `07:15 → 16:00` *(8.75h)*|
-| **Mon (28/09)** | `08:15 → 16:00` *(7.75h)*| `07:00 → 16:00` *(9.0h)* | `07:00 → 16:00` *(9.0h)* | `07:00 → 16:00` *(9.0h)* | `04:00 → 16:00` *(12.0h)* | `07:00 → 16:00` *(9.0h)* | `07:00 → 16:00` *(9.0h)* | `07:00 → 16:00` *(9.0h)* | `07:00 → 16:00` *(9.0h)* | `07:20 → 16:00` *(8.67h)*|
-| **Tue (29/09)** | `08:15 → 16:00` *(7.75h)*| `07:00 → 16:00` *(9.0h)* | `03:00 → 16:00` *(13.0h)*| `03:00 → 16:00` *(13.0h)*| `04:00 → 16:00` *(12.0h)* | `07:00 → 16:00` *(9.0h)* | `07:00 → 16:00` *(9.0h)* | `07:00 → 16:00` *(9.0h)* | `07:00 → 16:00` *(9.0h)* | `07:20 → 16:00` *(8.67h)*|
-| **Wed (30/09)** | `07:00 → 16:00` *(9.0h)* | `07:00 → 16:00` *(9.0h)* | `07:00 → 16:00` *(9.0h)* | `07:00 → 16:00` *(9.0h)* | `07:00 → 16:00` *(9.0h)* | `07:00 → 16:00` *(9.0h)* | `07:00 → 16:00` *(9.0h)* | `07:00 → 16:00` *(9.0h)* | `07:00 → 16:00` *(9.0h)* | `07:00 → 16:00` *(9.0h)* |
-
----
-
-### B. October 2026 Operating Cycle (Oct 01 – Ongoing)
-
-| Date / Day | Omar | Khaled | Rasheed | Talal | M. Adnan | Tarek | Yasmin | Joudi | Hanan | Raboushee | Operations & Training Notes |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
-| **Thu (01/10)** | `07:00→16:00` *(9.0h)* | `07:00→16:00` *(9.0h)* | `07:45→14:00` *(6.25h)* | `07:00→16:00` *(9.0h)* | `07:00→16:00` *(9.0h)* | `07:45→14:00` *(6.25h)* | `07:45→14:00` *(6.25h)* | `07:00→16:00` *(9.0h)* | `07:00→16:00` *(9.0h)* | `07:00→16:00` *(9.0h)* | 🎓 Saudia Training (Rasheed, Tarek, Yasmin) / 🏢 Paid Standby (Others) |
-| **Fri (02/10)** | **OFF** | **OFF** | **OFF** | **OFF** | **OFF** | **OFF** | **OFF** | **OFF** | **OFF** | **OFF** | 🌴 **Scheduled Team Rest Day** (Contractual 1 Day Off in 7) |
-| **Sat (03/10)** | `08:00→16:00` *(8.0h)* | `08:00→16:00` *(8.0h)* | `08:00→16:00` *(8.0h)* | `08:00→16:00` *(8.0h)* | `08:00→16:00` *(8.0h)* | `08:00→16:00` *(8.0h)* | `08:00→16:00` *(8.0h)* | `08:00→16:00` *(8.0h)* | `08:00→16:00` *(8.0h)* | `08:00→16:00` *(8.0h)* | 🎓 Etihad IGS Training Preparation & Paid Standby |
-| **Sun (04/10)** | `07:45→16:00` *(8.25h)* | `07:45→16:00` *(8.25h)* | `07:00→16:00` *(9.0h)* | `07:00→16:00` *(9.0h)* | `07:00→16:00` *(9.0h)* | `07:00→16:00` *(9.0h)* | `07:00→16:00` *(9.0h)* | `07:45→16:00` *(8.25h)* | `07:45→16:00` *(8.25h)* | `07:45→16:00` *(8.25h)* | 🏢 Station Onboarding Shift (+ Osama Alkabbani: `08:48→16:00` 7.20h) |
-| **Mon (05/10)** | `08:00→16:00` *(8.0h)* | `08:00→16:00` *(8.0h)* | `08:00→16:00` *(8.0h)* | `08:00→16:00` *(8.0h)* | `08:00→16:00` *(8.0h)* | `08:00→16:00` *(8.0h)* | `08:00→16:00` *(8.0h)* | `08:00→16:00` *(8.0h)* | `08:00→16:00` *(8.0h)* | `08:00→16:00` *(8.0h)* | 🎓 **Etihad IGS Training Day 1** (MS Teams) / Saudi KSA Delegation |
-|| **Tue (06/10)** | `08:00→16:05` *(8.08h)* | `08:00→16:05` *(8.08h)* | `08:00→16:05` *(8.08h)* | `07:00→16:00` *(9.0h)* | `08:00→16:05` *(8.08h)* | `07:00→16:00` *(9.0h)* | `08:00→16:05` *(8.08h)* | `08:00→16:05` *(8.08h)* | `08:00→16:05` *(8.08h)* | `08:00→16:05` *(8.08h)* | 🎓 **Etihad IGS Training Day 2** (MS Teams) / Saudi KSA Delegation / Paid Standby |
-|| **Wed (07/10)** | `07:55→15:20` *(7.42h)* | `07:55→15:20` *(7.42h)* | `03:55→15:20` *(11.42h)* | `07:00→16:00` *(9.0h)* | `03:55→15:20` *(11.42h)* | `07:00→16:00` *(9.0h)* | `07:55→15:20` *(7.42h)* | `07:55→15:20` *(7.42h)* | `03:55→15:20` *(11.42h)* | `07:55→15:20` *(7.42h)* | ✈️ **AIRPORT DUTY LIVE** — Waves: Dawn(03:55), Morning/Standard(07:55) + Osama(07:55) |
-
----
-
-## 🗺️ 4. Master Operational Roadmap & Future Training Schedule
-
-```
-Sep 23 – 29   [================] Active Station Flights (Saudia / Ground Ops)
-Sep 30 – Oct 06 [================] Company Paid Standby (Airport ID Pass Delay) + Etihad/Saudia Training
-Oct 07 (Wed)  [▶ RESUMPTION]    Station Duty Resumes at Damascus Airport (DAM / OSDI)
-Oct 12 – 13   [🎓 DCS TRAINING] Etihad Airways Amadeus Altéa Departure Control System (Hands-on Systems)
-```
-
-1. **Wednesday, October 07, 2026 (Tomorrow):** Airport ground handling and passenger check-in duty resumes live on station at Damascus International Airport.
-2. **Monday & Tuesday, October 12–13, 2026 (Next Week):** **Etihad Airways DCS Systems Training** — In-depth practical training on Amadeus Altéa Customer Management (CM/FM), electronic ticketing coupons, standby list reconciliation, and seat map architecture.
+| Date | Day | Log-In | Log-Out | Duration | Decimal Hrs | Status | Notes |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: | :--- |
+| 2026-09-23 | Wednesday | 06:30 AM | 04:00 PM | 9h 30m | 9.50 | Standardized | Standardized 23rd shift: 06:30 AM – 04:00 PM (9.5h) |
+| 2026-09-24 | Thursday | 08:15 AM | 04:00 PM | 7h 45m | 7.75 | Standard | Standard daytime shift |
+| 2026-09-25 | Friday | 08:15 AM | 05:40 PM | 9h 25m | 9.42 | Overtime | ⚡ Extended shift (+1h 40m overtime) |
+| 2026-09-26 | Saturday | 08:15 AM | 04:00 PM | 7h 45m | 7.75 | Standard | Standard daytime shift |
+| 2026-09-27 | Sunday | 08:15 AM | 04:00 PM | 7h 45m | 7.75 | Standard | Standard daytime shift (4:00 PM return) |
+| 2026-09-28 | Monday | 08:15 AM | 04:00 PM | 7h 45m | 7.75 | Standard | Standard daytime shift (4:00 PM return) |
+| 2026-09-29 | Tuesday | 08:15 AM | 04:00 PM | 7h 45m | 7.75 | Standard | Standard daytime shift (4:00 PM return) |
+| 2026-09-30 | Wednesday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Paid Standby | 🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid) |
+| 2026-10-01 | Thursday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Paid Standby | 🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid) |
+| 2026-10-02 | Friday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Paid Standby | 🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid) |
+| 2026-10-03 | Saturday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Paid Standby | 🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid) |
+| 2026-10-04 | Sunday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Paid Standby | 🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid) |
+| 2026-10-05 | Monday | 07:20 AM | 04:40 PM | 9h 20m | 9.33 | Training / Paid | 🎓 Etihad IGS Training Day 1 (MS Teams) / Paid Standby |
+| 2026-10-06 | Tuesday | 07:20 AM | 04:45 PM | 9h 25m | 9.42 | Training / Paid | 🎓 Etihad IGS Training Day 2 (MS Teams) / Paid Standby |
+| 2026-10-07 | Wednesday | 07:15 AM | 04:00 PM | 8h 45m | 8.75 | Official Duty | ✈️ Live Airport Ground Station Duty (Logged in 07:15 AM / Logged out 04:00 PM) |
+| 2026-10-08 | Thursday | 07:10 AM | 04:00 PM | 8h 50m | 8.83 | Official Duty | ✈️ Live Daily Duty (Logged in 07:10 AM / Logged out 04:00 PM) |
+| 2026-10-09 | Friday | 07:10 AM | 05:53 PM | 10h 43m | 10.72 | Official Duty | ✈️ Live Daily Duty (Logged in 07:10 AM / Logged out 05:53 PM) |
+| 2026-10-10 | Saturday | 07:07 AM | 04:15 PM | 9h 08m | 9.13 | Official Duty | ✈️ Live Daily Duty (Logged in 07:07 AM / Logged out 04:15 PM) |
+| 2026-10-11 | Sunday | OFF | OFF | 0h 00m | 0.00 | Day Off | 🌴 Scheduled Team Weekly Rest Day (Full Station Off) |
+| 2026-10-12 | Monday | 07:15 AM | 05:45 PM | 10h 30m | 10.50 | Training / Paid | 🎓 Etihad Airways Altéa DCS System Training (Logged in 07:15 AM / Logged out 05:45 PM) |
+| 2026-10-13 | Tuesday | 07:20 AM | 05:10 PM | 9h 50m | 9.83 | Training / Paid | 🎓 Etihad Airways Altéa DCS System Training (Logged in 07:20 AM / Logged out 05:10 PM) |
+| 2026-10-14 | Wednesday | 07:20 AM | 04:40 PM | 9h 20m | 9.33 | Training / Paid | 🎓 Etihad Airways Altéa DCS System Training (Logged in 07:20 AM / Logged out 04:40 PM) |
+| 2026-10-15 | Thursday | 07:15 AM | 04:40 PM | 9h 25m | 9.42 | Training / Paid | 🎓 Etihad Airways Altéa DCS System Training (Logged in 07:15 AM / Logged out 04:40 PM) |
+| 2026-10-16 | Friday | 07:15 AM | 01:10 PM | 5h 55m | 5.92 | Training / Paid | 🎓 Etihad Airways Altéa DCS System Training (Logged in 07:15 AM / Logged out 01:10 PM) |
+| 2026-10-17 | Saturday | 07:20 AM | 04:17 PM | 8h 57m | 8.95 | Official Duty | ✈️ Live Daily Duty (Logged in 07:20 AM / Logged out 04:17 PM | Free Zone Bus: Arr 07:03 PM, Dep 07:23 PM) |
+| 2026-10-18 | Sunday | OFF | OFF | 0h 00m | 0.00 | Day Off | 🌴 Scheduled Rest Day (Off Duty) |
+| 2026-10-19 | Monday | 07:15 AM | 04:00 PM | 8h 45m | 8.75 | Official Duty | ✈️ Live Daily Duty (Logged in 07:15 AM / Logged out 04:00 PM) |
+| 2026-10-20 | Tuesday | 07:15 AM | 07:04 PM | 11h 49m | 11.82 | Official Duty | ⚡ Extended Shift / Overtime (Logged in 07:15 AM / Logged out 07:04 PM) |
+| 2026-10-21 | Wednesday | 07:15 AM | 05:00 PM | 9h 45m | 9.75 | Official Duty | ✈️ Live Daily Duty (Logged in 07:15 AM / Logged out 05:00 PM) |
+| 2026-10-22 | Thursday | 07:15 AM | 06:40 PM | 11h 25m | 11.42 | Official Duty | ⚡ Extended Shift / Overtime (Logged in 07:15 AM / Logged out 06:40 PM) |
+| 2026-10-23 | Friday | 07:20 AM | 07:30 PM | 12h 10m | 12.17 | Official Duty | ⚡ Extended Shift / Overtime (Logged in 07:20 AM / Logged out 07:30 PM) |
+| 2026-10-24 | Saturday | 07:24 AM | 03:40 PM | 8h 16m | 8.27 | Official Duty | ✈️ Live Daily Ground Duty (Logged in 07:24 AM / Logged out 03:40 PM) |
 
 ---
 
-## 👤 5. Individual Member Detailed Timesheets
+### 👤 Hanan
+* **Cumulative Hours:** `279.25 hrs` across `30` active shifts (`2` days off).
 
-### 1. Omar Elnemr
-| Date | Log In | Log Out | Duration | Shift Notes |
-| :--- | :---: | :---: | :---: | :--- |
-| **2026-09-23** (Wed) | `06:30 AM` | `04:00 PM` | **9h 30m** | Standardized 23rd shift (9h 30m). |
-| **2026-09-24** (Thu) | `08:15 AM` | `04:00 PM` | **7h 45m** | Standard shift. |
-| **2026-09-25** (Fri) | `08:15 AM` | `05:40 PM` | **9h 25m** | ⚡ Extended shift (+1h 40m overtime). |
-| **2026-09-26** (Sat) | `08:15 AM` | `04:00 PM` | **7h 45m** | Standard shift. |
-| **2026-09-27** (Sun) | `08:15 AM` | `04:00 PM` | **7h 45m** | Standard shift (4:00 PM return). |
-| **2026-09-28** (Mon) | `08:15 AM` | `04:00 PM` | **7h 45m** | Standard shift (4:00 PM return). |
-| **2026-09-29** (Tue) | `08:15 AM` | `04:00 PM` | **7h 45m** | Standard shift (4:00 PM return). |
-| **2026-09-30** (Wed) | `07:00 AM` | `04:00 PM` | **9h 00m** | 🏢 Paid Administrative Standby (Airport pass delay - Company paid). |
-| **2026-10-01** (Thu) | `07:00 AM` | `04:00 PM` | **9h 00m** | 🏢 Paid Administrative Standby (Company paid). |
-| **2026-10-02** (Fri) | **OFF** | **OFF** | **0h 00m** | 🌴 Scheduled Team Rest Day (Contractual 1 day off in 7). |
-| **2026-10-03** (Sat) | `08:00 AM` | `04:00 PM` | **8h 00m** | 🎓 Etihad IGS Training Preparation & Paid Standby. |
-| **2026-10-04** (Sun) | `07:45 AM` | `04:00 PM` | **8h 15m** | 🏢 Station Onboarding Shift (Logged in 07:45 AM). |
-| **2026-10-05** (Mon) | `08:00 AM` | `04:00 PM` | **8h 00m** | 🎓 Etihad IGS Training Day 1 (MS Teams / 08:00 DAM). |
-| **2026-10-06** (Tue) | `08:00 AM` | `04:05 PM` | **8h 05m** | 🎓 Etihad IGS Training Day 2 (MS Teams / 08:00 DAM). |
-| **2026-10-07** (Wed) | `07:55 AM` | `03:20 PM` | **7h 25m** | ✈️ Live Airport Ground Station Duty (Logged in 07:55 AM / Logged out 03:20 PM). |
-| **2026-10-08** (Thu) | `07:50 AM` | `03:20 PM` | **7h 30m** | ✈️ Live Daily Duty (Logged in 07:50 AM / Logged out 03:20 PM). |
-| **2026-10-09** (Fri) | `07:50 AM` | `05:13 PM` | **9h 23m** | ⚡ Extended Duty (Logged in 07:50 AM / Logged out 05:13 PM). |
-| **2026-10-10** (Sat) | `07:47 AM` | `03:35 PM` | **7h 48m** | ✈️ Live Daily Duty (Logged in 07:47 AM / Logged out 03:35 PM). |
-| **2026-10-11** (Sun) | **OFF** | **OFF** | **0h 00m** | 🌴 Scheduled Team Weekly Rest Day (Full Station Off). |
-| **2026-10-12** (Mon) | `08:00 AM` | `05:05 PM` | **9h 05m** | 🎓 Etihad DCS Systems Training & Station Duty (08:00 AM – 05:05 PM). |
-| **2026-10-13** (Tue) | `08:00 AM` | `04:30 PM` | **8h 30m** | 🎓 Etihad DCS Systems Training & Station Duty (08:00 AM – 04:30 PM). |
-| **2026-10-14** (Wed) | `08:00 AM` | `04:00 PM` | **8h 00m** | ✈️ Live Airport Ground Station Duty (08:00 AM – 04:00 PM). |
-| **2026-10-15** (Thu) | `07:55 AM` | `04:00 PM` | **8h 05m** | ✈️ Live Airport Ground Station Duty (07:55 AM – 04:00 PM). |
-| **September Total** | — | — | **66h 40m** | `66.67 hrs` (8 days) |
-| **October Total** | — | — | **107h 06m** | `107.09 hrs` (15 days: 13 active + 2 off) |
-| **Cumulative Total** | — | — | **173h 46m** | `173.76 hrs` across 23 tracked days |
-
----
-
-### 2. Khaled
-| Date | Log In | Log Out | Duration | Shift Notes |
-| :--- | :---: | :---: | :---: | :--- |
-| **2026-09-23** (Wed) | `06:30 AM` | `04:00 PM` | **9h 30m** | Standardized 23rd shift (9h 30m). |
-| **2026-09-24** (Thu) | `08:00 AM` | `04:30 PM` | **8h 30m** | Standard daytime shift. |
-| **2026-09-25** (Fri) | `08:00 AM` | `04:30 PM` | **8h 30m** | Standard daytime shift. |
-| **2026-09-26** (Sat) | `08:00 AM` | `04:30 PM` | **8h 30m** | Standard daytime shift. |
-| **2026-09-27** (Sun) | `07:00 AM` | `04:00 PM` | **9h 00m** | Morning departure processing (4:00 PM return). |
-| **2026-09-28** (Mon) | `07:00 AM` | `04:00 PM` | **9h 00m** | Morning departure processing (4:00 PM return). |
-| **2026-09-29** (Tue) | `07:00 AM` | `04:00 PM` | **9h 00m** | Morning departure processing (4:00 PM return). |
-| **2026-09-30** (Wed) | `07:00 AM` | `04:00 PM` | **9h 00m** | 🏢 Paid Administrative Standby (Airport pass delay - Company paid). |
-| **2026-10-01** (Thu) | `07:00 AM` | `04:00 PM` | **9h 00m** | 🏢 Paid Administrative Standby (Company paid). |
-| **2026-10-02** (Fri) | **OFF** | **OFF** | **0h 00m** | 🌴 Scheduled Team Rest Day (Contractual 1 day off in 7). |
-| **2026-10-03** (Sat) | `08:00 AM` | `04:00 PM` | **8h 00m** | 🎓 Etihad IGS Training Preparation & Paid Standby. |
-| **2026-10-04** (Sun) | `07:45 AM` | `04:00 PM` | **8h 15m** | 🏢 Station Onboarding Shift (Logged in 07:45 AM). |
-| **2026-10-05** (Mon) | `08:00 AM` | `04:00 PM` | **8h 00m** | 🎓 Etihad IGS Training Day 1 / Paid Standby. |
-| **2026-10-06** (Tue) | `08:00 AM` | `04:00 PM` | **8h 00m** | 🎓 Etihad IGS Training Day 2 / Paid Standby. |
-| **September Total** | — | — | **71h 00m** | `71.00 hrs` (8 days) |
-| **October Total** | — | — | **41h 15m** | `41.25 hrs` (6 days) |
-| **Cumulative Total** | — | — | **112h 15m** | `112.25 hrs` across 14 tracked days |
+| Date | Day | Log-In | Log-Out | Duration | Decimal Hrs | Status | Notes |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: | :--- |
+| 2026-09-23 | Wednesday | 06:30 AM | 04:00 PM | 9h 30m | 9.50 | Standardized | Standardized 23rd shift: 06:30 AM – 04:00 PM (9.5h) |
+| 2026-09-24 | Thursday | 08:10 AM | 04:00 PM | 7h 50m | 7.83 | Standard | Standard daytime shift (7h 50m) |
+| 2026-09-25 | Friday | 08:15 AM | 04:00 PM | 7h 45m | 7.75 | Standard | Standard daytime shift (7h 45m) |
+| 2026-09-26 | Saturday | 03:30 AM | 04:30 PM | 13h 00m | 13.00 | Dawn Shift | ✈️ Early dawn flight check-in & departure (13.0 hrs) |
+| 2026-09-27 | Sunday | 07:00 AM | 04:30 PM | 9h 30m | 9.50 | Standard | Morning departure processing (4:30 PM return) |
+| 2026-09-28 | Monday | 07:00 AM | 04:30 PM | 9h 30m | 9.50 | Standard | Morning departure processing (4:30 PM return) |
+| 2026-09-29 | Tuesday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Standard | Morning departure processing (4:00 PM return) |
+| 2026-09-30 | Wednesday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Paid Standby | 🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid) |
+| 2026-10-01 | Thursday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Paid Standby | 🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid) |
+| 2026-10-02 | Friday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Paid Standby | 🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid) |
+| 2026-10-03 | Saturday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Paid Standby | 🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid) |
+| 2026-10-04 | Sunday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Paid Standby | 🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid) |
+| 2026-10-05 | Monday | 08:00 AM | 04:00 PM | 8h 00m | 8.00 | Training / Paid | 🎓 Etihad IGS Training Day 1 (MS Teams) / Paid Standby |
+| 2026-10-06 | Tuesday | 08:00 AM | 04:05 PM | 8h 05m | 8.08 | Training / Paid | 🎓 Etihad IGS Training Day 2 (MS Teams) / Paid Standby |
+| 2026-10-07 | Wednesday | 03:30 AM | 04:00 PM | 12h 30m | 12.50 | Dawn Shift | ✈️ Early dawn flight departure handling (12h 30m) |
+| 2026-10-08 | Thursday | 03:20 AM | 04:00 PM | 12h 40m | 12.67 | Dawn Shift | ✈️ Early dawn flight departure handling (12h 40m) |
+| 2026-10-09 | Friday | OFF | OFF | 0h 00m | 0.00 | Day Off | 🌴 Scheduled Rest Day (Off Duty) |
+| 2026-10-10 | Saturday | 03:15 AM | 04:00 PM | 12h 45m | 12.75 | Dawn Shift | ✈️ Early dawn flight departure handling (12h 45m) |
+| 2026-10-11 | Sunday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Paid Standby | 🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid) |
+| 2026-10-12 | Monday | 08:00 AM | 04:30 PM | 8h 30m | 8.50 | Training / Paid | 🎓 Etihad Airways Altéa DCS System Training |
+| 2026-10-13 | Tuesday | 08:00 AM | 04:00 PM | 8h 00m | 8.00 | Training / Paid | 🎓 Etihad Airways Altéa DCS System Training |
+| 2026-10-14 | Wednesday | 08:00 AM | 04:15 PM | 8h 15m | 8.25 | Training / Paid | 🎓 Etihad Airways Altéa DCS System Training |
+| 2026-10-15 | Thursday | 08:00 AM | 04:00 PM | 8h 00m | 8.00 | Training / Paid | 🎓 Etihad Airways Altéa DCS System Training |
+| 2026-10-16 | Friday | 08:00 AM | 01:30 PM | 5h 30m | 5.50 | Training / Paid | 🎓 Etihad Airways Altéa DCS System Training |
+| 2026-10-17 | Saturday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Official Duty | ✈️ Live Morning Airport Ground Duty |
+| 2026-10-18 | Sunday | 07:00 AM | 03:30 PM | 8h 30m | 8.50 | Official Duty | ✈️ Live Morning Airport Ground Duty |
+| 2026-10-19 | Monday | OFF | OFF | 0h 00m | 0.00 | Day Off | 🌴 Scheduled Rest Day (Off Duty) |
+| 2026-10-20 | Tuesday | 03:15 AM | 04:30 PM | 13h 15m | 13.25 | Dawn Shift | ✈️ Early dawn flight departure handling (13h 15m) |
+| 2026-10-21 | Wednesday | 08:00 AM | 05:00 PM | 9h 00m | 9.00 | Official Duty | ✈️ Live Daily Ground Duty |
+| 2026-10-22 | Thursday | 07:15 AM | 03:40 PM | 8h 25m | 8.42 | Official Duty | ✈️ Live Morning Airport Ground Duty (07:15 AM – 03:40 PM) |
+| 2026-10-23 | Friday | 07:30 AM | 06:00 PM | 10h 30m | 10.50 | Extended Shift | ⚡ Live Extended Station Duty (07:30 AM – 06:00 PM / 10h 30m) |
+| 2026-10-24 | Saturday | 07:30 AM | 03:45 PM | 8h 15m | 8.25 | Official Duty | ✈️ Live Morning Airport Ground Duty (07:30 AM – 03:45 PM) |
 
 ---
 
-### 3. Rasheed Akel
-| Date | Log In | Log Out | Duration | Shift Notes |
-| :--- | :---: | :---: | :---: | :--- |
-| **2026-09-23** (Wed) | `06:30 AM` | `04:00 PM` | **9h 30m** | Standardized 23rd shift (9h 30m). |
-| **2026-09-24** (Thu) | `08:00 AM` | `04:30 PM` | **8h 30m** | Standard daytime shift. |
-| **2026-09-25** (Fri) | `08:00 AM` | `04:30 PM` | **8h 30m** | Standard daytime shift. |
-| **2026-09-26** (Sat) | `08:00 AM` | `04:30 PM` | **8h 30m** | Standard daytime shift. |
-| **2026-09-27** (Sun) | `07:00 AM` | `04:00 PM` | **9h 00m** | Morning departure processing (4:00 PM return). |
-| **2026-09-28** (Mon) | `07:00 AM` | `04:00 PM` | **9h 00m** | Morning departure processing (4:00 PM return). |
-| **2026-09-29** (Tue) | `03:00 AM` | `04:00 PM` | **13h 00m** | ✈️ Early dawn flight departure handling (13h 00m). |
-| **2026-09-30** (Wed) | `07:00 AM` | `04:00 PM` | **9h 00m** | 🏢 Paid Administrative Standby (Airport pass delay - Company paid). |
-| **2026-10-01** (Thu) | `07:45 AM` | `02:00 PM` | **6h 15m** | 🎓 Saudia Training Session (6.25h) + Paid Standby. |
-| **2026-10-02** (Fri) | **OFF** | **OFF** | **0h 00m** | 🌴 Scheduled Team Rest Day (Contractual 1 day off in 7). |
-| **2026-10-03** (Sat) | `08:00 AM` | `04:00 PM` | **8h 00m** | 🎓 Etihad IGS Training Preparation & Paid Standby. |
-| **2026-10-04** (Sun) | `07:00 AM` | `04:00 PM` | **9h 00m** | 🏢 Paid Administrative Standby (Company paid). |
-| **2026-10-05** (Mon) | `08:00 AM` | `04:00 PM` | **8h 00m** | 🎓 Etihad IGS Training Day 1 / Paid Standby. |
-| **2026-10-06** (Tue) | `08:00 AM` | `04:00 PM` | **8h 00m** | 🎓 Etihad IGS Training Day 2 / Paid Standby. |
-| **September Total** | — | — | **75h 00m** | `75.00 hrs` (8 days) |
-| **October Total** | — | — | **39h 15m** | `39.25 hrs` (6 days) |
-| **Cumulative Total** | — | — | **114h 15m** | `114.25 hrs` across 14 tracked days |
+### 👤 Joudi Alghorani
+* **Cumulative Hours:** `273.61 hrs` across `31` active shifts (`1` days off).
+
+| Date | Day | Log-In | Log-Out | Duration | Decimal Hrs | Status | Notes |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: | :--- |
+| 2026-09-23 | Wednesday | 06:30 AM | 04:00 PM | 9h 30m | 9.50 | Standardized | Standardized 23rd shift: 06:30 AM – 04:00 PM (9.5h) |
+| 2026-09-24 | Thursday | 08:00 AM | 04:00 PM | 8h 00m | 8.00 | Standard | Standard daytime shift |
+| 2026-09-25 | Friday | 08:00 AM | 04:00 PM | 8h 00m | 8.00 | Standard | Standard daytime shift |
+| 2026-09-26 | Saturday | 03:15 AM | 04:30 PM | 13h 15m | 13.25 | Dawn Shift | ✈️ Early dawn flight check-in & boarding (13h 15m) |
+| 2026-09-27 | Sunday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Standard | Morning departure processing (4:00 PM return) |
+| 2026-09-28 | Monday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Standard | Morning departure processing |
+| 2026-09-29 | Tuesday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Standard | Morning departure processing |
+| 2026-09-30 | Wednesday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Paid Standby | 🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid) |
+| 2026-10-01 | Thursday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Paid Standby | 🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid) |
+| 2026-10-02 | Friday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Paid Standby | 🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid) |
+| 2026-10-03 | Saturday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Paid Standby | 🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid) |
+| 2026-10-04 | Sunday | 07:00 AM | 04:30 PM | 9h 30m | 9.50 | Paid Standby | 🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid) |
+| 2026-10-05 | Monday | 08:00 AM | 04:30 PM | 8h 30m | 8.50 | Training / Paid | 🎓 Etihad IGS Training Day 1 (MS Teams) / Paid Standby |
+| 2026-10-06 | Tuesday | 08:00 AM | 04:30 PM | 8h 30m | 8.50 | Training / Paid | 🎓 Etihad IGS Training Day 2 (MS Teams) / Paid Standby |
+| 2026-10-07 | Wednesday | 08:00 AM | 04:00 PM | 8h 00m | 8.00 | Official Duty | ✈️ Live Daily Ground Duty (08:00 AM – 04:00 PM) |
+| 2026-10-08 | Thursday | 08:00 AM | 04:00 PM | 8h 00m | 8.00 | Official Duty | ✈️ Live Daily Ground Duty (08:00 AM – 04:00 PM) |
+| 2026-10-09 | Friday | 03:15 AM | 04:00 PM | 12h 45m | 12.75 | Dawn Shift | ✈️ Early dawn flight departure handling (12h 45m) |
+| 2026-10-10 | Saturday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Official Duty | ✈️ Live Morning Airport Ground Duty (9h 00m) |
+| 2026-10-11 | Sunday | 07:00 AM | 04:30 PM | 9h 30m | 9.50 | Paid Standby | 🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid) |
+| 2026-10-12 | Monday | 08:20 AM | 04:00 PM | 7h 40m | 7.67 | Training / Paid | 🎓 Etihad Airways Altéa DCS System Training |
+| 2026-10-13 | Tuesday | 08:05 AM | 04:00 PM | 7h 55m | 7.92 | Training / Paid | 🎓 Etihad Airways Altéa DCS System Training |
+| 2026-10-14 | Wednesday | 08:00 AM | 04:00 PM | 8h 00m | 8.00 | Training / Paid | 🎓 Etihad Airways Altéa DCS System Training |
+| 2026-10-15 | Thursday | 08:00 AM | 04:00 PM | 8h 00m | 8.00 | Training / Paid | 🎓 Etihad Airways Altéa DCS System Training |
+| 2026-10-16 | Friday | 08:10 AM | 01:00 PM | 4h 50m | 4.83 | Training / Paid | 🎓 Etihad Airways Altéa DCS System Training |
+| 2026-10-17 | Saturday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Official Duty | ✈️ Live Morning Airport Ground Duty (9h 00m) |
+| 2026-10-18 | Sunday | OFF | OFF | 0h 00m | 0.00 | Day Off | 🌴 Scheduled Rest Day (Off Duty) |
+| 2026-10-19 | Monday | 07:15 AM | 04:00 PM | 8h 45m | 8.75 | Official Duty | ✈️ Live Morning Airport Ground Duty (8h 45m) |
+| 2026-10-20 | Tuesday | 07:20 AM | 04:40 PM | 9h 20m | 9.33 | Official Duty | ✈️ Live Morning Airport Ground Duty (9h 20m) |
+| 2026-10-21 | Wednesday | 07:30 AM | 04:51 PM | 9h 21m | 9.35 | Official Duty | ✈️ Live Daily Ground Duty (9h 21m) |
+| 2026-10-22 | Thursday | 07:15 AM | 03:40 PM | 8h 25m | 8.42 | Official Duty | ✈️ Live Morning Airport Ground Duty (07:15 AM – 03:40 PM) |
+| 2026-10-23 | Friday | 07:20 AM | 03:45 PM | 8h 25m | 8.42 | Official Duty | ✈️ Live Morning Airport Ground Duty (07:20 AM – 03:45 PM) |
+| 2026-10-24 | Saturday | 07:20 AM | 03:45 PM | 8h 25m | 8.42 | Official Duty | ✈️ Live Morning Airport Ground Duty (07:20 AM – 03:45 PM) |
 
 ---
 
-### 4. Joudi Alghorani
-| Date | Log In | Log Out | Duration | Shift Notes |
-| :--- | :---: | :---: | :---: | :--- |
-| **2026-09-23** (Wed) | `06:30 AM` | `04:00 PM` | **9h 30m** | Standardized 23rd shift (9h 30m). |
-| **2026-09-24** (Thu) | `08:00 AM` | `04:00 PM` | **8h 00m** | Standard shift. |
-| **2026-09-25** (Fri) | `08:00 AM` | `04:00 PM` | **8h 00m** | Standard shift. |
-| **2026-09-26** (Sat) | `03:15 AM` | `04:30 PM` | **13h 15m** | ✈️ Early dawn flight check-in & boarding (13h 15m). |
-| **2026-09-27** (Sun) | `07:00 AM` | `04:00 PM` | **9h 00m** | Morning departure processing (4:00 PM return). |
-| **2026-09-28** (Mon) | `07:00 AM` | `04:00 PM` | **9h 00m** | Morning departure processing. |
-| **2026-09-29** (Tue) | `07:00 AM` | `04:00 PM` | **9h 00m** | Morning departure processing. |
-| **2026-09-30** (Wed) | `07:00 AM` | `04:00 PM` | **9h 00m** | 🏢 Paid Administrative Standby (Airport pass delay - Company paid). |
-| **2026-10-01** (Thu) | `07:00 AM` | `04:00 PM` | **9h 00m** | 🏢 Paid Administrative Standby (Company paid). |
-| **2026-10-02** (Fri) | **OFF** | **OFF** | **0h 00m** | 🌴 Scheduled Team Rest Day (Contractual 1 day off in 7). |
-| **2026-10-03** (Sat) | `08:00 AM` | `04:00 PM` | **8h 00m** | 🎓 Etihad IGS Training Preparation & Paid Standby. |
-| **2026-10-04** (Sun) | `07:45 AM` | `04:00 PM` | **8h 15m** | 🏢 Station Onboarding Shift (Logged in 07:45 AM). |
-| **2026-10-05** (Mon) | `08:00 AM` | `04:00 PM` | **8h 00m** | 🎓 Etihad IGS Training Day 1 / Paid Standby. |
-| **2026-10-06** (Tue) | `08:00 AM` | `04:00 PM` | **8h 00m** | 🎓 Etihad IGS Training Day 2 / Paid Standby. |
-| **September Total** | — | — | **74h 45m** | `74.75 hrs` (8 days) |
-| **October Total** | — | — | **41h 15m** | `41.25 hrs` (6 days) |
-| **Cumulative Total** | — | — | **116h 00m** | `116.00 hrs` across 14 tracked days |
+### 👤 Khaled
+* **Cumulative Hours:** `262.60 hrs` across `30` active shifts (`2` days off).
+
+| Date | Day | Log-In | Log-Out | Duration | Decimal Hrs | Status | Notes |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: | :--- |
+| 2026-09-23 | Wednesday | 06:30 AM | 04:00 PM | 9h 30m | 9.50 | Standardized | Standardized 23rd shift: 06:30 AM – 04:00 PM (9.5h) |
+| 2026-09-24 | Thursday | 08:00 AM | 04:30 PM | 8h 30m | 8.50 | Standard | Standard daytime shift |
+| 2026-09-25 | Friday | 08:00 AM | 04:30 PM | 8h 30m | 8.50 | Standard | Standard daytime shift |
+| 2026-09-26 | Saturday | 08:00 AM | 04:30 PM | 8h 30m | 8.50 | Standard | Standard daytime shift |
+| 2026-09-27 | Sunday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Standard | Morning departure processing (4:00 PM return) |
+| 2026-09-28 | Monday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Standard | Morning departure processing (4:00 PM return) |
+| 2026-09-29 | Tuesday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Standard | Morning departure processing (4:00 PM return) |
+| 2026-09-30 | Wednesday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Paid Standby | 🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid) |
+| 2026-10-01 | Thursday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Paid Mission | 🏢 Official Airport Mission / Pass Delay (Company Paid) |
+| 2026-10-02 | Friday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Paid Mission | 🏢 Official Airport Mission / Pass Delay (Company Paid) |
+| 2026-10-03 | Saturday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Paid Mission | 🏢 Official Airport Mission / Pass Delay (Company Paid) |
+| 2026-10-04 | Sunday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Paid Mission | 🏢 Official Airport Mission / Pass Delay (Company Paid) |
+| 2026-10-05 | Monday | 07:45 AM | 04:00 PM | 8h 15m | 8.25 | Training / Paid | 🎓 Etihad IGS Training / HQ SERAVIA (07:45 AM – 04:00 PM) |
+| 2026-10-06 | Tuesday | 07:40 AM | 04:00 PM | 8h 20m | 8.33 | Training / Paid | 🎓 Etihad IGS Training / HQ SERAVIA (07:40 AM – 04:00 PM) |
+| 2026-10-07 | Wednesday | 07:13 AM | 04:00 PM | 8h 47m | 8.78 | Official Duty | ✈️ Live Morning Airport Ground Duty (07:13 AM – 04:00 PM) |
+| 2026-10-08 | Thursday | 07:18 AM | 04:00 PM | 8h 42m | 8.70 | Official Duty | ✈️ Live Morning Airport Ground Duty (07:18 AM – 04:00 PM) |
+| 2026-10-09 | Friday | 07:05 AM | 04:00 PM | 8h 55m | 8.92 | Official Duty | ✈️ Live Morning Airport Ground Duty (07:05 AM – 04:00 PM) |
+| 2026-10-10 | Saturday | 07:10 AM | 04:00 PM | 8h 50m | 8.83 | Official Duty | ✈️ Live Morning Airport Ground Duty (07:10 AM – 04:00 PM) |
+| 2026-10-11 | Sunday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Paid Mission | 🏢 Official Airport Mission / Pass Delay (Company Paid) |
+| 2026-10-12 | Monday | 07:45 AM | 04:30 PM | 8h 45m | 8.75 | Training / Paid | 🎓 Etihad Altéa DCS Training / HQ SERAVIA (07:45 AM – 04:30 PM) |
+| 2026-10-13 | Tuesday | 07:45 AM | 04:05 PM | 8h 20m | 8.33 | Training / Paid | 🎓 Etihad Altéa DCS Training / HQ SERAVIA (07:45 AM – 04:05 PM) |
+| 2026-10-14 | Wednesday | 07:45 AM | 04:00 PM | 8h 15m | 8.25 | Training / Paid | 🎓 Etihad Altéa DCS Training / HQ SERAVIA (07:45 AM – 04:00 PM) |
+| 2026-10-15 | Thursday | 07:55 AM | 04:00 PM | 8h 05m | 8.08 | Training / Paid | 🎓 Etihad Altéa DCS Training / HQ SERAVIA (07:55 AM – 04:00 PM) |
+| 2026-10-16 | Friday | 07:45 AM | 01:30 PM | 5h 45m | 5.75 | Training / Paid | 🎓 Etihad Altéa DCS Training / HQ SERAVIA (07:45 AM – 01:30 PM) |
+| 2026-10-17 | Saturday | 07:10 AM | 04:00 PM | 8h 50m | 8.83 | Official Duty | ✈️ Live Morning Airport Ground Duty (07:10 AM – 04:00 PM) |
+| 2026-10-18 | Sunday | OFF | OFF | 0h 00m | 0.00 | Day Off | 🌴 Scheduled Rest Day (Off Duty) |
+| 2026-10-19 | Monday | 07:07 AM | 04:00 PM | 8h 53m | 8.88 | Official Duty | ✈️ Live Morning Airport Ground Duty (07:07 AM – 04:00 PM) |
+| 2026-10-20 | Tuesday | 07:20 AM | 04:40 PM | 9h 20m | 9.33 | Official Duty | ✈️ Live Morning Airport Ground Duty (07:20 AM – 04:40 PM) |
+| 2026-10-21 | Wednesday | 07:20 AM | 05:00 PM | 9h 40m | 9.67 | Official Duty | ✈️ Live Morning Airport Ground Duty (07:20 AM – 05:00 PM) |
+| 2026-10-22 | Thursday | OFF | OFF | 0h 00m | 0.00 | Day Off | 🌴 Scheduled Rest Day (Off Duty) |
+| 2026-10-23 | Friday | 07:30 AM | 06:00 PM | 10h 30m | 10.50 | Extended Shift | ⚡ Live Extended Station Duty (07:30 AM – 06:00 PM / 10h 30m) |
+| 2026-10-24 | Saturday | 07:20 AM | 03:45 PM | 8h 25m | 8.42 | Official Duty | ✈️ Live Morning Airport Ground Duty (07:20 AM – 03:45 PM) |
 
 ---
 
-### 5. Hanan
-| Date | Log In | Log Out | Duration | Shift Notes |
-| :--- | :---: | :---: | :---: | :--- |
-| **2026-09-23** (Wed) | `06:30 AM` | `04:00 PM` | **9h 30m** | Standardized 23rd shift (9h 30m). |
-| **2026-09-24** (Thu) | `08:10 AM` | `04:00 PM` | **7h 50m** | Standard daytime shift (7h 50m). |
-| **2026-09-25** (Fri) | `08:15 AM` | `04:00 PM` | **7h 45m** | Standard daytime shift (7h 45m). |
-| **2026-09-26** (Sat) | `03:30 AM` | `04:30 PM` | **13h 00m** | ✈️ Early dawn flight check-in & departure (13.0 hrs). |
-| **2026-09-27** (Sun) | `07:00 AM` | `04:00 PM` | **9h 00m** | Morning departure processing (4:00 PM return). |
-| **2026-09-28** (Mon) | `07:00 AM` | `04:00 PM` | **9h 00m** | Morning departure processing (4:00 PM return). |
-| **2026-09-29** (Tue) | `07:00 AM` | `04:00 PM` | **9h 00m** | Morning departure processing (4:00 PM return). |
-| **2026-09-30** (Wed) | `07:00 AM` | `04:00 PM` | **9h 00m** | 🏢 Paid Administrative Standby (Airport pass delay - Company paid). |
-| **2026-10-01** (Thu) | `07:00 AM` | `04:00 PM` | **9h 00m** | 🏢 Paid Administrative Standby (Company paid). |
-| **2026-10-02** (Fri) | **OFF** | **OFF** | **0h 00m** | 🌴 Scheduled Team Rest Day (Contractual 1 day off in 7). |
-| **2026-10-03** (Sat) | `08:00 AM` | `04:00 PM` | **8h 00m** | 🎓 Etihad IGS Training Preparation & Paid Standby. |
-| **2026-10-04** (Sun) | `07:45 AM` | `04:00 PM` | **8h 15m** | 🏢 Station Onboarding Shift (Logged in 07:45 AM). |
-| **2026-10-05** (Mon) | `08:00 AM` | `04:00 PM` | **8h 00m** | 🎓 Etihad IGS Training Day 1 / Paid Standby. |
-| **2026-10-06** (Tue) | `08:00 AM` | `04:00 PM` | **8h 00m** | 🎓 Etihad IGS Training Day 2 / Paid Standby. |
-| **September Total** | — | — | **74h 05m** | `74.08 hrs` (8 days) |
-| **October Total** | — | — | **41h 15m** | `41.25 hrs` (6 days) |
-| **Cumulative Total** | — | — | **115h 20m** | `115.33 hrs` across 14 tracked days |
+### 👤 Mohammad Almohammad
+* **Cumulative Hours:** `295.66 hrs` across `31` active shifts (`1` days off).
+
+| Date | Day | Log-In | Log-Out | Duration | Decimal Hrs | Status | Notes |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: | :--- |
+| 2026-09-23 | Wednesday | 08:00 AM | 04:30 PM | 8h 30m | 8.50 | Standard | Standard daytime shift (8h 30m) |
+| 2026-09-24 | Thursday | 08:00 AM | 04:30 PM | 8h 30m | 8.50 | Standard | Standard daytime shift (8h 30m) |
+| 2026-09-25 | Friday | 08:00 AM | 04:30 PM | 8h 30m | 8.50 | Standard | Standard daytime shift (8h 30m) |
+| 2026-09-26 | Saturday | 03:40 AM | 04:30 PM | 12h 50m | 12.83 | Dawn Shift | ✈️ Early dawn flight departure handling (12h 50m) |
+| 2026-09-27 | Sunday | 03:40 AM | 04:30 PM | 12h 50m | 12.83 | Dawn Shift | ✈️ Early dawn flight departure handling (12h 50m) |
+| 2026-09-28 | Monday | 04:00 AM | 04:30 PM | 12h 30m | 12.50 | Dawn Shift | ✈️ Early morning departure ops (12h 30m) |
+| 2026-09-29 | Tuesday | 04:00 AM | 04:30 PM | 12h 30m | 12.50 | Dawn Shift | ✈️ Early morning departure ops (12h 30m) |
+| 2026-09-30 | Wednesday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Paid Standby | 🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid) |
+| 2026-10-01 | Thursday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Paid Standby | 🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid) |
+| 2026-10-02 | Friday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Paid Standby | 🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid) |
+| 2026-10-03 | Saturday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Paid Standby | 🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid) |
+| 2026-10-04 | Sunday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Paid Standby | 🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid) |
+| 2026-10-05 | Monday | 08:00 AM | 04:00 PM | 8h 00m | 8.00 | Training / Paid | 🎓 Etihad IGS Training Day 1 (MS Teams) / Paid Standby |
+| 2026-10-06 | Tuesday | 08:00 AM | 04:00 PM | 8h 00m | 8.00 | Training / Paid | 🎓 Etihad IGS Training Day 2 (MS Teams) / Paid Standby |
+| 2026-10-07 | Wednesday | 08:40 AM | 03:30 PM | 6h 50m | 6.83 | Official Duty | ✈️ Live Morning Airport Ground Duty (08:40 AM – 03:30 PM) |
+| 2026-10-08 | Thursday | 04:45 AM | 03:30 PM | 10h 45m | 10.75 | Dawn Shift | ✈️ Early dawn flight departure handling (10h 45m) |
+| 2026-10-09 | Friday | 04:45 AM | 05:00 PM | 12h 15m | 12.25 | Dawn Shift | ✈️ Early dawn flight departure handling (12h 15m) |
+| 2026-10-10 | Saturday | 08:00 AM | 03:30 PM | 7h 30m | 7.50 | Official Duty | ✈️ Live Daily Ground Duty (08:00 AM – 03:30 PM) |
+| 2026-10-11 | Sunday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Paid Standby | 🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid) |
+| 2026-10-12 | Monday | 08:00 AM | 04:00 PM | 8h 00m | 8.00 | Training / Paid | 🎓 Etihad Airways Altéa DCS System Training |
+| 2026-10-13 | Tuesday | 08:00 AM | 04:00 PM | 8h 00m | 8.00 | Training / Paid | 🎓 Etihad Airways Altéa DCS System Training |
+| 2026-10-14 | Wednesday | 08:00 AM | 04:00 PM | 8h 00m | 8.00 | Training / Paid | 🎓 Etihad Airways Altéa DCS System Training |
+| 2026-10-15 | Thursday | 08:00 AM | 04:00 PM | 8h 00m | 8.00 | Training / Paid | 🎓 Etihad Airways Altéa DCS System Training |
+| 2026-10-16 | Friday | 08:00 AM | 12:30 PM | 4h 30m | 4.50 | Training / Paid | 🎓 Etihad Airways Altéa DCS System Training |
+| 2026-10-17 | Saturday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Official Duty | ✈️ Live Morning Airport Ground Duty (9h 00m) |
+| 2026-10-18 | Sunday | 07:00 AM | 07:10 PM | 12h 10m | 12.17 | Extended Shift | ⚡ Live Extended Station Duty (07:00 AM – 07:10 PM / 12h 10m) |
+| 2026-10-19 | Monday | 07:00 AM | 06:30 PM | 11h 30m | 11.50 | Extended Shift | ⚡ Live Extended Station Duty (07:00 AM – 06:30 PM / 11h 30m) |
+| 2026-10-20 | Tuesday | OFF | OFF | 0h 00m | 0.00 | Day Off | 🌴 Scheduled Rest Day (Off Duty) |
+| 2026-10-21 | Wednesday | 07:00 AM | 05:40 PM | 10h 40m | 10.67 | Extended Shift | ⚡ Live Extended Station Duty (07:00 AM – 05:40 PM / 10h 40m) |
+| 2026-10-22 | Thursday | 07:00 AM | 06:00 PM | 11h 00m | 11.00 | Extended Shift | ⚡ Live Extended Station Duty (07:00 AM – 06:00 PM / 11h 00m) |
+| 2026-10-23 | Friday | 07:00 AM | 06:00 PM | 11h 00m | 11.00 | Extended Shift | ⚡ Live Extended Station Duty (07:00 AM – 06:00 PM / 11h 00m) |
+| 2026-10-24 | Saturday | 08:00 AM | 06:20 PM | 10h 20m | 10.33 | Extended Shift | ⚡ Live Extended Station Duty (08:00 AM – 06:20 PM / 10h 20m) |
 
 ---
 
-### 6. Raboushee
-| Date | Log In | Log Out | Duration | Shift Notes |
-| :--- | :---: | :---: | :---: | :--- |
-| **2026-09-23** (Wed) | `06:30 AM` | `04:00 PM` | **9h 30m** | Standardized 23rd shift (9h 30m). |
-| **2026-09-24** (Thu) | `08:20 AM` | `04:00 PM` | **7h 40m** | Standard daytime shift (7h 40m). |
-| **2026-09-25** (Fri) | `08:15 AM` | `03:45 PM` | **7h 30m** | Standard daytime shift (7h 30m). |
-| **2026-09-26** (Sat) | `08:15 AM` | `04:30 PM` | **8h 15m** | Standard daytime shift (8h 15m). |
-| **2026-09-27** (Sun) | `07:15 AM` | `04:00 PM` | **8h 45m** | Morning departure processing (8h 45m). |
-| **2026-09-28** (Mon) | `07:20 AM` | `04:00 PM` | **8h 40m** | Morning departure processing (8h 40m). |
-| **2026-09-29** (Tue) | `07:20 AM` | `04:00 PM` | **8h 40m** | Morning departure processing (8h 40m). |
-| **2026-09-30** (Wed) | `07:00 AM` | `04:00 PM` | **9h 00m** | 🏢 Paid Administrative Standby (Airport pass delay - Company paid). |
-| **2026-10-01** (Thu) | `07:00 AM` | `04:00 PM` | **9h 00m** | 🏢 Paid Administrative Standby (Company paid). |
-| **2026-10-02** (Fri) | **OFF** | **OFF** | **0h 00m** | 🌴 Scheduled Team Rest Day (Contractual 1 day off in 7). |
-| **2026-10-03** (Sat) | `08:00 AM` | `04:00 PM` | **8h 00m** | 🎓 Etihad IGS Training Preparation & Paid Standby. |
-| **2026-10-04** (Sun) | `07:45 AM` | `04:00 PM` | **8h 15m** | 🏢 Station Onboarding Shift (Logged in 07:45 AM). |
-| **2026-10-05** (Mon) | `08:00 AM` | `04:00 PM` | **8h 00m** | 🎓 Etihad IGS Training Day 1 / Paid Standby. |
-| **2026-10-06** (Tue) | `08:00 AM` | `04:00 PM` | **8h 00m** | 🎓 Etihad IGS Training Day 2 / Paid Standby. |
-| **September Total** | — | — | **68h 00m** | `68.01 hrs` (8 days) |
-| **October Total** | — | — | **41h 15m** | `41.25 hrs` (6 days) |
-| **Cumulative Total** | — | — | **109h 15m** | `109.25 hrs` across 14 tracked days |
+### 👤 Osama Alkabbani
+* **Cumulative Hours:** `277.00 hrs` across `30` active shifts (`2` days off).
+
+| Date | Day | Log-In | Log-Out | Duration | Decimal Hrs | Status | Notes |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: | :--- |
+| 2026-09-23 | Wednesday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Paid Standby | 🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid) |
+| 2026-09-24 | Thursday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Paid Standby | 🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid) |
+| 2026-09-25 | Friday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Paid Standby | 🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid) |
+| 2026-09-26 | Saturday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Paid Standby | 🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid) |
+| 2026-09-27 | Sunday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Paid Standby | 🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid) |
+| 2026-09-28 | Monday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Paid Standby | 🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid) |
+| 2026-09-29 | Tuesday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Paid Standby | 🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid) |
+| 2026-09-30 | Wednesday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Paid Standby | 🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid) |
+| 2026-10-01 | Thursday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Paid Standby | 🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid) |
+| 2026-10-02 | Friday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Paid Standby | 🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid) |
+| 2026-10-03 | Saturday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Paid Standby | 🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid) |
+| 2026-10-04 | Sunday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Paid Standby | 🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid) |
+| 2026-10-05 | Monday | 08:00 AM | 04:00 PM | 8h 00m | 8.00 | Training / Paid | 🎓 Etihad IGS Training Day 1 (MS Teams) / Paid Standby |
+| 2026-10-06 | Tuesday | 08:00 AM | 04:00 PM | 8h 00m | 8.00 | Training / Paid | 🎓 Etihad IGS Training Day 2 (MS Teams) / Paid Standby |
+| 2026-10-07 | Wednesday | 07:30 AM | 03:30 PM | 8h 00m | 8.00 | Official Duty | ✈️ Live Morning Airport Ground Duty (8h 00m) |
+| 2026-10-08 | Thursday | 07:30 AM | 03:30 PM | 8h 00m | 8.00 | Official Duty | ✈️ Live Morning Airport Ground Duty (8h 00m) |
+| 2026-10-09 | Friday | 07:30 AM | 05:00 PM | 9h 30m | 9.50 | Official Duty | ✈️ Live Daily Ground Duty (9h 30m) |
+| 2026-10-10 | Saturday | 07:30 AM | 03:30 PM | 8h 00m | 8.00 | Official Duty | ✈️ Live Morning Airport Ground Duty (8h 00m) |
+| 2026-10-11 | Sunday | OFF | OFF | 0h 00m | 0.00 | Day Off | 🌴 Contractual Paid Rest Day (Off Duty) |
+| 2026-10-12 | Monday | 08:00 AM | 04:30 PM | 8h 30m | 8.50 | Training / Paid | 🎓 Etihad Airways Altéa DCS System Training |
+| 2026-10-13 | Tuesday | 08:00 AM | 04:30 PM | 8h 30m | 8.50 | Training / Paid | 🎓 Etihad Airways Altéa DCS System Training |
+| 2026-10-14 | Wednesday | 08:00 AM | 04:30 PM | 8h 30m | 8.50 | Training / Paid | 🎓 Etihad Airways Altéa DCS System Training |
+| 2026-10-15 | Thursday | 08:00 AM | 04:30 PM | 8h 30m | 8.50 | Training / Paid | 🎓 Etihad Airways Altéa DCS System Training |
+| 2026-10-16 | Friday | 08:00 AM | 04:30 PM | 8h 30m | 8.50 | Training / Paid | 🎓 Etihad Airways Altéa DCS System Training |
+| 2026-10-17 | Saturday | 06:00 AM | 05:30 PM | 11h 30m | 11.50 | Extended Shift | ⚡ Live Extended Station Duty (06:00 AM – 05:30 PM / 11h 30m) |
+| 2026-10-18 | Sunday | 06:00 AM | 05:30 PM | 11h 30m | 11.50 | Extended Shift | ⚡ Live Extended Station Duty (06:00 AM – 05:30 PM / 11h 30m) |
+| 2026-10-19 | Monday | OFF | OFF | 0h 00m | 0.00 | Day Off | 🌴 Contractual Paid Rest Day (Off Duty) |
+| 2026-10-20 | Tuesday | 06:00 AM | 05:30 PM | 11h 30m | 11.50 | Extended Shift | ⚡ Live Extended Station Duty (06:00 AM – 05:30 PM / 11h 30m) |
+| 2026-10-21 | Wednesday | 06:00 AM | 05:30 PM | 11h 30m | 11.50 | Extended Shift | ⚡ Live Extended Station Duty (06:00 AM – 05:30 PM / 11h 30m) |
+| 2026-10-22 | Thursday | 06:30 AM | 06:00 PM | 11h 30m | 11.50 | Extended Shift | ⚡ Live Extended Station Duty (06:30 AM – 06:00 PM / 11h 30m) |
+| 2026-10-23 | Friday | 10:00 AM | 06:00 PM | 8h 00m | 8.00 | Official Duty | ✈️ Live Daily Ground Duty (10:00 AM – 06:00 PM) |
+| 2026-10-24 | Saturday | 06:30 AM | 06:00 PM | 11h 30m | 11.50 | Extended Shift | ⚡ Live Extended Station Duty (06:30 AM – 06:00 PM / 11h 30m) |
 
 ---
 
-### 7. Mohamed Adnan
-| Date | Log In | Log Out | Duration | Shift Notes |
-| :--- | :---: | :---: | :---: | :--- |
-| **2026-09-23** (Wed) | `06:30 AM` | `04:00 PM` | **9h 30m** | Standardized 23rd shift (9h 30m). |
-| **2026-09-24** (Thu) | `08:00 AM` | `04:30 PM` | **8h 30m** | Standard shift. |
-| **2026-09-25** (Fri) | `08:00 AM` | `04:30 PM` | **8h 30m** | Standard shift. |
-| **2026-09-26** (Sat) | `03:40 AM` | `04:30 PM` | **12h 50m** | ✈️ Dawn flight check-in & boarding ops (12.83 hrs). |
-| **2026-09-27** (Sun) | `03:40 AM` | `04:00 PM` | **12h 20m** | ✈️ Dawn flight check-in & boarding ops (12.33 hrs). |
-| **2026-09-28** (Mon) | `04:00 AM` | `04:00 PM` | **12h 00m** | ✈️ Early morning departure ops (12.0 hrs). |
-| **2026-09-29** (Tue) | `04:00 AM` | `04:00 PM` | **12h 00m** | ✈️ Early morning departure ops (12.0 hrs). |
-| **2026-09-30** (Wed) | `07:00 AM` | `04:00 PM` | **9h 00m** | 🏢 Paid Administrative Standby (Airport pass delay - Company paid). |
-| **2026-10-01** (Thu) | `07:00 AM` | `04:00 PM` | **9h 00m** | 🏢 Paid Administrative Standby (Company paid). |
-| **2026-10-02** (Fri) | **OFF** | **OFF** | **0h 00m** | 🌴 Scheduled Team Rest Day (Contractual 1 day off in 7). |
-| **2026-10-03** (Sat) | `08:00 AM` | `04:00 PM` | **8h 00m** | 🎓 Etihad IGS Training Preparation & Paid Standby. |
-| **2026-10-04** (Sun) | `07:00 AM` | `04:00 PM` | **9h 00m** | 🏢 Paid Administrative Standby (Company paid). |
-| **2026-10-05** (Mon) | `08:00 AM` | `04:00 PM` | **8h 00m** | 🎓 Etihad IGS Training Day 1 / Saudi KSA Delegation / Paid Standby. |
-| **2026-10-06** (Tue) | `08:00 AM` | `04:00 PM` | **8h 00m** | 🎓 Etihad IGS Training Day 2 / Saudi KSA Delegation / Paid Standby. |
-| **2026-10-07** (Wed) | `08:16 AM` | `04:00 PM` | **7h 44m** | ✈️ Official Airport Ground Duty (Logged in 08:16 AM / DAM Station). |
-| **September Total** | — | — | **84h 40m** | `84.66 hrs` (8 days) |
-| **October Total** | — | — | **49h 44m** | `49.73 hrs` (7 days) |
-| **Cumulative Total** | — | — | **134h 24m** | `134.39 hrs` across 15 tracked days |
+### 👤 Raboushee
+* **Cumulative Hours:** `259.00 hrs` across `29` active shifts (`4` days off).
+
+| Date | Day | Log-In | Log-Out | Duration | Decimal Hrs | Status | Notes |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: | :--- |
+| 2026-09-23 | Wednesday | 06:30 AM | 04:00 PM | 9h 30m | 9.50 | Standardized | Standardized 23rd shift: 06:30 AM – 04:00 PM (9.5h) |
+| 2026-09-24 | Thursday | 08:10 AM | 04:00 PM | 7h 50m | 7.83 | Standard | Standard daytime shift (7h 50m) |
+| 2026-09-25 | Friday | 08:15 AM | 04:00 PM | 7h 45m | 7.75 | Standard | Standard daytime shift (7h 45m) |
+| 2026-09-26 | Saturday | 08:15 AM | 04:30 PM | 8h 15m | 8.25 | Standard | Standard daytime shift (8h 15m) |
+| 2026-09-27 | Sunday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Standard | Morning departure processing (4:00 PM return) |
+| 2026-09-28 | Monday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Standard | Morning departure processing (4:00 PM return) |
+| 2026-09-29 | Tuesday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Standard | Morning departure processing (4:00 PM return) |
+| 2026-09-30 | Wednesday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Paid Mission | 🏢 Official Airport Mission / Pass Delay (Company Paid) |
+| 2026-10-01 | Thursday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Paid Mission | 🏢 Official Airport Mission / Pass Delay (Company Paid) |
+| 2026-10-02 | Friday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Paid Mission | 🏢 Official Airport Mission / Pass Delay (Company Paid) |
+| 2026-10-03 | Saturday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Paid Mission | 🏢 Official Airport Mission / Pass Delay (Company Paid) |
+| 2026-10-04 | Sunday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Paid Mission | 🏢 Official Airport Mission / Pass Delay (Company Paid) |
+| 2026-10-05 | Monday | 08:00 AM | 04:00 PM | 8h 00m | 8.00 | Training / Paid | 🎓 Etihad IGS Training Day 1 (MS Teams) / Paid Standby |
+| 2026-10-06 | Tuesday | 08:00 AM | 04:00 PM | 8h 00m | 8.00 | Training / Paid | 🎓 Etihad IGS Training Day 2 (MS Teams) / Paid Standby |
+| 2026-10-07 | Wednesday | 07:00 AM | 04:30 PM | 9h 30m | 9.50 | Official Duty | ✈️ Live Morning Airport Ground Duty (9h 30m) |
+| 2026-10-08 | Thursday | 07:00 AM | 04:30 PM | 9h 30m | 9.50 | Official Duty | ✈️ Live Morning Airport Ground Duty (9h 30m) |
+| 2026-10-09 | Friday | 07:00 AM | 08:00 PM | 13h 00m | 13.00 | Extended Shift | ⚡ Live Extended Station Duty (07:00 AM – 08:00 PM / 13h 00m) |
+| 2026-10-10 | Saturday | 07:00 AM | 04:30 PM | 9h 30m | 9.50 | Official Duty | ✈️ Live Morning Airport Ground Duty (9h 30m) |
+| 2026-10-11 | Sunday | OFF | OFF | 0h 00m | 0.00 | Day Off | 🌴 Scheduled Rest Day (Off Duty) |
+| 2026-10-12 | Monday | 08:00 AM | 04:30 PM | 8h 30m | 8.50 | Training / Paid | 🎓 Etihad Airways Altéa DCS System Training |
+| 2026-10-13 | Tuesday | 08:00 AM | 04:00 PM | 8h 00m | 8.00 | Training / Paid | 🎓 Etihad Airways Altéa DCS System Training |
+| 2026-10-14 | Wednesday | 08:00 AM | 04:00 PM | 8h 00m | 8.00 | Training / Paid | 🎓 Etihad Airways Altéa DCS System Training |
+| 2026-10-15 | Thursday | 08:00 AM | 04:00 PM | 8h 00m | 8.00 | Training / Paid | 🎓 Etihad Airways Altéa DCS System Training |
+| 2026-10-16 | Friday | 08:00 AM | 01:30 PM | 5h 30m | 5.50 | Training / Paid | 🎓 Etihad Airways Altéa DCS System Training |
+| 2026-10-17 | Saturday | 07:00 AM | 04:30 PM | 9h 30m | 9.50 | Official Duty | ✈️ Live Morning Airport Ground Duty (9h 30m) |
+| 2026-10-18 | Sunday | OFF | OFF | 0h 00m | 0.00 | Day Off | 🌴 Scheduled Rest Day (Off Duty) |
+| 2026-10-19 | Monday | 07:00 AM | 04:30 PM | 9h 30m | 9.50 | Official Duty | ✈️ Live Morning Airport Ground Duty (9h 30m) |
+| 2026-10-20 | Tuesday | 07:00 AM | 04:40 PM | 9h 40m | 9.67 | Official Duty | ✈️ Live Morning Airport Ground Duty (9h 40m) |
+| 2026-10-21 | Wednesday | 07:30 AM | 05:00 PM | 9h 30m | 9.50 | Official Duty | ✈️ Live Daily Ground Duty (9h 30m) |
+| 2026-10-22 | Thursday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Official Duty | ✈️ Live Daily Ground Duty (07:00 AM – 04:00 PM) |
+| 2026-10-23 | Friday | 07:00 AM | 06:00 PM | 11h 00m | 11.00 | Extended Shift | ⚡ Live Extended Station Duty (07:00 AM – 06:00 PM / 11h 00m) |
+| 2026-10-24 | Saturday | OFF | OFF | 0h 00m | 0.00 | Day Off | 🌴 Scheduled Rest Day (Off Duty) |
+| 2026-10-25 | Sunday | OFF | OFF | 0h 00m | 0.00 | Day Off | 🌴 Scheduled Rest Day (Off Duty) |
 
 ---
 
-### 8. Tarek Orfhly
-| Date | Log In | Log Out | Duration | Shift Notes |
-| :--- | :---: | :---: | :---: | :--- |
-| **2026-09-23** (Wed) | `06:30 AM` | `04:00 PM` | **9h 30m** | Standardized 23rd shift (9h 30m). |
-| **2026-09-24** (Thu) | `08:00 AM` | `04:30 PM` | **8h 30m** | Standard shift. |
-| **2026-09-25** (Fri) | **OFF** | **OFF** | **0h 00m** | 🌴 Scheduled weekly day off. |
-| **2026-09-26** (Sat) | `07:00 AM` | `04:30 PM` | **9h 30m** | Morning flight shift (9h 30m). |
-| **2026-09-27** (Sun) | `07:00 AM` | `04:00 PM` | **9h 00m** | Morning flight shift (4:00 PM return). |
-| **2026-09-28** (Mon) | `07:00 AM` | `04:00 PM` | **9h 00m** | Morning flight shift (4:00 PM return). |
-| **2026-09-29** (Tue) | `07:00 AM` | `04:00 PM` | **9h 00m** | Morning flight shift (4:00 PM return). |
-| **2026-09-30** (Wed) | `07:00 AM` | `04:00 PM` | **9h 00m** | 🏢 Paid Administrative Standby (Airport pass delay - Company paid). |
-| **2026-10-01** (Thu) | `07:45 AM` | `02:00 PM` | **6h 15m** | 🎓 Saudia Training Session (6.25h) + Paid Standby. |
-| **2026-10-02** (Fri) | **OFF** | **OFF** | **0h 00m** | 🌴 Scheduled Team Rest Day (Contractual 1 day off in 7). |
-| **2026-10-03** (Sat) | `08:00 AM` | `04:00 PM` | **8h 00m** | 🎓 Etihad IGS Training Preparation & Paid Standby. |
-| **2026-10-04** (Sun) | `07:00 AM` | `04:00 PM` | **9h 00m** | 🏢 Paid Administrative Standby (Company paid). |
-| **2026-10-05** (Mon) | `08:00 AM` | `04:00 PM` | **8h 00m** | 🎓 Etihad IGS Training Day 1 / Paid Standby. |
-| **2026-10-06** (Tue) | `08:00 AM` | `04:00 PM` | **8h 00m** | 🎓 Etihad IGS Training Day 2 / Paid Standby. |
-| **September Total** | — | — | **63h 30m** | `63.50 hrs` (8 days) |
-| **October Total** | — | — | **39h 15m** | `39.25 hrs` (6 days) |
-| **Cumulative Total** | — | — | **102h 45m** | `102.75 hrs` across 14 tracked days |
+### 👤 Rasheed Akel
+* **Cumulative Hours:** `283.67 hrs` across `30` active shifts (`2` days off).
+
+| Date | Day | Log-In | Log-Out | Duration | Decimal Hrs | Status | Notes |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: | :--- |
+| 2026-09-23 | Wednesday | 08:00 AM | 04:30 PM | 8h 30m | 8.50 | Standard | Standard daytime shift (8h 30m) |
+| 2026-09-24 | Thursday | 08:00 AM | 04:30 PM | 8h 30m | 8.50 | Standard | Standard daytime shift (8h 30m) |
+| 2026-09-25 | Friday | 08:00 AM | 04:00 PM | 8h 00m | 8.00 | Standard | Standard daytime shift (8h 00m) |
+| 2026-09-26 | Saturday | 08:00 AM | 04:00 PM | 8h 00m | 8.00 | Standard | Standard daytime shift (8h 00m) |
+| 2026-09-27 | Sunday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Standard | Morning departure processing (4:00 PM return) |
+| 2026-09-28 | Monday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Standard | Morning departure processing (4:00 PM return) |
+| 2026-09-29 | Tuesday | 03:00 AM | 04:00 PM | 13h 00m | 13.00 | Dawn Shift | ✈️ Early dawn flight departure handling (13h 00m) |
+| 2026-09-30 | Wednesday | 03:00 AM | 04:00 PM | 13h 00m | 13.00 | Dawn Shift | ✈️ Early dawn flight departure handling (13h 00m) |
+| 2026-10-01 | Thursday | 09:00 AM | 03:00 PM | 6h 00m | 6.00 | Standard | Daily Station Duty (09:00 AM – 03:00 PM) |
+| 2026-10-02 | Friday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Official Duty | ✈️ Live Daily Ground Duty (07:00 AM – 04:00 PM) |
+| 2026-10-03 | Saturday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Official Duty | ✈️ Live Daily Ground Duty (07:00 AM – 04:00 PM) |
+| 2026-10-04 | Sunday | 09:00 AM | 03:00 PM | 6h 00m | 6.00 | Standard | Daily Station Duty (09:00 AM – 03:00 PM) |
+| 2026-10-05 | Monday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Official Duty | ✈️ Live Daily Ground Duty (07:00 AM – 04:00 PM) |
+| 2026-10-06 | Tuesday | 03:00 AM | 04:00 PM | 13h 00m | 13.00 | Dawn Shift | ✈️ Early dawn flight departure handling (13h 00m) |
+| 2026-10-07 | Wednesday | 03:00 AM | 04:00 PM | 13h 00m | 13.00 | Dawn Shift | ✈️ Early dawn flight departure handling (13h 00m) |
+| 2026-10-08 | Thursday | 03:00 AM | 04:00 PM | 13h 00m | 13.00 | Dawn Shift | ✈️ Early dawn flight departure handling (13h 00m) |
+| 2026-10-09 | Friday | 03:00 AM | 04:00 PM | 13h 00m | 13.00 | Dawn Shift | ✈️ Early dawn flight departure handling (13h 00m) |
+| 2026-10-10 | Saturday | 03:00 AM | 04:00 PM | 13h 00m | 13.00 | Dawn Shift | ✈️ Early dawn flight departure handling (13h 00m) |
+| 2026-10-11 | Sunday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Official Duty | ✈️ Live Daily Ground Duty (07:00 AM – 04:00 PM) |
+| 2026-10-12 | Monday | 09:00 AM | 03:00 PM | 6h 00m | 6.00 | Standard | Daily Station Duty (09:00 AM – 03:00 PM) |
+| 2026-10-13 | Tuesday | 09:00 AM | 03:00 PM | 6h 00m | 6.00 | Standard | Daily Station Duty (09:00 AM – 03:00 PM) |
+| 2026-10-14 | Wednesday | 09:00 AM | 03:00 PM | 6h 00m | 6.00 | Standard | Daily Station Duty (09:00 AM – 03:00 PM) |
+| 2026-10-15 | Thursday | 09:00 AM | 03:00 PM | 6h 00m | 6.00 | Standard | Daily Station Duty (09:00 AM – 03:00 PM) |
+| 2026-10-16 | Friday | 07:00 AM | 04:30 PM | 9h 30m | 9.50 | Official Duty | ✈️ Live Morning Airport Ground Duty (9h 30m) |
+| 2026-10-17 | Saturday | 03:00 AM | 04:00 PM | 13h 00m | 13.00 | Dawn Shift | ✈️ Early dawn flight departure handling (13h 00m) |
+| 2026-10-18 | Sunday | 07:00 AM | 05:30 PM | 10h 30m | 10.50 | Extended Shift | ⚡ Live Extended Station Duty (07:00 AM – 05:30 PM / 10h 30m) |
+| 2026-10-19 | Monday | 12:00 PM | 05:30 PM | 5h 30m | 5.50 | Afternoon Duty | ✈️ Live Afternoon Station Duty (12:00 PM – 05:30 PM / 5h 30m) |
+| 2026-10-20 | Tuesday | 07:00 AM | 05:40 PM | 10h 40m | 10.67 | Extended Shift | ⚡ Live Extended Station Duty (07:00 AM – 05:40 PM / 10h 40m) |
+| 2026-10-21 | Wednesday | 07:00 AM | 05:00 PM | 10h 00m | 10.00 | Extended Shift | ⚡ Live Extended Station Duty (07:00 AM – 05:00 PM / 10h 00m) |
+| 2026-10-22 | Thursday | 07:00 AM | 05:30 PM | 10h 30m | 10.50 | Extended Shift | ⚡ Live Extended Station Duty (07:00 AM – 05:30 PM / 10h 30m) |
+| 2026-10-23 | Friday | OFF | OFF | 0h 00m | 0.00 | Day Off | 🌴 Scheduled Rest Day (Off Duty) |
+| 2026-10-24 | Saturday | OFF | OFF | 0h 00m | 0.00 | Day Off | 🌴 Scheduled Rest Day (Off Duty) |
 
 ---
 
-### 9. Yasmin
-| Date | Log In | Log Out | Duration | Shift Notes |
-| :--- | :---: | :---: | :---: | :--- |
-| **2026-09-23** (Wed) | `06:30 AM` | `04:00 PM` | **9h 30m** | Standardized 23rd shift (9h 30m). |
-| **2026-09-24** (Thu) | `08:00 AM` | `04:00 PM` | **8h 00m** | Standard shift. |
-| **2026-09-25** (Fri) | `08:00 AM` | `04:00 PM` | **8h 00m** | Standard shift. |
-| **2026-09-26** (Sat) | **OFF** | **OFF** | **0h 00m** | 🌴 Scheduled weekly day off. |
-| **2026-09-27** (Sun) | `07:00 AM` | `04:00 PM` | **9h 00m** | Morning flight shift. |
-| **2026-09-28** (Mon) | `07:00 AM` | `04:00 PM` | **9h 00m** | Morning flight shift. |
-| **2026-09-29** (Tue) | `07:00 AM` | `04:00 PM` | **9h 00m** | Morning flight shift (4:00 PM return). |
-| **2026-09-30** (Wed) | `07:00 AM` | `04:00 PM` | **9h 00m** | 🏢 Paid Administrative Standby (Airport pass delay - Company paid). |
-| **2026-10-01** (Thu) | `07:45 AM` | `02:00 PM` | **6h 15m** | 🎓 Saudia Training Session (6.25h) + Paid Standby. |
-| **2026-10-02** (Fri) | **OFF** | **OFF** | **0h 00m** | 🌴 Scheduled Team Rest Day (Contractual 1 day off in 7). |
-| **2026-10-03** (Sat) | `08:00 AM` | `04:00 PM` | **8h 00m** | 🎓 Etihad IGS Training Preparation & Paid Standby. |
-| **2026-10-04** (Sun) | `07:00 AM` | `04:00 PM` | **9h 00m** | 🏢 Paid Administrative Standby (Company paid). |
-| **2026-10-05** (Mon) | `08:00 AM` | `04:00 PM` | **8h 00m** | 🎓 Etihad IGS Training Day 1 / Paid Standby. |
-| **2026-10-06** (Tue) | `08:00 AM` | `04:00 PM` | **8h 00m** | 🎓 Etihad IGS Training Day 2 / Paid Standby. |
-| **September Total** | — | — | **61h 30m** | `61.50 hrs` (8 days) |
-| **October Total** | — | — | **39h 15m** | `39.25 hrs` (6 days) |
-| **Cumulative Total** | — | — | **100h 45m** | `100.75 hrs` across 14 tracked days |
+### 👤 Yasmin
+* **Cumulative Hours:** `276.09 hrs` across `31` active shifts (`1` days off).
+
+| Date | Day | Log-In | Log-Out | Duration | Decimal Hrs | Status | Notes |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: | :--- |
+| 2026-09-23 | Wednesday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Standard | Standard morning bus shift (07:00 AM – 04:00 PM) |
+| 2026-09-24 | Thursday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Standard | Standard morning bus shift (07:00 AM – 04:00 PM) |
+| 2026-09-25 | Friday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Standard | Standard morning bus shift (07:00 AM – 04:00 PM) |
+| 2026-09-26 | Saturday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Standard | Standard morning bus shift (07:00 AM – 04:00 PM) |
+| 2026-09-27 | Sunday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Standard | Standard morning bus shift (07:00 AM – 04:00 PM) |
+| 2026-09-28 | Monday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Standard | Standard morning bus shift (07:00 AM – 04:00 PM) |
+| 2026-09-29 | Tuesday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Standard | Standard morning bus shift (07:00 AM – 04:00 PM) |
+| 2026-09-30 | Wednesday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Paid Standby | 🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid) |
+| 2026-10-01 | Thursday | 07:45 AM | 03:00 PM | 7h 15m | 7.25 | Training / Paid | 🎓 Training Session (07:45 AM – 03:00 PM) |
+| 2026-10-02 | Friday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Paid Standby | 🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid) |
+| 2026-10-03 | Saturday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Paid Standby | 🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid) |
+| 2026-10-04 | Sunday | 08:00 AM | 03:00 PM | 7h 00m | 7.00 | Training / Paid | 🎓 Training Session (08:00 AM – 03:00 PM) |
+| 2026-10-05 | Monday | 07:30 AM | 04:00 PM | 8h 30m | 8.50 | Official Duty | ✈️ Live Morning Airport Ground Duty (07:30 AM – 04:00 PM) |
+| 2026-10-06 | Tuesday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Official Duty | ✈️ Live Morning Airport Ground Duty (07:00 AM – 04:00 PM) |
+| 2026-10-07 | Wednesday | 04:00 AM | 04:00 PM | 12h 00m | 12.00 | Dawn Shift | ✈️ Early dawn flight departure handling (12h 00m) |
+| 2026-10-08 | Thursday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Official Duty | ✈️ Live Morning Airport Ground Duty (07:00 AM – 04:00 PM) |
+| 2026-10-09 | Friday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Official Duty | ✈️ Live Morning Airport Ground Duty (07:00 AM – 04:00 PM) |
+| 2026-10-10 | Saturday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Official Duty | ✈️ Live Morning Airport Ground Duty (07:00 AM – 04:00 PM) |
+| 2026-10-11 | Sunday | 07:00 AM | 04:00 PM | 9h 00m | 9.00 | Paid Standby | 🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid) |
+| 2026-10-12 | Monday | 09:00 AM | 03:00 PM | 6h 00m | 6.00 | Training / Paid | 🎓 Training Session (09:00 AM – 03:00 PM) |
+| 2026-10-13 | Tuesday | 09:00 AM | 03:00 PM | 6h 00m | 6.00 | Training / Paid | 🎓 Training Session (09:00 AM – 03:00 PM) |
+| 2026-10-14 | Wednesday | 09:00 AM | 03:00 PM | 6h 00m | 6.00 | Training / Paid | 🎓 Training Session (09:00 AM – 03:00 PM) |
+| 2026-10-15 | Thursday | 09:00 AM | 03:00 PM | 6h 00m | 6.00 | Training / Paid | 🎓 Training Session (09:00 AM – 03:00 PM) |
+| 2026-10-16 | Friday | 07:00 AM | 04:30 PM | 9h 30m | 9.50 | Official Duty | ✈️ Live Morning Airport Ground Duty (07:00 AM – 04:30 PM) |
+| 2026-10-17 | Saturday | 07:00 AM | 04:30 PM | 9h 30m | 9.50 | Official Duty | ✈️ Live Morning Airport Ground Duty (07:00 AM – 04:30 PM) |
+| 2026-10-18 | Sunday | 03:30 AM | 04:30 PM | 13h 00m | 13.00 | Dawn Shift | ✈️ Early dawn flight departure handling (13h 00m) |
+| 2026-10-19 | Monday | OFF | OFF | 0h 00m | 0.00 | Day Off | 🌴 Scheduled Rest Day (Off Duty) |
+| 2026-10-20 | Tuesday | 04:00 AM | 04:30 PM | 12h 30m | 12.50 | Dawn Shift | ✈️ Early dawn flight departure handling (12h 30m) |
+| 2026-10-21 | Wednesday | 08:00 AM | 05:00 PM | 9h 00m | 9.00 | Official Duty | ✈️ Live Daily Ground Duty (08:00 AM – 05:00 PM) |
+| 2026-10-22 | Thursday | 07:15 AM | 03:40 PM | 8h 25m | 8.42 | Official Duty | ✈️ Live Morning Airport Ground Duty (07:15 AM – 03:40 PM) |
+| 2026-10-23 | Friday | 07:30 AM | 03:40 PM | 8h 10m | 8.17 | Official Duty | ✈️ Live Morning Airport Ground Duty (07:30 AM – 03:40 PM) |
+| 2026-10-24 | Saturday | 03:30 AM | 03:45 PM | 12h 15m | 12.25 | Dawn Shift | ✈️ Early dawn flight departure handling (03:30 AM – 03:45 PM / 12h 15m) |
 
 ---
 
-### 10. Talal
-| Date | Log In | Log Out | Duration | Shift Notes |
-| :--- | :---: | :---: | :---: | :--- |
-| **2026-09-23** (Wed) | **OFF** | **OFF** | **0h 00m** | 🌴 Off / Not scheduled. |
-| **2026-09-24** (Thu) | **OFF** | **OFF** | **0h 00m** | 🌴 Off / Not scheduled. |
-| **2026-09-25** (Fri) | **OFF** | **OFF** | **0h 00m** | 🌴 Off / Not scheduled. |
-| **2026-09-26** (Sat) | `07:00 AM` | `04:30 PM` | **9h 30m** | Morning flight shift (9h 30m). |
-| **2026-09-27** (Sun) | `03:00 AM` | `04:00 PM` | **13h 00m** | ✈️ Early dawn flight departure handling (13h 00m). |
-| **2026-09-28** (Mon) | `07:00 AM` | `04:00 PM` | **9h 00m** | Morning flight shift (4:00 PM return). |
-| **2026-09-29** (Tue) | `03:00 AM` | `04:00 PM` | **13h 00m** | ✈️ Early dawn flight departure handling (13h 00m). |
-| **2026-09-30** (Wed) | `07:00 AM` | `04:00 PM` | **9h 00m** | 🏢 Paid Administrative Standby (Airport pass delay - Company paid). |
-| **2026-10-01** (Thu) | `07:00 AM` | `04:00 PM` | **9h 00m** | 🏢 Paid Administrative Standby (Company paid). |
-| **2026-10-02** (Fri) | **OFF** | **OFF** | **0h 00m** | 🌴 Scheduled Team Rest Day (Contractual 1 day off in 7). |
-| **2026-10-03** (Sat) | `08:00 AM` | `04:00 PM` | **8h 00m** | 🎓 Etihad IGS Training Preparation & Paid Standby. |
-| **2026-10-04** (Sun) | `07:00 AM` | `04:00 PM` | **9h 00m** | 🏢 Paid Administrative Standby (Company paid). |
-| **2026-10-05** (Mon) | `08:00 AM` | `04:00 PM` | **8h 00m** | 🎓 Etihad IGS Training Day 1 / Paid Standby. |
-| **2026-10-06** (Tue) | `08:00 AM` | `04:00 PM` | **8h 00m** | 🎓 Etihad IGS Training Day 2 / Paid Standby. |
-| **September Total** | — | — | **53h 30m** | `53.50 hrs` (8 days) |
-| **October Total** | — | — | **42h 00m** | `42.00 hrs` (6 days) |
-| **Cumulative Total** | — | — | **95h 30m** | `95.50 hrs` across 14 tracked days |
-
----
-
-### 11. Osama Alkabbani (Onboarding Tracker)
-| Date | Log In | Log Out | Duration | Shift Notes |
-| :--- | :---: | :---: | :---: | :--- |
-|| **2026-10-04** (Sun) | `08:48 AM` | `04:00 PM` | **7h 12m** | 🏢 Station Onboarding Shift (Logged in 08:48 AM). |
-|| **2026-10-07** (Wed) | `07:55 AM` | `03:20 PM` | **7h 25m** | ✈️ Live Morning Airport Ground Duty. |
-|| **Total Logged** | — | — | **30h 42m** | `30.70 hrs` (Onboarding phase) |
-|| **2026-10-07** (Wed) | `07:15 AM` | `04:00 PM` | **8h 45m** | ✈️ Live Morning Airport Ground Duty. |
-|| **Total Logged** | — | — | **32h 02m** | `32.03 hrs` (Onboarding phase) |
----
-
-## 🔗 6. Related Notes & Master Data Files
-- [[03 Work Experience]] — Station ground handling, check-in operations, and carrier assignments.
-- [[concepts/etihad-igs-training-curriculum]] — Etihad IGS training curriculum, GSM manual, and SSR/SPML codes.
-- [[concepts/etihad-igs-exercise-book-solved]] — Solved Etihad IGS exercise book and assessment question bank.
-- [[entities/etihad-airways-station-operations]] — Etihad station operations playbook and Amadeus Altéa DCS.
-- **Master Excel Spreadsheet:** `attendance_master_2026.xlsx`
-- **CSV Data Sheets:**
-  - `raw/attendance_september_2026.csv` (80 records)
-  - `raw/attendance_october_2026.csv` (61 records)
