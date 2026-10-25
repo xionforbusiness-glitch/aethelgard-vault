@@ -18,6 +18,7 @@
 - [[concepts/etihad-cadet-pilot-strategic-roadmap]] — Strategic career roadmap: Ground Handler to Etihad Airways First Officer.
 - [[concepts/vibe-coder-security-fix-kit]] — Hardening AI-generated web apps: rate limiting, server auth, RLS, secret audits.
 - [[concepts/vibe-coder-legal-compliance-checklist]] — The Vibe Coder's Legal & Compliance Checklist (Don't Get Sued Playbook).
+- [[concepts/ai-motion-graphics-code-design-styles]] — AI-driven motion graphics: 15 styles and code-based animation rendering (Prompt Motion).
 - [[concepts/google-artemis-android-automation]] — Google ARTEMIS: Autonomous Android mobile automation framework for AI coding agents.
 - [[concepts/unlazy-anti-laziness-agent-skill]] — Unlazy: Anti-laziness & runnable completion gates skill for AI coding agents.
 - [[concepts/earshot-audio-toolkit-for-ai-agents]] — Earshot: Open-source audio perception and DSP sound effect synthesis for AI agents.
