@@ -3,6 +3,11 @@
 > Chronological, append-only record of all LLM Wiki actions (ingest, query, lint, update).
 > Format: `## [YYYY-MM-DD] action | subject`
 
+## [2026-10-25] skill | LLM Council (مجلس الذكاء الاصطناعي) Multi-Agent Decision Engine
+- **Action:** Implemented the full **LLM Council** skill into Hermes Agent (`~/.hermes/profiles/llm-wiki/skills/decision-making/llm-council/SKILL.md`) and created the conceptual reference note `concepts/llm-council-decision-framework.md`.
+- **Architecture:** Based on Andrej Karpathy's methodology—forces 5 distinct AI advisors (Contrarian, First Principles, Expansionist, Outsider, Executor) to independently analyze high-stakes questions, anonymously peer-review each other, and deliver a battle-tested Chairman verdict.
+- **Index:** Cataloged in `index.md`.
+
 ## [2026-10-25] concept | Reverse API Engineer: Turn Any Website into a Native Typed API
 - **Action:** Created `concepts/reverse-api-engineer-website-to-api.md` documenting `kalil0321/reverse-api-engineer`, an open-source tool and MCP server that intercepts internal browser network traffic (HAR files) and uses LLMs to synthesize typed API clients (Python/TypeScript/Go), bypassing fragile DOM scraping.
 - **Index:** Cataloged in `index.md`.
