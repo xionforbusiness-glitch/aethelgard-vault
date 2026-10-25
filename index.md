@@ -211,3 +211,14 @@
 - [[collision-ecc-linux_cli_bash_|Collision Ecc Linux Cli Bash ]] (`concepts`)
 - [[google-artemis-android-automation|Google Artemis Android Automation]] (`concepts`)
 - [[vibe-coder-legal-compliance-checklist|Vibe Coder Legal Compliance Checklist]] (`concepts`)
+
+
+## 📚 Newly Ingested & Cataloged Notes (Automated Librarian)
+
+- [[ai-motion-graphics-code-design-styles|Ai Motion Graphics Code Design Styles]] (`concepts`)
+- [[claude-code-boris-cherny-power-user-playbook|Claude Code Boris Cherny Power User Playbook]] (`concepts`)
+- [[collision-typesafe-ai-jev-media_worldbuil|Collision Typesafe Ai Jev Media Worldbuil]] (`concepts`)
+- [[llm-council-decision-framework|Llm Council Decision Framework]] (`concepts`)
+- [[minecraft-attack-on-titan-odm-modpack|Minecraft Attack On Titan Odm Modpack]] (`concepts`)
+- [[reverse-api-engineer-website-to-api|Reverse Api Engineer Website To Api]] (`concepts`)
+- [[2026-W43-executive-review|2026 W43 Executive Review]] (`reviews`)
