@@ -3,6 +3,10 @@
 > Chronological, append-only record of all LLM Wiki actions (ingest, query, lint, update).
 > Format: `## [YYYY-MM-DD] action | subject`
 
+## [2026-10-24] concept | Top 10 Claude Code Power-User Workflows (Boris Cherny Creator Playbook)
+- **Action:** Created `concepts/claude-code-boris-cherny-power-user-playbook.md` documenting the 10 core practices shared by Claude Code's creator Boris Cherny (Shift+Tab Plan Mode, multi-session parallel agents via Git worktrees, automated AI merge resolution, runnable verification gates, and CLAUDE.md institutional memory).
+- **Index:** Cataloged in `index.md`.
+
 ## [2026-10-24] concept | AI-Driven Motion Graphics: 15 Styles & Code-Based Animation (Prompt Motion)
 - **Action:** Created `concepts/ai-motion-graphics-code-design-styles.md` documenting the deterministic code-based animation pipeline (SVG, Canvas, Three.js, Puppeteer, audio.py, FFmpeg) and 15 curated motion design styles.
 - **Index:** Cataloged in `index.md`.
