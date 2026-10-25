@@ -3,6 +3,10 @@
 > Chronological, append-only record of all LLM Wiki actions (ingest, query, lint, update).
 > Format: `## [YYYY-MM-DD] action | subject`
 
+## [2026-10-24] concept | AI-Driven Motion Graphics: 15 Styles & Code-Based Animation (Prompt Motion)
+- **Action:** Created `concepts/ai-motion-graphics-code-design-styles.md` documenting the deterministic code-based animation pipeline (SVG, Canvas, Three.js, Puppeteer, audio.py, FFmpeg) and 15 curated motion design styles.
+- **Index:** Cataloged in `index.md`.
+
 ## [2026-10-24] concept | Google ARTEMIS: Autonomous Android Mobile Automation Framework
 - **Action:** Created `concepts/google-artemis-android-automation.md` documenting `google/artemis` (14k+ stars), Google's open-source framework connecting AI agents (Claude Code, Hermes, Antigravity) directly to Android hardware via ADB and MCP with a 99%+ success rate on AndroidWorld.
 - **Index:** Cataloged in `index.md`.
