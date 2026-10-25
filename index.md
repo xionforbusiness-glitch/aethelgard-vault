@@ -18,6 +18,7 @@
 - [[concepts/etihad-cadet-pilot-strategic-roadmap]] — Strategic career roadmap: Ground Handler to Etihad Airways First Officer.
 - [[concepts/vibe-coder-security-fix-kit]] — Hardening AI-generated web apps: rate limiting, server auth, RLS, secret audits.
 - [[concepts/vibe-coder-legal-compliance-checklist]] — The Vibe Coder's Legal & Compliance Checklist (Don't Get Sued Playbook).
+- [[concepts/llm-council-decision-framework]] — LLM Council: Karpathy's 5-advisor adversarial deliberation & peer-review decision framework.
 - [[concepts/reverse-api-engineer-website-to-api]] — Reverse API Engineer: Turn any website into a clean, typed API client via internal traffic interception.
 - [[concepts/claude-code-boris-cherny-power-user-playbook]] — Top 10 Claude Code power-user workflows from creator Boris Cherny (Plan mode, worktrees, multi-agent).
 - [[concepts/ai-motion-graphics-code-design-styles]] — AI-driven motion graphics: 15 styles and code-based animation rendering (Prompt Motion).
