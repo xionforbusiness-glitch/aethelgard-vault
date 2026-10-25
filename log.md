@@ -3,6 +3,10 @@
 > Chronological, append-only record of all LLM Wiki actions (ingest, query, lint, update).
 > Format: `## [YYYY-MM-DD] action | subject`
 
+## [2026-10-25] concept | Reverse API Engineer: Turn Any Website into a Native Typed API
+- **Action:** Created `concepts/reverse-api-engineer-website-to-api.md` documenting `kalil0321/reverse-api-engineer`, an open-source tool and MCP server that intercepts internal browser network traffic (HAR files) and uses LLMs to synthesize typed API clients (Python/TypeScript/Go), bypassing fragile DOM scraping.
+- **Index:** Cataloged in `index.md`.
+
 ## [2026-10-24] concept | Top 10 Claude Code Power-User Workflows (Boris Cherny Creator Playbook)
 - **Action:** Created `concepts/claude-code-boris-cherny-power-user-playbook.md` documenting the 10 core practices shared by Claude Code's creator Boris Cherny (Shift+Tab Plan Mode, multi-session parallel agents via Git worktrees, automated AI merge resolution, runnable verification gates, and CLAUDE.md institutional memory).
 - **Index:** Cataloged in `index.md`.
