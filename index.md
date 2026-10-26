@@ -224,3 +224,10 @@
 - [[minecraft-attack-on-titan-odm-modpack|Minecraft Attack On Titan Odm Modpack]] (`concepts`)
 - [[reverse-api-engineer-website-to-api|Reverse Api Engineer Website To Api]] (`concepts`)
 - [[2026-W43-executive-review|2026 W43 Executive Review]] (`reviews`)
+
+
+## 📚 Newly Ingested & Cataloged Notes (Automated Librarian)
+
+- [[apple-design-hig-audit-skill|Apple Design Hig Audit Skill]] (`concepts`)
+- [[collision-n8n-workflow-au-gear_hobbies_li|Collision N8N Workflow Au Gear Hobbies Li]] (`concepts`)
+- [[mirofish-swarm-intelligence-simulation-engine|Mirofish Swarm Intelligence Simulation Engine]] (`concepts`)
