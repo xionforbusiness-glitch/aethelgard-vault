@@ -3,6 +3,10 @@
 > Chronological, append-only record of all LLM Wiki actions (ingest, query, lint, update).
 > Format: `## [YYYY-MM-DD] action | subject`
 
+## [2026-10-25] concept | MiroFish: Universal Swarm Intelligence & Multi-Agent Simulation Engine
+- **Action:** Created `concepts/mirofish-swarm-intelligence-simulation-engine.md` documenting `666ghj/MiroFish` (82k+ stars), an open-source swarm intelligence engine that builds parallel digital societies of heterogeneous AI agents to stress-test business ideas, pitches, and market dynamics.
+- **Index:** Cataloged in `index.md`.
+
 ## [2026-10-25] concept | Minecraft Attack on Titan (AOT) ODM Gear & Shiganshina Modpack
 - **Action:** Created `concepts/minecraft-attack-on-titan-odm-modpack.md` cataloging the complete modpack, shaders (Complementary/BSL), and 1:1 Shiganshina Wall Maria map setup shown in GorillaCrafter's reel.
 - **Status:** Saved into the vault as a designated gaming profile ready to deploy when Omar gets his new gaming laptop/PC.
