@@ -217,3 +217,4 @@ Date,Day,Employee,Log_In,Log_Out,Duration_Formatted,Decimal_Hours,Status,Notes
 2026-10-24,Saturday,Yasmin,03:30 AM,03:45 PM,12h 15m,12.25,Dawn Shift,✈️ Early dawn flight departure handling (03:30 AM – 03:45 PM / 12h 15m)
 2026-10-25,Sunday,Omar Elnemr,08:00 PM,03:10 AM,7h 10m,7.17,Night Shift,✈️ Live Airport Ground Station Night Duty (Logged in 08:00 PM / Logged out 03:10 AM next day)
 2026-10-25,Sunday,Raboushee,OFF,OFF,0h 00m,0.0,Day Off,🌴 Scheduled Rest Day (Off Duty)
+2026-10-25,Sunday,Rasheed Akel,07:00 AM,07:20 PM,12h 20m,12.33,Extended Shift,⚡ Live Extended Station Duty (07:00 AM – 07:20 PM / 12h 20m)
