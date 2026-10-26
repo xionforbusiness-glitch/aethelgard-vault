@@ -18,6 +18,7 @@
 - [[concepts/etihad-cadet-pilot-strategic-roadmap]] — Strategic career roadmap: Ground Handler to Etihad Airways First Officer.
 - [[concepts/vibe-coder-security-fix-kit]] — Hardening AI-generated web apps: rate limiting, server auth, RLS, secret audits.
 - [[concepts/vibe-coder-legal-compliance-checklist]] — The Vibe Coder's Legal & Compliance Checklist (Don't Get Sued Playbook).
+- [[concepts/apple-design-hig-audit-skill]] — Apple Design Skill: Human Interface Guidelines (HIG) & luxury UI/UX audit engine.
 - [[concepts/mirofish-swarm-intelligence-simulation-engine]] — MiroFish: 82k+ star universal swarm intelligence & multi-agent startup simulation engine.
 - [[concepts/minecraft-attack-on-titan-odm-modpack]] — Minecraft Attack on Titan (AOT) ODM gear physics & Shiganshina overhaul modpack (Saved for future PC).
 - [[concepts/llm-council-decision-framework]] — LLM Council: Karpathy's 5-advisor adversarial deliberation & peer-review decision framework.

@@ -3,6 +3,10 @@
 > Chronological, append-only record of all LLM Wiki actions (ingest, query, lint, update).
 > Format: `## [YYYY-MM-DD] action | subject`
 
+## [2026-10-26] skill | Apple Design Skill (Human Interface Guidelines UI/UX Audit Engine)
+- **Action:** Installed `dickwu/apple-design-skill` directly into Hermes (`~/.hermes/profiles/llm-wiki/skills/design/apple-design/`) containing 123+ pages of Apple HIG guidelines, cross-platform translations (React, Flutter, Tauri), and created the concept note `concepts/apple-design-hig-audit-skill.md`.
+- **Index:** Cataloged in `index.md`.
+
 ## [2026-10-25] concept | MiroFish: Universal Swarm Intelligence & Multi-Agent Simulation Engine
 - **Action:** Created `concepts/mirofish-swarm-intelligence-simulation-engine.md` documenting `666ghj/MiroFish` (82k+ stars), an open-source swarm intelligence engine that builds parallel digital societies of heterogeneous AI agents to stress-test business ideas, pitches, and market dynamics.
 - **Index:** Cataloged in `index.md`.
