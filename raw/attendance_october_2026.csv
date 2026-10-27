@@ -228,3 +228,8 @@ Date,Day,Employee,Log_In,Log_Out,Duration_Formatted,Decimal_Hours,Status,Notes
 2026-10-26,Monday,Raboushee,08:00 AM,04:30 PM,8h 30m,8.5,Official Duty,✈️ Live Morning Airport Ground Duty (08:00 AM – 04:30 PM)
 2026-10-26,Monday,Rasheed Akel,07:00 AM,07:06 PM,12h 06m,12.1,Extended Shift,⚡ Live Extended Station Duty (07:00 AM – 07:06 PM / 12h 06m)
 2026-10-26,Monday,Yasmin,OFF,OFF,9h 00m,9.0,Paid Standby,🏢 Company Paid Standby (Flight Cancelled - Station Standby)
+2026-10-27,Tuesday,Joudi Alghorani,08:00 AM,03:45 PM,7h 45m,7.75,Official Duty,✈️ Live Morning Airport Ground Duty (08:00 AM – 03:45 PM)
+2026-10-27,Tuesday,Mohammad Almohammad,01:00 PM,07:00 PM,6h 00m,6.0,Official Duty,✈️ Live Station Duty (01:00 PM – 07:00 PM / 6h 00m)
+2026-10-27,Tuesday,Omar Elnemr,OFF,OFF,0h 00m,0.0,Day Off,🌴 Scheduled Rest Day (Off Duty)
+2026-10-27,Tuesday,Osama Alkabbani,01:00 PM,07:00 PM,6h 00m,6.0,Official Duty,✈️ Live Station Duty (01:00 PM – 07:00 PM / 6h 00m)
+2026-10-27,Tuesday,Yasmin,08:00 AM,03:45 PM,7h 45m,7.75,Official Duty,✈️ Live Morning Airport Ground Duty (08:00 AM – 03:45 PM)
