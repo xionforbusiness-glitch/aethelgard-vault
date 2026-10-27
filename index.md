@@ -231,3 +231,8 @@
 - [[apple-design-hig-audit-skill|Apple Design Hig Audit Skill]] (`concepts`)
 - [[collision-n8n-workflow-au-gear_hobbies_li|Collision N8N Workflow Au Gear Hobbies Li]] (`concepts`)
 - [[mirofish-swarm-intelligence-simulation-engine|Mirofish Swarm Intelligence Simulation Engine]] (`concepts`)
+
+
+## 📚 Newly Ingested & Cataloged Notes (Automated Librarian)
+
+- [[collision-sea_of_conquest-vault_index_das|Collision Sea Of Conquest Vault Index Das]] (`concepts`)
