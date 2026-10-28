@@ -236,3 +236,8 @@
 ## 📚 Newly Ingested & Cataloged Notes (Automated Librarian)
 
 - [[collision-sea_of_conquest-vault_index_das|Collision Sea Of Conquest Vault Index Das]] (`concepts`)
+
+
+## 📚 Newly Ingested & Cataloged Notes (Automated Librarian)
+
+- [[collision-apple-design-hi-collision-schem|Collision Apple Design Hi Collision Schem]] (`concepts`)
