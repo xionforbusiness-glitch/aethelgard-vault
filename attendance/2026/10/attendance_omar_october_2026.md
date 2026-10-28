@@ -27,3 +27,6 @@
 | 2026-10-23 | Friday | 07:20 AM | 07:30 PM | 12h 10m | 12.17 | Official Duty | ⚡ Extended Shift / Overtime (Logged in 07:20 AM / Logged out 07:30 PM) |
 | 2026-10-24 | Saturday | 07:24 AM | 03:40 PM | 8h 16m | 8.27 | Official Duty | ✈️ Live Daily Ground Duty (Logged in 07:24 AM / Logged out 03:40 PM) |
 | 2026-10-25 | Sunday | 08:00 PM | 03:10 AM | 7h 10m | 7.17 | Night Shift | ✈️ Live Airport Ground Station Night Duty (Logged in 08:00 PM / Logged out 03:10 AM next day) |
+| 2026-10-26 | Monday | OFF | OFF | 9h 00m | 9.0 | Paid Standby | 🏢 Company Paid Standby (Flight Cancelled - Station Standby) |
+| 2026-10-27 | Tuesday | OFF | OFF | 0h 00m | 0.0 | Day Off | 🌴 Scheduled Rest Day (Off Duty) |
+| 2026-10-28 | Wednesday | 08:20 AM | To Be Updated | Pending | 0.0 | Official Duty | ✈️ Live Daily Ground Duty (Logged in 08:20 AM / Awaiting Checkout) |
