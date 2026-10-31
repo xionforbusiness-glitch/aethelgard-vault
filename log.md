@@ -3,6 +3,10 @@
 > Chronological, append-only record of all LLM Wiki actions (ingest, query, lint, update).
 > Format: `## [YYYY-MM-DD] action | subject`
 
+## [2026-10-31] concept | Karpathy's CLAUDE.md: 10 Coding Rules & Surgical Changes Protocol
+- **Action:** Created `concepts/karpathy-claudemd-surgical-changes-protocol.md` documenting Andrej Karpathy's rules for AI agents (Surgical Changes, Read Before Writing, Simplicity, and Verification Gates) to stop runaway PR bloat.
+- **Index:** Cataloged in `index.md`.
+
 ## [2026-10-26] skill | Apple Design Skill (Human Interface Guidelines UI/UX Audit Engine)
 - **Action:** Installed `dickwu/apple-design-skill` directly into Hermes (`~/.hermes/profiles/llm-wiki/skills/design/apple-design/`) containing 123+ pages of Apple HIG guidelines, cross-platform translations (React, Flutter, Tauri), and created the concept note `concepts/apple-design-hig-audit-skill.md`.
 - **Index:** Cataloged in `index.md`.
