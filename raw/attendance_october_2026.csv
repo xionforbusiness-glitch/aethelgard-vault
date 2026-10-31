@@ -6,7 +6,6 @@ Date,Day,Employee,Log_In,Log_Out,Duration_Formatted,Decimal_Hours,Status,Notes
 2026-10-01,Thursday,Omar Elnemr,07:00 AM,04:00 PM,9h 00m,9.0,Paid Standby,🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid)
 2026-10-01,Thursday,Osama Alkabbani,07:00 AM,04:00 PM,9h 00m,9.0,Paid Standby,🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid)
 2026-10-01,Thursday,Raboushee,07:00 AM,04:00 PM,9h 00m,9.0,Paid Mission,🏢 Official Airport Mission / Pass Delay (Company Paid)
-2026-10-01,Thursday,Rasheed Akel,09:00 AM,03:00 PM,6h 00m,6.0,Standard,Daily Station Duty (09:00 AM – 03:00 PM)
 2026-10-01,Thursday,Yasmin,07:45 AM,03:00 PM,7h 15m,7.25,Training / Paid,🎓 Training Session (07:45 AM – 03:00 PM)
 2026-10-02,Friday,Hanan,07:00 AM,04:00 PM,9h 00m,9.0,Paid Standby,🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid)
 2026-10-02,Friday,Joudi Alghorani,07:00 AM,04:00 PM,9h 00m,9.0,Paid Standby,🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid)
@@ -15,7 +14,6 @@ Date,Day,Employee,Log_In,Log_Out,Duration_Formatted,Decimal_Hours,Status,Notes
 2026-10-02,Friday,Omar Elnemr,07:00 AM,04:00 PM,9h 00m,9.0,Paid Standby,🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid)
 2026-10-02,Friday,Osama Alkabbani,07:00 AM,04:00 PM,9h 00m,9.0,Paid Standby,🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid)
 2026-10-02,Friday,Raboushee,07:00 AM,04:00 PM,9h 00m,9.0,Paid Mission,🏢 Official Airport Mission / Pass Delay (Company Paid)
-2026-10-02,Friday,Rasheed Akel,07:00 AM,04:00 PM,9h 00m,9.0,Official Duty,✈️ Live Daily Ground Duty (07:00 AM – 04:00 PM)
 2026-10-02,Friday,Yasmin,07:00 AM,04:00 PM,9h 00m,9.0,Paid Standby,🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid)
 2026-10-03,Saturday,Hanan,07:00 AM,04:00 PM,9h 00m,9.0,Paid Standby,🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid)
 2026-10-03,Saturday,Joudi Alghorani,07:00 AM,04:00 PM,9h 00m,9.0,Paid Standby,🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid)
@@ -24,7 +22,6 @@ Date,Day,Employee,Log_In,Log_Out,Duration_Formatted,Decimal_Hours,Status,Notes
 2026-10-03,Saturday,Omar Elnemr,07:00 AM,04:00 PM,9h 00m,9.0,Paid Standby,🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid)
 2026-10-03,Saturday,Osama Alkabbani,07:00 AM,04:00 PM,9h 00m,9.0,Paid Standby,🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid)
 2026-10-03,Saturday,Raboushee,07:00 AM,04:00 PM,9h 00m,9.0,Paid Mission,🏢 Official Airport Mission / Pass Delay (Company Paid)
-2026-10-03,Saturday,Rasheed Akel,07:00 AM,04:00 PM,9h 00m,9.0,Official Duty,✈️ Live Daily Ground Duty (07:00 AM – 04:00 PM)
 2026-10-03,Saturday,Yasmin,07:00 AM,04:00 PM,9h 00m,9.0,Paid Standby,🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid)
 2026-10-04,Sunday,Hanan,07:00 AM,04:00 PM,9h 00m,9.0,Paid Standby,🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid)
 2026-10-04,Sunday,Joudi Alghorani,07:00 AM,04:30 PM,9h 30m,9.5,Paid Standby,🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid)
@@ -33,7 +30,6 @@ Date,Day,Employee,Log_In,Log_Out,Duration_Formatted,Decimal_Hours,Status,Notes
 2026-10-04,Sunday,Omar Elnemr,07:00 AM,04:00 PM,9h 00m,9.0,Paid Standby,🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid)
 2026-10-04,Sunday,Osama Alkabbani,07:00 AM,04:00 PM,9h 00m,9.0,Paid Standby,🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid)
 2026-10-04,Sunday,Raboushee,07:00 AM,04:00 PM,9h 00m,9.0,Paid Mission,🏢 Official Airport Mission / Pass Delay (Company Paid)
-2026-10-04,Sunday,Rasheed Akel,09:00 AM,03:00 PM,6h 00m,6.0,Standard,Daily Station Duty (09:00 AM – 03:00 PM)
 2026-10-04,Sunday,Yasmin,08:00 AM,03:00 PM,7h 00m,7.0,Training / Paid,🎓 Training Session (08:00 AM – 03:00 PM)
 2026-10-05,Monday,Hanan,08:00 AM,04:00 PM,8h 00m,8.0,Training / Paid,🎓 Etihad IGS Training Day 1 (MS Teams) / Paid Standby
 2026-10-05,Monday,Joudi Alghorani,08:00 AM,04:30 PM,8h 30m,8.5,Training / Paid,🎓 Etihad IGS Training Day 1 (MS Teams) / Paid Standby
@@ -42,7 +38,6 @@ Date,Day,Employee,Log_In,Log_Out,Duration_Formatted,Decimal_Hours,Status,Notes
 2026-10-05,Monday,Omar Elnemr,07:20 AM,04:40 PM,9h 20m,9.33,Training / Paid,🎓 Etihad IGS Training Day 1 (MS Teams) / Paid Standby
 2026-10-05,Monday,Osama Alkabbani,08:00 AM,04:00 PM,8h 00m,8.0,Training / Paid,🎓 Etihad IGS Training Day 1 (MS Teams) / Paid Standby
 2026-10-05,Monday,Raboushee,08:00 AM,04:00 PM,8h 00m,8.0,Training / Paid,🎓 Etihad IGS Training Day 1 (MS Teams) / Paid Standby
-2026-10-05,Monday,Rasheed Akel,07:00 AM,04:00 PM,9h 00m,9.0,Official Duty,✈️ Live Daily Ground Duty (07:00 AM – 04:00 PM)
 2026-10-05,Monday,Yasmin,07:30 AM,04:00 PM,8h 30m,8.5,Official Duty,✈️ Live Morning Airport Ground Duty (07:30 AM – 04:00 PM)
 2026-10-06,Tuesday,Hanan,08:00 AM,04:05 PM,8h 05m,8.08,Training / Paid,🎓 Etihad IGS Training Day 2 (MS Teams) / Paid Standby
 2026-10-06,Tuesday,Joudi Alghorani,08:00 AM,04:30 PM,8h 30m,8.5,Training / Paid,🎓 Etihad IGS Training Day 2 (MS Teams) / Paid Standby
@@ -51,7 +46,6 @@ Date,Day,Employee,Log_In,Log_Out,Duration_Formatted,Decimal_Hours,Status,Notes
 2026-10-06,Tuesday,Omar Elnemr,07:20 AM,04:45 PM,9h 25m,9.42,Training / Paid,🎓 Etihad IGS Training Day 2 (MS Teams) / Paid Standby
 2026-10-06,Tuesday,Osama Alkabbani,08:00 AM,04:00 PM,8h 00m,8.0,Training / Paid,🎓 Etihad IGS Training Day 2 (MS Teams) / Paid Standby
 2026-10-06,Tuesday,Raboushee,08:00 AM,04:00 PM,8h 00m,8.0,Training / Paid,🎓 Etihad IGS Training Day 2 (MS Teams) / Paid Standby
-2026-10-06,Tuesday,Rasheed Akel,03:00 AM,04:00 PM,13h 00m,13.0,Dawn Shift,✈️ Early dawn flight departure handling (13h 00m)
 2026-10-06,Tuesday,Yasmin,07:00 AM,04:00 PM,9h 00m,9.0,Official Duty,✈️ Live Morning Airport Ground Duty (07:00 AM – 04:00 PM)
 2026-10-07,Wednesday,Hanan,03:30 AM,04:00 PM,12h 30m,12.5,Dawn Shift,✈️ Early dawn flight departure handling (12h 30m)
 2026-10-07,Wednesday,Joudi Alghorani,08:00 AM,04:00 PM,8h 00m,8.0,Official Duty,✈️ Live Daily Ground Duty (08:00 AM – 04:00 PM)
@@ -60,7 +54,6 @@ Date,Day,Employee,Log_In,Log_Out,Duration_Formatted,Decimal_Hours,Status,Notes
 2026-10-07,Wednesday,Omar Elnemr,07:15 AM,04:00 PM,8h 45m,8.75,Official Duty,✈️ Live Airport Ground Station Duty (Logged in 07:15 AM / Logged out 04:00 PM)
 2026-10-07,Wednesday,Osama Alkabbani,07:30 AM,03:30 PM,8h 00m,8.0,Official Duty,✈️ Live Morning Airport Ground Duty (8h 00m)
 2026-10-07,Wednesday,Raboushee,07:00 AM,04:30 PM,9h 30m,9.5,Official Duty,✈️ Live Morning Airport Ground Duty (9h 30m)
-2026-10-07,Wednesday,Rasheed Akel,03:00 AM,04:00 PM,13h 00m,13.0,Dawn Shift,✈️ Early dawn flight departure handling (13h 00m)
 2026-10-07,Wednesday,Yasmin,04:00 AM,04:00 PM,12h 00m,12.0,Dawn Shift,✈️ Early dawn flight departure handling (12h 00m)
 2026-10-08,Thursday,Hanan,03:20 AM,04:00 PM,12h 40m,12.67,Dawn Shift,✈️ Early dawn flight departure handling (12h 40m)
 2026-10-08,Thursday,Joudi Alghorani,08:00 AM,04:00 PM,8h 00m,8.0,Official Duty,✈️ Live Daily Ground Duty (08:00 AM – 04:00 PM)
@@ -69,7 +62,6 @@ Date,Day,Employee,Log_In,Log_Out,Duration_Formatted,Decimal_Hours,Status,Notes
 2026-10-08,Thursday,Omar Elnemr,07:10 AM,04:00 PM,8h 50m,8.83,Official Duty,✈️ Live Daily Duty (Logged in 07:10 AM / Logged out 04:00 PM)
 2026-10-08,Thursday,Osama Alkabbani,07:30 AM,03:30 PM,8h 00m,8.0,Official Duty,✈️ Live Morning Airport Ground Duty (8h 00m)
 2026-10-08,Thursday,Raboushee,07:00 AM,04:30 PM,9h 30m,9.5,Official Duty,✈️ Live Morning Airport Ground Duty (9h 30m)
-2026-10-08,Thursday,Rasheed Akel,03:00 AM,04:00 PM,13h 00m,13.0,Dawn Shift,✈️ Early dawn flight departure handling (13h 00m)
 2026-10-08,Thursday,Yasmin,07:00 AM,04:00 PM,9h 00m,9.0,Official Duty,✈️ Live Morning Airport Ground Duty (07:00 AM – 04:00 PM)
 2026-10-09,Friday,Hanan,OFF,OFF,0h 00m,0.0,Day Off,🌴 Scheduled Rest Day (Off Duty)
 2026-10-09,Friday,Joudi Alghorani,03:15 AM,04:00 PM,12h 45m,12.75,Dawn Shift,✈️ Early dawn flight departure handling (12h 45m)
@@ -78,7 +70,6 @@ Date,Day,Employee,Log_In,Log_Out,Duration_Formatted,Decimal_Hours,Status,Notes
 2026-10-09,Friday,Omar Elnemr,07:10 AM,05:53 PM,10h 43m,10.72,Official Duty,✈️ Live Daily Duty (Logged in 07:10 AM / Logged out 05:53 PM)
 2026-10-09,Friday,Osama Alkabbani,07:30 AM,05:00 PM,9h 30m,9.5,Official Duty,✈️ Live Daily Ground Duty (9h 30m)
 2026-10-09,Friday,Raboushee,07:00 AM,08:00 PM,13h 00m,13.0,Extended Shift,⚡ Live Extended Station Duty (07:00 AM – 08:00 PM / 13h 00m)
-2026-10-09,Friday,Rasheed Akel,03:00 AM,04:00 PM,13h 00m,13.0,Dawn Shift,✈️ Early dawn flight departure handling (13h 00m)
 2026-10-09,Friday,Yasmin,07:00 AM,04:00 PM,9h 00m,9.0,Official Duty,✈️ Live Morning Airport Ground Duty (07:00 AM – 04:00 PM)
 2026-10-10,Saturday,Hanan,03:15 AM,04:00 PM,12h 45m,12.75,Dawn Shift,✈️ Early dawn flight departure handling (12h 45m)
 2026-10-10,Saturday,Joudi Alghorani,07:00 AM,04:00 PM,9h 00m,9.0,Official Duty,✈️ Live Morning Airport Ground Duty (9h 00m)
@@ -87,7 +78,6 @@ Date,Day,Employee,Log_In,Log_Out,Duration_Formatted,Decimal_Hours,Status,Notes
 2026-10-10,Saturday,Omar Elnemr,07:07 AM,04:15 PM,9h 08m,9.13,Official Duty,✈️ Live Daily Duty (Logged in 07:07 AM / Logged out 04:15 PM)
 2026-10-10,Saturday,Osama Alkabbani,07:30 AM,03:30 PM,8h 00m,8.0,Official Duty,✈️ Live Morning Airport Ground Duty (8h 00m)
 2026-10-10,Saturday,Raboushee,07:00 AM,04:30 PM,9h 30m,9.5,Official Duty,✈️ Live Morning Airport Ground Duty (9h 30m)
-2026-10-10,Saturday,Rasheed Akel,03:00 AM,04:00 PM,13h 00m,13.0,Dawn Shift,✈️ Early dawn flight departure handling (13h 00m)
 2026-10-10,Saturday,Yasmin,07:00 AM,04:00 PM,9h 00m,9.0,Official Duty,✈️ Live Morning Airport Ground Duty (07:00 AM – 04:00 PM)
 2026-10-11,Sunday,Hanan,07:00 AM,04:00 PM,9h 00m,9.0,Paid Standby,🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid)
 2026-10-11,Sunday,Joudi Alghorani,07:00 AM,04:30 PM,9h 30m,9.5,Paid Standby,🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid)
@@ -96,7 +86,6 @@ Date,Day,Employee,Log_In,Log_Out,Duration_Formatted,Decimal_Hours,Status,Notes
 2026-10-11,Sunday,Omar Elnemr,OFF,OFF,0h 00m,0.0,Day Off,🌴 Scheduled Team Weekly Rest Day (Full Station Off)
 2026-10-11,Sunday,Osama Alkabbani,OFF,OFF,0h 00m,0.0,Day Off,🌴 Contractual Paid Rest Day (Off Duty)
 2026-10-11,Sunday,Raboushee,OFF,OFF,0h 00m,0.0,Day Off,🌴 Scheduled Rest Day (Off Duty)
-2026-10-11,Sunday,Rasheed Akel,07:00 AM,04:00 PM,9h 00m,9.0,Official Duty,✈️ Live Daily Ground Duty (07:00 AM – 04:00 PM)
 2026-10-11,Sunday,Yasmin,07:00 AM,04:00 PM,9h 00m,9.0,Paid Standby,🏢 Paid Administrative Standby (Damascus Airport Pass Delay - Company Paid)
 2026-10-12,Monday,Hanan,08:00 AM,04:30 PM,8h 30m,8.5,Training / Paid,🎓 Etihad Airways Altéa DCS System Training
 2026-10-12,Monday,Joudi Alghorani,08:20 AM,04:00 PM,7h 40m,7.67,Training / Paid,🎓 Etihad Airways Altéa DCS System Training
@@ -105,7 +94,6 @@ Date,Day,Employee,Log_In,Log_Out,Duration_Formatted,Decimal_Hours,Status,Notes
 2026-10-12,Monday,Omar Elnemr,07:15 AM,05:45 PM,10h 30m,10.5,Training / Paid,🎓 Etihad Airways Altéa DCS System Training (Logged in 07:15 AM / Logged out 05:45 PM)
 2026-10-12,Monday,Osama Alkabbani,08:00 AM,04:30 PM,8h 30m,8.5,Training / Paid,🎓 Etihad Airways Altéa DCS System Training
 2026-10-12,Monday,Raboushee,08:00 AM,04:30 PM,8h 30m,8.5,Training / Paid,🎓 Etihad Airways Altéa DCS System Training
-2026-10-12,Monday,Rasheed Akel,09:00 AM,03:00 PM,6h 00m,6.0,Standard,Daily Station Duty (09:00 AM – 03:00 PM)
 2026-10-12,Monday,Yasmin,09:00 AM,03:00 PM,6h 00m,6.0,Training / Paid,🎓 Training Session (09:00 AM – 03:00 PM)
 2026-10-13,Tuesday,Hanan,08:00 AM,04:00 PM,8h 00m,8.0,Training / Paid,🎓 Etihad Airways Altéa DCS System Training
 2026-10-13,Tuesday,Joudi Alghorani,08:05 AM,04:00 PM,7h 55m,7.92,Training / Paid,🎓 Etihad Airways Altéa DCS System Training
@@ -114,7 +102,6 @@ Date,Day,Employee,Log_In,Log_Out,Duration_Formatted,Decimal_Hours,Status,Notes
 2026-10-13,Tuesday,Omar Elnemr,07:20 AM,05:10 PM,9h 50m,9.83,Training / Paid,🎓 Etihad Airways Altéa DCS System Training (Logged in 07:20 AM / Logged out 05:10 PM)
 2026-10-13,Tuesday,Osama Alkabbani,08:00 AM,04:30 PM,8h 30m,8.5,Training / Paid,🎓 Etihad Airways Altéa DCS System Training
 2026-10-13,Tuesday,Raboushee,08:00 AM,04:00 PM,8h 00m,8.0,Training / Paid,🎓 Etihad Airways Altéa DCS System Training
-2026-10-13,Tuesday,Rasheed Akel,09:00 AM,03:00 PM,6h 00m,6.0,Standard,Daily Station Duty (09:00 AM – 03:00 PM)
 2026-10-13,Tuesday,Yasmin,09:00 AM,03:00 PM,6h 00m,6.0,Training / Paid,🎓 Training Session (09:00 AM – 03:00 PM)
 2026-10-14,Wednesday,Hanan,08:00 AM,04:15 PM,8h 15m,8.25,Training / Paid,🎓 Etihad Airways Altéa DCS System Training
 2026-10-14,Wednesday,Joudi Alghorani,08:00 AM,04:00 PM,8h 00m,8.0,Training / Paid,🎓 Etihad Airways Altéa DCS System Training
@@ -123,7 +110,6 @@ Date,Day,Employee,Log_In,Log_Out,Duration_Formatted,Decimal_Hours,Status,Notes
 2026-10-14,Wednesday,Omar Elnemr,07:20 AM,04:40 PM,9h 20m,9.33,Training / Paid,🎓 Etihad Airways Altéa DCS System Training (Logged in 07:20 AM / Logged out 04:40 PM)
 2026-10-14,Wednesday,Osama Alkabbani,08:00 AM,04:30 PM,8h 30m,8.5,Training / Paid,🎓 Etihad Airways Altéa DCS System Training
 2026-10-14,Wednesday,Raboushee,08:00 AM,04:00 PM,8h 00m,8.0,Training / Paid,🎓 Etihad Airways Altéa DCS System Training
-2026-10-14,Wednesday,Rasheed Akel,09:00 AM,03:00 PM,6h 00m,6.0,Standard,Daily Station Duty (09:00 AM – 03:00 PM)
 2026-10-14,Wednesday,Yasmin,09:00 AM,03:00 PM,6h 00m,6.0,Training / Paid,🎓 Training Session (09:00 AM – 03:00 PM)
 2026-10-15,Thursday,Hanan,08:00 AM,04:00 PM,8h 00m,8.0,Training / Paid,🎓 Etihad Airways Altéa DCS System Training
 2026-10-15,Thursday,Joudi Alghorani,08:00 AM,04:00 PM,8h 00m,8.0,Training / Paid,🎓 Etihad Airways Altéa DCS System Training
@@ -132,7 +118,6 @@ Date,Day,Employee,Log_In,Log_Out,Duration_Formatted,Decimal_Hours,Status,Notes
 2026-10-15,Thursday,Omar Elnemr,07:15 AM,04:40 PM,9h 25m,9.42,Training / Paid,🎓 Etihad Airways Altéa DCS System Training (Logged in 07:15 AM / Logged out 04:40 PM)
 2026-10-15,Thursday,Osama Alkabbani,08:00 AM,04:30 PM,8h 30m,8.5,Training / Paid,🎓 Etihad Airways Altéa DCS System Training
 2026-10-15,Thursday,Raboushee,08:00 AM,04:00 PM,8h 00m,8.0,Training / Paid,🎓 Etihad Airways Altéa DCS System Training
-2026-10-15,Thursday,Rasheed Akel,09:00 AM,03:00 PM,6h 00m,6.0,Standard,Daily Station Duty (09:00 AM – 03:00 PM)
 2026-10-15,Thursday,Yasmin,09:00 AM,03:00 PM,6h 00m,6.0,Training / Paid,🎓 Training Session (09:00 AM – 03:00 PM)
 2026-10-16,Friday,Hanan,08:00 AM,01:30 PM,5h 30m,5.5,Training / Paid,🎓 Etihad Airways Altéa DCS System Training
 2026-10-16,Friday,Joudi Alghorani,08:10 AM,01:00 PM,4h 50m,4.83,Training / Paid,🎓 Etihad Airways Altéa DCS System Training
@@ -141,7 +126,6 @@ Date,Day,Employee,Log_In,Log_Out,Duration_Formatted,Decimal_Hours,Status,Notes
 2026-10-16,Friday,Omar Elnemr,07:15 AM,01:10 PM,5h 55m,5.92,Training / Paid,🎓 Etihad Airways Altéa DCS System Training (Logged in 07:15 AM / Logged out 01:10 PM)
 2026-10-16,Friday,Osama Alkabbani,08:00 AM,04:30 PM,8h 30m,8.5,Training / Paid,🎓 Etihad Airways Altéa DCS System Training
 2026-10-16,Friday,Raboushee,08:00 AM,01:30 PM,5h 30m,5.5,Training / Paid,🎓 Etihad Airways Altéa DCS System Training
-2026-10-16,Friday,Rasheed Akel,07:00 AM,04:30 PM,9h 30m,9.5,Official Duty,✈️ Live Morning Airport Ground Duty (9h 30m)
 2026-10-16,Friday,Yasmin,07:00 AM,04:30 PM,9h 30m,9.5,Official Duty,✈️ Live Morning Airport Ground Duty (07:00 AM – 04:30 PM)
 2026-10-17,Saturday,Hanan,07:00 AM,04:00 PM,9h 00m,9.0,Official Duty,✈️ Live Morning Airport Ground Duty
 2026-10-17,Saturday,Joudi Alghorani,07:00 AM,04:00 PM,9h 00m,9.0,Official Duty,✈️ Live Morning Airport Ground Duty (9h 00m)
@@ -150,7 +134,6 @@ Date,Day,Employee,Log_In,Log_Out,Duration_Formatted,Decimal_Hours,Status,Notes
 2026-10-17,Saturday,Omar Elnemr,07:20 AM,04:17 PM,8h 57m,8.95,Official Duty,"✈️ Live Daily Duty (Logged in 07:20 AM / Logged out 04:17 PM | Free Zone Bus: Arr 07:03 PM, Dep 07:23 PM)"
 2026-10-17,Saturday,Osama Alkabbani,06:00 AM,05:30 PM,11h 30m,11.5,Extended Shift,⚡ Live Extended Station Duty (06:00 AM – 05:30 PM / 11h 30m)
 2026-10-17,Saturday,Raboushee,07:00 AM,04:30 PM,9h 30m,9.5,Official Duty,✈️ Live Morning Airport Ground Duty (9h 30m)
-2026-10-17,Saturday,Rasheed Akel,03:00 AM,04:00 PM,13h 00m,13.0,Dawn Shift,✈️ Early dawn flight departure handling (13h 00m)
 2026-10-17,Saturday,Yasmin,07:00 AM,04:30 PM,9h 30m,9.5,Official Duty,✈️ Live Morning Airport Ground Duty (07:00 AM – 04:30 PM)
 2026-10-18,Sunday,Hanan,07:00 AM,03:30 PM,8h 30m,8.5,Official Duty,✈️ Live Morning Airport Ground Duty
 2026-10-18,Sunday,Joudi Alghorani,OFF,OFF,0h 00m,0.0,Day Off,🌴 Scheduled Rest Day (Off Duty)
@@ -159,7 +142,6 @@ Date,Day,Employee,Log_In,Log_Out,Duration_Formatted,Decimal_Hours,Status,Notes
 2026-10-18,Sunday,Omar Elnemr,OFF,OFF,0h 00m,0.0,Day Off,🌴 Scheduled Rest Day (Off Duty)
 2026-10-18,Sunday,Osama Alkabbani,06:00 AM,05:30 PM,11h 30m,11.5,Extended Shift,⚡ Live Extended Station Duty (06:00 AM – 05:30 PM / 11h 30m)
 2026-10-18,Sunday,Raboushee,OFF,OFF,0h 00m,0.0,Day Off,🌴 Scheduled Rest Day (Off Duty)
-2026-10-18,Sunday,Rasheed Akel,07:00 AM,05:30 PM,10h 30m,10.5,Extended Shift,⚡ Live Extended Station Duty (07:00 AM – 05:30 PM / 10h 30m)
 2026-10-18,Sunday,Yasmin,03:30 AM,04:30 PM,13h 00m,13.0,Dawn Shift,✈️ Early dawn flight departure handling (13h 00m)
 2026-10-19,Monday,Hanan,OFF,OFF,0h 00m,0.0,Day Off,🌴 Scheduled Rest Day (Off Duty)
 2026-10-19,Monday,Joudi Alghorani,07:15 AM,04:00 PM,8h 45m,8.75,Official Duty,✈️ Live Morning Airport Ground Duty (8h 45m)
@@ -168,7 +150,6 @@ Date,Day,Employee,Log_In,Log_Out,Duration_Formatted,Decimal_Hours,Status,Notes
 2026-10-19,Monday,Omar Elnemr,07:15 AM,04:00 PM,8h 45m,8.75,Official Duty,✈️ Live Daily Duty (Logged in 07:15 AM / Logged out 04:00 PM)
 2026-10-19,Monday,Osama Alkabbani,OFF,OFF,0h 00m,0.0,Day Off,🌴 Contractual Paid Rest Day (Off Duty)
 2026-10-19,Monday,Raboushee,07:00 AM,04:30 PM,9h 30m,9.5,Official Duty,✈️ Live Morning Airport Ground Duty (9h 30m)
-2026-10-19,Monday,Rasheed Akel,12:00 PM,05:30 PM,5h 30m,5.5,Afternoon Duty,✈️ Live Afternoon Station Duty (12:00 PM – 05:30 PM / 5h 30m)
 2026-10-19,Monday,Yasmin,OFF,OFF,0h 00m,0.0,Day Off,🌴 Scheduled Rest Day (Off Duty)
 2026-10-20,Tuesday,Hanan,03:15 AM,04:30 PM,13h 15m,13.25,Dawn Shift,✈️ Early dawn flight departure handling (13h 15m)
 2026-10-20,Tuesday,Joudi Alghorani,07:20 AM,04:40 PM,9h 20m,9.33,Official Duty,✈️ Live Morning Airport Ground Duty (9h 20m)
@@ -177,7 +158,6 @@ Date,Day,Employee,Log_In,Log_Out,Duration_Formatted,Decimal_Hours,Status,Notes
 2026-10-20,Tuesday,Omar Elnemr,07:15 AM,07:04 PM,11h 49m,11.82,Official Duty,⚡ Extended Shift / Overtime (Logged in 07:15 AM / Logged out 07:04 PM)
 2026-10-20,Tuesday,Osama Alkabbani,06:00 AM,05:30 PM,11h 30m,11.5,Extended Shift,⚡ Live Extended Station Duty (06:00 AM – 05:30 PM / 11h 30m)
 2026-10-20,Tuesday,Raboushee,07:00 AM,04:40 PM,9h 40m,9.67,Official Duty,✈️ Live Morning Airport Ground Duty (9h 40m)
-2026-10-20,Tuesday,Rasheed Akel,07:00 AM,05:40 PM,10h 40m,10.67,Extended Shift,⚡ Live Extended Station Duty (07:00 AM – 05:40 PM / 10h 40m)
 2026-10-20,Tuesday,Yasmin,04:00 AM,04:30 PM,12h 30m,12.5,Dawn Shift,✈️ Early dawn flight departure handling (12h 30m)
 2026-10-21,Wednesday,Hanan,08:00 AM,05:00 PM,9h 00m,9.0,Official Duty,✈️ Live Daily Ground Duty
 2026-10-21,Wednesday,Joudi Alghorani,07:30 AM,04:51 PM,9h 21m,9.35,Official Duty,✈️ Live Daily Ground Duty (9h 21m)
@@ -186,7 +166,6 @@ Date,Day,Employee,Log_In,Log_Out,Duration_Formatted,Decimal_Hours,Status,Notes
 2026-10-21,Wednesday,Omar Elnemr,07:15 AM,05:00 PM,9h 45m,9.75,Official Duty,✈️ Live Daily Duty (Logged in 07:15 AM / Logged out 05:00 PM)
 2026-10-21,Wednesday,Osama Alkabbani,06:00 AM,05:30 PM,11h 30m,11.5,Extended Shift,⚡ Live Extended Station Duty (06:00 AM – 05:30 PM / 11h 30m)
 2026-10-21,Wednesday,Raboushee,07:30 AM,05:00 PM,9h 30m,9.5,Official Duty,✈️ Live Daily Ground Duty (9h 30m)
-2026-10-21,Wednesday,Rasheed Akel,07:00 AM,05:00 PM,10h 00m,10.0,Extended Shift,⚡ Live Extended Station Duty (07:00 AM – 05:00 PM / 10h 00m)
 2026-10-21,Wednesday,Yasmin,08:00 AM,05:00 PM,9h 00m,9.0,Official Duty,✈️ Live Daily Ground Duty (08:00 AM – 05:00 PM)
 2026-10-22,Thursday,Hanan,07:15 AM,03:40 PM,8h 25m,8.42,Official Duty,✈️ Live Morning Airport Ground Duty (07:15 AM – 03:40 PM)
 2026-10-22,Thursday,Joudi Alghorani,07:15 AM,03:40 PM,8h 25m,8.42,Official Duty,✈️ Live Morning Airport Ground Duty (07:15 AM – 03:40 PM)
@@ -195,7 +174,6 @@ Date,Day,Employee,Log_In,Log_Out,Duration_Formatted,Decimal_Hours,Status,Notes
 2026-10-22,Thursday,Omar Elnemr,07:15 AM,06:40 PM,11h 25m,11.42,Official Duty,⚡ Extended Shift / Overtime (Logged in 07:15 AM / Logged out 06:40 PM)
 2026-10-22,Thursday,Osama Alkabbani,06:30 AM,06:00 PM,11h 30m,11.5,Extended Shift,⚡ Live Extended Station Duty (06:30 AM – 06:00 PM / 11h 30m)
 2026-10-22,Thursday,Raboushee,07:00 AM,04:00 PM,9h 00m,9.0,Official Duty,✈️ Live Daily Ground Duty (07:00 AM – 04:00 PM)
-2026-10-22,Thursday,Rasheed Akel,07:00 AM,05:30 PM,10h 30m,10.5,Extended Shift,⚡ Live Extended Station Duty (07:00 AM – 05:30 PM / 10h 30m)
 2026-10-22,Thursday,Yasmin,07:15 AM,03:40 PM,8h 25m,8.42,Official Duty,✈️ Live Morning Airport Ground Duty (07:15 AM – 03:40 PM)
 2026-10-23,Friday,Hanan,07:30 AM,06:00 PM,10h 30m,10.5,Extended Shift,⚡ Live Extended Station Duty (07:30 AM – 06:00 PM / 10h 30m)
 2026-10-23,Friday,Joudi Alghorani,07:20 AM,03:45 PM,8h 25m,8.42,Official Duty,✈️ Live Morning Airport Ground Duty (07:20 AM – 03:45 PM)
@@ -204,7 +182,6 @@ Date,Day,Employee,Log_In,Log_Out,Duration_Formatted,Decimal_Hours,Status,Notes
 2026-10-23,Friday,Omar Elnemr,07:20 AM,07:30 PM,12h 10m,12.17,Official Duty,⚡ Extended Shift / Overtime (Logged in 07:20 AM / Logged out 07:30 PM)
 2026-10-23,Friday,Osama Alkabbani,10:00 AM,06:00 PM,8h 00m,8.0,Official Duty,✈️ Live Daily Ground Duty (10:00 AM – 06:00 PM)
 2026-10-23,Friday,Raboushee,07:00 AM,06:00 PM,11h 00m,11.0,Extended Shift,⚡ Live Extended Station Duty (07:00 AM – 06:00 PM / 11h 00m)
-2026-10-23,Friday,Rasheed Akel,OFF,OFF,0h 00m,0.0,Day Off,🌴 Scheduled Rest Day (Off Duty)
 2026-10-23,Friday,Yasmin,07:30 AM,03:40 PM,8h 10m,8.17,Official Duty,✈️ Live Morning Airport Ground Duty (07:30 AM – 03:40 PM)
 2026-10-24,Saturday,Hanan,07:30 AM,03:45 PM,8h 15m,8.25,Official Duty,✈️ Live Morning Airport Ground Duty (07:30 AM – 03:45 PM)
 2026-10-24,Saturday,Joudi Alghorani,07:20 AM,03:45 PM,8h 25m,8.42,Official Duty,✈️ Live Morning Airport Ground Duty (07:20 AM – 03:45 PM)
@@ -213,12 +190,10 @@ Date,Day,Employee,Log_In,Log_Out,Duration_Formatted,Decimal_Hours,Status,Notes
 2026-10-24,Saturday,Omar Elnemr,07:24 AM,03:40 PM,8h 16m,8.27,Official Duty,✈️ Live Daily Ground Duty (Logged in 07:24 AM / Logged out 03:40 PM)
 2026-10-24,Saturday,Osama Alkabbani,06:30 AM,06:00 PM,11h 30m,11.5,Extended Shift,⚡ Live Extended Station Duty (06:30 AM – 06:00 PM / 11h 30m)
 2026-10-24,Saturday,Raboushee,OFF,OFF,0h 00m,0.0,Day Off,🌴 Scheduled Rest Day (Off Duty)
-2026-10-24,Saturday,Rasheed Akel,OFF,OFF,0h 00m,0.0,Day Off,🌴 Scheduled Rest Day (Off Duty)
 2026-10-24,Saturday,Yasmin,03:30 AM,03:45 PM,12h 15m,12.25,Dawn Shift,✈️ Early dawn flight departure handling (03:30 AM – 03:45 PM / 12h 15m)
 2026-10-25,Sunday,Mohammad Almohammad,07:00 AM,07:20 PM,12h 20m,12.33,Extended Shift,⚡ Live Extended Station Duty (07:00 AM – 07:20 PM / 12h 20m)
 2026-10-25,Sunday,Omar Elnemr,08:00 PM,03:10 AM,7h 10m,7.17,Night Shift,✈️ Live Airport Ground Station Night Duty (Logged in 08:00 PM / Logged out 03:10 AM next day)
 2026-10-25,Sunday,Raboushee,OFF,OFF,0h 00m,0.0,Day Off,🌴 Scheduled Rest Day (Off Duty)
-2026-10-25,Sunday,Rasheed Akel,07:00 AM,07:20 PM,12h 20m,12.33,Extended Shift,⚡ Live Extended Station Duty (07:00 AM – 07:20 PM / 12h 20m)
 2026-10-26,Monday,Hanan,OFF,OFF,0h 00m,0.0,Day Off,🌴 Scheduled Rest Day (Off Duty)
 2026-10-26,Monday,Joudi Alghorani,OFF,OFF,0h 00m,0.0,Day Off,🌴 Scheduled Rest Day (Off Duty)
 2026-10-26,Monday,Khaled,OFF,OFF,9h 00m,9.0,Paid Standby,🏢 Company Paid Standby (Flight Cancelled - Station Standby)
@@ -226,7 +201,6 @@ Date,Day,Employee,Log_In,Log_Out,Duration_Formatted,Decimal_Hours,Status,Notes
 2026-10-26,Monday,Omar Elnemr,OFF,OFF,9h 00m,9.0,Paid Standby,🏢 Company Paid Standby (Flight Cancelled - Station Standby)
 2026-10-26,Monday,Osama Alkabbani,05:30 AM,07:00 PM,13h 30m,13.5,Extended Shift,⚡ Live Extended Station Duty (05:30 AM – 07:00 PM / 13h 30m)
 2026-10-26,Monday,Raboushee,08:00 AM,04:30 PM,8h 30m,8.5,Official Duty,✈️ Live Morning Airport Ground Duty (08:00 AM – 04:30 PM)
-2026-10-26,Monday,Rasheed Akel,07:00 AM,07:06 PM,12h 06m,12.1,Extended Shift,⚡ Live Extended Station Duty (07:00 AM – 07:06 PM / 12h 06m)
 2026-10-26,Monday,Yasmin,OFF,OFF,9h 00m,9.0,Paid Standby,🏢 Company Paid Standby (Flight Cancelled - Station Standby)
 2026-10-27,Tuesday,Hanan,OFF,OFF,0h 00m,0.0,Day Off,🌴 Scheduled Rest Day (Off Duty)
 2026-10-27,Tuesday,Joudi Alghorani,08:00 AM,03:45 PM,7h 45m,7.75,Official Duty,✈️ Live Morning Airport Ground Duty (08:00 AM – 03:45 PM)
@@ -234,7 +208,6 @@ Date,Day,Employee,Log_In,Log_Out,Duration_Formatted,Decimal_Hours,Status,Notes
 2026-10-27,Tuesday,Mohammad Almohammad,01:00 PM,07:00 PM,6h 00m,6.0,Official Duty,✈️ Live Station Duty (01:00 PM – 07:00 PM / 6h 00m)
 2026-10-27,Tuesday,Omar Elnemr,OFF,OFF,0h 00m,0.0,Day Off,🌴 Scheduled Rest Day (Off Duty)
 2026-10-27,Tuesday,Osama Alkabbani,01:00 PM,07:00 PM,6h 00m,6.0,Official Duty,✈️ Live Station Duty (01:00 PM – 07:00 PM / 6h 00m)
-2026-10-27,Tuesday,Rasheed Akel,01:00 PM,07:06 PM,6h 06m,6.1,Official Duty,✈️ Live Station Duty (01:00 PM – 07:06 PM / 6h 06m)
 2026-10-27,Tuesday,Yasmin,08:00 AM,03:45 PM,7h 45m,7.75,Official Duty,✈️ Live Morning Airport Ground Duty (08:00 AM – 03:45 PM)
 2026-10-28,Wednesday,Hanan,08:00 AM,03:40 PM,7h 40m,7.67,Official Duty,✈️ Live Morning Airport Ground Duty (08:00 AM – 03:40 PM)
 2026-10-28,Wednesday,Joudi Alghorani,07:00 AM,03:40 PM,8h 40m,8.67,Official Duty,✈️ Live Morning Airport Ground Duty (07:00 AM – 03:40 PM)
@@ -242,3 +215,10 @@ Date,Day,Employee,Log_In,Log_Out,Duration_Formatted,Decimal_Hours,Status,Notes
 2026-10-28,Wednesday,Omar Elnemr,08:20 AM,03:35 PM,7h 15m,7.25,Official Duty,✈️ Live Daily Ground Duty (Logged in 08:20 AM / Logged out 03:35 PM)
 2026-10-28,Wednesday,Raboushee,07:00 AM,04:00 PM,9h 00m,9.0,Official Duty,✈️ Live Daily Ground Duty (07:00 AM – 04:00 PM)
 2026-10-28,Wednesday,Yasmin,07:00 AM,03:45 PM,8h 45m,8.75,Official Duty,✈️ Live Morning Airport Ground Duty (07:00 AM – 03:45 PM)
+2026-10-31,Saturday,Hanan,08:00 AM,04:00 PM,8h 00m,8.0,Official Duty,✈️ Live Daily Ground Duty (08:00 AM – 04:00 PM)
+2026-10-31,Saturday,Joudi Alghorani,08:20 AM,03:40 PM,7h 20m,7.33,Official Duty,✈️ Live Morning Airport Ground Duty (08:20 AM – 03:40 PM)
+2026-10-31,Saturday,Khaled,08:20 AM,03:40 PM,7h 20m,7.33,Official Duty,✈️ Live Morning Airport Ground Duty (08:20 AM – 03:40 PM)
+2026-10-31,Saturday,Mohammad Almohammad,OFF,OFF,0h 00m,0.0,Day Off,🌴 Scheduled Rest Day (Off Duty)
+2026-10-31,Saturday,Omar Elnemr,OFF,OFF,0h 00m,0.0,Day Off,🌴 Scheduled Rest Day (Off Duty)
+2026-10-31,Saturday,Osama Alkabbani,05:30 AM,06:30 PM,13h 00m,13.0,Extended Shift,⚡ Live Extended Station Duty (05:30 AM – 06:30 PM / 13h 00m)
+2026-10-31,Saturday,Yasmin,08:20 AM,03:40 PM,7h 20m,7.33,Official Duty,✈️ Live Morning Airport Ground Duty (08:20 AM – 03:40 PM)
