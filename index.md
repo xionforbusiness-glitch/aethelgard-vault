@@ -242,3 +242,8 @@
 ## 📚 Newly Ingested & Cataloged Notes (Automated Librarian)
 
 - [[collision-apple-design-hi-collision-schem|Collision Apple Design Hi Collision Schem]] (`concepts`)
+
+
+## 📚 Newly Ingested & Cataloged Notes (Automated Librarian)
+
+- [[karpathy-claudemd-surgical-changes-protocol|Karpathy Claudemd Surgical Changes Protocol]] (`concepts`)
