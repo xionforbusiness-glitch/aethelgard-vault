@@ -247,3 +247,9 @@
 ## 📚 Newly Ingested & Cataloged Notes (Automated Librarian)
 
 - [[karpathy-claudemd-surgical-changes-protocol|Karpathy Claudemd Surgical Changes Protocol]] (`concepts`)
+
+
+## 📚 Newly Ingested & Cataloged Notes (Automated Librarian)
+
+- [[collision-collision-ecc-l-computer_vision|Collision Collision Ecc L Computer Vision]] (`concepts`)
+- [[2026-W44-executive-review|2026 W44 Executive Review]] (`reviews`)
