@@ -1,10 +1,19 @@
 Date,Day,Employee,Log_In,Log_Out,Duration_Formatted,Decimal_Hours,Status,Notes
-2026-11-01,Sunday,Omar Elnemr,08:20 AM,07:00 PM,10h 40m,10.67,Extended Shift,⚡ Live Extended Station Duty (08:20 AM – 07:00 PM / 10h 40m)
+2026-11-01,Sunday,Asad Hasouni,08:00 AM,04:00 PM,8h 00m,8.0,Official Duty,✈️ Live Daily Ground Duty (08:00 AM – 04:00 PM)
 2026-11-01,Sunday,Hanan,08:15 AM,06:45 PM,10h 30m,10.5,Extended Shift,⚡ Live Extended Station Duty (08:15 AM – 06:45 PM / 10h 30m)
-2026-11-01,Sunday,Osama Alkabbani,OFF,OFF,0h 00m,0.0,Day Off,🌴 Scheduled Rest Day (Off Duty)
-2026-11-01,Sunday,Yasmin,OFF,OFF,0h 00m,0.0,Day Off,🌴 Scheduled Rest Day (Off Duty)
-2026-11-01,Sunday,Mohammad Almohammad,OFF,OFF,0h 00m,0.0,Day Off,🌴 Scheduled Rest Day (Off Duty)
 2026-11-01,Sunday,Joudi Alghorani,OFF,OFF,0h 00m,0.0,Day Off,🌴 Scheduled Rest Day (Off Duty)
 2026-11-01,Sunday,Khaled,08:25 AM,06:40 PM,10h 15m,10.25,Extended Shift,⚡ Live Extended Station Duty (08:25 AM – 06:40 PM / 10h 15m)
+2026-11-01,Sunday,Mohammad Almohammad,OFF,OFF,0h 00m,0.0,Day Off,🌴 Scheduled Rest Day (Off Duty)
+2026-11-01,Sunday,Omar Elnemr,08:20 AM,07:00 PM,10h 40m,10.67,Extended Shift,⚡ Live Extended Station Duty (08:20 AM – 07:00 PM / 10h 40m)
+2026-11-01,Sunday,Osama Alkabbani,OFF,OFF,0h 00m,0.0,Day Off,🌴 Scheduled Rest Day (Off Duty)
 2026-11-01,Sunday,Raboushee,OFF,OFF,0h 00m,0.0,Day Off,🌴 Scheduled Rest Day (Off Duty)
-2026-11-01,Sunday,Asad Hasouni,-,-,0h 00m,0.0,Pending,⏳ Awaiting Report (New Member)
+2026-11-01,Sunday,Yasmin,OFF,OFF,0h 00m,0.0,Day Off,🌴 Scheduled Rest Day (Off Duty)
+2026-11-02,Monday,Asad Hasouni,-,-,0h 00m,0.0,Pending,⏳ Awaiting Report
+2026-11-02,Monday,Hanan,-,-,0h 00m,0.0,Pending,⏳ Awaiting Report
+2026-11-02,Monday,Joudi Alghorani,OFF,OFF,0h 00m,0.0,Day Off,🌴 Scheduled Rest Day (Off Duty)
+2026-11-02,Monday,Khaled,-,-,0h 00m,0.0,Pending,⏳ Awaiting Report
+2026-11-02,Monday,Mohammad Almohammad,-,-,0h 00m,0.0,Pending,⏳ Awaiting Report
+2026-11-02,Monday,Omar Elnemr,08:35 AM,03:40 PM,7h 05m,7.08,Official Duty,✈️ Live Daily Ground Duty (08:35 AM – 03:40 PM)
+2026-11-02,Monday,Osama Alkabbani,05:30 AM,06:45 PM,13h 15m,13.25,Extended Shift,⚡ Live Extended Station Duty (05:30 AM – 06:45 PM / 13h 15m)
+2026-11-02,Monday,Raboushee,-,-,0h 00m,0.0,Pending,⏳ Awaiting Report
+2026-11-02,Monday,Yasmin,08:35 AM,03:40 PM,7h 05m,7.08,Official Duty,✈️ Live Daily Ground Duty (08:35 AM – 03:40 PM)
