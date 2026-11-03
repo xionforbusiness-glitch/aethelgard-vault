@@ -258,3 +258,8 @@
 ## 📚 Newly Ingested & Cataloged Notes (Automated Librarian)
 
 - [[collision-kaggle_hybrid_c-media_worldbuil|Collision Kaggle Hybrid C Media Worldbuil]] (`concepts`)
+
+
+## 📚 Newly Ingested & Cataloged Notes (Automated Librarian)
+
+- [[collision-technical_skill-schema|Collision Technical Skill Schema]] (`concepts`)
