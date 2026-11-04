@@ -263,3 +263,8 @@
 ## 📚 Newly Ingested & Cataloged Notes (Automated Librarian)
 
 - [[collision-technical_skill-schema|Collision Technical Skill Schema]] (`concepts`)
+
+
+## 📚 Newly Ingested & Cataloged Notes (Automated Librarian)
+
+- [[collision-runway-windshea-2026-09-21|Collision Runway Windshea 2026 09 21]] (`concepts`)
