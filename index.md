@@ -269,3 +269,9 @@
 ## 📚 Newly Ingested & Cataloged Notes (Automated Librarian)
 
 - [[collision-runway-windshea-2026-09-21|Collision Runway Windshea 2026 09 21]] (`concepts`)
+
+
+## 📚 Newly Ingested & Cataloged Notes (Automated Librarian)
+
+- [[collision-white-house-pre-ai-automation-b|Collision White House Pre Ai Automation B]] (`concepts`)
+- [[vercel-agent-desktop-automation|Vercel Agent Desktop Automation]] (`concepts`)
