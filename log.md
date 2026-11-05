@@ -3,6 +3,10 @@
 > Chronological, append-only record of all LLM Wiki actions (ingest, query, lint, update).
 > Format: `## [YYYY-MM-DD] action | subject`
 
+## [2026-11-05] concept | Vercel Labs agent-desktop: Accessibility-Tree GUI Automation for AI Agents
+- **Action:** Created `concepts/vercel-agent-desktop-automation.md` documenting `vercel-labs/agent-desktop` (16k+ stars on GitHub), which enables AI agents (Claude Code, Hermes) to drive legacy desktop apps on macOS, Windows, and Linux via OS accessibility trees without pixel-guessing or mouse hijacking.
+- **Index:** Cataloged in `index.md`.
+
 ## [2026-10-31] concept | Karpathy's CLAUDE.md: 10 Coding Rules & Surgical Changes Protocol
 - **Action:** Created `concepts/karpathy-claudemd-surgical-changes-protocol.md` documenting Andrej Karpathy's rules for AI agents (Surgical Changes, Read Before Writing, Simplicity, and Verification Gates) to stop runaway PR bloat.
 - **Index:** Cataloged in `index.md`.
