@@ -33,3 +33,12 @@ Date,Day,Employee,Log_In,Log_Out,Duration_Formatted,Decimal_Hours,Status,Notes
 2026-11-04,Wednesday,Osama Alkabbani,05:30 AM,04:15 PM,10h 45m,10.75,Extended Shift,⚡ Live Extended Station Duty (05:30 AM – 04:15 PM / 10h 45m)
 2026-11-04,Wednesday,Raboushee,08:30 AM,05:15 PM,8h 45m,8.75,Official Duty,✈️ Live Daily Ground Duty (08:30 AM – 05:15 PM / Matched to Joudi)
 2026-11-04,Wednesday,Yasmin,OFF,OFF,0h 00m,0.0,Day Off,🌴 Scheduled Rest Day (Off Duty)
+2026-11-05,Thursday,Asad Hasouni,-,-,0h 00m,0.0,Pending,⏳ Awaiting Report
+2026-11-05,Thursday,Hanan,-,-,0h 00m,0.0,Pending,⏳ Awaiting Report
+2026-11-05,Thursday,Joudi Alghorani,08:25 AM,04:00 PM,7h 35m,7.58,Official Duty,✈️ Live Morning Airport Ground Duty (08:25 AM – 04:00 PM)
+2026-11-05,Thursday,Khaled,05:30 AM,06:45 PM,13h 15m,13.25,Extended Shift,⚡ Live Extended Station Duty (05:30 AM – 06:45 PM / 13h 15m)
+2026-11-05,Thursday,Mohammad Almohammad,OFF,OFF,0h 00m,0.0,Day Off,🌴 Scheduled Rest Day (Off Duty)
+2026-11-05,Thursday,Omar Elnemr,08:40 AM,07:00 PM,10h 20m,10.33,Extended Shift,⚡ Live Extended Station Duty (08:40 AM – 07:00 PM / 10h 20m)
+2026-11-05,Thursday,Osama Alkabbani,05:30 AM,06:45 PM,13h 15m,13.25,Extended Shift,⚡ Live Extended Station Duty (05:30 AM – 06:45 PM / 13h 15m)
+2026-11-05,Thursday,Raboushee,08:25 AM,04:00 PM,7h 35m,7.58,Official Duty,✈️ Live Morning Airport Ground Duty (08:25 AM – 04:00 PM / Matched to Joudi)
+2026-11-05,Thursday,Yasmin,08:25 AM,04:00 PM,7h 35m,7.58,Official Duty,✈️ Live Morning Airport Ground Duty (08:25 AM – 04:00 PM)
