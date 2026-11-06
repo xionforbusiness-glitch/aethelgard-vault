@@ -275,3 +275,8 @@
 
 - [[collision-white-house-pre-ai-automation-b|Collision White House Pre Ai Automation B]] (`concepts`)
 - [[vercel-agent-desktop-automation|Vercel Agent Desktop Automation]] (`concepts`)
+
+
+## 📚 Newly Ingested & Cataloged Notes (Automated Librarian)
+
+- [[collision-media_worldbuil-2026-10-01-ssd-|Collision Media Worldbuil 2026 10 01 Ssd ]] (`concepts`)
