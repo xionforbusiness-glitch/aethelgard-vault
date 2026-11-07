@@ -280,3 +280,8 @@
 ## 📚 Newly Ingested & Cataloged Notes (Automated Librarian)
 
 - [[collision-media_worldbuil-2026-10-01-ssd-|Collision Media Worldbuil 2026 10 01 Ssd ]] (`concepts`)
+
+
+## 📚 Newly Ingested & Cataloged Notes (Automated Librarian)
+
+- [[collision-media_worldbuil-claude-code-bor|Collision Media Worldbuil Claude Code Bor]] (`concepts`)
