@@ -285,3 +285,9 @@
 ## 📚 Newly Ingested & Cataloged Notes (Automated Librarian)
 
 - [[collision-media_worldbuil-claude-code-bor|Collision Media Worldbuil Claude Code Bor]] (`concepts`)
+
+
+## 📚 Newly Ingested & Cataloged Notes (Automated Librarian)
+
+- [[collision-laya-vs-typesaf-flight-simulati|Collision Laya Vs Typesaf Flight Simulati]] (`concepts`)
+- [[2026-W45-executive-review|2026 W45 Executive Review]] (`reviews`)
