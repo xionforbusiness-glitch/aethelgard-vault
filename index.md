@@ -296,3 +296,8 @@
 ## 📚 Newly Ingested & Cataloged Notes (Automated Librarian)
 
 - [[collision-security-action-free-tier-llm-a|Collision Security Action Free Tier Llm A]] (`concepts`)
+
+
+## 📚 Newly Ingested & Cataloged Notes (Automated Librarian)
+
+- [[collision-vercel-agent-de-laya-vs-typesaf|Collision Vercel Agent De Laya Vs Typesaf]] (`concepts`)
