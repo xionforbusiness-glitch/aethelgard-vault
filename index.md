@@ -306,3 +306,8 @@
 ## 📚 Newly Ingested & Cataloged Notes (Automated Librarian)
 
 - [[collision-2026-09-30-face-collision-obsid|Collision 2026 09 30 Face Collision Obsid]] (`concepts`)
+
+
+## 📚 Newly Ingested & Cataloged Notes (Automated Librarian)
+
+- [[collision-findquestions-c-macrodroid-doom|Collision Findquestions C Macrodroid Doom]] (`concepts`)
