@@ -13,26 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "entities/etihad-airways-station-operations.md",
+                "file": "concepts/minecraft-attack-on-titan-odm-modpack.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "etihad-airways-station-operations"
-            }
-          },
-          {
-            "id": "0b15ec98abce57c7",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "minecraft-attack-on-titan-odm-modpack"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -66,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "gas",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,7 +79,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -196,11 +186,17 @@
       "bases:Create new base": false
     }
   },
-  "active": "0b15ec98abce57c7",
+  "active": "dac06efd9ae26f08",
   "lastOpenFiles": [
-    "concepts/etihad-cadet-pilot-strategic-roadmap.md",
     "index.md",
+    "gear_hobbies_lifestyle.md",
+    "concepts/damascus-gas-water-heater-crystal-delonghi-guide.md",
+    "2026-11-09.md",
+    "technical_skills_knowledge_base.md",
+    "Untitled.canvas",
     "entities/etihad-airways-station-operations.md",
+    "log.md",
+    "concepts/etihad-cadet-pilot-strategic-roadmap.md",
     "raw/omar_elnemr_attendance_september_2026.csv",
     "work_attendance_and_shift_roster.md",
     "scripts/runway_windshear_analyzer.py",
@@ -237,12 +233,6 @@
     "raw/articles/2026-10-01-komemaru-japanese-restaurant-damascus-mashrou-dummar.md",
     "raw/articles/2026-10-01-ai-hacking-tools-intelligence-playbook-2026.md",
     "entities/komemaru-japanese-restaurant-damascus.md",
-    "concepts/wazuh-siem-xdr-deployment-guide.md",
-    "concepts/vanta-automated-security-compliance.md",
-    "concepts/top-13-offensive-security-and-red-teaming-tools.md",
-    "concepts/ssd-layer-streaming-moe-inference.md",
-    "concepts/kinetic-fui-motion-design-playbook.md",
-    "Untitled.canvas",
     "raw/assets/20260921_macrodroid_doomscroll_macro_config.jpg",
     "raw/assets/20260921_laya_vs_jev_system1_decision_model.jpg"
   ]

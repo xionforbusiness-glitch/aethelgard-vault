@@ -74,6 +74,7 @@
 - [[ECC]] — Everything Claude Code: comprehensive agent harness and prompt optimization toolkit.
 
 ## 💡 Concepts
+- [[concepts/damascus-gas-water-heater-crystal-delonghi-guide|damascus-gas-water-heater-crystal-delonghi-guide]] - Damascus gas water heater buying and troubleshooting guide: Crystal 10L digital gas geyser (85 USD at Bab Musalla / Bim Dimashq), DeLonghi low-pressure unit comparison, and EE error code diagnostics.
 - [[concepts/syrian-airlines-brand-identity-and-uniforms|syrian-airlines-brand-identity-and-uniforms]] — Syrian Airlines (RB/SYR) visual identity, aircraft livery redesign, and ground/cabin crew uniform dress code standards.
 - [[concepts/etihad-igs-training-curriculum|etihad-igs-training-curriculum]] — Etihad Airways International Ground Services (IGS) training handbook: GSM manuals, IATA SSR codes (WCHR/UMNR/MEDA), Special Meals (SPML), and visual standards.
 - [[runway-windshear-and-crosswind-analyzer]] — Aeronautical windshear & crosswind analyzer (ICAO Doc 9817 / Bowles F-Factor model): real-time vector decomposition for Damascus International Airport (OSDI/DAM), microburst detection, and fleet limits.
@@ -241,3 +242,9 @@
 ## 📚 Newly Ingested & Cataloged Notes (Automated Librarian)
 
 - [[collision-apple-design-hi-collision-schem|Collision Apple Design Hi Collision Schem]] (`concepts`)
+
+
+## 📚 Newly Ingested & Cataloged Notes (Automated Librarian)
+
+- [[damascus-gas-water-heater-crystal-delonghi-guide|Damascus Gas Water Heater Crystal Delonghi Guide]] (`concepts`)
+- [[2026-11-13-want-to-see-how-you-can-run-ai-models-for-free-wit|2026 11 13 Want To See How You Can Run Ai Models For Free Wit]] (`raw\reels`)

@@ -68,10 +68,15 @@ Working on the **Etihad Airways station counter** is one of the highest-reputati
 
 ## 🏆 4. Career & Resume Impact for Omar Elnemr
 
-Having **Saudia (`SV`)** and **Etihad Airways (`EY`)** on your ground handling portfolio creates an elite profile:
-* Demonstrates mastery over two of the most demanding Gulf legacy carriers.
-* Proves ability to manage both Departure Control Systems (DCS) and complex international cross-border passenger flows.
-* Direct gateway to station management roles, airline supervisor positions, and international handling contracts.
+Having **Etihad Airways (`EY`)**, **Turkish Airlines (`TK`)**, **flydubai (`FZ`)**, **Air Arabia (`G9`)**, and **Syrian Airlines (`RB`)** on your ground handling portfolio creates an elite aviation operations profile:
+* Demonstrates mastery over global full-service flag carriers (`EY`, `TK`), high-frequency regional carriers (`FZ`, `G9`), and national station operations (`RB` with an active Syrian Airlines DCS operator account).
+* Backed by **5 official Etihad Airways Learning & Development (L&D) certifications** (`raw/documents/etihad_training/certificates/`):
+  1. **Amadeus Customer Management (CM) – Certification (L&D)** (`32.00 Hrs`, 15/Oct/2026 — **91% Score**, Facilitator: *Muhammad Sohail*)
+  2. **Introduction to Ground Services (IGS) (L&D)** (`16.00 Hrs`, 06/Oct/2026, Facilitator: *Vanessa Mascarenhas*)
+  3. **INSPIRE – Airport Service Delivery Training (L&D)** (16/Oct/2026, Facilitator: *Muhammad Sohail*)
+  4. **Airport Disruption Management Workshop** (`1.00 Hr`, 29/Oct/2026, Facilitator: *Abdul Munaf Mohamed*)
+  5. **AUG Edition 2026-GSU-34** (30/Oct/2026, Signed by *Dr. Nadia Bastaki, Chief People, Government & Corporate Affairs Officer*)
+* Direct gateway to station operations, aviation infrastructure & management roles (including **UCC / UCK Damascus**), airline supervisor positions, and international handling contracts.
 
 ---
 

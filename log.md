@@ -3,6 +3,22 @@
 > Chronological, append-only record of all LLM Wiki actions (ingest, query, lint, update).
 > Format: `## [YYYY-MM-DD] action | subject`
 
+## [2026-11-09] career & ingest | SERAVIA Tenure Completion (08/2026–11/2026), 5 Etihad Certificates Archived & UCC/UCK Damascus ATS CV
+- **Action:** Documented completion of **Omar Elnemr's** tenure at **SERAVIA** (`2026-08-01` – `2026-11-08`) at Damascus International Airport (`DAM / OSDI`) and prepared a 2-page ATS-compliant professional CV targeting **UCC / UCK (Damascus)**.
+- **Carrier Portfolio Logged:** **Etihad Airways (`EY`)**, **Turkish Airlines (`TK`)**, **flydubai (`FZ`)**, **Air Arabia (`G9`)**, and **Syrian Airlines (`RB / SYR`)** (with active individual Syrian Airlines DCS operator account).
+- **5 Official Etihad Airways L&D Certificates Archived (`raw/documents/etihad_training/certificates/`):**
+  1. `Etihad_01_Introduction_to_Ground_Services_IGS_16Hrs_2026-10-06.pdf` — *Introduction to Ground Services (L&D)* (16.00 Hrs, 06/Oct/2026, Vanessa Mascarenhas)
+  2. `Etihad_02_Amadeus_Customer_Management_CM_32Hrs_2026-10-15.pdf` — *Amadeus Customer Management (CM) - Certification (L&D)* (32.00 Hrs, 15/Oct/2026, 91% score, Muhammad Sohail)
+  3. `Etihad_03_INSPIRE_Airport_Service_Delivery_2026-10-16.pdf` — *INSPIRE - Airport Service Delivery Training (L&D)* (16/Oct/2026, Muhammad Sohail)
+  4. `Etihad_04_Airport_Disruption_Management_Workshop_2026-10-29.pdf` — *Airport Disruption Management Workshop* (1.00 Hr, 29/Oct/2026, Abdul Munaf Mohamed)
+  5. `Etihad_05_AUG_Edition_2026-GSU-34_2026-10-30.pdf` — *AUG Edition 2026-GSU-34* (30/Oct/2026, Dr. Nadia Bastaki)
+- **Files Modified:** `03 Work Experience.md`, `professional_work_history.md`, `entities/etihad-airways-station-operations.md`, `log.md`.
+- **Cross-linked:** [[03 Work Experience]], [[professional_work_history]], [[entities/etihad-airways-station-operations]], [[concepts/etihad-igs-training-curriculum]], [[log]]
+
+## [2026-11-09] ingest | Damascus Gas Water Heater Guide: Crystal 10L ($85 Bab Musalla) & De'Longhi Low-Pressure Unit
+- **Action:** Created `concepts/damascus-gas-water-heater-crystal-delonghi-guide.md` logging the **"Crystal" 10L digital gas geyser** at **Bab Musalla (Bim Dimashq)** priced at **\$85 USD**, along with low-pressure De'Longhi water heater specifications and `"EE"` error code troubleshooting steps.
+- **Cross-linked:** [[concepts/damascus-gas-water-heater-crystal-delonghi-guide]], [[gear_hobbies_lifestyle]], [[concepts/damascus-apartment-rental-guide]], [[index]], [[log]]
+
 ## [2026-10-26] skill | Apple Design Skill (Human Interface Guidelines UI/UX Audit Engine)
 - **Action:** Installed `dickwu/apple-design-skill` directly into Hermes (`~/.hermes/profiles/llm-wiki/skills/design/apple-design/`) containing 123+ pages of Apple HIG guidelines, cross-platform translations (React, Flutter, Tauri), and created the concept note `concepts/apple-design-hig-audit-skill.md`.
 - **Index:** Cataloged in `index.md`.
