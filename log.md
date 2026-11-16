@@ -1205,3 +1205,9 @@
 - **App:** `Telegram`
 - **Content:** (No Title Provided)
 - **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## 📞 [2026-11-16 05:08] Telegram Voice Call (`call_20261116_020733_339`)
+- **Transcript:** [[2026-11-16-telegram-call]]
+- **Turns:** 6
+- **Actions:** queued timed_callback job_f69ab14c: Redial Omar; requested graceful call hangup
+- **Last Exchange:** Omar: "[Omar spoke via live voice]" -> Aethelgard: "Hanging up and redialing you right away, Omar."
