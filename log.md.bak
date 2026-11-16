@@ -1,0 +1,1221 @@
+# Aethelgard Vault — Wiki Log
+
+> Chronological, append-only record of all LLM Wiki actions (ingest, query, lint, update).
+> Format: `## [YYYY-MM-DD] action | subject`
+
+<<<<<<< HEAD
+## [2026-11-09] career & ingest | SERAVIA Tenure Completion (08/2026–11/2026), 5 Etihad Certificates Archived & UCC/UCK Damascus ATS CV
+- **Action:** Documented completion of **Omar Elnemr's** tenure at **SERAVIA** (`2026-08-01` – `2026-11-08`) at Damascus International Airport (`DAM / OSDI`) and prepared a 2-page ATS-compliant professional CV targeting **UCC / UCK (Damascus)**.
+- **Carrier Portfolio Logged:** **Etihad Airways (`EY`)**, **Turkish Airlines (`TK`)**, **flydubai (`FZ`)**, **Air Arabia (`G9`)**, and **Syrian Airlines (`RB / SYR`)** (with active individual Syrian Airlines DCS operator account).
+- **5 Official Etihad Airways L&D Certificates Archived (`raw/documents/etihad_training/certificates/`):**
+  1. `Etihad_01_Introduction_to_Ground_Services_IGS_16Hrs_2026-10-06.pdf` — *Introduction to Ground Services (L&D)* (16.00 Hrs, 06/Oct/2026, Vanessa Mascarenhas)
+  2. `Etihad_02_Amadeus_Customer_Management_CM_32Hrs_2026-10-15.pdf` — *Amadeus Customer Management (CM) - Certification (L&D)* (32.00 Hrs, 15/Oct/2026, 91% score, Muhammad Sohail)
+  3. `Etihad_03_INSPIRE_Airport_Service_Delivery_2026-10-16.pdf` — *INSPIRE - Airport Service Delivery Training (L&D)* (16/Oct/2026, Muhammad Sohail)
+  4. `Etihad_04_Airport_Disruption_Management_Workshop_2026-10-29.pdf` — *Airport Disruption Management Workshop* (1.00 Hr, 29/Oct/2026, Abdul Munaf Mohamed)
+  5. `Etihad_05_AUG_Edition_2026-GSU-34_2026-10-30.pdf` — *AUG Edition 2026-GSU-34* (30/Oct/2026, Dr. Nadia Bastaki)
+- **Files Modified:** `03 Work Experience.md`, `professional_work_history.md`, `entities/etihad-airways-station-operations.md`, `log.md`.
+- **Cross-linked:** [[03 Work Experience]], [[professional_work_history]], [[entities/etihad-airways-station-operations]], [[concepts/etihad-igs-training-curriculum]], [[log]]
+
+## [2026-11-09] ingest | Damascus Gas Water Heater Guide: Crystal 10L ($85 Bab Musalla) & De'Longhi Low-Pressure Unit
+- **Action:** Created `concepts/damascus-gas-water-heater-crystal-delonghi-guide.md` logging the **"Crystal" 10L digital gas geyser** at **Bab Musalla (Bim Dimashq)** priced at **\$85 USD**, along with low-pressure De'Longhi water heater specifications and `"EE"` error code troubleshooting steps.
+- **Cross-linked:** [[concepts/damascus-gas-water-heater-crystal-delonghi-guide]], [[gear_hobbies_lifestyle]], [[concepts/damascus-apartment-rental-guide]], [[index]], [[log]]
+=======
+## [2026-10-31] concept | Karpathy's CLAUDE.md: 10 Coding Rules & Surgical Changes Protocol
+- **Action:** Created `concepts/karpathy-claudemd-surgical-changes-protocol.md` documenting Andrej Karpathy's rules for AI agents (Surgical Changes, Read Before Writing, Simplicity, and Verification Gates) to stop runaway PR bloat.
+- **Index:** Cataloged in `index.md`.
+>>>>>>> f6d3435 (Add Karpathy CLAUDE.md surgical changes protocol and index)
+
+## [2026-10-26] skill | Apple Design Skill (Human Interface Guidelines UI/UX Audit Engine)
+- **Action:** Installed `dickwu/apple-design-skill` directly into Hermes (`~/.hermes/profiles/llm-wiki/skills/design/apple-design/`) containing 123+ pages of Apple HIG guidelines, cross-platform translations (React, Flutter, Tauri), and created the concept note `concepts/apple-design-hig-audit-skill.md`.
+- **Index:** Cataloged in `index.md`.
+
+## [2026-10-25] concept | MiroFish: Universal Swarm Intelligence & Multi-Agent Simulation Engine
+- **Action:** Created `concepts/mirofish-swarm-intelligence-simulation-engine.md` documenting `666ghj/MiroFish` (82k+ stars), an open-source swarm intelligence engine that builds parallel digital societies of heterogeneous AI agents to stress-test business ideas, pitches, and market dynamics.
+- **Index:** Cataloged in `index.md`.
+
+## [2026-10-25] concept | Minecraft Attack on Titan (AOT) ODM Gear & Shiganshina Modpack
+- **Action:** Created `concepts/minecraft-attack-on-titan-odm-modpack.md` cataloging the complete modpack, shaders (Complementary/BSL), and 1:1 Shiganshina Wall Maria map setup shown in GorillaCrafter's reel.
+- **Status:** Saved into the vault as a designated gaming profile ready to deploy when Omar gets his new gaming laptop/PC.
+- **Index:** Cataloged in `index.md`.
+
+## [2026-10-25] skill | LLM Council (مجلس الذكاء الاصطناعي) Multi-Agent Decision Engine
+- **Action:** Implemented the full **LLM Council** skill into Hermes Agent (`~/.hermes/profiles/llm-wiki/skills/decision-making/llm-council/SKILL.md`) and created the conceptual reference note `concepts/llm-council-decision-framework.md`.
+- **Architecture:** Based on Andrej Karpathy's methodology—forces 5 distinct AI advisors (Contrarian, First Principles, Expansionist, Outsider, Executor) to independently analyze high-stakes questions, anonymously peer-review each other, and deliver a battle-tested Chairman verdict.
+- **Index:** Cataloged in `index.md`.
+
+## [2026-10-25] concept | Reverse API Engineer: Turn Any Website into a Native Typed API
+- **Action:** Created `concepts/reverse-api-engineer-website-to-api.md` documenting `kalil0321/reverse-api-engineer`, an open-source tool and MCP server that intercepts internal browser network traffic (HAR files) and uses LLMs to synthesize typed API clients (Python/TypeScript/Go), bypassing fragile DOM scraping.
+- **Index:** Cataloged in `index.md`.
+
+## [2026-10-24] concept | Top 10 Claude Code Power-User Workflows (Boris Cherny Creator Playbook)
+- **Action:** Created `concepts/claude-code-boris-cherny-power-user-playbook.md` documenting the 10 core practices shared by Claude Code's creator Boris Cherny (Shift+Tab Plan Mode, multi-session parallel agents via Git worktrees, automated AI merge resolution, runnable verification gates, and CLAUDE.md institutional memory).
+- **Index:** Cataloged in `index.md`.
+
+## [2026-10-24] concept | AI-Driven Motion Graphics: 15 Styles & Code-Based Animation (Prompt Motion)
+- **Action:** Created `concepts/ai-motion-graphics-code-design-styles.md` documenting the deterministic code-based animation pipeline (SVG, Canvas, Three.js, Puppeteer, audio.py, FFmpeg) and 15 curated motion design styles.
+- **Index:** Cataloged in `index.md`.
+
+## [2026-10-24] concept | Google ARTEMIS: Autonomous Android Mobile Automation Framework
+- **Action:** Created `concepts/google-artemis-android-automation.md` documenting `google/artemis` (14k+ stars), Google's open-source framework connecting AI agents (Claude Code, Hermes, Antigravity) directly to Android hardware via ADB and MCP with a 99%+ success rate on AndroidWorld.
+- **Index:** Cataloged in `index.md`.
+
+## [2026-10-24] concept | The Vibe Coder's Legal & Compliance Checklist (Don't Get Sued Playbook)
+- **Action:** Created `concepts/vibe-coder-legal-compliance-checklist.md` documenting essential legal and regulatory protections for AI-built apps and MVPs (GDPR/CCPA privacy disclosures, Terms of Service, consent banners, WCAG accessibility, commercial asset licensing, and anti-dark pattern requirements).
+- **Index:** Cataloged in `index.md`.
+
+## [2026-10-20] concept | Unlazy: Anti-Laziness & Runnable Gates Skill for AI Agents
+- **Action:** Created `concepts/unlazy-anti-laziness-agent-skill.md` documenting `Leonxlnx/unlazy` (4k+ stars), an agent completion discipline skill that enforces Depth Trees, machine-checkable runnable gates, and Git worktree parallelization to eliminate AI partial compliance.
+- **Index:** Cataloged in `index.md`.
+
+## [2026-10-19] concept | Earshot: Audio Perception & Sound Synthesis for AI Agents
+- **Action:** Created `concepts/earshot-audio-toolkit-for-ai-agents.md` documenting `Leonxlnx/earshot`, an open-source audio perception and DSP sound effect synthesis toolkit for AI coding agents via MCP and Python.
+- **Index:** Cataloged in `index.md`.
+
+## [2026-10-18] security | Linux Server Stealth Hardening: Disabling ICMP Ping in UFW
+- **Action:** Created `concepts/linux-stealth-disable-icmp-ping-ufw.md` documenting NetworkChuck's technique to hide Linux cloud servers from automated ping sweeps by dropping ICMP echo-request packets in `/etc/ufw/before.rules`.
+- **Index:** Cataloged in `index.md`.
+
+## [2026-10-18] concept | Oracle Cloud (OCI) Always Free Tier Architecture Guide
+- **Action:** Created `concepts/oracle-cloud-always-free-tier-guide.md` documenting Oracle Cloud's Always Free tier (4 OCPUs / 24GB ARM RAM pool, 2 AMD Micro VMs, 200GB block storage, 10TB monthly egress) and designed a 3-server deployment architecture for hosting bots, Ollama LLMs, and backups.
+- **Index:** Cataloged in `index.md`.
+
+## [2026-10-18] concept | REA: Reverse Engineer Anything (morluto/rea MCP)
+- **Action:** Created `concepts/rea-reverse-engineer-anything-mcp.md` detailing the viral open-source MCP tool `morluto/rea` (300k+ stars on GitHub). Explains how it connects LLMs (Claude Code, Codex) directly to disassemblers (Hopper, Ghidra) for automated binary reverse engineering and behavioral cloning.
+- **Index:** Cataloged in `index.md`.
+
+## [2026-10-16] security | Git History Secret Audit & Pending Rotation Advisory
+- **Action:** Created `concepts/security-action-git-history-secrets-audit.md` documenting leaked tokens in git history (PAT, Telegram bot token) and outlined the zero-downtime 4-step remediation plan for Omar to execute at a later scheduled time.
+- **Index:** Cataloged in `index.md`.
+
+## [2026-10-16] update | Vibe Coder Security Fix Kit & AppSec Hardening Playbook
+- **Action:** Created `concepts/vibe-coder-security-fix-kit.md` detailing the 6 critical attack vectors in AI-generated web apps (Rate limiting, Server-verified auth, Row-Level Security, Exposed secrets, Async queues, and Load testing).
+- **Tooling:** Included single-prompt copy-paste remedies and a Master 1-Pass Security Audit Prompt for AI coding assistants.
+- **Index:** Linked in `index.md` under concepts.
+
+## [2026-10-16] update | Etihad Altéa 91% Certification & Internal Cadet Pilot Roadmap
+- **Action:** Created `concepts/etihad-cadet-pilot-strategic-roadmap.md` documenting the multi-year trajectory for Omar Elnemr (SERAVIA Ground Handling -> Direct Etihad Staff -> Internal Cadet Pilot Sponsorship).
+- **Milestones:** Logged Altéa DCS certification completion with a 91% score. Outlined 4-phase strategic roadmap integrating professional milestones, marriage timeline (2027–2028), and cadet flight assessment before age 30.
+- **Files Modified:** `concepts/etihad-cadet-pilot-strategic-roadmap.md`, `index.md`, `log.md`.
+- **Cross-linked:** [[concepts/etihad-cadet-pilot-strategic-roadmap]], [[entities/etihad-airways-station-operations]], [[00 Profile]], [[index]], [[log]]
+
+## [2026-10-07] update | Airport Official Ground Duty Log-In (08:16 AM)
+- **Action:** Logged live station check-in for **Omar Elnemr** and **Mohamed Adnan** at Damascus International Airport (`DAM / OSDI`) with official log-in time `08:16 AM`.
+- **Shift Duration:** `08:16 AM → 04:00 PM` (7h 44m / `7.73 hrs`).
+- **Cumulative Metrics:**
+  - Omar Elnemr: **115h 39m** (`115.65 hrs` across 15 days).
+  - Mohamed Adnan: **134h 24m** (`134.39 hrs` across 15 days).
+- **Files Modified:** `work_attendance_and_shift_roster.md`, `raw/attendance_october_2026.csv`, `attendance_master_2026.xlsx`, `log.md`.
+- **Cross-linked:** [[work_attendance_and_shift_roster]], [[03 Work Experience]], [[log]]
+
+## [2026-10-03] update | Etihad IGS Training Session Logged (08:00–16:00 DAM)
+- **Action:** Logged active 8.0-hour Etihad IGS Training session on Saturday, October 03, 2026 (08:00 AM – 04:00 PM DAM / MS Teams).
+- **Attendance Metrics:** Added 8h 00m to October cycle; Omar's cumulative total updated to **65h 40m** (65.67 hrs across 8 shifts).
+- **Files Modified:** `work_attendance_and_shift_roster.md`, `raw/attendance_october_2026.csv`, `concepts/etihad-igs-training-curriculum.md`, `log.md`.
+- **Cross-linked:** [[work_attendance_and_shift_roster]], [[concepts/etihad-igs-training-curriculum]], [[entities/etihad-airways-station-operations]], [[03 Work Experience]], [[log]]
+
+## [2026-10-03] concept | Syrian Airlines Visual Identity, Livery & Uniform Dress Code Standards
+- **Action:** Created `concepts/syrian-airlines-brand-identity-and-uniforms.md` detailing the visual identity rebrand, aircraft livery overhaul, and uniform dress code standards for ground handling staff, cabin crew, and flight deck.
+- **Notes Updated:** `index.md`, `01 Technical Skills.md`, `log.md`.
+- **Cross-linked:** [[concepts/syrian-airlines-brand-identity-and-uniforms]], [[aviation_ground_operations_dcs_guide]], [[03 Work Experience]], [[index]], [[log]]
+
+## [2026-10-03] update | Etihad IGS Training MS Teams Invite & System Requirements (Oct 5–6)
+- **Source:** Calendar invite email from Vanessa Mascarenhas (`Training Officer - Operations Training, L&D`).
+- **Asset Preserved:** `raw/assets/etihad_igs_training_calendar_invite.jpg`.
+- **Key Details Ingested:**
+  - Schedule: Monday Oct 05 – Tuesday Oct 06, 2026 (2 days x 8 hours).
+  - Timezone: 09:00 AM AUH Local Time = **08:00 AM Damascus Local Time**.
+  - Mandatory Hardware: Laptop/Desktop PC ONLY with wired/steady broadband, operational webcam & microphone on Microsoft Teams.
+- **Notes Updated:** `concepts/etihad-igs-training-curriculum.md`, `work_attendance_and_shift_roster.md`, `log.md`.
+- **Cross-linked:** [[concepts/etihad-igs-training-curriculum]], [[entities/etihad-airways-station-operations]], [[work_attendance_and_shift_roster]], [[log]]
+
+## [2026-10-03] ingest | Etihad Airways IGS Training Curriculum & Study Pack
+- **Source:** Official Operations Training email from Vanessa Mascarenhas (L&D).
+- **Asset Preserved:** `raw/assets/etihad_igs_training_materials_email.jpg`.
+- **Concept Created:** `concepts/etihad-igs-training-curriculum.md` (Comprehensive study guide covering the Guest Service Manual, Airport Service & Visual Standards, IATA SSR codes (WCHR/WCHS/UMNR/MEDA/INAD), Special Meal SPML codes, and Abu Dhabi hub transit network).
+- **Notes Updated:** `entities/etihad-airways-station-operations.md`, `index.md`, `log.md`.
+- **Cross-linked:** [[concepts/etihad-igs-training-curriculum]], [[entities/etihad-airways-station-operations]], [[aviation_ground_operations_dcs_guide]], [[03 Work Experience]], [[index]], [[log]]
+
+## [2026-10-03] update | Saturday Oct 03 Day Off Logged for Omar
+- **Action:** Recorded Saturday, October 03, 2026 as a **Scheduled Day Off (No shift)** for Omar Elnemr.
+- **Files Modified:** `work_attendance_and_shift_roster.md`, `raw/attendance_october_2026.csv`, `log.md`.
+- **Cross-linked:** [[work_attendance_and_shift_roster]], [[03 Work Experience]], [[log]]
+
+## [2026-10-02] analysis & entity | Etihad Airways (EY / ETD) Station Operations Playbook
+- **Action:** Created `entities/etihad-airways-station-operations.md` covering airline profile, comparison against Turkish/Air Arabia/AJet/Syrian Air, Amadeus Altéa DCS handling, Abu Dhabi (AUH) transit visa auditing, and career impact.
+- **Notes Updated:** `03 Work Experience.md` (Added Etihad Airways carrier assignment), `index.md` (Registered entity), `log.md`.
+- **Cross-linked:** [[entities/etihad-airways-station-operations]], [[aviation_ground_operations_dcs_guide]], [[03 Work Experience]], [[professional_work_history]], [[01 Technical Skills]], [[index]], [[log]]
+
+## [2026-10-02] update | October 02 Team Day Off Logged
+- **Action:** Recorded Friday, October 02, 2026 as a **Scheduled Team Day Off (No shift)** across all 10 members.
+- **Files Modified:** `work_attendance_and_shift_roster.md`, `raw/attendance_october_2026.csv`, `log.md`.
+- **Cross-linked:** [[work_attendance_and_shift_roster]], [[03 Work Experience]], [[log]]
+
+## [2026-10-02] upgrade | Runway Windshear & Crosswind Vector Engine Deployment
+- **Authorization:** `runway_windshear_analyzer` engine upgrade authorized by Omar Elnemr.
+- **Engine Script Created:** `scripts/runway_windshear_analyzer.py` (Implements ICAO Doc 9817 LLWAS models, NASA/FAA Bowles F-Factor hazard indices, headwind/crosswind/tailwind decompositions, wet/dry runway fleet limits for B777/A320/B787/A330, and Damascus International Airport OSDI/DAM 05R/23L & 05L/23R runway configurations).
+- **Concept Created:** `concepts/runway-windshear-and-crosswind-analyzer.md`.
+- **Notes Updated:**
+  - `01 Technical Skills.md` (Added Section 7: Aviation Systems & Flight Operations Engineering).
+  - `index.md` (Registered concept under Concepts, updated catalog).
+- **Files Modified/Created:** `scripts/runway_windshear_analyzer.py`, `concepts/runway-windshear-and-crosswind-analyzer.md`, `01 Technical Skills.md`, `index.md`, `log.md`.
+- **Cross-linked:** [[runway-windshear-and-crosswind-analyzer]], [[aviation_ground_operations_dcs_guide]], [[03 Work Experience]], [[01 Technical Skills]], [[index]], [[log]]
+
+## [2026-10-02] lint | Vault Health Audit & Link Graph Diagnostics
+- **Action:** Executed full vault health check and linting pass across all 75 markdown notes.
+- **Findings:**
+  - Total Vault Markdown Files: 75
+  - Broken Wikilinks: 53 (mostly legacy hierarchical paths e.g. `[[Technical/Skills_and_Stack]]` and unescaped brackets).
+  - Orphan Notes: 13 (cataloged in index.md but missing bi-directional context links).
+  - Frontmatter Compliance Issues: 4 notes missing YAML headers (`ECC.md`, `sea_of_conquest_tactical_guide.md`, `2026-09-21.md`, `2026-09-30-facebook-reels-ingest-batch.md`).
+- **Files Modified:** `log.md`
+- **Cross-linked:** [[index]], [[SCHEMA]], [[vault_index_dashboard]], [[log]]
+
+## [2026-10-02] update | October 2026 Shift Ingest (Saudia Airlines Training Session — Oct 01)
+- **Action:** Updated October 1, 2026 shift logs (`07:45 AM – 02:00 PM` = 6h 15m) for Yasmin, Tarek Orfhly, and Rasheed Akel to specify **Saudia (Saudi Arabian Airlines) Training Session**.
+- **Files Updated:** `raw/attendance_october_2026.csv`, `raw/attendance_september_2026.csv`, `work_attendance_and_shift_roster.md`.
+- **Cumulative Totals:**
+  - **Rasheed Akel:** 72h 15m (72.25 hrs across 8 shifts).
+  - **Tarek Orfhly:** 60h 45m (60.75 hrs across 7 shifts).
+  - **Yasmin:** 58h 45m (58.75 hrs across 7 shifts).
+- **Cross-linked:** [[work_attendance_and_shift_roster]], [[03 Work Experience]], [[professional_work_history]], [[index]], [[log]]
+
+## [2026-10-02] update | Full Team Shift Roster & 06:30 AM / 04:00 PM Final Normalization (10 Members)
+- **Action:** Standardized Wednesday 23/09 shifts to **06:30 AM – 04:00 PM (9h 30m)** and Sep 27–29 log out times to **04:00 PM (16:00)** across `work_attendance_and_shift_roster.md` and `raw/attendance_september_2026.csv`.
+- **Adjusted Final Team Totals (602h 40m Total Across 58 Shifts):**
+  - **Mohamed Adnan:** 75h 40m (75.67 hrs across 7 days; 4 early dawn shifts at 03:40 & 04:00 AM).
+  - **Rasheed Akel:** 66h 00m (66.00 hrs across 7 days; early dawn shift at 03:00 AM).
+  - **Joudi Alghorani:** 65h 45m (65.75 hrs across 7 days; early dawn shift at 03:15 AM).
+  - **Hanan:** 65h 05m (65.08 hrs across 7 days; early dawn shift at 03:30 AM).
+  - **Khaled:** 62h 00m (62.00 hrs across 7 days).
+  - **Raboushee:** 59h 00m (59.00 hrs across 7 days).
+  - **Omar Elnemr:** 57h 40m (57.67 hrs across 7 days).
+  - **Tarek Orfhly:** 54h 30m (54.50 hrs across 6 days; 1 Day Off on Fri 25/09).
+  - **Yasmin:** 52h 30m (52.50 hrs across 6 days; 1 Day Off on Sat 26/09).
+  - **Talal:** 44h 30m (44.50 hrs across 4 active shifts; 2 early dawn shifts at 03:00 AM).
+- **Files Modified:** `work_attendance_and_shift_roster.md`, `raw/attendance_september_2026.csv`, `log.md`.
+- **Cross-linked:** [[work_attendance_and_shift_roster]], [[03 Work Experience]], [[professional_work_history]], [[index]], [[log]]
+
+## [2026-10-02] ingest & analysis | SSD Layer Weight Streaming vs VRAM Inference (Colibri / AirLLM)
+- **Source:** Facebook Reel (`https://www.facebook.com/share/r/1K9aNy13hD/`) by Alan Brown ("Running 744B parameter model on laptop with no GPU").
+- **Raw File Created:** `raw/articles/2026-10-01-ssd-streaming-744b-model-inference-colibri.md`
+- **Concept Created:** `concepts/ssd-layer-streaming-moe-inference.md` (Deep dive into MoE layer streaming vs full VRAM loading, PCIe NVMe SSD bandwidth limits vs VRAM memory bandwidth, mathematical token generation speed ceilings, and why Kaggle scratch disk limits prevent running 700B+ models).
+- **Notes Updated:**
+  - `01 Technical Skills.md` (Added Inference Optimization & Offloading link in Section 1)
+  - `index.md` (Registered concept under Concepts, bumped total pages to 56)
+- **Cross-linked:** [[ssd-layer-streaming-moe-inference]], [[kaggle_hybrid_cloud_runner]], [[kaggle-llm-backend-deployment]], [[01 Technical Skills]], [[index]], [[log]]
+
+## [2026-10-02] reminder & brief | Wazuh SIEM & XDR Lab Deployment
+- **Context:** Delivered automated briefing and quick-start deployment reminder for the open-source Wazuh SIEM & XDR lab based on NetworkChuck's architecture guide.
+- **Vault References:** [[wazuh-siem-xdr-deployment-guide]], [[01 Technical Skills]], `raw/articles/2026-10-01-networkchuck-wazuh-siem-xdr-guide.md`
+- **Topics Covered:** Single-node Docker deployment, OpenSearch indexing, FIM, Vulnerability scanning (CVE), SCA benchmarks, and automated Active Response.
+
+## [2026-10-01] ingest | AI-Powered Offensive Security & Advanced OSINT (2026)
+- **Source:** Hacking Tutorials Daily Video (`https://www.facebook.com/share/v/1CfVXVhTR6/` — "AI Hacking Tools So Powerful They Feel Illegal In 2026").
+- **Raw File Created:** `raw/articles/2026-10-01-ai-hacking-tools-intelligence-playbook-2026.md`
+- **Concept Created:** `concepts/ai-powered-offensive-security-and-osint-playbook.md` (Deep dive into 7 AI security mechanisms: PimEyes CNN vector facial embeddings, Picarta.ai quadtree vision geolocation, Lenso.ai perceptual hashing & CLIP embeddings, Censys NLP query translation, ANY.RUN interactive sandboxing with AI MITRE narration, VirusTotal Code Insight semantic deobfuscation, and Threat Intelligence pivoting).
+- **Notes Updated:**
+  - `01 Technical Skills.md` (Added AI-Powered OSINT & Threat Intel in Section 3)
+  - `index.md` (Registered concept under Concepts, bumped total pages to 55)
+- **Cross-linked:** [[ai-powered-offensive-security-and-osint-playbook]], [[01 Technical Skills]], [[ai-red-teaming-and-llm-hacking-playbook]], [[top-13-offensive-security-and-red-teaming-tools]], [[wazuh-siem-xdr-deployment-guide]], [[index]], [[log]]
+
+## [2026-10-01] ingest | Top 13 Offensive Security & Red Teaming Tools (Thom Code)
+- **Source:** Thom Code Video (`https://www.facebook.com/share/v/1DboQFbYXt/` — "I Tried 500+ Hacking Tools, These 13 Should Be ILLEGAL").
+- **Raw File Created:** `raw/articles/2026-10-01-thom-code-13-essential-hacking-tools-playbook.md`
+- **Concept Created:** `concepts/top-13-offensive-security-and-red-teaming-tools.md` (Curated 4-phase attack lifecycle blueprint: Shodan/Maltego OSINT, BBOT/CloudFox cloud attack surfaces, Evilginx3 MitM MFA bypass, Caido Rust web proxy, Nuclei scanner, BloodHound AD attack graphs, and CyberChef deobfuscation).
+- **Notes Updated:**
+  - `01 Technical Skills.md` (Added Offensive Security & Red Teaming link in Section 3)
+  - `index.md` (Registered concept under Concepts, bumped total pages to 54)
+- **Cross-linked:** [[top-13-offensive-security-and-red-teaming-tools]], [[01 Technical Skills]], [[ai-red-teaming-and-llm-hacking-playbook]], [[wazuh-siem-xdr-deployment-guide]], [[networking_wireshark_playbook]], [[index]], [[log]]
+
+## [2026-10-01] query & guide | Damascus Apartment Rental Intelligence ($100–$250/mo)
+- **Subject:** Unfurnished apartment rental market analysis in Damascus and connected suburbs within $100–$250 USD/month.
+- **Concept Created:** `concepts/damascus-apartment-rental-guide.md` (Neighborhood tier breakdowns across Dahiyet Qudsaya, Rukn al-Din, Midan, Barzeh, Jaramana, critical power/ampere & water infrastructure audits, contract norms, and broker search methods).
+- **Notes Updated:**
+  - `index.md` (Registered concept under Concepts, bumped total pages to 53)
+- **Cross-linked:** [[damascus-apartment-rental-guide]], [[00 Profile]], [[04 Interests & Gear]], [[index]], [[log]]
+
+## [2026-10-01] ingest | AI Red Teaming & LLM Hacking Playbook (NetworkChuck)
+- **Source:** NetworkChuck Video & Reel ("become an AI HACKER (it's easier than you think)").
+- **Raw File Created:** `raw/articles/2026-10-01-networkchuck-become-an-ai-hacker-roadmap.md`
+- **Asset Preserved:** `raw/assets/networkchuck_ai_hacker_screenshot.jpg`
+- **Concept Created:** `concepts/ai-red-teaming-and-llm-hacking-playbook.md` (Strategic roadmap connecting Omar's RLHF evaluation & Linux/networking background to offensive AI security: OWASP Top 10 for LLMs, direct/indirect prompt injection, agent RCE, markdown leak exfiltration, `garak`, `PyRIT`, `promptfoo`, and interactive labs on Gandalf/PortSwigger).
+- **Notes Updated:**
+  - `01 Technical Skills.md` (Added AI Red Teaming & LLM Security in Section 1)
+  - `index.md` (Registered concept under Concepts, bumped total pages to 52)
+- **Cross-linked:** [[ai-red-teaming-and-llm-hacking-playbook]], [[01 Technical Skills]], [[ai_evaluation_annotation_handbook]], [[03 Work Experience]], [[wazuh-siem-xdr-deployment-guide]], [[index]], [[log]]
+
+## [2026-10-01] ingest | Vanta & Automated Security Compliance (NetworkChuck)
+- **Source:** NetworkChuck Reel & Sponsorship (`vanta.com/chuck`).
+- **Raw File Created:** `raw/articles/2026-10-01-vanta-automated-compliance-soc2-iso27001.md`
+- **Asset Preserved:** `raw/assets/networkchuck_vanta_compliance_screenshot.jpg`
+- **Concept Created:** `concepts/vanta-automated-security-compliance.md` (Deep dive into continuous compliance automation, SOC 2 Type I/II, ISO 27001, HIPAA, GDPR, API evidence collection across AWS/GitHub/Okta, Vanta Agent laptop telemetry, and Trust Centers).
+- **Notes Updated:**
+  - `01 Technical Skills.md` (Added Security Compliance & Trust link)
+  - `index.md` (Registered concept under Concepts, bumped total pages to 51)
+- **Cross-linked:** [[vanta-automated-security-compliance]], [[01 Technical Skills]], [[wazuh-siem-xdr-deployment-guide]], [[index]], [[log]]
+
+## [2026-10-01] ingest & reminder | Wazuh SIEM & XDR Security Operations (NetworkChuck)
+- **Source:** NetworkChuck Video (`https://www.facebook.com/share/v/17jPdRb5eX/` / `https://www.youtube.com/watch?v=3CaG2GI1kn0`).
+- **Raw File Created:** `raw/articles/2026-10-01-networkchuck-wazuh-siem-xdr-guide.md`
+- **Concept Created:** `concepts/wazuh-siem-xdr-deployment-guide.md` (Architecture breakdown, Docker single-node deploy runbook, FIM, SCA, CVE detection, Active Response automated IP drop, and Linux/Windows agent deployment).
+- **Scheduled Reminder:** Created cron job `bb7add284d22` scheduled for **Tomorrow at 10:00 AM (2026-10-02)** with session reply attachment.
+- **Notes Updated:**
+  - `01 Technical Skills.md` (Added Section 3 SIEM & Endpoint Security link)
+  - `index.md` (Registered concept under Concepts, bumped total pages to 50)
+- **Cross-linked:** [[wazuh-siem-xdr-deployment-guide]], [[01 Technical Skills]], [[networking_wireshark_playbook]], [[linux_cli_bash_automation_reference]], [[index]], [[log]]
+
+## [2026-10-01] ingest | Kinetic FUI & Tactical HUD Motion Design Playbook (NeuronVisuals)
+- **Source:** Facebook Reel (`https://www.facebook.com/share/r/1JJLbf817b/`) by NeuronVisuals ("You have enough time to make things happen").
+- **Raw File Created:** `raw/articles/2026-10-01-neuronvisuals-fui-motion-graphics-breakdown.md`
+- **Asset Preserved:** `raw/assets/neuron_visuals_fui_motion_style.jpg`
+- **Concept Created:** `concepts/kinetic-fui-motion-design-playbook.md` (Comprehensive visual motion design breakdown: 3-beat narrative pacing, 7-layer compositing stack, 32-bit optical glow, staggered dot-matrix physics, 3D camera drift, sound design sync, and After Effects/Resolve runbook).
+- **Notes Updated:**
+  - `01 Technical Skills.md` (Added Section 6 Motion Design, VFX & Video Engineering)
+  - `index.md` (Registered concept under Concepts, bumped total pages to 49)
+- **Cross-linked:** [[kinetic-fui-motion-design-playbook]], [[01 Technical Skills]], [[ui-ux-design-tools-ecosystem]], [[04 Interests & Gear]], [[index]], [[log]]
+
+## [2026-10-01] ingest | Komemaru (こめ丸) Japanese Street Kitchen (Damascus)
+- **Source:** Facebook Reel (`https://www.facebook.com/share/r/1GpH1PkUFY/`) by Ahmad Al Bezem.
+- **Raw File Created:** `raw/articles/2026-10-01-komemaru-japanese-restaurant-damascus-mashrou-dummar.md`
+- **Asset Preserved:** `raw/assets/komemaru_japanese_restaurant_damascus.jpg`
+- **Entity Created:** `entities/komemaru-japanese-restaurant-damascus.md` (Detailed directions to Mashrou' Dummar, Neo-Tokyo neon street kiosk atmosphere, Tokyo Drift box, Karaage chicken, Matcha noodles, Mochi, and ramen menu breakdown).
+- **Notes Updated:**
+  - `gear_hobbies_lifestyle.md` (Added Local Dining & Culinary Spots section)
+  - `index.md` (Registered entity under Entities, bumped total pages to 48)
+- **Cross-linked:** [[komemaru-japanese-restaurant-damascus]], [[gear_hobbies_lifestyle]], [[04 Interests & Gear]], [[index]], [[log]]
+
+## [2026-10-01] update | Work Attendance & Shift Roster (Omar Elnemr: Sep 23–29)
+- **Action:** Created `work_attendance_and_shift_roster.md` tracking daily shift logins, logouts, duration calculations, and transport delays for Omar Elnemr.
+- **Data Ingested:**
+  - 2026-09-23: 07:20 AM – 03:50 PM (8h 30m; bus left team at 07:00 AM after waiting since 06:30 AM).
+  - 2026-09-24: 08:15 AM – 04:00 PM (7h 45m).
+  - 2026-09-25: 08:15 AM – 05:40 PM (9h 25m; overtime).
+  - 2026-09-26: 08:15 AM – 04:00 PM (7h 45m).
+  - 2026-09-27: 08:15 AM – 04:00 PM (7h 45m).
+  - 2026-09-28: 08:15 AM – 04:00 PM (7h 45m).
+  - 2026-09-29: 08:15 AM – 04:00 PM (7h 45m).
+  - Total Logged Duration: 56 hours 40 minutes over 7 days.
+- **Files Created/Modified:**
+  - Created: `work_attendance_and_shift_roster.md`
+  - Modified: `03 Work Experience.md` (Added Section 4 Operational Tracking & Attendance link)
+  - Modified: `index.md` (Registered note under Identity, Work & Education; bumped total pages to 47)
+- **Cross-linked:** [[work_attendance_and_shift_roster]], [[03 Work Experience]], [[professional_work_history]], [[00 Profile]], [[index]], [[log]]
+
+## [2026-09-30] ingest | Facebook Reels Batch (Free Claude Code, 134+ Free APIs, Dual T4 Benchmarks, White House Press Ban)
+- **Sources Preserved:** `raw/articles/2026-09-30-facebook-reels-ingest-batch.md` (4 Facebook links ingested).
+- **Entity Created:** `entities/free-claude-code.md` (Ali Shahryar Khokhar's `free-claude-code` proxy, AGPL-3.0, 56.2k stars, SQLite QueuePool architecture with 8.65x throughput boost, p99 latency 15ms).
+- **Concepts Created:**
+  - `concepts/free-tier-llm-api-endpoints-routing.md` (134 permanent free AI APIs across 40+ providers, base URL & API key config in Cursor, Claude Code, Codex, Hermes).
+  - `concepts/white-house-press-access-controversy.md` (Executive media exclusion dynamics, press pool credentials, Al Araby TV's Mamdani/Trump exchange).
+- **Notes Updated:**
+  - `concepts/kaggle-llm-backend-deployment.md` (Added Section 2.1 Dual T4 empirical benchmarks: Qwen 8B @ ~32 tok/s, 14B @ ~13 tok/s, 32B @ 8.6 tok/s @ ~90% VRAM saturation).
+  - `01 Technical Skills.md` (Added Free Claude Code proxy & 134 free-tier APIs to Section 1).
+  - `technical_skills_knowledge_base.md` (Added Free Claude Code proxy, free API catalog, and dual T4 benchmark stats).
+  - `index.md` (Registered new entity and concepts, updated total page count to 46).
+- **Cross-linked:** [[free-claude-code]], [[free-tier-llm-api-endpoints-routing]], [[white-house-press-access-controversy]], [[kaggle-llm-backend-deployment]], [[01 Technical Skills]], [[technical_skills_knowledge_base]], [[log]]
+
+## [2026-09-30] hybrid-deployment | Kaggle Hybrid Master Runner & Qwen 2.5 32B GPU Engine
+- **Action:** Created `kaggle_hybrid_cloud_runner.md` and updated `scripts/kaggle_on_demand_cloud_runner.py` with complete pre-filled tokens, Node.js 22 LTS patch, and Dual Tesla T4 GPU 32-Billion parameter (`qwen2.5:32b`) workhorse engine.
+- **Architecture:** Hybrid Cloud + Local GPU architecture:
+  - **Local GPU Workhorse:** Dual Tesla T4 GPUs (30 GB VRAM) running `qwen2.5:32b` in 19.8 GB VRAM with 100% unmetered tool execution and zero 429 quota exhaustion.
+  - **Pro Cloud Tier:** Google Antigravity (Google AI Pro tier) + Gemini Flash/Pro + Bluesminds Claude Sonnet 5 for high-reasoning tasks.
+  - **Telegram Gateway:** Direct pairing-free authorization (`1021125594`).
+  - **Git Engine:** 3-minute background auto-commit + final shutdown sync.
+- **Files Touched:** `kaggle_hybrid_cloud_runner.md`, `scripts/kaggle_on_demand_cloud_runner.py`, `index.md`, `log.md`.
+
+## [2026-09-30] cloud-deployment | Hybrid On-Demand Cloud Architecture
+- **Action:** Packaged complete Aethelgard Vault + Hermes `llm-wiki` profile + OmniRoute Antigravity connections into private GitHub repository (`xionforbusiness-glitch/aethelgard-vault`).
+- **Engineered System:** 50/50 Hybrid Super-Brain:
+  - **High-IQ Cloud Brain:** OmniRoute Cloud Daemon connected to Antigravity (Claude Sonnet 4.6 Thinking + Gemini 3.7 Flash) at $0 cost.
+  - **Local GPU Engine:** Ollama Dual Tesla T4 GPUs (~29 GB VRAM) running Qwen 2.5 (32B / 14B) for high-speed local inference & tool execution.
+  - **Persistence & Sync:** Automatic 3-minute Git auto-sync worker.
+  - **Quota Protection:** On-Demand power-on / power-off lifecycle preserving all 30 weekly Kaggle GPU hours.
+- **Script Generated:** `scripts/kaggle_on_demand_cloud_runner.py`
+
+## [2026-09-30] ingest | Kaggle LLM Backend Deployment & Integration Guide
+- **Source:** Technical runbook (`raw/articles/kaggle-llm-backend-deployment-guide.md`)
+- **Concept Created:** `concepts/kaggle-llm-backend-deployment.md`
+- **Updated Notes:**
+  - `01 Technical Skills.md` (Added Cloud AI, LLM Inference & Agent Infrastructure section)
+  - `02 Projects.md` (Added Kaggle Remote LLM Backend & Agent Inference Tunnel build)
+  - `03 Work Experience.md` (Aligned sections with professional career history)
+  - `technical_skills_knowledge_base.md` (Added Kaggle Dual T4 Ollama/Ngrok infrastructure & Pyngrok)
+  - `detailed_project_documentation.md` (Added Section 5: Kaggle Remote LLM Backend & Reverse Proxy Tunnel)
+  - `index.md` (Updated index catalog, registered concept, total pages: 43)
+- **Key Concepts:** Dual NVIDIA Tesla T4 GPU cloud cluster (~29 GB VRAM), Ollama daemon configuration (`0.0.0.0:11434`, `OLLAMA_ORIGINS=*`), `qwen2.5:14b` model serving, Ngrok HTTPS reverse proxy tunneling with browser warning bypass, PowerShell verification via `Invoke-RestMethod`, decoupled ephemeral vs persistent cloud architectures for Hermes Agent and Obsidian vault syncing.
+- **Cross-linked:** [[kaggle-llm-backend-deployment]], [[01 Technical Skills]], [[02 Projects]], [[03 Work Experience]], [[technical_skills_knowledge_base]], [[detailed_project_documentation]], [[linux_cli_bash_automation_reference]], [[openvpn_network_tunneling_architecture]], [[00 Profile]], [[SCHEMA]]
+
+## [2026-09-21] ingest & plan | Laya vs TypeSafe Jev System 1 Decision Models
+- **Source Image:** `raw/assets/20260921_laya_vs_jev_system1_decision_model.jpg`
+- **Raw Note:** `raw/articles/2026-09-21-laya-system1-decision-model-open-source.md`
+- **Entity Created:** `entities/typesafe-ai-jev.md`
+- **Concept Created:** `concepts/laya-system-1-decision-engine.md`
+- **Comparison Created:** `comparisons/laya-vs-typesafe-jev.md`
+- **Deployment Plan Created:** `concepts/laya-system-1-installation-deployment-plan.md`
+- **Skills Updated:** `technical_skills_knowledge_base.md` (added System 1 Decision Engines & Non-Autoregressive Models section)
+- **Key Concepts:** Non-autoregressive decision models, ModernBERT-large (421M), mmBERT-base (322M), RLCD calibration, sub-35ms GPU latency, zero-shot vs fine-tuning realities, local deployment playbook with Python SDK (`pip install laya>=0.3.3`) and Node.js (`@receptron/laya`).
+- **Cross-linked:** [[laya-system-1-decision-engine]], [[typesafe-ai-jev]], [[laya-vs-typesafe-jev]], [[laya-system-1-installation-deployment-plan]], [[technical_skills_knowledge_base]], [[01 Technical Skills]], [[ai_evaluation_annotation_handbook]]
+- **Index Updated:** Total pages now 36
+
+## [2026-09-20] ingest | YouTube Short: Selling AI Automations & ROI Framework
+- **Video ID:** `7CKYk8FX6UY` (https://youtube.com/shorts/7CKYk8FX6UY)
+- **Raw Transcript:** `raw/transcripts/youtube-7CKYk8FX6UY-selling-ai-automations-roi.md`
+- **Concept Page:** `concepts/ai-automation-business-roi-framework.md`
+- **Key Concepts:** The 1.5x–2.0x client ROI threshold, Top-line vs Bottom-line levers, Anti-patterns ("Cool" vs "Valuable"), Production-grade implementation playbook with n8n and Python.
+- **Cross-linked:** [[n8n-workflow-automation]], [[01 Technical Skills]], [[02 Projects]], [[ai_evaluation_annotation_handbook]], [[claude-code-plugins-ecosystem]]
+- **Index Updated:** Total pages now 32
+
+## [2026-09-20] ingest | FindQuestions.com — Reddit SEO Tool
+- **Raw Source:** `raw/articles/findquestions-com-seo-tool.md`
+- **Concept Page:** `concepts/findquestions-com-seo-tool.md`
+- **Key Concepts:** Reddit-driven customer question discovery, search intent mining, FAQ content strategy.
+- **Cross-linked:** [[01 Technical Skills]], [[seo-content-strategy]], [[marketing-saas-tools]]
+
+## [2026-09-20] update | Claude Code Plugins — Refreshed with latest data
+- **Action:** Updated raw source + concept note with freshest AITMPL directory data
+- **Raw Source:** `raw/articles/aitmpl-claude-code-plugins-directory.md`
+- **Concept Page:** `concepts/claude-code-plugins-ecosystem.md`
+- **Changes:** Added all 34 collections with stars, tags, authors; reorganized by 4-tier system
+- **New sections:** Plugin Types table, Project-to-Plugin mapping, Integration recommendations
+
+## [2026-09-20] init | Aethelgard Vault connected to Hermes LLM Wiki
+- Vault Path: `C:\Users\omara\Desktop\vault\Aethelgard Vault`
+- Connected Profile: `llm-wiki` (Hermes Agent)
+- Model Engine: `FIRST-TIME / auto/best-coding` via OmniRoute AI router
+- Telegram Gateway: Linked to bot [@hermes_pl7o4pzdk46axyzo_bot](https://t.me/hermes_pl7o4pzdk46axyzo_bot)
+- Initialized LLM Wiki subdirectories: `raw/articles/`, `raw/papers/`, `raw/transcripts/`, `raw/assets/`, `entities/`, `concepts/`, `comparisons/`, `queries/`, `_archive/`
+- Generated schema: `SCHEMA.md`
+- Indexed 27 existing notes in `index.md`
+
+## [2026-09-20] ingest | UI/UX Design Resources — 9 Tools & Libraries
+- **Raw Source:** `raw/articles/ui-ux-resources-batch-2026-09-20.md`
+- **Concept Page:** `concepts/ui-ux-design-tools-ecosystem.md`
+- **Updated:** `01 Technical Skills.md` (added UI/UX toolkit section)
+- **Resources Ingested:**
+  1. UI UX Pro Max Skill (GitHub) — AI design intelligence, 192 reasoning rules
+  2. ECC (GitHub) — Agent harness optimization for Claude Code, Codex, Cursor
+  3. OpenWA (GitHub) — WhatsApp API Gateway, TypeScript/NestJS
+  4. Realtime Colors (Web Tool) — Real-time color palette visualization
+  5. Motion.dev (Animation Library) — React/JS animations, hardware-accelerated
+  6. Shape Divider App (Web Tool) — Responsive SVG section dividers
+  7. KokonutUI (Component Library) — 100+ React/Tailwind/Motion components
+  8. Bklit UI (Component Library) — Data visualization charts
+  9. Anime.js (Animation Library) — JavaScript animation engine
+- **Tags Added:** ui-design, design-tools, animation, component-libraries, data-visualization
+- **Cross-linked:** [[01 Technical Skills]], [[technical_skills_knowledge_base]], [[02 Projects]]
+- **Index Updated:** Total pages now 28
+
+## [2026-09-20] ingest | n8n Workflow Automation Platform
+- **Raw Source:** `raw/articles/n8n-workflow-automation.md`
+- **Concept Page:** `concepts/n8n-workflow-automation.md`
+- **Resource:** n8n.io — Fair-code workflow automation with AI capabilities
+- **Stats:** 205.4K GitHub stars, 400+ integrations, 200k+ community
+- **Key Features:** Visual + code workflows, Agent Builder, LLM integrations, self-hosted or cloud
+- **Case Studies:** Vodafone saved £2.2M, Huel saved 1,000 hours
+- **Tags:** automation, workflow, ai-integration, low-code, n8n, self-hosted
+- **Cross-linked:** [[01 Technical Skills]], [[ai_evaluation_annotation_handbook]], [[openvpn_network_tunneling_architecture]]
+- **Index Updated:** Total pages now 29
+
+## [2026-09-20] ingest | Claude Code Plugins & Marketplaces Directory
+- **Raw Source:** `raw/articles/aitmpl-claude-code-plugins-directory.md`
+- **Concept Page:** `concepts/claude-code-plugins-ecosystem.md`
+- **Resource:** AITMPL plugins directory with 34 collections
+- **Collections:** ECC (229K), Claude Mem (87K), Claude Skills (22K), and 31 more
+- **Total Skills:** 400K+ across all collections
+- **Types:** Skills, Agents, Commands, Hooks, MCPs, LSPs
+- **Cross-platform:** Claude Code, Codex, Cursor, Hermes, Kiro
+- **Top Picks for Omar:** ECC (already have), Claude Mem, Cartographer, Playwright Skill
+- **Tags:** claude-code, plugins, skills, agents, marketplace, automation, extension
+- **Cross-linked:** [[ECC]], [[01 Technical Skills]], [[02 Projects]]
+- **Index Updated:** Total pages now 30
+
+## [2026-09-21 02:01:12] overseer | doomscroll_detected
+- **Details:** Opened Instagram
+
+## [2026-09-21 02:20:02] overseer | app_activity
+- **Details:** App: [_AppName]
+
+## [2026-09-21 02:20:16] overseer | app_activity
+- **Details:** App: [_AppName]
+
+## [2026-09-21 02:22:11] overseer | learning_detected
+- **Details:** Active on YouTube
+
+## [2026-09-21 02:22:22] overseer | doomscroll_detected
+- **Details:** Opened Facebook
+
+## [2026-09-21 02:23:25] overseer | learning_detected
+- **Details:** Active on YouTube
+
+## [2026-09-21 02:27:12] overseer | learning_detected
+- **Details:** Active on YouTube
+
+## [2026-09-21 02:28:11] overseer | doomscroll_detected
+- **Details:** Opened Facebook
+
+## [2026-09-21 02:39:19] overseer | learning_detected
+- **Details:** Active on YouTube
+
+## [2026-09-21 02:39:33] overseer | doomscroll_detected
+- **Details:** Opened Facebook
+
+## [2026-09-21 02:40:25] overseer | doomscroll_detected
+- **Details:** Opened Facebook
+
+## [2026-09-21 02:43:38] overseer | doomscroll_detected
+- **Details:** Opened Facebook
+
+## [2026-09-21 02:58:51] overseer | high_value_learning | Productive Study
+- **Details:** Title: 'Building Autonomous AI Agents with LangChain and Python' in YouTube
+
+## [2026-09-21 02:58:59] overseer | distraction_detected | Brainrot / Distraction
+- **Details:** Title: 'Funniest Cat Pranks and TikTok Memes Compilation 2026' in YouTube (Streak: 1)
+
+## [2026-09-21 03:00:41] overseer | distraction_detected | Brainrot / Distraction
+- **Details:** Title: '' in Facebook (Streak: 2)
+
+## [2026-09-21 03:00:53] overseer | distraction_detected | Brainrot / Distraction
+- **Details:** Title: '' in Facebook (Streak: 3)
+
+## [2026-09-21 03:03:25] overseer | productive | AI & Agent Systems
+- **App:** `YouTube`
+- **Content:** ModernBERT Architecture and Non-Autoregressive Decision Models Explained
+- **Evaluation Score:** +1.20 | **Current Streak:** 1
+
+## [2026-09-21 03:03:25] overseer | productive | Academic & Higher Education
+- **App:** `Chrome`
+- **Content:** arXiv:2503.23303v2 Sequence Conversion Trajectories with Reinforcement Learning
+- **Evaluation Score:** +1.20 | **Current Streak:** 2
+
+## [2026-09-21 03:03:25] overseer | productive | Computer Vision & Deep Learning
+- **App:** `YouTube`
+- **Content:** YOLOv8 Real-Time Multi-Object Tracking with OpenCV and Python Tutorial
+- **Evaluation Score:** +3.70 | **Current Streak:** 3
+
+## [2026-09-21 03:03:25] overseer | productive | Robotics & Microcontrollers
+- **App:** `YouTube`
+- **Content:** Arduino SG90 Servo PWM Control and HW-504 Joystick Wiring Guide
+- **Evaluation Score:** +5.20 | **Current Streak:** 4
+
+## [2026-09-21 03:03:25] overseer | productive | Targeted Craft & Hobbies
+- **App:** `YouTube`
+- **Content:** Full OLL in 10 Days - Recognition & Fingertricks for Sub-15 Solvers
+- **Evaluation Score:** +3.30 | **Current Streak:** 5
+
+## [2026-09-21 03:03:25] overseer | distraction | Doomscrolling / Distraction
+- **App:** `YouTube`
+- **Content:** I spent 24 Hours in a haunted mansion challenge (GONE WRONG) #shorts
+- **Evaluation Score:** -8.00 | **Current Streak:** 1
+
+## [2026-09-21 03:03:25] overseer | distraction | Doomscrolling / Distraction
+- **App:** `YouTube`
+- **Content:** Skibidi Toilet Episode 70 Full Season Reaction Compilation
+- **Evaluation Score:** -2.00 | **Current Streak:** 2
+
+## [2026-09-21 03:03:25] overseer | distraction | Doomscrolling / Distraction
+- **App:** `Instagram`
+- **Content:** (No Title Provided)
+- **Evaluation Score:** -3.00 | **Current Streak:** 3
+
+## [2026-09-21 03:03:25] overseer | distraction | Doomscrolling / Distraction
+- **App:** `TikTok`
+- **Content:** Funny Memes Compilation 2026
+- **Evaluation Score:** -7.00 | **Current Streak:** 4
+
+## [2026-09-21 03:03:25] overseer | distraction | Doomscrolling / Distraction
+- **App:** `Facebook`
+- **Content:** Luis Buenaventura: Jev by TypeSafe AI and Laya Open Source Decision Models
+- **Evaluation Score:** -0.60 | **Current Streak:** 5
+
+## [2026-09-21 03:03:25] overseer | productive | Productive Engineering
+- **App:** `Obsidian`
+- **Content:** Aethelgard Vault - Updating 01 Technical Skills
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 03:03:25] overseer | productive | Software Engineering & Dev
+- **App:** `Termux`
+- **Content:** bash - git push origin main
+- **Evaluation Score:** +2.20 | **Current Streak:** 2
+
+## [2026-09-21 03:03:46] overseer | productive | AI & Agent Systems
+- **App:** `YouTube`
+- **Content:** ModernBERT Architecture and Non-Autoregressive Decision Models Explained
+- **Evaluation Score:** +1.20 | **Current Streak:** 1
+
+## [2026-09-21 03:03:46] overseer | productive | Academic & Higher Education
+- **App:** `Chrome`
+- **Content:** arXiv:2503.23303v2 Sequence Conversion Trajectories with Reinforcement Learning
+- **Evaluation Score:** +1.20 | **Current Streak:** 2
+
+## [2026-09-21 03:03:46] overseer | productive | Computer Vision & Deep Learning
+- **App:** `YouTube`
+- **Content:** YOLOv8 Real-Time Multi-Object Tracking with OpenCV and Python Tutorial
+- **Evaluation Score:** +3.70 | **Current Streak:** 3
+
+## [2026-09-21 03:03:46] overseer | productive | Robotics & Microcontrollers
+- **App:** `YouTube`
+- **Content:** Arduino SG90 Servo PWM Control and HW-504 Joystick Wiring Guide
+- **Evaluation Score:** +5.20 | **Current Streak:** 4
+
+## [2026-09-21 03:03:46] overseer | productive | Targeted Craft & Hobbies
+- **App:** `YouTube`
+- **Content:** Full OLL in 10 Days - Recognition & Fingertricks for Sub-15 Solvers
+- **Evaluation Score:** +3.30 | **Current Streak:** 5
+
+## [2026-09-21 03:03:46] overseer | distraction | Doomscrolling / Distraction
+- **App:** `YouTube`
+- **Content:** I spent 24 Hours in a haunted mansion challenge (GONE WRONG) #shorts
+- **Evaluation Score:** -8.00 | **Current Streak:** 1
+
+## [2026-09-21 03:03:46] overseer | distraction | Doomscrolling / Distraction
+- **App:** `YouTube`
+- **Content:** Skibidi Toilet Episode 70 Full Season Reaction Compilation
+- **Evaluation Score:** -2.00 | **Current Streak:** 2
+
+## [2026-09-21 03:03:46] overseer | distraction | Doomscrolling / Distraction
+- **App:** `Instagram`
+- **Content:** (No Title Provided)
+- **Evaluation Score:** -3.00 | **Current Streak:** 3
+
+## [2026-09-21 03:03:46] overseer | distraction | Doomscrolling / Distraction
+- **App:** `TikTok`
+- **Content:** Funny Memes Compilation 2026
+- **Evaluation Score:** -7.00 | **Current Streak:** 4
+
+## [2026-09-21 03:03:46] overseer | productive | AI & Agent Systems
+- **App:** `Facebook`
+- **Content:** Luis Buenaventura: Jev by TypeSafe AI and Laya Open Source Decision Models
+- **Evaluation Score:** +2.40 | **Current Streak:** 1
+
+## [2026-09-21 03:03:46] overseer | productive | Productive Engineering
+- **App:** `Obsidian`
+- **Content:** Aethelgard Vault - Updating 01 Technical Skills
+- **Evaluation Score:** +0.00 | **Current Streak:** 2
+
+## [2026-09-21 03:03:46] overseer | productive | Software Engineering & Dev
+- **App:** `Termux`
+- **Content:** bash - git push origin main
+- **Evaluation Score:** +2.20 | **Current Streak:** 3
+
+## [2026-09-21 03:05:28] overseer | productive | Computer Vision & Deep Learning
+- **App:** `YouTube`
+- **Content:** YOLOv8 Edge TPU Acceleration & Jetson Nano Deployment
+- **Evaluation Score:** +1.30 | **Current Streak:** 1
+
+## [2026-09-21 03:05:36] overseer | distraction | Doomscrolling / Distraction
+- **App:** `Instagram`
+- **Content:** Exploring Reels Feed
+- **Evaluation Score:** -9.00 | **Current Streak:** 1
+
+## [2026-09-21 03:30:45] overseer | neutral | General Exploration
+- **App:** `[app_name]`
+- **Content:** [not_title]
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 03:33:52] overseer | neutral | General Exploration
+- **App:** `YouTube`
+- **Content:** [not_title]
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 03:34:55] overseer | neutral | General Exploration
+- **App:** `[app_name]`
+- **Content:** Tbark 4 world
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 03:35:27] overseer | neutral | General Exploration
+- **App:** `[app_name]`
+- **Content:** Tbark 4 world
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 03:36:02] overseer | neutral | General Exploration
+- **App:** `[app_name]`
+- **Content:** Tbark 4 world
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 03:36:33] overseer | neutral | General Exploration
+- **App:** `[app_name]`
+- **Content:** Tbark 4 world
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 03:37:00] overseer | neutral | General Exploration
+- **App:** `YouTube`
+- **Content:** [not_title]
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 03:38:29] overseer | neutral | General Exploration
+- **App:** `[app_name]`
+- **Content:** Tbark 4 world
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 03:41:20] overseer | neutral | General Exploration
+- **App:** `Unknown`
+- **Content:** Tbark 4 world
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 03:47:38] overseer | neutral | General Exploration
+- **App:** `Unknown`
+- **Content:** (No Title Provided)
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 03:47:57] overseer | neutral | General Exploration
+- **App:** `YouTube`
+- **Content:** (No Title Provided)
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 03:48:36] overseer | distraction | Doomscrolling / Distraction
+- **App:** `Facebook`
+- **Content:** (No Title Provided)
+- **Evaluation Score:** -3.00 | **Current Streak:** 1
+
+## [2026-09-21 03:48:55] overseer | distraction | Doomscrolling / Distraction
+- **App:** `Facebook`
+- **Content:** (No Title Provided)
+- **Evaluation Score:** -3.00 | **Current Streak:** 2
+
+## [2026-09-21 03:49:16] overseer | distraction | Doomscrolling / Distraction
+- **App:** `Facebook`
+- **Content:** (No Title Provided)
+- **Evaluation Score:** -3.00 | **Current Streak:** 3
+
+## [2026-09-21 03:49:36] overseer | neutral | General Exploration
+- **App:** `YouTube`
+- **Content:** (No Title Provided)
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 03:50:59] overseer | neutral | General Exploration
+- **App:** `Telegram`
+- **Content:** Tbark 4 world
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 03:51:55] overseer | neutral | General Exploration
+- **App:** `Telegram`
+- **Content:** Tbark 4 world
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 03:52:32] overseer | neutral | General Exploration
+- **App:** `Telegram`
+- **Content:** Tbark 4 world
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 03:53:36] overseer | neutral | General Exploration
+- **App:** `Telegram`
+- **Content:** Tbark 4 world
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 03:59:52] overseer | neutral | General Exploration
+- **App:** `YouTube`
+- **Content:** (No Title Provided)
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 04:00:13] overseer | neutral | General Exploration
+- **App:** `YouTube`
+- **Content:** (No Title Provided)
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 04:01:35] overseer | neutral | General Exploration
+- **App:** `Telegram`
+- **Content:** Tbark 4 world
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 04:02:28] overseer | neutral | General Exploration
+- **App:** `Telegram`
+- **Content:** Tbark 4 world
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 04:02:58] overseer | neutral | General Exploration
+- **App:** `Telegram`
+- **Content:** Tbark 4 world
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 04:03:57] overseer | neutral | General Exploration
+- **App:** `Unknown`
+- **Content:** (No Title Provided)
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 04:04:12] overseer | neutral | General Exploration
+- **App:** `Unknown`
+- **Content:** (No Title Provided)
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 04:04:37] overseer | neutral | General Exploration
+- **App:** `Telegram`
+- **Content:** Tbark 4 world
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 04:04:58] overseer | neutral | General Exploration
+- **App:** `Unknown`
+- **Content:** (No Title Provided)
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 04:05:30] overseer | neutral | General Exploration
+- **App:** `Unknown`
+- **Content:** (No Title Provided)
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 04:07:32] overseer | neutral | General Exploration
+- **App:** `Telegram`
+- **Content:** Aethelgard
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 04:07:48] overseer | neutral | General Exploration
+- **App:** `Telegram`
+- **Content:** Aethelgard
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 04:08:03] overseer | neutral | General Exploration
+- **App:** `Telegram`
+- **Content:** Aethelgard
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 04:08:43] overseer | neutral | General Exploration
+- **App:** `Telegram`
+- **Content:** Aethelgard
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 04:08:58] overseer | neutral | General Exploration
+- **App:** `Telegram`
+- **Content:** Tbark 4 world
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 04:09:34] overseer | neutral | General Exploration
+- **App:** `YouTube`
+- **Content:** (No Title Provided)
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 04:10:56] overseer | neutral | General Exploration
+- **App:** `Unknown`
+- **Content:** Aethelgard
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 04:11:29] overseer | neutral | General Exploration
+- **App:** `Unknown`
+- **Content:** Aethelgard
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 04:12:15] overseer | neutral | General Exploration
+- **App:** `Unknown`
+- **Content:** Tbark 4 world
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 04:16:08] overseer | neutral | General Exploration
+- **App:** `Unknown`
+- **Content:** Tbark 4 world
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 04:17:47] overseer | neutral | General Exploration
+- **App:** `Unknown`
+- **Content:** Tbark 4 world
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 04:18:45] overseer | neutral | General Exploration
+- **App:** `Unknown`
+- **Content:** Tbark 4 world
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 04:19:21] overseer | neutral | General Exploration
+- **App:** `Unknown`
+- **Content:** Tbark 4 world
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 04:20:17] overseer | neutral | General Exploration
+- **App:** `Unknown`
+- **Content:** Aethelgard
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 04:20:52] overseer | neutral | General Exploration
+- **App:** `Unknown`
+- **Content:** Tbark 4 world
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 04:22:35] overseer | neutral | General Exploration
+- **App:** `Unknown`
+- **Content:** Tbark 4 world
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 04:22:56] overseer | neutral | General Exploration
+- **App:** `Unknown`
+- **Content:** Tbark 4 world
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 04:23:23] overseer | neutral | General Exploration
+- **App:** `Unknown`
+- **Content:** Aethelgard
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 04:23:59] overseer | neutral | General Exploration
+- **App:** `Unknown`
+- **Content:** Tbark 4 world
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 04:25:12] overseer | neutral | General Exploration
+- **App:** `Unknown`
+- **Content:** Tbark 4 world
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 04:29:01] overseer | neutral | General Exploration
+- **App:** `Unknown`
+- **Content:** Aethelgard
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 04:29:39] overseer | neutral | General Exploration
+- **App:** `Unknown`
+- **Content:** Tbark 4 world
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 04:32:51] overseer | neutral | General Exploration
+- **App:** `Unknown`
+- **Content:** Aethelgard
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 04:33:56] overseer | neutral | General Exploration
+- **App:** `Unknown`
+- **Content:** Tbark 4 world
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 04:35:41] overseer | neutral | General Exploration
+- **App:** `Unknown`
+- **Content:** Tbark 4 world
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 04:37:24] overseer | neutral | General Exploration
+- **App:** `Unknown`
+- **Content:** Tbark 4 world
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 04:40:33] overseer | neutral | General Exploration
+- **App:** `YouTube`
+- **Content:** (No Title Provided)
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 04:48:57] overseer | distraction | Doomscrolling / Distraction
+- **App:** `Facebook`
+- **Content:** (No Title Provided)
+- **Evaluation Score:** -3.00 | **Current Streak:** 1
+
+## [2026-09-21 04:49:13] overseer | neutral | General Exploration
+- **App:** `YouTube`
+- **Content:** (No Title Provided)
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 04:51:07] overseer | neutral | General Exploration
+- **App:** `Unknown`
+- **Content:** (No Title Provided)
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 04:51:41] overseer | neutral | General Exploration
+- **App:** `Unknown`
+- **Content:** (No Title Provided)
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 04:52:00] overseer | neutral | General Exploration
+- **App:** `Unknown`
+- **Content:** (No Title Provided)
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 04:52:16] overseer | neutral | General Exploration
+- **App:** `Unknown`
+- **Content:** (No Title Provided)
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 04:52:58] overseer | neutral | General Exploration
+- **App:** `Unknown`
+- **Content:** (No Title Provided)
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 04:53:25] overseer | neutral | General Exploration
+- **App:** `YouTube`
+- **Content:** (No Title Provided)
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 04:53:57] overseer | neutral | General Exploration
+- **App:** `Unknown`
+- **Content:** (No Title Provided)
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 04:54:19] overseer | neutral | General Exploration
+- **App:** `Unknown`
+- **Content:** (No Title Provided)
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 04:54:37] overseer | neutral | General Exploration
+- **App:** `Unknown`
+- **Content:** (No Title Provided)
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 04:55:01] overseer | neutral | General Exploration
+- **App:** `Unknown`
+- **Content:** (No Title Provided)
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 04:55:35] overseer | neutral | General Exploration
+- **App:** `Unknown`
+- **Content:** (No Title Provided)
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 05:15:00] overseer | configuration | MacroDroid Pipeline Refinement
+- **Action:** Updated MacroDroid "App Usage / Doomscroll" macro configuration
+- **Flow:** Wait (2s) → Set `app_name` (Trigger `[App Name]`) → UI Interaction (Copy) → Set `video_title` (`[clipboard]`) → HTTP POST Webhook (`http://10.117.196.61:5678/webhook/phone-event`) → Speak Text (`{lv=ai_response}`)
+- **Status:** Webhook operational and app telemetry syncing correctly.
+
+## [2026-09-21] ingest | multimodal_image | MacroDroid Doomscroll Overseer
+- **Action:** Ingested screenshot of MacroDroid "App Usage / Doomscroll" macro configuration
+- **Image saved:** `raw/assets/20260921_macrodroid_doomscroll_macro_config.jpg`
+- **Raw source:** `raw/articles/20260921_macrodroid_doomscroll_overseer_macro.md`
+- **Concept page created:** [[macrodroid-doomscroll-overseer]]
+- **Index updated:** Total pages → 37
+- **Links:** [[log]], [[gear_hobbies_lifestyle]], [[04 Interests & Gear]], [[linux_cli_bash_automation_reference]]
+
+## [2026-09-21 04:57:19] overseer | neutral | General Exploration
+- **App:** `Unknown`
+- **Content:** (No Title Provided)
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 04:57:42] overseer | neutral | General Exploration
+- **App:** `Unknown`
+- **Content:** (No Title Provided)
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 04:59:10] overseer | neutral | General Exploration
+- **App:** `Unknown`
+- **Content:** (No Title Provided)
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 04:59:53] overseer | neutral | General Exploration
+- **App:** `Unknown`
+- **Content:** (No Title Provided)
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 05:02:15] overseer | neutral | General Exploration
+- **App:** `Unknown`
+- **Content:** (No Title Provided)
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 05:02:57] overseer | neutral | General Exploration
+- **App:** `Unknown`
+- **Content:** (No Title Provided)
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 05:04:16] overseer | neutral | General Exploration
+- **App:** `Unknown`
+- **Content:** (No Title Provided)
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 05:04:43] overseer | neutral | General Exploration
+- **App:** `Unknown`
+- **Content:** (No Title Provided)
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 05:05:15] overseer | neutral | General Exploration
+- **App:** `Unknown`
+- **Content:** (No Title Provided)
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 05:06:38] overseer | neutral | General Exploration
+- **App:** `Unknown`
+- **Content:** (No Title Provided)
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 05:08:00] overseer | neutral | General Exploration
+- **App:** `Unknown`
+- **Content:** (No Title Provided)
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 05:12:12] overseer | neutral | General Exploration
+- **App:** `Unknown`
+- **Content:** (No Title Provided)
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 05:12:53] overseer | neutral | General Exploration
+- **App:** `Unknown`
+- **Content:** (No Title Provided)
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 05:15:18] overseer | neutral | General Exploration
+- **App:** `Unknown`
+- **Content:** (No Title Provided)
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 05:16:50] overseer | neutral | General Exploration
+- **App:** `Unknown`
+- **Content:** (No Title Provided)
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 05:18:16] overseer | neutral | General Exploration
+- **App:** `Unknown`
+- **Content:** (No Title Provided)
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 05:20:26] overseer | neutral | General Exploration
+- **App:** `Unknown`
+- **Content:** (No Title Provided)
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 05:21:35] overseer | neutral | General Exploration
+- **App:** `Unknown`
+- **Content:** (No Title Provided)
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 05:24:45] overseer | neutral | General Exploration
+- **App:** `Unknown`
+- **Content:** (No Title Provided)
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 05:26:47] overseer | neutral | General Exploration
+- **App:** `Unknown`
+- **Content:** False
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 05:28:38] overseer | neutral | General Exploration
+- **App:** `Unknown`
+- **Content:** False
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 05:43:25] overseer | neutral | General Exploration
+- **App:** `YouTube`
+- **Content:** False
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 05:43:57] overseer | neutral | General Exploration
+- **App:** `Telegram`
+- **Content:** False
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 05:45:25] overseer | neutral | General Exploration
+- **App:** `Telegram`
+- **Content:** False
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 05:45:44] overseer | neutral | General Exploration
+- **App:** `YouTube`
+- **Content:** False
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 05:45:59] overseer | neutral | General Exploration
+- **App:** `Telegram`
+- **Content:** False
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 05:46:24] overseer | neutral | General Exploration
+- **App:** `YouTube`
+- **Content:** False
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 05:46:51] overseer | neutral | General Exploration
+- **App:** `XOS Launcher`
+- **Content:** False
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 05:47:49] overseer | distraction | Doomscrolling / Distraction
+- **App:** `Facebook`
+- **Content:** False
+- **Evaluation Score:** -3.00 | **Current Streak:** 1
+
+## [2026-09-21 05:48:19] overseer | neutral | General Exploration
+- **App:** `Telegram`
+- **Content:** False
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 05:53:55] overseer | neutral | General Exploration
+- **App:** `YouTube`
+- **Content:** False
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 05:58:01] overseer | neutral | General Exploration
+- **App:** `YouTube`
+- **Content:** False
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 05:58:50] overseer | distraction | Doomscrolling / Distraction
+- **App:** `Facebook`
+- **Content:** False
+- **Evaluation Score:** -3.00 | **Current Streak:** 1
+
+## [2026-09-21 05:59:13] overseer | distraction | Doomscrolling / Distraction
+- **App:** `Facebook`
+- **Content:** False
+- **Evaluation Score:** -3.00 | **Current Streak:** 2
+
+## [2026-09-21 05:59:32] overseer | neutral | General Exploration
+- **App:** `WhatsApp`
+- **Content:** False
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 05:59:52] overseer | neutral | General Exploration
+- **App:** `WhatsApp`
+- **Content:** False
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 06:07:59] overseer | neutral | General Exploration
+- **App:** `Telegram`
+- **Content:** (No Title Provided)
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 06:13:01] overseer | neutral | General Exploration
+- **App:** `Telegram`
+- **Content:** (No Title Provided)
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 06:13:18] overseer | distraction | Doomscrolling / Distraction
+- **App:** `Facebook`
+- **Content:** (No Title Provided)
+- **Evaluation Score:** -3.00 | **Current Streak:** 1
+
+## [2026-09-21 06:14:21] overseer | neutral | General Exploration
+- **App:** `Telegram`
+- **Content:** (No Title Provided)
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 06:14:56] overseer | neutral | General Exploration
+- **App:** `Telegram`
+- **Content:** (No Title Provided)
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 06:15:51] overseer | neutral | General Exploration
+- **App:** `Telegram`
+- **Content:** (No Title Provided)
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 06:16:37] overseer | neutral | General Exploration
+- **App:** `Telegram`
+- **Content:** (No Title Provided)
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 06:17:28] overseer | neutral | General Exploration
+- **App:** `Telegram`
+- **Content:** (No Title Provided)
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 06:17:44] overseer | neutral | General Exploration
+- **App:** `YouTube`
+- **Content:** (No Title Provided)
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 06:18:16] overseer | distraction | Doomscrolling / Distraction
+- **App:** `Facebook`
+- **Content:** (No Title Provided)
+- **Evaluation Score:** -3.00 | **Current Streak:** 1
+
+## [2026-09-21 06:18:37] overseer | neutral | General Exploration
+- **App:** `YouTube`
+- **Content:** (No Title Provided)
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 06:19:04] overseer | neutral | General Exploration
+- **App:** `Telegram`
+- **Content:** (No Title Provided)
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 06:27:01] overseer | distraction | Doomscrolling / Distraction
+- **App:** `Facebook`
+- **Content:** (No Title Provided)
+- **Evaluation Score:** -3.00 | **Current Streak:** 1
+
+## [2026-09-21 06:29:51] overseer | neutral | General Exploration
+- **App:** `Telegram`
+- **Content:** (No Title Provided)
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
+
+## [2026-09-21 07:04:08] overseer | neutral | General Exploration
+- **App:** `Telegram`
+- **Content:** (No Title Provided)
+- **Evaluation Score:** +0.00 | **Current Streak:** 1
