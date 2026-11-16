@@ -52,7 +52,8 @@ Speedsolving $3\times3$ cubes using the **CFOP Method** (Cross, F2L, OLL, PLL).
 
 ---
 
-## 🍣 Local Dining & Culinary Spots
+## 🍣 Local Dining, Vendors & Home Reference (Damascus)
+- **[[concepts/damascus-gas-water-heater-crystal-delonghi-guide|Crystal 10L Digital Gas Water Heater & DeLonghi Low-Pressure Guide]]:** Crystal 10L digital gas geyser at **Bab Musalla (Bim Dimashq)** for **85 USD**, plus low-pressure DeLonghi specs and EE error troubleshooting.
 - **[[komemaru-japanese-restaurant-damascus|Komemaru (كوميمارو - こめ丸)]]:** Authentic Japanese street food kitchen in Damascus (Mashrou' Dummar) — Tokyo Drift box, Karaage chicken, Matcha noodles, and ramen.
 
 ### _Witch Hat Atelier_ (ورشة ذوي القبعات)
