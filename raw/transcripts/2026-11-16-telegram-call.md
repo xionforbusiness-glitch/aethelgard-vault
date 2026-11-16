@@ -64,3 +64,23 @@
 **Omar:** recall me end of end this
 
 **Aethelgard:** Ending the call and redialing you right now, Omar.
+
+
+# 📞 Native Telegram Call Transcript (2026-11-16 05:24 Damascus)
+
+**Actions Executed:**
+- manage_promise completed
+- queued timed_callback job_196ff69b: Redial Omar and wait for him to speak
+- requested graceful call hangup
+
+**Omar:** Okay, I have one one problem that you called me
+
+**Aethelgard:** I'm listening, Omar. What went wrong with the callback? Let me know and I'll get it sorted right away.
+
+**Omar:** but entered the call afterwards, I did not speak
+
+**Aethelgard:** Ah, got it. It connected, but nobody spoke, so it dropped. Let's make sure the audio stream stays live. What would you like to test next?
+
+**Omar:** [Omar spoke via live voice]
+
+**Aethelgard:** Understood, Omar. I'll redial you right now and wait for you to speak first.
