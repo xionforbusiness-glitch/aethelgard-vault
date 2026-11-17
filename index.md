@@ -317,3 +317,13 @@
 ## 📚 Newly Ingested & Cataloged Notes (Automated Librarian)
 
 - [[collision-etihad-igs-exer-typesafe-ai-jev|Collision Etihad Igs Exer Typesafe Ai Jev]] (`concepts`)
+
+
+## 📚 Newly Ingested & Cataloged Notes (Automated Librarian)
+
+- [[collision-kaggle-llm-back-2026-10-01-vant|Collision Kaggle Llm Back 2026 10 01 Vant]] (`concepts`)
+- [[damascus-gas-water-heater-crystal-delonghi-guide|Damascus Gas Water Heater Crystal Delonghi Guide]] (`concepts`)
+- [[2026-11-17-etihad-airways-omar-apply-now-to-duty-supervisor-c|2026 11 17 Etihad Airways Omar Apply Now To Duty Supervisor C]] (`raw/emails`)
+- [[2026-11-13-want-to-see-how-you-can-run-ai-models-for-free-wit|2026 11 13 Want To See How You Can Run Ai Models For Free Wit]] (`raw/reels`)
+- [[2026-11-16-telegram-call|2026 11 16 Telegram Call]] (`raw/transcripts`)
+- [[promise_ledger|Promise Ledger]] (`tasks`)
