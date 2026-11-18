@@ -3,6 +3,24 @@
 > Chronological, append-only record of all LLM Wiki actions (ingest, query, lint, update).
 > Format: `## [YYYY-MM-DD] action | subject`
 
+## [2026-11-18] career | Staged Job Application: IT Support Engineer at Wlnet (`draft_0d0787754a`)
+- **Channel / Target:** `gmail` -> `careers@wlnet.com`
+- **Attachments:** Omar_Elnemr_CV_2026.pdf
+- **Tracker:** `career/job_applications_tracker.md`
+
+
+## [2026-11-18] career | Staged Job Application: Vacancies - ACC Aviation at ACC Aviation (`draft_8fdbb496d3`)
+- **Channel / Target:** `gmail` -> `hr@accaviation.com`
+- **Attachments:** Omar_Elnemr_CV_2026.pdf, Etihad_01_Introduction_to_Ground_Services_IGS_16Hrs_2026-10-06.pdf, Etihad_02_Amadeus_Customer_Management_CM_32Hrs_2026-10-15.pdf, Etihad_03_INSPIRE_Airport_Service_Delivery_2026-10-16.pdf, Etihad_04_Airport_Disruption_Management_Workshop_2026-10-29.pdf, Etihad_05_AUG_Edition_2026-GSU-34_2026-10-30.pdf
+- **Tracker:** `career/job_applications_tracker.md`
+
+
+## [2026-11-18] career | Staged Job Application: Customer Support in TURKISH (Remote) at Jobsforhumanity (`draft_c77440ca7d`)
+- **Channel / Target:** `gmail` -> `hr.servelineconsulting@gmail.com`
+- **Attachments:** Omar_Elnemr_CV_2026.pdf, Etihad_01_Introduction_to_Ground_Services_IGS_16Hrs_2026-10-06.pdf, Etihad_02_Amadeus_Customer_Management_CM_32Hrs_2026-10-15.pdf, Etihad_03_INSPIRE_Airport_Service_Delivery_2026-10-16.pdf, Etihad_04_Airport_Disruption_Management_Workshop_2026-10-29.pdf, Etihad_05_AUG_Edition_2026-GSU-34_2026-10-30.pdf
+- **Tracker:** `career/job_applications_tracker.md`
+
+
 ## [2026-11-05] concept | Vercel Labs agent-desktop: Accessibility-Tree GUI Automation for AI Agents
 - **Action:** Created `concepts/vercel-agent-desktop-automation.md` documenting `vercel-labs/agent-desktop` (16k+ stars on GitHub), which enables AI agents (Claude Code, Hermes) to drive legacy desktop apps on macOS, Windows, and Linux via OS accessibility trees without pixel-guessing or mouse hijacking.
 - **Index:** Cataloged in `index.md`.
