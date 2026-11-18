@@ -3,6 +3,12 @@
 > Chronological, append-only record of all LLM Wiki actions (ingest, query, lint, update).
 > Format: `## [YYYY-MM-DD] action | subject`
 
+## [2026-11-18] career | Staged Job Application: Careers – Sharjah Airport at Sharjahairport (`draft_d4360efca2`)
+- **Channel / Target:** `gmail` -> `careers@sharjahairport.ae`
+- **Attachments:** Omar_Elnemr_Sharjahairport_Careers_Sharjah_Airport_CV.pdf, Etihad_01_Introduction_to_Ground_Services_IGS_16Hrs_2026-10-06.pdf, Etihad_02_Amadeus_Customer_Management_CM_32Hrs_2026-10-15.pdf, Etihad_03_INSPIRE_Airport_Service_Delivery_2026-10-16.pdf, Etihad_04_Airport_Disruption_Management_Workshop_2026-10-29.pdf, Etihad_05_AUG_Edition_2026-GSU-34_2026-10-30.pdf
+- **Tracker:** `career/job_applications_tracker.md`
+
+
 ## [2026-11-18] career | Staged Job Application: VIP Service Agent at Etihad Airways (`draft_dc66467b87`)
 - **Channel / Target:** `gmail` -> `careers@etihad.ae`
 - **Attachments:** Omar_Elnemr_Etihad_Airways_VIP_Service_Agent_CV.pdf, Etihad_01_Introduction_to_Ground_Services_IGS_16Hrs_2026-10-06.pdf, Etihad_02_Amadeus_Customer_Management_CM_32Hrs_2026-10-15.pdf, Etihad_03_INSPIRE_Airport_Service_Delivery_2026-10-16.pdf, Etihad_04_Airport_Disruption_Management_Workshop_2026-10-29.pdf, Etihad_05_AUG_Edition_2026-GSU-34_2026-10-30.pdf
