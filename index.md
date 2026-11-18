@@ -327,3 +327,4 @@
 - [[2026-11-13-want-to-see-how-you-can-run-ai-models-for-free-wit|2026 11 13 Want To See How You Can Run Ai Models For Free Wit]] (`raw/reels`)
 - [[2026-11-16-telegram-call|2026 11 16 Telegram Call]] (`raw/transcripts`)
 - [[promise_ledger|Promise Ledger]] (`tasks`)
+- [[2026-11-18-finstek-interview-debrief|FinStek Interview Debrief & Technical Growth Plan]] (`reviews`)

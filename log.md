@@ -1252,3 +1252,8 @@
 **Aethelgard:** Understood, Omar. I'll redial you right now and wait for you to speak first.
 - **Promises tracked:** 1
 - **Note:** Technical issue encountered during callback test: call connected but audio stream dropped before speaking.
+
+## 📝 [2026-11-18 14:45] Interview Debrief — FinStek (Misha)
+- **Note:** [[2026-11-18-finstek-interview-debrief]]
+- **Role:** Technical Support & Front-End Developer
+- **Outcome:** Not selected; actionable PhD feedback logged (C++ fundamentals, algorithms, backend auth debugging, owning project codebases without AI crutches).
