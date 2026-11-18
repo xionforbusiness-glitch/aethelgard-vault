@@ -334,3 +334,9 @@
 
 - [[collision-collision-laya--flight-simulati|Collision Collision Laya  Flight Simulati]] (`concepts`)
 - [[2026-11-18-etihad-airways-your-application-for-duty-superviso|2026 11 18 Etihad Airways Your Application For Duty Superviso]] (`raw/emails`)
+
+
+## 📚 Newly Ingested & Cataloged Notes (Automated Librarian)
+
+- [[2026-11-18-etihad-airways-thank-you-for-applying-to-etihad|2026 11 18 Etihad Airways Thank You For Applying To Etihad]] (`raw/emails`)
+- [[2026-11-18-telegram-call|2026 11 18 Telegram Call]] (`raw/transcripts`)
