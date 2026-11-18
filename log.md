@@ -1263,3 +1263,9 @@
 - **Turns:** 1
 - **Actions:** Conversation only
 - **Last Exchange:** Omar: "[Omar spoke via live voice]" -> Aethelgard: "Apologies Omar, I encountered a momentary connection hiccup with our flight operations link. I am right here—could you repeat that?"
+
+## 📞 [2026-11-18 20:36] Telegram Voice Call (`call_20261118_173530_541`)
+- **Transcript:** [[2026-11-18-telegram-call]]
+- **Turns:** 1
+- **Actions:** Conversation only
+- **Last Exchange:** Omar: "Could you summarize it?" -> Aethelgard: "Done, Omar."
