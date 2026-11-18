@@ -1257,3 +1257,9 @@
 - **Note:** [[2026-11-18-finstek-interview-debrief]]
 - **Role:** Technical Support & Front-End Developer
 - **Outcome:** Not selected; actionable PhD feedback logged (C++ fundamentals, algorithms, backend auth debugging, owning project codebases without AI crutches).
+
+## 📞 [2026-11-18 19:28] Telegram Voice Call (`call_20261118_162701_608`)
+- **Transcript:** [[2026-11-18-telegram-call]]
+- **Turns:** 1
+- **Actions:** Conversation only
+- **Last Exchange:** Omar: "[Omar spoke via live voice]" -> Aethelgard: "Apologies Omar, I encountered a momentary connection hiccup with our flight operations link. I am right here—could you repeat that?"
