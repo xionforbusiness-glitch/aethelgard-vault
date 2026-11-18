@@ -3,6 +3,12 @@
 > Chronological, append-only record of all LLM Wiki actions (ingest, query, lint, update).
 > Format: `## [YYYY-MM-DD] action | subject`
 
+## [2026-11-18] career | Staged Job Application: IT Support Engineer / Careers at Adivhr (`draft_e197c08a7e`)
+- **Channel / Target:** `gmail` -> `cv@adivhr.com`
+- **Attachments:** Omar_Elnemr_CV_2026.pdf
+- **Tracker:** `career/job_applications_tracker.md`
+
+
 ## [2026-11-18] career | Staged Job Application: IT Support Engineer at Wlnet (`draft_0d0787754a`)
 - **Channel / Target:** `gmail` -> `careers@wlnet.com`
 - **Attachments:** Omar_Elnemr_CV_2026.pdf
