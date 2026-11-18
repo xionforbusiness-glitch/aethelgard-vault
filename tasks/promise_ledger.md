@@ -1,12 +1,14 @@
 ---
 title: "Aethelgard Promise & Deal Ledger"
-updated_at: "2026-11-18T21:00:25.839638+00:00"
+updated_at: "2026-11-18T21:00:59.334914+00:00"
 ---
 
 # 🤝 Closed-Loop Promise & Deal Ledger
 
 | ID | Counterparty | Direction | Summary | Status | SLA (h) | Due / Updated |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| `prm_d25bb436` | cv@adivhr.com | `waiting_on_them` | Application for IT Support Engineer / Careers — Omar Elnemr | `open` | 48 | 2026-11-18T21:00 |
+| `prm_d6200893` | omar.alnemr04@gmail.com | `waiting_on_them` | Application for Passenger Service & Ground Operations Agent — Omar Elnemr | `open` | 48 | 2026-11-18T21:00 |
 | `prm_c9e47cbc` | careers@etihad.ae | `waiting_on_them` | Application for VIP Service Agent — Omar Elnemr | `open` | 48 | 2026-11-18T21:00 |
 | `prm_286fb3a5` | careers@sharjahairport.ae | `waiting_on_them` | Application for Careers – Sharjah Airport — Omar Elnemr | `open` | 48 | 2026-11-18T21:00 |
 | `prm_ff00eaa7` | careers@etihad.ae | `waiting_on_them` | Application for Flight Facilitation Assistant — Omar Elnemr | `open` | 48 | 2026-11-18T20:59 |
