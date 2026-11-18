@@ -340,3 +340,9 @@
 
 - [[2026-11-18-etihad-airways-thank-you-for-applying-to-etihad|2026 11 18 Etihad Airways Thank You For Applying To Etihad]] (`raw/emails`)
 - [[2026-11-18-telegram-call|2026 11 18 Telegram Call]] (`raw/transcripts`)
+
+
+## 📚 Newly Ingested & Cataloged Notes (Automated Librarian)
+
+- [[job_applications_tracker|Job Applications Tracker]] (`career`)
+- [[job_hunt_2026-11-18|Job Hunt 2026 11 18]] (`career`)
