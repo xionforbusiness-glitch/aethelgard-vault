@@ -328,3 +328,9 @@
 - [[2026-11-16-telegram-call|2026 11 16 Telegram Call]] (`raw/transcripts`)
 - [[promise_ledger|Promise Ledger]] (`tasks`)
 - [[2026-11-18-finstek-interview-debrief|FinStek Interview Debrief & Technical Growth Plan]] (`reviews`)
+
+
+## 📚 Newly Ingested & Cataloged Notes (Automated Librarian)
+
+- [[collision-collision-laya--flight-simulati|Collision Collision Laya  Flight Simulati]] (`concepts`)
+- [[2026-11-18-etihad-airways-your-application-for-duty-superviso|2026 11 18 Etihad Airways Your Application For Duty Superviso]] (`raw/emails`)
