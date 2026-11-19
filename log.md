@@ -2246,3 +2246,8 @@
 - **Note:** Omar has Syravia certificates stored in his vault, in addition to five Etihad certificates and his CV.
 - **Note:** Drafted 10 tailored job applications to airline recruiters (including Emirates, Flydubai, and Etihad Airways).
 - **Note:** Current email drafting tool automatically attaches Omar's CV and 5 Etihad certificates by default, but cannot customize attachments, delete drafts, or send emails directly.
+
+## 📞 [2026-11-19 23:45] Telegram Voice Call (`call_20261119_204124_339`)
+- **Transcript:** [[2026-11-19-telegram-call]]
+- **Turns:** 0
+- **Actions:** batch_draft_aviation_applications completed; modify_gmail_draft error: No draft found matching 'etihad airways'; search_vault completed; search_vault completed; modify_gmail_draft error: No draft found matching 'etihad airways'; checked Gmail (0 emails, query=draft); modify_gmail_draft error: Header values may not contain linefeed or carriage return characters; checked Gmail (5 emails, query=latest); checked Gmail (0 emails, query=from:me); requested graceful call hangup
