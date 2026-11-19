@@ -2082,3 +2082,167 @@
 **Aethelgard:** me to perform?
 **Omar:** Certainly, I'll do a very hard one. I'm deleting the drafts. On my email, so you do. And new ones.
 - **Note:** Omar is conducting a test with his assistant involving deleting and handling email drafts.
+
+## 📞 [2026-11-19 22:36] Telegram Voice Call (`call_20261119_192650_600`)
+- **Transcript:** [[2026-11-19-telegram-call]]
+- **Turns:** 0
+- **Actions:** batch_draft_aviation_applications completed; search_vault completed; batch_draft_aviation_applications completed; requested graceful call hangup
+
+## 🎙️ [2026-11-19 22:36] Voice-to-Life Compile
+> **Aethelgard:** Aethelgard listening,
+**Aethelgard:** Omar.
+**Aethelgard:** Go ahead.
+**Omar:** Hello.
+**Aethelgard:** Hello, Sir. How may
+**Aethelgard:** I assist you this
+**Aethelgard:** evening?
+**Omar:** Hey, you are here. Okay, this is great. So, as discussed before, what I want you to do now is draft me Oh, you did draft again. Oh gosh, this was this was this was fast actually.
+**Aethelgard:** I am ready to assist
+**Aethelgard:** as you wish, Sir.
+**Aethelgard:** Would you like
+**Aethelgard:** me to delete existing
+**Aethelgard:** drafts or prepare
+**Aethelgard:** new applications?
+**Omar:** Actually, delete the existing drafts.
+**Aethelgard:** I understand, but
+**Aethelgard:** I don't have
+**Aethelgard:** the ability to delete
+**Aethelgard:** drafts directly. I can,
+**Aethelgard:** however, draft
+**Aethelgard:** new applications for you
+**Aethelgard:** right away.
+**Omar:** So, one second.
+**Aethelgard:** Take your time, Sir.
+**Aethelgard:** I am here whenever
+**Aethelgard:** you are ready.
+**Omar:** So, what I want you to do now is to draft me another. 10 emails. With the recruiters so we can send them, okay? Each one is organized and customized for each one of them. For Aethelgard, Emirates, Flydubai, etc. Okay? Go ahead.
+**Aethelgard:** I have successfully
+**Aethelgard:** drafted 10
+**Aethelgard:** tailored job applications
+**Aethelgard:** for the airlines you mentioned,
+**Aethelgard:** all ready in your drafts
+**Aethelgard:** folder.
+**Omar:** Okay, great. So, in that case, I see one of them is for Seravia, but I'm not working with Seravia anymore. Can you delete that one?
+**Aethelgard:** I understand, Sir.
+**Aethelgard:** I don't
+**Aethelgard:** have the ability to delete
+**Aethelgard:** individual drafts
+**Aethelgard:** directly, but you
+**Aethelgard:** can easily delete
+**Aethelgard:** the Syravia draft
+**Aethelgard:** from your Gmail folder
+**Aethelgard:** yourself.
+**Omar:** Okay, I'm seeing each one of them. Okay, just give me a minute.
+**Aethelgard:** No problem at all,
+**Aethelgard:** Sir. Take your time
+**Aethelgard:** to review them.
+**Omar:** I have my Seravia, actually, certificates too. Do you have access to those? It's on my vault.
+**Aethelgard:** Yes, I have access
+**Aethelgard:** to the details
+**Aethelgard:** of your Syravia credentials
+**Aethelgard:** and experience
+**Aethelgard:** stored in your vault.
+**Omar:** Not credentials, actually, certificates.
+**Aethelgard:** Understood. Yes, I
+**Aethelgard:** have access
+**Aethelgard:** to your Syravia certificates
+**Aethelgard:** stored in the vault
+**Aethelgard:** along with your other
+**Aethelgard:** documentation.
+**Omar:** Okay, I want you to attach those to the emails you drafted. Add them to those.
+**Aethelgard:** I am afraid I
+**Aethelgard:** cannot modify the
+**Aethelgard:** existing drafts
+**Aethelgard:** to attach the Syravia
+**Aethelgard:** certificates, as they
+**Aethelgard:** already include your CV
+**Aethelgard:** and five Etihad
+**Aethelgard:** certificates. You would
+**Aethelgard:** need to add the
+**Aethelgard:** additional file to each
+**Aethelgard:** draft manually.
+**Omar:** What's about doing it again? deleting those and you just need to do them again. I have just deleted them. You may do another drafts, 10 drafts. But with the Seravia ones too.
+**Aethelgard:** I have recreated the
+**Aethelgard:** 10 drafts in your
+**Aethelgard:** Gmail folder,
+**Aethelgard:** ready for you to add the Syravia
+**Aethelgard:** certificates.
+**Omar:** No, I don't want you to... Oh, gosh. I want you to those existing drafts to add the Seravia with them.
+**Aethelgard:** I sincerely apologize
+**Aethelgard:** for the misunderstanding.
+**Aethelgard:** My
+**Aethelgard:** drafting tool automatically
+**Aethelgard:** attaches
+**Aethelgard:** the CV and five
+**Aethelgard:** Etihad certificates,
+**Aethelgard:** but it cannot
+**Aethelgard:** modify existing
+**Aethelgard:** drafts to add
+**Aethelgard:** the Syravia documents.
+**Omar:** Okay, is it possible to modify that too and add with it the Seravia? Can you do me a test and attach those files with the Seravia just to make sure that you have the ability for it?
+**Aethelgard:** I completely understand
+**Aethelgard:** your goal,
+**Aethelgard:** but my batch drafting
+**Aethelgard:** tool is designed to automatically
+**Aethelgard:** include only
+**Aethelgard:** the standard CV
+**Aethelgard:** and five
+**Aethelgard:** Etihad certificates.
+**Aethelgard:** I cannot add
+**Aethelgard:** the Syravia certificates
+**Aethelgard:** to these drafts,
+**Aethelgard:** as there is no option to customize
+**Aethelgard:** attachments.
+**Omar:** Oh, really? Okay, I'll be making sure to add this ability for you. No worries, you got it.
+**Aethelgard:** Thank you, Sir.
+**Aethelgard:** I greatly appreciate
+**Aethelgard:** your assistance with that.
+**Omar:** Okay, what else do you want me to edit to you, actually add new abilities? What do you think?
+**Aethelgard:** I would suggest
+**Aethelgard:** focusing on abilities
+**Aethelgard:** that further streamline
+**Aethelgard:** your scheduling
+**Aethelgard:** or help track your application
+**Aethelgard:** responses.
+**Aethelgard:** Would you like to explore
+**Aethelgard:** calendar management
+**Aethelgard:** options next?
+**Omar:** Actually, abilities that you don't have access to and you wish you had access to. What do you want me to implement to you?
+**Aethelgard:** I would greatly benefit
+**Aethelgard:** from the ability
+**Aethelgard:** to customize attachments
+**Aethelgard:** in email
+**Aethelgard:** drafts, allowing me to
+**Aethelgard:** include your Syravia
+**Aethelgard:** certificates directly.
+**Omar:** Is there anything else I can add to you?
+**Aethelgard:** No, thank you, Sir.
+**Aethelgard:** The current configuration
+**Aethelgard:** allows me
+**Aethelgard:** to assist you effectively
+**Aethelgard:** with your job application
+**Aethelgard:** needs.
+**Omar:** Okay, I'll make sure that it will be done. But for now, let's try one of those drafts. Let's say the Etihad Airways hiring team. Let's send the Etihad Airways team draft for now, okay?
+**Aethelgard:** I understand you would like
+**Aethelgard:** to send the Etihad
+**Aethelgard:** Airways application.
+**Aethelgard:** However,
+**Aethelgard:** I don't have the ability
+**Aethelgard:** to send drafts
+**Aethelgard:** directly from your account,
+**Aethelgard:** so you will need to send
+**Aethelgard:** it from your Gmail app
+**Aethelgard:** or browser.
+**Omar:** Okay, another ability to be added, no worries.
+**Aethelgard:** I understand, Sir.
+**Aethelgard:** I am here
+**Aethelgard:** to help with any adjustments.
+**Omar:** Okay, in that case, let's end the call. I'll be back with you.
+**Aethelgard:** Goodbye, Omar. I
+**Aethelgard:** look forward
+**Aethelgard:** to assisting you when you return.
+- **Promises tracked:** 2
+- **Note:** Omar is no longer working with Syravia.
+- **Note:** Omar has Syravia certificates stored in his vault, in addition to five Etihad certificates and his CV.
+- **Note:** Drafted 10 tailored job applications to airline recruiters (including Emirates, Flydubai, and Etihad Airways).
+- **Note:** Current email drafting tool automatically attaches Omar's CV and 5 Etihad certificates by default, but cannot customize attachments, delete drafts, or send emails directly.
