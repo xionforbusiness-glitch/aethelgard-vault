@@ -1,12 +1,15 @@
 ---
 title: "Aethelgard Promise & Deal Ledger"
-updated_at: "2026-11-19T20:45:49.649142+00:00"
+updated_at: "2026-11-19T21:23:43.958257+00:00"
 ---
 
 # 🤝 Closed-Loop Promise & Deal Ledger
 
 | ID | Counterparty | Direction | Summary | Status | SLA (h) | Due / Updated |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| `prm_c44c40ad` | Aethelgard | `waiting_on_me` | Review the remaining airline application drafts before authorizing dispatch | `open` | 48 | 2026-11-19T21:23 |
+| `prm_0c6f6805` | Aethelgard | `waiting_on_them` | Review recent chat history and implement Live Mode tools (search internet, text someone, pitch) | `open` | 48 | 2026-11-19T21:23 |
+| `prm_eb58db86` | Aethelgard | `waiting_on_them` | Ensure remaining 9 drafts appear in drafts folder with CV and certificates attached | `open` | 48 | 2026-11-19T21:23 |
 | `prm_be966677` | Aethelgard | `waiting_on_them` | Call back in five minutes once the Saudi Arabia certificates are added to email drafts | `open` | 48 | 2026-11-19T20:45 |
 | `prm_7aab28ee` | campus@zenmux.ai | `waiting_on_them` | ZenMux Campus Ambassador application update (3-5 business days) | `open` | 120 | 2026-11-19T20:14 |
 | `prm_64552860` | Aethelgard | `waiting_on_me` | Implement capability for Aethelgard to send emails/drafts directly | `open` | 48 | 2026-11-19T19:36 |
