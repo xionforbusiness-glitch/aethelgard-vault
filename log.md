@@ -2780,3 +2780,25 @@
 - **Note:** **Omar:** Enter's command call me again.
 - **Note:** **Aethelgard:** Of course, Sir.
 - **Note:** **Aethelgard:** be standing by
+
+## 📞 [2026-11-20 00:17] Telegram Voice Call (`call_20261119_211339_967`)
+- **Transcript:** [[2026-11-20-telegram-call]]
+- **Turns:** 0
+- **Actions:** delete_gmail_draft completed; delete_gmail_draft completed
+
+## 🎙️ [2026-11-20 00:17] Voice-to-Life Compile
+> **Aethelgard:** Welcome back, Omar.
+**Aethelgard:** What's next?
+**Omar:** So I see that the batch is ready.
+**Aethelgard:** Indeed, Sir. Shall
+**Aethelgard:** I dispatch
+**Aethelgard:** the application to Etihad
+**Aethelgard:** Airways now?
+**Omar:** First, delete those that does not have the Cyrillic here. I'm sorry, Cyrillic certificates. From my drafts, so we don't send the duplicates, okay?
+**Omar:** جي هيرم
+**Aethelgard:** I've cleared those out
+**Aethelgard:** for you, Sir.
+**Aethelgard:** What's next on the agenda?
+**Omar:** Actually, they are still there.
+- **Note:** Preparing an application batch for Etihad Airways
+- **Note:** Filtering out draft applications that lack Cyrillic certificates to avoid duplicate submissions

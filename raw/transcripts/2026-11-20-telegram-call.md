@@ -277,3 +277,36 @@
 **Aethelgard:** Of course, Sir. I'll
 
 **Aethelgard:** be standing by
+
+
+# 📞 Native Telegram Call Transcript (2026-11-20 00:17 Damascus)
+
+**Actions Executed:**
+- delete_gmail_draft completed
+- delete_gmail_draft completed
+
+**Aethelgard:** Welcome back, Omar.
+
+**Aethelgard:** What's next?
+
+**Omar:** So I see that the batch is ready.
+
+**Aethelgard:** Indeed, Sir. Shall
+
+**Aethelgard:** I dispatch
+
+**Aethelgard:** the application to Etihad
+
+**Aethelgard:** Airways now?
+
+**Omar:** First, delete those that does not have the Cyrillic here. I'm sorry, Cyrillic certificates. From my drafts, so we don't send the duplicates, okay?
+
+**Omar:** جي هيرم
+
+**Aethelgard:** I've cleared those out
+
+**Aethelgard:** for you, Sir.
+
+**Aethelgard:** What's next on the agenda?
+
+**Omar:** Actually, they are still there.
