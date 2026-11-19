@@ -1496,3 +1496,8 @@
 **Aethelgard:** Omar. Have a delightful
 **Aethelgard:** day. Goodbye.
 - **Note:** Tested Aethelgard's ability to create an email draft.
+
+## 📞 [2026-11-19 21:19] Telegram Voice Call (`call_20261119_181614_591`)
+- **Transcript:** [[2026-11-19-telegram-call]]
+- **Turns:** 0
+- **Actions:** checked Gmail (0 emails, query=latest); checked Gmail (3 emails, query=latest); saved Gmail draft to None (Test email); requested graceful call hangup
