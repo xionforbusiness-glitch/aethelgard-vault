@@ -361,3 +361,9 @@
 - [[aviation_batch_40_nov_2026|Aviation Batch 40 Nov 2026]] (`career`)
 - [[job_hunt_2026-11-19|Job Hunt 2026 11 19]] (`career`)
 - [[retro-console-fallback-ux-design-pattern|Retro Console Fallback Ux Design Pattern]] (`concepts`)
+
+
+## 📚 Newly Ingested & Cataloged Notes (Automated Librarian)
+
+- [[2026-11-19-etihad-airways-automatic-reply-application-for-air|2026 11 19 Etihad Airways Automatic Reply Application For Air]] (`raw/emails`)
+- [[2026-11-20-telegram-call|2026 11 20 Telegram Call]] (`raw/transcripts`)

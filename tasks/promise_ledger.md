@@ -1,6 +1,6 @@
 ---
 title: "Aethelgard Promise & Deal Ledger"
-updated_at: "2026-11-19T21:23:43.958257+00:00"
+updated_at: "2026-11-19T21:25:31.423657+00:00"
 ---
 
 # 🤝 Closed-Loop Promise & Deal Ledger
@@ -20,9 +20,9 @@ updated_at: "2026-11-19T21:23:43.958257+00:00"
 | `prm_07c6e666` | careers@wlnet.com | `waiting_on_them` | Application for IT Support Engineer — Omar Elnemr | `open` | 48 | 2026-11-18T21:01 |
 | `prm_d25bb436` | cv@adivhr.com | `waiting_on_them` | Application for IT Support Engineer / Careers — Omar Elnemr | `open` | 48 | 2026-11-18T21:00 |
 | `prm_d6200893` | omar.alnemr04@gmail.com | `waiting_on_them` | Application for Passenger Service & Ground Operations Agent — Omar Elnemr | `open` | 48 | 2026-11-18T21:00 |
-| `prm_c9e47cbc` | careers@etihad.ae | `waiting_on_them` | Application for VIP Service Agent — Omar Elnemr | `open` | 48 | 2026-11-18T21:00 |
+| `prm_c9e47cbc` | careers@etihad.ae | `waiting_on_them` | Application for VIP Service Agent — Omar Elnemr | `resolved` | 48 | 2026-11-19T21:25 |
 | `prm_286fb3a5` | careers@sharjahairport.ae | `waiting_on_them` | Application for Careers – Sharjah Airport — Omar Elnemr | `open` | 48 | 2026-11-18T21:00 |
-| `prm_ff00eaa7` | careers@etihad.ae | `waiting_on_them` | Application for Flight Facilitation Assistant — Omar Elnemr | `open` | 48 | 2026-11-18T20:59 |
+| `prm_ff00eaa7` | careers@etihad.ae | `waiting_on_them` | Application for Flight Facilitation Assistant — Omar Elnemr | `resolved` | 48 | 2026-11-19T21:25 |
 | `prm_01e75233` | Aethelgard | `waiting_on_them` | Call Omar directly as soon as the Etihad and Air Arabia applications are submitted/completed | `open` | 48 | 2026-11-16T09:08 |
 | `prm_28869b90` | Aethelgard | `waiting_on_them` | Follow up, search, and apply for Etihad Ground Handling (and Air Arabia) positions with Omar's credentials and CV | `open` | 48 | 2026-11-16T09:08 |
 | `prm_1a1f11b9` | Omar | `waiting_on_me` | End the current call and call Omar right back | `open` | 48 | 2026-11-16T03:19 |
