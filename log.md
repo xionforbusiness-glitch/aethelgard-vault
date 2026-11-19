@@ -1454,3 +1454,16 @@
 - **Note:** **Aethelgard:** Aethelgard listening,
 - **Note:** **Aethelgard:** Omar.
 - **Note:** **Aethelgard:** Go ahead.
+
+## 📞 [2026-11-19 19:54] Telegram Voice Call (`call_20261119_165336_748`)
+- **Transcript:** [[2026-11-19-telegram-call]]
+- **Turns:** 0
+- **Actions:** Conversation only
+
+## 🎙️ [2026-11-19 19:54] Voice-to-Life Compile
+> **Aethelgard:** Aethelgard listening,
+**Aethelgard:** Omar.
+**Aethelgard:** Go ahead.
+- **Note:** **Aethelgard:** Aethelgard listening,
+- **Note:** **Aethelgard:** Omar.
+- **Note:** **Aethelgard:** Go ahead.
