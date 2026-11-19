@@ -106,3 +106,42 @@
 **Omar:** [Omar spoke via live voice]
 
 **Aethelgard:** Have a great evening, Omar. Goodbye.
+
+
+# 📞 Native Telegram Call Transcript (2026-11-19 19:05 Damascus)
+
+**Actions Executed:**
+- list_pending_drafts completed
+- requested graceful call hangup
+
+**Omar:** Hello, how are you?
+
+**Aethelgard:** Good evening, Omar. I'm functioning at peak performance and ready to assist. How can I help you right now?
+
+**Omar:** [Omar spoke via live voice]
+
+**Aethelgard:** Done, Omar.
+
+**Omar:** [Omar spoke via live voice]
+
+**Aethelgard:** Done, Omar.
+
+**Omar:** [Omar spoke via live voice]
+
+**Aethelgard:** Done, Omar.
+
+**Omar:** Hello, do you hear me?
+
+**Aethelgard:** Loud and clear, Omar. How can I help you this evening?
+
+**Omar:** Um, okay.
+
+**Aethelgard:** You're very welcome, Omar. Let me know whenever you need anything.
+
+**Omar:** [Omar spoke via live voice]
+
+**Aethelgard:** Done, Omar.
+
+**Omar:** [Omar spoke via live voice]
+
+**Aethelgard:** Have a good evening, Omar. Take care.

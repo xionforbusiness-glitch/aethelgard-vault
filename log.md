@@ -1424,3 +1424,9 @@
 - **Note:** **Omar:** [Omar spoke via live voice]
 - **Note:** **Aethelgard:** Have a great evening, Omar.
 - **Note:** Goodbye.
+
+## 📞 [2026-11-19 19:05] Telegram Voice Call (`call_20261119_160311_760`)
+- **Transcript:** [[2026-11-19-telegram-call]]
+- **Turns:** 8
+- **Actions:** list_pending_drafts completed; requested graceful call hangup
+- **Last Exchange:** Omar: "[Omar spoke via live voice]" -> Aethelgard: "Have a good evening, Omar. Take care."
