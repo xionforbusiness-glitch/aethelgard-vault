@@ -1,11 +1,11 @@
 ---
 title: " Automatic reply: Application for Airport Passenger Service & Ground Operations Agent  — Omar Elnemr"
-email_id: "50597"
+email_id: "50598"
 sender: "Etihad Airways Recruitment <Recruitment@etihad.ae>"
 organization: "Etihad Airways"
 category: "Aviation & Flight Operations"
 priority: "CRITICAL"
-received_at: "Thu, 19 Nov 2026 21:22:29 +0000"
+received_at: "Thu, 19 Nov 2026 21:59:24 +0000"
 type: "vip_email"
 tags:
   - email
@@ -18,8 +18,8 @@ tags:
 - **Organization:** [[Etihad Airways]]
 - **Sender:** `Etihad Airways Recruitment <Recruitment@etihad.ae>`
 - **Priority:** `CRITICAL` (Aviation & Flight Operations)
-- **Received:** `Thu, 19 Nov 2026 21:22:29 +0000`
-- **Message ID:** `50597`
+- **Received:** `Thu, 19 Nov 2026 21:59:24 +0000`
+- **Message ID:** `50598`
 
 ## 📋 Content
 
