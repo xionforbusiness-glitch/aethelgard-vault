@@ -3003,3 +3003,8 @@
 - **Shift updates:** Processed: Tomorrow's shift: 08:15 to 16:00
 - **Promises tracked:** 1
 - **Note:** Sent airline job applications for Emirates, flydubai, and Qatar Airways (skipped Etihad to avoid duplicate submissions).
+
+## 📞 [2026-11-20 01:22] Telegram Voice Call (`call_20261119_222111_167`)
+- **Transcript:** [[2026-11-20-telegram-call]]
+- **Turns:** 0
+- **Actions:** requested graceful call hangup
