@@ -19,12 +19,13 @@ updated: 2026-11-09
   - **Air Arabia (`G9 / ABY`):** Low-Cost Carrier (LCC) station operations to Sharjah (`SHJ`) and regional hubs, rapid counter check-in, and automated/manual baggage tag reconciliation (`raw/assets/manual_baggage_tag_air_arabia.jpg`).
   - **[[concepts/syrian-airlines-brand-identity-and-uniforms|Syrian Airlines (RB / SYR)]]:** National carrier ground operations at `DAM / OSDI` operating with an **active individual Syrian Airlines DCS account**, executing passenger check-in, seat allocation, weight & balance trim sheet coordination, and flight manifest closeout.
 
-### Official Etihad Airways L&D Certifications Earned (`raw/documents/etihad_training/certificates/`)
-1. **Amadeus Customer Management (CM) – Certification (L&D)** (`32.00 Hrs` Instructor-Led Training with Assessment — **91% Score**, `15/Oct/2026`, Facilitator: *Muhammad Sohail*) — `Etihad_02_Amadeus_Customer_Management_CM_32Hrs_2026-10-15.pdf`
-2. **Introduction to Ground Services (IGS) (L&D)** (`16.00 Hrs` Instructor-Led Training with Assessment, `06/Oct/2026`, Facilitator: *Vanessa Mascarenhas*) — `Etihad_01_Introduction_to_Ground_Services_IGS_16Hrs_2026-10-06.pdf`
-3. **INSPIRE – Airport Service Delivery Training (L&D)** (`16/Oct/2026`, Facilitator: *Muhammad Sohail*) — `Etihad_03_INSPIRE_Airport_Service_Delivery_2026-10-16.pdf`
-4. **Airport Disruption Management Workshop (IROPs)** (`1.00 Hr` Instructor-Led Training, `29/Oct/2026`, Facilitator: *Abdul Munaf Mohamed*) — `Etihad_04_Airport_Disruption_Management_Workshop_2026-10-29.pdf`
-5. **AUG Edition 2026-GSU-34 (Airport User Guide / Ground Services Update)** (`30/Oct/2026`, Signed by *Dr. Nadia Bastaki, Chief People, Government & Corporate Affairs Officer*) — `Etihad_05_AUG_Edition_2026-GSU-34_2026-10-30.pdf`
+### Official Aviation & Ground Handling Certifications Earned (`raw/documents/etihad_training/certificates/`)
+1. **Aviation Orientation Course** (`27/Aug/2026`, Trainer: *Fawaz Aljabi*, HR Department: *Firas Mazzawi*) — `Aviation_Orientation_Course_Omar_Elnemr_2026-08-27.pdf`
+2. **Amadeus Customer Management (CM) – Certification (L&D)** (`32.00 Hrs` Instructor-Led Training with Assessment — **91% Score**, `15/Oct/2026`, Facilitator: *Muhammad Sohail*) — `Etihad_02_Amadeus_Customer_Management_CM_32Hrs_2026-10-15.pdf`
+3. **Introduction to Ground Services (IGS) (L&D)** (`16.00 Hrs` Instructor-Led Training with Assessment, `06/Oct/2026`, Facilitator: *Vanessa Mascarenhas*) — `Etihad_01_Introduction_to_Ground_Services_IGS_16Hrs_2026-10-06.pdf`
+4. **INSPIRE – Airport Service Delivery Training (L&D)** (`16/Oct/2026`, Facilitator: *Muhammad Sohail*) — `Etihad_03_INSPIRE_Airport_Service_Delivery_2026-10-16.pdf`
+5. **Airport Disruption Management Workshop (IROPs)** (`1.00 Hr` Instructor-Led Training, `29/Oct/2026`, Facilitator: *Abdul Munaf Mohamed*) — `Etihad_04_Airport_Disruption_Management_Workshop_2026-10-29.pdf`
+6. **AUG Edition 2026-GSU-34 (Airport User Guide / Ground Services Update)** (`30/Oct/2026`, Signed by *Dr. Nadia Bastaki, Chief People, Government & Corporate Affairs Officer*) — `Etihad_05_AUG_Edition_2026-GSU-34_2026-10-30.pdf`
 
 ---
 
