@@ -2895,3 +2895,50 @@
 - **Note:** Remaining drafts prepared for Emirates, flydubai, Air Arabia, and Qatar Airways with CV and certificates attached.
 - **Note:** Android app issue noted: 10 drafts existed, one sent, but remaining drafts temporarily appeared missing/disorganized; need to document fix.
 - **Note:** Planned feature development: expand Live Mode capabilities to support tool execution (web search, messaging, pitching) based on chat discussion.
+
+## 📞 [2026-11-20 00:53] Telegram Voice Call (`call_20261119_214902_202`)
+- **Transcript:** [[2026-11-20-telegram-call]]
+- **Turns:** 0
+- **Actions:** Conversation only
+
+## 🎙️ [2026-11-20 00:53] Voice-to-Life Compile
+> **Aethelgard:** Welcome back, Sir.
+**Aethelgard:** What shall
+**Aethelgard:** we tackle now?
+**Omar:** Yo, yo, yo.
+**Aethelgard:** Good to hear you
+**Aethelgard:** again, Sir. What's on
+**Aethelgard:** your mind this evening?
+**Omar:** I just wanted to test something.
+**Aethelgard:** Understood, Sir. I
+**Aethelgard:** am at
+**Aethelgard:** your disposal whenever
+**Aethelgard:** you are ready.
+**Omar:** Okay.
+**Aethelgard:** I am standing by, Sir,
+**Aethelgard:** whenever you need me.
+**Omar:** I see the draft on my end. So, just want to let you know. And by the way, I want you to make a rule. We don't send the same email or the same recruiter another email or another application so it does not flag it as spam or he does not see my email or my CV as a duplicate, okay?
+**Aethelgard:** Understood, Sir. I shall
+**Aethelgard:** ensure we don't
+**Aethelgard:** send duplicate
+**Aethelgard:** applications to the same
+**Aethelgard:** recruiter, protecting
+**Aethelgard:** your professional
+**Aethelgard:** standing.
+**Omar:** Yes, exactly.
+**Aethelgard:** Consider it a strict
+**Aethelgard:** rule for all future
+**Aethelgard:** applications, Sir.
+**Omar:** Okay, I have just reviewed the draft. They are all good to go.
+**Aethelgard:** Splendid. Shall I
+**Aethelgard:** dispatch the application
+**Aethelgard:** to Etihad now,
+**Aethelgard:** Sir?
+**Omar:** Not just Etihad, all of them actually.
+**Aethelgard:** Understood, Sir. I will
+**Aethelgard:** proceed with dispatching
+**Aethelgard:** all applications right
+**Aethelgard:** away.
+- **Promises tracked:** 1
+- **Note:** Established a rule to never send duplicate applications or follow-up emails to the same recruiter to prevent being flagged as spam
+- **Note:** Reviewed and approved a batch of job application drafts (including Etihad) for dispatch

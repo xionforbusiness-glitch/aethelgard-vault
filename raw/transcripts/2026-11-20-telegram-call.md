@@ -482,3 +482,80 @@
 **Aethelgard:** a productive
 
 **Aethelgard:** day.
+
+
+# 📞 Native Telegram Call Transcript (2026-11-20 00:53 Damascus)
+
+**Aethelgard:** Welcome back, Sir.
+
+**Aethelgard:** What shall
+
+**Aethelgard:** we tackle now?
+
+**Omar:** Yo, yo, yo.
+
+**Aethelgard:** Good to hear you
+
+**Aethelgard:** again, Sir. What's on
+
+**Aethelgard:** your mind this evening?
+
+**Omar:** I just wanted to test something.
+
+**Aethelgard:** Understood, Sir. I
+
+**Aethelgard:** am at
+
+**Aethelgard:** your disposal whenever
+
+**Aethelgard:** you are ready.
+
+**Omar:** Okay.
+
+**Aethelgard:** I am standing by, Sir,
+
+**Aethelgard:** whenever you need me.
+
+**Omar:** I see the draft on my end. So, just want to let you know. And by the way, I want you to make a rule. We don't send the same email or the same recruiter another email or another application so it does not flag it as spam or he does not see my email or my CV as a duplicate, okay?
+
+**Aethelgard:** Understood, Sir. I shall
+
+**Aethelgard:** ensure we don't
+
+**Aethelgard:** send duplicate
+
+**Aethelgard:** applications to the same
+
+**Aethelgard:** recruiter, protecting
+
+**Aethelgard:** your professional
+
+**Aethelgard:** standing.
+
+**Omar:** Yes, exactly.
+
+**Aethelgard:** Consider it a strict
+
+**Aethelgard:** rule for all future
+
+**Aethelgard:** applications, Sir.
+
+**Omar:** Okay, I have just reviewed the draft. They are all good to go.
+
+**Aethelgard:** Splendid. Shall I
+
+**Aethelgard:** dispatch the application
+
+**Aethelgard:** to Etihad now,
+
+**Aethelgard:** Sir?
+
+**Omar:** Not just Etihad, all of them actually.
+
+**Aethelgard:** Understood, Sir. I will
+
+**Aethelgard:** proceed with dispatching
+
+**Aethelgard:** all applications right
+
+**Aethelgard:** away.
