@@ -354,3 +354,10 @@
 - [[collision-job_application-ui-ux-resources|Collision Job Application Ui Ux Resources]] (`concepts`)
 - [[2026-11-19-etihad-airways-see-hiring-trends-for-etihad|2026 11 19 Etihad Airways See Hiring Trends For Etihad]] (`raw/emails`)
 - [[2026-11-19-telegram-call|2026 11 19 Telegram Call]] (`raw/transcripts`)
+
+
+## 📚 Newly Ingested & Cataloged Notes (Automated Librarian)
+
+- [[aviation_batch_40_nov_2026|Aviation Batch 40 Nov 2026]] (`career`)
+- [[job_hunt_2026-11-19|Job Hunt 2026 11 19]] (`career`)
+- [[retro-console-fallback-ux-design-pattern|Retro Console Fallback Ux Design Pattern]] (`concepts`)

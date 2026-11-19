@@ -2489,3 +2489,8 @@
 - **Transcript:** [[2026-11-19-telegram-call]]
 - **Turns:** 0
 - **Actions:** Conversation only
+
+## 📞 [2026-11-20 00:05] Telegram Voice Call (`call_20261119_205916_836`)
+- **Transcript:** [[2026-11-20-telegram-call]]
+- **Turns:** 0
+- **Actions:** get_recent_telegram_messages completed; batch_draft_aviation_applications completed; check_agenda completed; requested graceful call hangup
