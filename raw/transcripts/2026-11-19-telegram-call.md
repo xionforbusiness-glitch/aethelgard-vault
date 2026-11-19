@@ -1541,3 +1541,50 @@
 **Aethelgard:** I will call you back
 
 **Aethelgard:** in five minutes, Sir.
+
+
+# 📞 Native Telegram Call Transcript (2026-11-19 23:46 Damascus)
+
+**Actions Executed:**
+- schedule_callback completed
+- requested graceful call hangup
+
+**Aethelgard:** Back already, Sir?
+
+**Aethelgard:** Forget something?
+
+**Omar:** Actually, call me.
+
+**Aethelgard:** Of course, Sir. In
+
+**Aethelgard:** just how many minutes?
+
+**Omar:** You called me. I did not call you.
+
+**Aethelgard:** My apologies, Sir. How
+
+**Aethelgard:** many minutes do you
+
+**Aethelgard:** need before I call
+
+**Aethelgard:** you back?
+
+**Omar:** Let's do five.
+
+**Aethelgard:** Understood, I will
+
+**Aethelgard:** call you back
+
+**Aethelgard:** in five minutes, Sir.
+
+**Omar:** Okay, and just to confirm. Don't forget to attach those certificates, okay?
+
+**Aethelgard:** Rest assured, Sir,
+
+**Aethelgard:** everything is
+
+**Aethelgard:** perfectly attached and ready.
+
+**Aethelgard:** Goodbye, Sir. I will call
+
+**Aethelgard:** you in five minutes.

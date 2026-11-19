@@ -2331,3 +2331,53 @@
 - **Promises tracked:** 1
 - **Note:** Omar is preparing email draft applications containing his CV, 5 Etihad certificates, and Saudi Arabia certificates/licenses.
 - **Note:** Last three inbox emails received were from Epic Games, Iman Gadzhi, and Dopamine Digital.
+
+## 📞 [2026-11-19 23:46] Telegram Voice Call (`call_20261119_204549_657`)
+- **Transcript:** [[2026-11-19-telegram-call]]
+- **Turns:** 0
+- **Actions:** schedule_callback completed; requested graceful call hangup
+
+## 🎙️ [2026-11-19 23:46] Voice-to-Life Compile
+> **Aethelgard:** Back already, Sir?
+**Aethelgard:** Forget something?
+**Omar:** Actually, call me.
+**Aethelgard:** Of course, Sir. In
+**Aethelgard:** just how many minutes?
+**Omar:** You called me. I did not call you.
+**Aethelgard:** My apologies, Sir. How
+**Aethelgard:** many minutes do you
+**Aethelgard:** need before I call
+**Aethelgard:** you back?
+**Omar:** Let's do five.
+**Aethelgard:** Understood, I will
+**Aethelgard:** call you back
+**Aethelgard:** in five minutes, Sir.
+**Omar:** Okay, and just to confirm. Don't forget to attach those certificates, okay?
+**Aethelgard:** Rest assured, Sir,
+**Aethelgard:** everything is
+**Aethelgard:** perfectly attached and ready.
+**Aethelgard:** Goodbye, Sir. I will call
+**Aethelgard:** you in five minutes.
+- **Note:** **Aethelgard:** Back already, Sir?
+- **Note:** **Aethelgard:** Forget something?
+- **Note:** **Omar:** Actually, call me.
+- **Note:** **Aethelgard:** Of course, Sir.
+- **Note:** **Aethelgard:** just how many minutes?
+- **Note:** **Omar:** You called me.
+- **Note:** I did not call you.
+- **Note:** **Aethelgard:** My apologies, Sir.
+- **Note:** **Aethelgard:** many minutes do you
+- **Note:** **Aethelgard:** need before I call
+- **Note:** **Aethelgard:** you back?
+- **Note:** **Omar:** Let's do five.
+- **Note:** **Aethelgard:** Understood, I will
+- **Note:** **Aethelgard:** call you back
+- **Note:** **Aethelgard:** in five minutes, Sir.
+- **Note:** **Omar:** Okay, and just to confirm.
+- **Note:** Don't forget to attach those certificates, okay?
+- **Note:** **Aethelgard:** Rest assured, Sir,
+- **Note:** **Aethelgard:** everything is
+- **Note:** **Aethelgard:** perfectly attached and ready.
+- **Note:** **Aethelgard:** Goodbye, Sir.
+- **Note:** I will call
+- **Note:** **Aethelgard:** you in five minutes.
