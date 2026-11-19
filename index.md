@@ -346,3 +346,11 @@
 
 - [[job_applications_tracker|Job Applications Tracker]] (`career`)
 - [[job_hunt_2026-11-18|Job Hunt 2026 11 18]] (`career`)
+
+
+## 📚 Newly Ingested & Cataloged Notes (Automated Librarian)
+
+- [[collision-ai-powered-offe-2026-11-13-want|Collision Ai Powered Offe 2026 11 13 Want]] (`concepts`)
+- [[collision-job_application-ui-ux-resources|Collision Job Application Ui Ux Resources]] (`concepts`)
+- [[2026-11-19-etihad-airways-see-hiring-trends-for-etihad|2026 11 19 Etihad Airways See Hiring Trends For Etihad]] (`raw/emails`)
+- [[2026-11-19-telegram-call|2026 11 19 Telegram Call]] (`raw/transcripts`)
