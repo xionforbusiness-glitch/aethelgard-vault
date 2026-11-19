@@ -145,3 +145,19 @@
 **Omar:** [Omar spoke via live voice]
 
 **Aethelgard:** Have a good evening, Omar. Take care.
+
+
+# 📞 Native Telegram Call Transcript (2026-11-19 19:29 Damascus)
+
+**Aethelgard:** Aethelgard listening, Omar.
+
+**Aethelgard:** Go ahead.
+
+
+# 📞 Native Telegram Call Transcript (2026-11-19 19:30 Damascus)
+
+**Aethelgard:** Aethelgard listening,
+
+**Aethelgard:** Omar.
+
+**Aethelgard:** Go ahead.

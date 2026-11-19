@@ -1430,3 +1430,19 @@
 - **Turns:** 8
 - **Actions:** list_pending_drafts completed; requested graceful call hangup
 - **Last Exchange:** Omar: "[Omar spoke via live voice]" -> Aethelgard: "Have a good evening, Omar. Take care."
+
+## 📞 [2026-11-19 19:29] Telegram Voice Call (`call_20261119_162906_889`)
+- **Transcript:** [[2026-11-19-telegram-call]]
+- **Turns:** 0
+- **Actions:** Conversation only
+
+## 🎙️ [2026-11-19 19:30] Voice-to-Life Compile
+> **Aethelgard:** Aethelgard listening, Omar.
+**Aethelgard:** Go ahead.
+- **Note:** **Aethelgard:** Aethelgard listening, Omar.
+- **Note:** **Aethelgard:** Go ahead.
+
+## 📞 [2026-11-19 19:30] Telegram Voice Call (`call_20261119_163010_921`)
+- **Transcript:** [[2026-11-19-telegram-call]]
+- **Turns:** 0
+- **Actions:** Conversation only
