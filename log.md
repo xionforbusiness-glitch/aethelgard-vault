@@ -2423,3 +2423,8 @@
 **Aethelgard:** everything is correctly
 **Aethelgard:** attached and ready, Sir.
 - **Note:** Servia ground training / ground handling certificates are confirmed attached to Omar's application drafts and career pack emails.
+
+## 📞 [2026-11-19 23:50] Telegram Voice Call (`call_20261119_204923_536`)
+- **Transcript:** [[2026-11-19-telegram-call]]
+- **Turns:** 0
+- **Actions:** get_recent_telegram_messages completed; requested graceful call hangup
