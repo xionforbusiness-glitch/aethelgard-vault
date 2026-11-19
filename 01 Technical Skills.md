@@ -47,3 +47,4 @@ updated: 2026-09-30
 ## 7. Aviation Systems & Flight Operations Engineering
 - **Runway Vector & Hazard Modeling:** [[runway-windshear-and-crosswind-analyzer|Runway Windshear & Crosswind Vector Analyzer]] — ICAO Doc 9817 LLWAS models, Bowles F-Factor microburst indices, and Damascus International Airport (DAM/OSDI) runway optimization engine.
 - **DCS & Airport Station Procedures:** [[aviation_ground_operations_dcs_guide|Aviation Ground Operations & DCS Guide]] — Saudia departure control systems, passenger verification, and flight dispatch workflows.
+- **Dangerous Goods Regulations (DGR) & Aviation Safety:** Certified in Dangerous Goods Awareness & Aviation Orientation — IATA DGR passenger/baggage compliance, hidden dangerous goods identification, lithium battery handling, and airport airside safety.

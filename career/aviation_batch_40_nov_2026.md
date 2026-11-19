@@ -6,13 +6,14 @@
 
 ## 👨‍✈️ Professional Summary & Credentials
 - **Ground Operations Professional (Damascus Intl Airport - Syravia ID: 20264):** Proven expertise in passenger handling, flight facilitation, Altéa DCS (passed with 91%), weight & balance principles, ramp coordination, and VIP service recovery.
-- **Certified Aviation Professional:** 6 verified professional certifications on disk:
-  1. **Altéa Customer Management (CM) — 91%** (Amadeus DCS Passenger Services)
-  2. **IGS (International Ground Services)**
-  3. **INSPIRE Aviation Training**
-  4. **Disruption Management & Service Recovery**
-  5. **GSU-34 Ground Support Unit**
-  6. **Aviation Orientation & Safety (Issued 27-Aug-2026)**
+- **Certified Aviation Professional:** 7 verified professional certifications on disk:
+  1. **Dangerous Goods Awareness (Issued 27-Aug-2026)**
+  2. **Altéa Customer Management (CM) — 91%** (Amadeus DCS Passenger Services)
+  3. **IGS (International Ground Services)**
+  4. **INSPIRE Aviation Training**
+  5. **Disruption Management & Service Recovery**
+  6. **GSU-34 Ground Support Unit**
+  7. **Aviation Orientation & Safety (Issued 27-Aug-2026)**
 - **Technical & Security Acumen:** Advanced multilingual communicator (Arabic & English), data reporting, Excel timesheet management, SIEM/XDR security awareness, and automated workflow execution via Python and AI agents.
 
 ---
