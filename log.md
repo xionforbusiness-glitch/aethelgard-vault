@@ -2484,3 +2484,8 @@
 - **Note:** **Aethelgard:** Very well, Sir.
 - **Note:** **Aethelgard:** right here when you
 - **Note:** **Aethelgard:** need me.
+
+## 📞 [2026-11-19 23:59] Telegram Voice Call (`call_20261119_205846_270`)
+- **Transcript:** [[2026-11-19-telegram-call]]
+- **Turns:** 0
+- **Actions:** Conversation only
