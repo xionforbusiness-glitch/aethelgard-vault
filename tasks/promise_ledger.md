@@ -1,12 +1,13 @@
 ---
 title: "Aethelgard Promise & Deal Ledger"
-updated_at: "2026-11-19T19:36:12.441210+00:00"
+updated_at: "2026-11-19T20:14:08.304708+00:00"
 ---
 
 # 🤝 Closed-Loop Promise & Deal Ledger
 
 | ID | Counterparty | Direction | Summary | Status | SLA (h) | Due / Updated |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| `prm_7aab28ee` | campus@zenmux.ai | `waiting_on_them` | ZenMux Campus Ambassador application update (3-5 business days) | `open` | 120 | 2026-11-19T20:14 |
 | `prm_64552860` | Aethelgard | `waiting_on_me` | Implement capability for Aethelgard to send emails/drafts directly | `open` | 48 | 2026-11-19T19:36 |
 | `prm_54b462ea` | Aethelgard | `waiting_on_me` | Implement tool capability to customize attachments in email drafts (such as adding Syravia certificates) | `open` | 48 | 2026-11-19T19:36 |
 | `prm_4ca0ab5c` | Aethelgard | `waiting_on_them` | Call back in five minutes with the updated email drafts and attached CV/credentials | `open` | 48 | 2026-11-19T19:11 |
