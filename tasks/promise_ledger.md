@@ -1,12 +1,13 @@
 ---
 title: "Aethelgard Promise & Deal Ledger"
-updated_at: "2026-11-19T18:34:54.163045+00:00"
+updated_at: "2026-11-19T19:11:05.813716+00:00"
 ---
 
 # 🤝 Closed-Loop Promise & Deal Ledger
 
 | ID | Counterparty | Direction | Summary | Status | SLA (h) | Due / Updated |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| `prm_4ca0ab5c` | Aethelgard | `waiting_on_them` | Call back in five minutes with the updated email drafts and attached CV/credentials | `open` | 48 | 2026-11-19T19:11 |
 | `prm_f505d471` | Aethelgard | `waiting_on_them` | Call Omar back in 5 minutes | `open` | 48 | 2026-11-19T18:34 |
 | `prm_394af9d5` | hr@accaviation.com | `waiting_on_them` | Application for Vacancies - ACC Aviation — Omar Elnemr | `open` | 48 | 2026-11-18T21:01 |
 | `prm_07c6e666` | careers@wlnet.com | `waiting_on_them` | Application for IT Support Engineer — Omar Elnemr | `open` | 48 | 2026-11-18T21:01 |
