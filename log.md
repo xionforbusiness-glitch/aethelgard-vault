@@ -2942,3 +2942,8 @@
 - **Promises tracked:** 1
 - **Note:** Established a rule to never send duplicate applications or follow-up emails to the same recruiter to prevent being flagged as spam
 - **Note:** Reviewed and approved a batch of job application drafts (including Etihad) for dispatch
+
+## 📞 [2026-11-20 00:54] Telegram Voice Call (`call_20261119_215331_814`)
+- **Transcript:** [[2026-11-20-telegram-call]]
+- **Turns:** 0
+- **Actions:** You currently have 11 application draft(s) in your Gmail Drafts folder. Recent: recruitment, careers
