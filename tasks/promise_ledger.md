@@ -1,12 +1,13 @@
 ---
 title: "Aethelgard Promise & Deal Ledger"
-updated_at: "2026-11-19T21:53:31.098845+00:00"
+updated_at: "2026-11-19T22:16:19.934610+00:00"
 ---
 
 # 🤝 Closed-Loop Promise & Deal Ledger
 
 | ID | Counterparty | Direction | Summary | Status | SLA (h) | Due / Updated |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| `prm_02f2625c` | Aethelgard | `waiting_on_them` | Call back in five minutes to confirm all airline job applications are sent | `open` | 48 | 2026-11-19T22:16 |
 | `prm_b5c33499` | Aethelgard | `waiting_on_them` | Dispatch all approved job applications, including Etihad | `open` | 48 | 2026-11-19T21:53 |
 | `prm_c44c40ad` | Aethelgard | `waiting_on_me` | Review the remaining airline application drafts before authorizing dispatch | `open` | 48 | 2026-11-19T21:23 |
 | `prm_0c6f6805` | Aethelgard | `waiting_on_them` | Review recent chat history and implement Live Mode tools (search internet, text someone, pitch) | `open` | 48 | 2026-11-19T21:23 |
