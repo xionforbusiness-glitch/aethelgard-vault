@@ -313,6 +313,7 @@ confidence: high
 | 2026-10-23 | Friday | 07:00 AM | 06:00 PM | 11h 00m | 11.00 | Extended Shift | ⚡ Live Extended Station Duty (07:00 AM – 06:00 PM / 11h 00m) |
 | 2026-10-24 | Saturday | OFF | OFF | 0h 00m | 0.00 | Day Off | 🌴 Scheduled Rest Day (Off Duty) |
 | 2026-10-25 | Sunday | OFF | OFF | 0h 00m | 0.00 | Day Off | 🌴 Scheduled Rest Day (Off Duty) |
+| 2026-11-21 | Saturday | 08:15 AM | 04:00 PM | 7h 45m | 7.75 | Standard | Calibrated via voice command |
 
 ---
 
