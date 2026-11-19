@@ -3,6 +3,15 @@
 > Chronological, append-only record of all LLM Wiki actions (ingest, query, lint, update).
 > Format: `## [YYYY-MM-DD] action | subject`
 
+## [2026-11-19] ingest | Dangerous Goods Awareness Course Certificate
+- **Subject:** Certificate of Achievement — The Dangerous Goods Awareness Course
+- **Recipient:** Omar Elnemr
+- **Date Issued:** 27.08.2026
+- **Trainer:** Fawaz Aljabi | **HR Department:** Firas Mazzawi
+- **File Asset:** `raw/documents/etihad_training/certificates/Dangerous_Goods_Awareness_Course_Omar_Elnemr_2026-08-27.pdf`
+- **Impact:** Total verified aviation & ground handling credentials expanded to 7. Updated `03 Work Experience.md`, `01 Technical Skills.md`, `career/aviation_batch_40_nov_2026.md`, and job application engine.
+
+
 ## [2026-11-18] career | Staged Job Application: Flight Facilitation Assistant at Etihad Airways (`draft_1a2fdd1029`)
 - **Channel / Target:** `gmail` -> `careers@etihad.ae`
 - **Attachments:** Omar_Elnemr_Etihad_Airways_Flight_Facilitation_Assi_CV.pdf, Etihad_01_Introduction_to_Ground_Services_IGS_16Hrs_2026-10-06.pdf, Etihad_02_Amadeus_Customer_Management_CM_32Hrs_2026-10-15.pdf, Etihad_03_INSPIRE_Airport_Service_Delivery_2026-10-16.pdf, Etihad_04_Airport_Disruption_Management_Workshop_2026-10-29.pdf, Etihad_05_AUG_Edition_2026-GSU-34_2026-10-30.pdf
