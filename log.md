@@ -1710,3 +1710,105 @@
 - **Note:** **Aethelgard:** shall terminate
 - **Note:** **Aethelgard:** our call now and notify
 - **Note:** **Aethelgard:** you the moment the drafts
+
+## 📞 [2026-11-19 21:34] Telegram Voice Call (`call_20261119_183023_669`)
+- **Transcript:** [[2026-11-19-telegram-call]]
+- **Turns:** 0
+- **Actions:** search_vault completed; checked Gmail (3 emails, query=latest); search_vault completed; read_email error: UID command error: BAD [b'Could not parse command']; search_vault completed; search_vault completed; search_vault completed; search_vault completed; search_vault completed; search_vault completed; search_vault completed; search_vault completed; saved Gmail draft to recruitment@etihad.ae (Application for Airport Operations Offic); saved Gmail draft to recruitment@emirates.com (Application for Passenger Service Agent ); search_vault completed; search_vault completed; search_vault completed; search_vault completed; search_vault completed; search_vault completed; search_vault completed; search_vault completed; search_vault completed; checked Gmail (1 emails, query=latest); requested graceful call hangup
+
+## 🎙️ [2026-11-19 21:34] Voice-to-Life Compile
+> **Aethelgard:** Aethelgard listening,
+**Aethelgard:** Omar.
+**Aethelgard:** Go ahead.
+**Omar:** I ask you to draft me the emails to send them to the recruiters, the file you have. Did you do anything? Is it still going? Can you update me on the process?
+**Aethelgard:** I have the draft
+**Aethelgard:** for your UCC application
+**Aethelgard:** staged and ready
+**Aethelgard:** to go, Omar.
+**Aethelgard:** Would you like
+**Aethelgard:** me to draft any additional
+**Aethelgard:** emails right now?
+**Omar:** Uh, all of them actually. I want 10 to 15. I want Let's do 10, 10 drafts. Uh, to the to the recruiters. We have emails for them, okay?
+**Aethelgard:** I've drafted the
+**Aethelgard:** applications for Etihad
+**Aethelgard:** and Emirates for
+**Aethelgard:** you, Omar. To get
+**Aethelgard:** the rest of the ten,
+**Aethelgard:** could you provide the remaining
+**Aethelgard:** recruiter emails
+**Aethelgard:** you'd like me to send to?
+**Omar:** I have it. I have attached it to the conversation.
+**Aethelgard:** I do apologize, Sir,
+**Aethelgard:** but I'm unable
+**Aethelgard:** to view attachments.
+**Aethelgard:** Could you kindly
+**Aethelgard:** paste the email
+**Aethelgard:** addresses here, and I
+**Aethelgard:** will process the remaining
+**Aethelgard:** drafts for you immediately?
+**Omar:** Paste them, but it's a file and this file it's from you and I just send it to you again.
+**Aethelgard:** I sincerely apologize,
+**Aethelgard:** Omar. My
+**Aethelgard:** search is not
+**Aethelgard:** retrieving the direct
+**Aethelgard:** email addresses
+**Aethelgard:** from the dossier. Could you
+**Aethelgard:** kindly provide
+**Aethelgard:** the email list
+**Aethelgard:** directly so I may
+**Aethelgard:** complete the drafts?
+**Omar:** Omar, I'm trying to retrieve the emails. Just give me a second.
+**Aethelgard:** Of course, Sir.
+**Aethelgard:** Take your time.
+**Aethelgard:** I shall remain
+**Aethelgard:** here until you are ready.
+**Omar:** What about calling me? Or actually, there it is.
+**Aethelgard:** I am ready whenever you
+**Aethelgard:** are, Sir. Just paste
+**Aethelgard:** the emails,
+**Aethelgard:** and I will get those drafts
+**Aethelgard:** sorted for you.
+**Omar:** Okay, so the emails are on the conversation. You may use them.
+**Aethelgard:** I do apologize, Omar,
+**Aethelgard:** but I'm unable
+**Aethelgard:** to see the emails in our
+**Aethelgard:** recent conversation.
+**Aethelgard:** Could you please paste
+**Aethelgard:** them for me?
+**Omar:** I did. I just pasted them in Etihad chatbot, so you may use them.
+**Aethelgard:** I am still unable
+**Aethelgard:** to see the emails
+**Aethelgard:** here, Sir. Could
+**Aethelgard:** you kindly paste the list
+**Aethelgard:** directly into our current
+**Aethelgard:** conversation, and I
+**Aethelgard:** will proceed immediately?
+**Omar:** Really? Okay, okay, one second. What about now?
+**Aethelgard:** I am standing
+**Aethelgard:** by, Sir. Whenever
+**Aethelgard:** you are ready, please
+**Aethelgard:** provide the details.
+**Omar:** Could you see them now?
+**Aethelgard:** Unfortunately, Sir, I
+**Aethelgard:** still do not
+**Aethelgard:** see the email addresses.
+**Aethelgard:** Please paste
+**Aethelgard:** them here so I can
+**Aethelgard:** proceed with the drafts.
+**Omar:** Okay, this is weird because I really did draft them, pasted them, and everything like that, but you're still not able to retrieve them, which is weird. I hope you're working on a fix for that, Norris.
+**Aethelgard:** I sincerely apologize
+**Aethelgard:** for the inconvenience,
+**Aethelgard:** Sir.
+**Aethelgard:** I still do
+**Aethelgard:** not see the list; could you
+**Aethelgard:** kindly paste the email
+**Aethelgard:** addresses directly
+**Aethelgard:** into our chat once more?
+**Omar:** Oh. Norris, I'll be working on a fix for this because you're not able to see them. So, this would take like a minute or two. Can you call me like 5 minutes from now?
+**Aethelgard:** Of course, Omar. I
+**Aethelgard:** shall call you back
+**Aethelgard:** in five minutes.
+**Aethelgard:** Goodbye for now.
+- **Promises tracked:** 1
+- **Note:** Working on recruiter application drafts for UCC, Etihad, and Emirates (targeting 10 drafts total).
+- **Note:** Technical issue encountered where AI assistant could not view attachments or pasted text containing recruiter email addresses.
