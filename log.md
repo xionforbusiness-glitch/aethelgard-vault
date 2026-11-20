@@ -4186,3 +4186,8 @@
 **Aethelgard:** May I know who
 **Aethelgard:** is speaking with me?
 - **Note:** Aethelgard noted that the speaker did not sound like Omar and asked for identification after being cut off.
+
+## 📞 [2026-11-20 19:55] Telegram Voice Call (`call_20261120_165507_834`)
+- **Transcript:** [[2026-11-20-telegram-call]]
+- **Turns:** 0
+- **Actions:** Conversation only
