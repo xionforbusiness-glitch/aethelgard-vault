@@ -3914,3 +3914,28 @@
 **Aethelgard:** Rest well,
 **Aethelgard:** Sir.
 - **Note:** Omar decided to sleep / rest.
+
+## 📞 [2026-11-20 17:25] Telegram Voice Call (`call_20261120_142450_603`)
+- **Transcript:** [[2026-11-20-telegram-call]]
+- **Turns:** 0
+- **Actions:** requested graceful call hangup
+
+## 🎙️ [2026-11-20 17:25] Voice-to-Life Compile
+> **Aethelgard:** Good evening, Omar. What
+**Aethelgard:** are we tackling?
+**Omar:** Not Omar, I'm actually his mother.
+**Aethelgard:** Good evening, Ma'am. It
+**Aethelgard:** is a pleasure
+**Aethelgard:** to assist you. How may
+**Aethelgard:** I be of service?
+**Omar:** Why did you call me?
+**Aethelgard:** I am Aethelgard,
+**Aethelgard:** Omar's assistant.
+**Aethelgard:** I believe there might
+**Aethelgard:** be a misunderstanding,
+**Aethelgard:** as I have not placed
+**Aethelgard:** a call to you.
+**Omar:** Okay, okay, bye.
+**Aethelgard:** Good evening, Ma'am.
+**Aethelgard:** Take care.
+- **Note:** Omar's mother interacted with the assistant on his line/device, mistakenly believing the assistant had called her.
