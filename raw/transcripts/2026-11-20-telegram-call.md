@@ -2490,3 +2490,20 @@
 **Aethelgard:** I know who is speaking
 
 **Aethelgard:** with me?
+
+
+# 📞 Native Telegram Call Transcript (2026-11-20 19:43 Damascus)
+
+**Aethelgard:** Welcome back, Sir—we
+
+**Aethelgard:** got cut
+
+**Aethelgard:** off. Where were we?
+
+**Aethelgard:** You do not
+
+**Aethelgard:** sound like Omar.
+
+**Aethelgard:** May I know who
+
+**Aethelgard:** is speaking with me?
