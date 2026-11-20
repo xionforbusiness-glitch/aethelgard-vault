@@ -3939,3 +3939,70 @@
 **Aethelgard:** Good evening, Ma'am.
 **Aethelgard:** Take care.
 - **Note:** Omar's mother interacted with the assistant on his line/device, mistakenly believing the assistant had called her.
+
+## 📞 [2026-11-20 18:58] Telegram Voice Call (`call_20261120_155718_916`)
+- **Transcript:** [[2026-11-20-telegram-call]]
+- **Turns:** 0
+- **Actions:** requested graceful call hangup
+
+## 🎙️ [2026-11-20 18:58] Voice-to-Life Compile
+> **Aethelgard:** Good day, Sir. I
+**Aethelgard:** am pleased to inform
+**Aethelgard:** you that the voice biometric
+**Aethelgard:** calibration
+**Aethelgard:** link is now active.
+**Aethelgard:** Could you kindly
+**Aethelgard:** speak naturally
+**Aethelgard:** for ten to fifteen
+**Aethelgard:** seconds about your day or
+**Aethelgard:** your airport operations?
+**Omar:** Well, certainly. So, my day is going very good until now. So, I'll be reading actually a text for you on my end. So, you know my voice. Let's say like no audio stalls, the audio transmission loop to Gemini Live never waits or
+**Omar:** catches biometrics. The speaker model runs in 27 milliseconds on a separate CPU thread pool. It verifies your voice in the background during the first two seconds of the conversation. If verified, it locks in passkey mode. Without ever interrupting the conversation flow.
+**Aethelgard:** Thank you, Sir.
+**Aethelgard:** Your voice biometric
+**Aethelgard:** profile has been
+**Aethelgard:** successfully enrolled
+**Aethelgard:** and the system is now
+**Aethelgard:** locked in passkey
+**Aethelgard:** mode. How may
+**Aethelgard:** I assist you further
+**Aethelgard:** with your duties today?
+**Omar:** Okay. Let's end the call for now.
+**Aethelgard:** Goodbye, Sir. I remain
+**Aethelgard:** at your disposal
+**Aethelgard:** whenever you need assistance.
+- **Note:** **Aethelgard:** Good day, Sir.
+- **Note:** **Aethelgard:** am pleased to inform
+- **Note:** **Aethelgard:** you that the voice biometric
+- **Note:** **Aethelgard:** calibration
+- **Note:** **Aethelgard:** link is now active.
+- **Note:** **Aethelgard:** Could you kindly
+- **Note:** **Aethelgard:** speak naturally
+- **Note:** **Aethelgard:** for ten to fifteen
+- **Note:** **Aethelgard:** seconds about your day or
+- **Note:** **Aethelgard:** your airport operations?
+- **Note:** **Omar:** Well, certainly.
+- **Note:** So, my day is going very good until now.
+- **Note:** So, I'll be reading actually a text for you on my end.
+- **Note:** So, you know my voice.
+- **Note:** Let's say like no audio stalls, the audio transmission loop to Gemini Live never waits or
+- **Note:** **Omar:** catches biometrics.
+- **Note:** The speaker model runs in 27 milliseconds on a separate CPU thread pool.
+- **Note:** It verifies your voice in the background during the first two seconds of the conversation.
+- **Note:** If verified, it locks in passkey mode.
+- **Note:** Without ever interrupting the conversation flow.
+- **Note:** **Aethelgard:** Thank you, Sir.
+- **Note:** **Aethelgard:** Your voice biometric
+- **Note:** **Aethelgard:** profile has been
+- **Note:** **Aethelgard:** successfully enrolled
+- **Note:** **Aethelgard:** and the system is now
+- **Note:** **Aethelgard:** locked in passkey
+- **Note:** **Aethelgard:** mode.
+- **Note:** **Aethelgard:** I assist you further
+- **Note:** **Aethelgard:** with your duties today?
+- **Note:** **Omar:** Okay.
+- **Note:** Let's end the call for now.
+- **Note:** **Aethelgard:** Goodbye, Sir.
+- **Note:** I remain
+- **Note:** **Aethelgard:** at your disposal
+- **Note:** **Aethelgard:** whenever you need assistance.

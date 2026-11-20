@@ -2189,3 +2189,59 @@
 **Aethelgard:** Good evening, Ma'am.
 
 **Aethelgard:** Take care.
+
+
+# 📞 Native Telegram Call Transcript (2026-11-20 18:58 Damascus)
+
+**Actions Executed:**
+- requested graceful call hangup
+
+**Aethelgard:** Good day, Sir. I
+
+**Aethelgard:** am pleased to inform
+
+**Aethelgard:** you that the voice biometric
+
+**Aethelgard:** calibration
+
+**Aethelgard:** link is now active.
+
+**Aethelgard:** Could you kindly
+
+**Aethelgard:** speak naturally
+
+**Aethelgard:** for ten to fifteen
+
+**Aethelgard:** seconds about your day or
+
+**Aethelgard:** your airport operations?
+
+**Omar:** Well, certainly. So, my day is going very good until now. So, I'll be reading actually a text for you on my end. So, you know my voice. Let's say like no audio stalls, the audio transmission loop to Gemini Live never waits or
+
+**Omar:** catches biometrics. The speaker model runs in 27 milliseconds on a separate CPU thread pool. It verifies your voice in the background during the first two seconds of the conversation. If verified, it locks in passkey mode. Without ever interrupting the conversation flow.
+
+**Aethelgard:** Thank you, Sir.
+
+**Aethelgard:** Your voice biometric
+
+**Aethelgard:** profile has been
+
+**Aethelgard:** successfully enrolled
+
+**Aethelgard:** and the system is now
+
+**Aethelgard:** locked in passkey
+
+**Aethelgard:** mode. How may
+
+**Aethelgard:** I assist you further
+
+**Aethelgard:** with your duties today?
+
+**Omar:** Okay. Let's end the call for now.
+
+**Aethelgard:** Goodbye, Sir. I remain
+
+**Aethelgard:** at your disposal
+
+**Aethelgard:** whenever you need assistance.
