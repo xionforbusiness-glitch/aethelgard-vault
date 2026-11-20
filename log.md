@@ -3278,3 +3278,8 @@
 - **Promises tracked:** 1
 - **Note:** Added driving school visit to calendar for today at 11:00 AM
 - **Note:** Aethelgard acts as Omar's executive custodian (manages emails, shifts, applications, and daily admin tasks)
+
+## 📞 [2026-11-20 03:48] Telegram Voice Call (`call_20261120_004805_679`)
+- **Transcript:** [[2026-11-20-telegram-call]]
+- **Turns:** 0
+- **Actions:** Conversation only
