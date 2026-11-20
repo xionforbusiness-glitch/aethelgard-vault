@@ -4354,3 +4354,28 @@
 **Aethelgard:** now?
 - **Shift updates:** Processed: Today's shift was from 08:15 AM to 04:00 PM
 - **Note:** Voice verification issue occurred initially when Omar spoke, requiring re-confirmation.
+
+## 📞 [2026-11-21 01:00] Telegram Voice Call (`call_20261120_215938_842`)
+- **Transcript:** [[2026-11-21-telegram-call]]
+- **Turns:** 0
+- **Actions:** requested graceful call hangup
+
+## 🎙️ [2026-11-21 01:00] Voice-to-Life Compile
+> **Aethelgard:** Hello, Sir. I
+**Aethelgard:** have your callback
+**Aethelgard:** ready for five
+**Aethelgard:** minutes regarding
+**Aethelgard:** Sami Al-Halabi
+**Aethelgard:** and the Damascus
+**Aethelgard:** flight inquiry.
+**Omar:** Actually, this was for the test agent. It was not for me.
+**Aethelgard:** My apologies for
+**Aethelgard:** the confusion, Sir.
+**Aethelgard:** How may I assist
+**Aethelgard:** you further with your schedule
+**Aethelgard:** or operational tasks
+**Aethelgard:** today?
+**Omar:** Today nothing much so you may end the call. I'll be continuing for more
+**Omar:** technical stuff here, okay?
+- **Note:** Sami Al-Halabi Damascus flight inquiry callback was meant for the test agent, not Omar.
+- **Note:** Omar is focusing on technical tasks today.
