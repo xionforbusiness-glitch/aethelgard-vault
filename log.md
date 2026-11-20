@@ -3209,3 +3209,28 @@
 - **Note:** **Aethelgard:** Ah, you're back!
 - **Note:** **Aethelgard:** check that schedule
 - **Note:** **Aethelgard:** for you immediately.
+
+## 📞 [2026-11-20 03:30] Telegram Voice Call (`call_20261120_003020_937`)
+- **Transcript:** [[2026-11-20-telegram-call]]
+- **Turns:** 0
+- **Actions:** check_agenda completed; requested graceful call hangup
+
+## 🎙️ [2026-11-20 03:30] Voice-to-Life Compile
+> **Aethelgard:** Welcome back, Omar. What
+**Aethelgard:** are we tackling
+**Aethelgard:** next?
+**Omar:** Yo, yo, yo, how is it going?
+**Aethelgard:** All is well here,
+**Aethelgard:** Sir! How can
+**Aethelgard:** I be of service to you
+**Aethelgard:** today?
+**Omar:** Can you check my schedule for today?
+**Aethelgard:** You have a shift
+**Aethelgard:** today from 8:15
+**Aethelgard:** AM to 4:00 PM,
+**Aethelgard:** Sir.
+**Omar:** Okay, can you end the call?
+**Aethelgard:** Goodbye, Sir. Have a
+**Aethelgard:** safe and productive
+**Aethelgard:** shift today.
+- **Shift updates:** Processed: Shift today from 8:15 AM to 4:00 PM
