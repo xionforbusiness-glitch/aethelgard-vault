@@ -3886,3 +3886,8 @@
 - **Note:** The FinStek interviewer (a PhD professor) dismissed Aethelgard as basic AI capability.
 - **Note:** Omar's brother has a basic AI assistant for automated emails and LinkedIn profile follow-ups.
 - **Note:** Omar conducted a mock debate roleplay defending Aethelgard's real-time executive voice integration and data privacy against simple scripts and off-the-shelf bots.
+
+## 📞 [2026-11-20 07:16] Telegram Voice Call (`call_20261120_041533_776`)
+- **Transcript:** [[2026-11-20-telegram-call]]
+- **Turns:** 0
+- **Actions:** requested graceful call hangup
