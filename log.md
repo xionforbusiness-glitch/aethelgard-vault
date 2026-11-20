@@ -4228,3 +4228,14 @@
 > **Aethelgard:** Good evening, Omar. How
 **Aethelgard:** goes the day?
 - **Note:** Aethelgard greeted Omar and asked how his day was going.
+
+## 📞 [2026-11-20 20:46] Telegram Voice Call (`call_20261120_174542_134`)
+- **Transcript:** [[2026-11-20-telegram-call]]
+- **Turns:** 0
+- **Actions:** Conversation only
+
+## 🎙️ [2026-11-20 20:46] Voice-to-Life Compile
+> **Aethelgard:** Welcome back, Sir. We
+**Aethelgard:** got cut off.
+**Aethelgard:** Where were we?
+- **Note:** Aethelgard noted a disconnection and inquired where the conversation left off.
