@@ -3283,3 +3283,8 @@
 - **Transcript:** [[2026-11-20-telegram-call]]
 - **Turns:** 0
 - **Actions:** Conversation only
+
+## 📞 [2026-11-20 03:50] Telegram Voice Call (`call_20261120_005015_925`)
+- **Transcript:** [[2026-11-20-telegram-call]]
+- **Turns:** 0
+- **Actions:** requested graceful call hangup
