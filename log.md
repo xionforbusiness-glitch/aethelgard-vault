@@ -3191,3 +3191,21 @@
 - **Note:** Have a pleasant
 - **Note:** **Aethelgard:** day and I
 - **Note:** **Aethelgard:** wish you the very best.
+
+## 📞 [2026-11-20 03:24] Telegram Voice Call (`call_20261120_002440_677`)
+- **Transcript:** [[2026-11-20-telegram-call]]
+- **Turns:** 0
+- **Actions:** Conversation only
+
+## 📞 [2026-11-20 03:25] Telegram Voice Call (`call_20261120_002505_711`)
+- **Transcript:** [[2026-11-20-telegram-call]]
+- **Turns:** 0
+- **Actions:** Conversation only
+
+## 🎙️ [2026-11-20 03:25] Voice-to-Life Compile
+> **Aethelgard:** Ah, you're back! Let's
+**Aethelgard:** check that schedule
+**Aethelgard:** for you immediately.
+- **Note:** **Aethelgard:** Ah, you're back!
+- **Note:** **Aethelgard:** check that schedule
+- **Note:** **Aethelgard:** for you immediately.
