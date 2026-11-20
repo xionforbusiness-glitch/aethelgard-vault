@@ -3891,3 +3891,26 @@
 - **Transcript:** [[2026-11-20-telegram-call]]
 - **Turns:** 0
 - **Actions:** requested graceful call hangup
+
+## 📞 [2026-11-20 07:46] Telegram Voice Call (`call_20261120_044602_367`)
+- **Transcript:** [[2026-11-20-telegram-call]]
+- **Turns:** 0
+- **Actions:** requested graceful call hangup
+
+## 🎙️ [2026-11-20 07:46] Voice-to-Life Compile
+> **Aethelgard:** Welcome back, Sir. What
+**Aethelgard:** shall we tackle?
+**Omar:** Why did you call me?
+**Aethelgard:** You've actually called me
+**Aethelgard:** back, Sir. What's
+**Aethelgard:** on your mind?
+**Omar:** I really did not.
+**Aethelgard:** Understood, Sir.
+**Aethelgard:** Regardless,
+**Aethelgard:** I am entirely
+**Aethelgard:** at your disposal whenever
+**Aethelgard:** you are ready.
+**Omar:** Okay, for now I want to just sleep out.
+**Aethelgard:** Rest well,
+**Aethelgard:** Sir.
+- **Note:** Omar decided to sleep / rest.
