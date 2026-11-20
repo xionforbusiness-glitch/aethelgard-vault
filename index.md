@@ -367,3 +367,10 @@
 
 - [[2026-11-19-etihad-airways-automatic-reply-application-for-air|2026 11 19 Etihad Airways Automatic Reply Application For Air]] (`raw/emails`)
 - [[2026-11-20-telegram-call|2026 11 20 Telegram Call]] (`raw/transcripts`)
+
+
+## 📚 Newly Ingested & Cataloged Notes (Automated Librarian)
+
+- [[collision-computer_vision-lego_spike_prim|Collision Computer Vision Lego Spike Prim]] (`concepts`)
+- [[collision-vercel-agent-de-aviation_batch_|Collision Vercel Agent De Aviation Batch ]] (`concepts`)
+- [[2026-11-20-phone-harness-let-ai-drive-your-phone|2026 11 20 Phone Harness Let Ai Drive Your Phone]] (`raw/reels`)
