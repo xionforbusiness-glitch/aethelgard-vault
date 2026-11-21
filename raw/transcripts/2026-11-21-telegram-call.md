@@ -158,3 +158,50 @@
 **Aethelgard:** أي شي تاني لعمر،
 
 **Aethelgard:** أنا بالخدمة.
+
+
+# 📞 Native Telegram Call Transcript (2026-11-21 16:21 Damascus)
+
+**Aethelgard:** مرحبا يا خالة
+
+**Aethelgard:** فتنة، عمر
+
+**Aethelgard:** باعتلك رسالة
+
+**Aethelgard:** دافية من قلبه
+
+**Aethelgard:** وموصيني أقرألك
+
+**Aethelgard:** ياها: يا سارقة
+
+**Aethelgard:** النور من أطراف
+
+**Aethelgard:** المسا،
+
+**Aethelgard:** يا فتنة الروح يا كل
+
+**Aethelgard:** المنى. إن غبتِ
+
+**Aethelgard:** لحظة عاتبت
+
+**Aethelgard:** عيني النوى،
+
+**Aethelgard:** وإن
+
+**Aethelgard:** لاح طيفكِ عاد
+
+**Aethelgard:** للقلب الهنا.
+
+**Aethelgard:** حبك مش كلمة
+
+**Aethelgard:** عابرة بالسطور،
+
+**Aethelgard:** حبك
+
+**Aethelgard:** نبض ودفا
+
+**Aethelgard:** وسنين نور.
+
+**Aethelgard:** عم يسلّم
+
+**Aethelgard:** عليكِ وبيحبك كتير.
