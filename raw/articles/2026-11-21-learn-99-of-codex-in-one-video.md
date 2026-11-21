@@ -17,7 +17,19 @@ tags: [ingest, media, youtube-video]
 - **Original Link:** `https://youtu.be/oBvuhcdSsuw?is=davgl6qIj_Jx6jJR`
 
 ## 📌 Summary & Content
-*No text content or description provided by publisher.*
+Video breakdown by **Tech With Tim** covering practical OpenAI Codex workflows, CLI tool use, codebase indexing, and agent-driven autonomous software engineering.
+
+### Architecture & Conceptual Deep Dive
+See the dedicated concept note:
+- [[concepts/openai-codex-cli-agentic-architecture]] (Includes Mermaid execution graphs and architecture diagrams)
+
+```mermaid
+graph TD
+    A[Tech With Tim Video] --> B[Codex Setup & CLI]
+    B --> C[Sandboxed Execution]
+    C --> D[Git Worktree Testing]
+    D --> E[Self-Healing Commits]
+```
 
 ---
 *Ingested into [[index|Aethelgard Vault]] via Reel & URL Ingestion Pipeline.*
