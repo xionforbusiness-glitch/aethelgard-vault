@@ -4429,3 +4429,26 @@
 **Aethelgard:** is completed.
 - **Promises tracked:** 1
 - **Note:** Omar requested an automated or assisted call to his mother to convey his love.
+
+## 📞 [2026-11-21 16:16] Telegram Voice Call (`call_20261121_131544_476`)
+- **Transcript:** [[2026-11-21-telegram-call]]
+- **Turns:** 0
+- **Actions:** Conversation only
+
+## 🎙️ [2026-11-21 16:16] Voice-to-Life Compile
+> **Aethelgard:** يسعد مساكِ
+**Aethelgard:** خالتو فُطنة،
+**Aethelgard:** بتمنى تكوني
+**Aethelgard:** بخير وعافية.
+**Aethelgard:** عمر طلب مني
+**Aethelgard:** اتصل فيكِ لأقول
+**Aethelgard:** لكِ إنه بيحبك
+**Aethelgard:** كتير ودائماً
+**Aethelgard:** باله معكِ.
+**Fotnah (Omar's Mother):** Shukran
+**Aethelgard:** ولو خالتو،
+**Aethelgard:** هاد واجبي.
+**Aethelgard:** إذا بتحبي توصلي
+**Aethelgard:** أي شي تاني لعمر،
+**Aethelgard:** أنا بالخدمة.
+- **Note:** Aethelgard contacted Omar's mother (Fotnah) on his behalf to convey his love and check in on her.

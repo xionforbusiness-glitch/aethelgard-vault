@@ -125,3 +125,36 @@
 **Aethelgard:** update you once the call
 
 **Aethelgard:** is completed.
+
+
+# 📞 Native Telegram Call Transcript (2026-11-21 16:16 Damascus)
+
+**Aethelgard:** يسعد مساكِ
+
+**Aethelgard:** خالتو فُطنة،
+
+**Aethelgard:** بتمنى تكوني
+
+**Aethelgard:** بخير وعافية.
+
+**Aethelgard:** عمر طلب مني
+
+**Aethelgard:** اتصل فيكِ لأقول
+
+**Aethelgard:** لكِ إنه بيحبك
+
+**Aethelgard:** كتير ودائماً
+
+**Aethelgard:** باله معكِ.
+
+**Fotnah (Omar's Mother):** Shukran
+
+**Aethelgard:** ولو خالتو،
+
+**Aethelgard:** هاد واجبي.
+
+**Aethelgard:** إذا بتحبي توصلي
+
+**Aethelgard:** أي شي تاني لعمر،
+
+**Aethelgard:** أنا بالخدمة.
