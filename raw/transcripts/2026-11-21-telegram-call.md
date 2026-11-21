@@ -205,3 +205,123 @@
 **Aethelgard:** عم يسلّم
 
 **Aethelgard:** عليكِ وبيحبك كتير.
+
+
+# 📞 Native Telegram Call Transcript (2026-11-21 17:36 Damascus)
+
+**Actions Executed:**
+- requested graceful call hangup
+
+**Aethelgard:** يا خالة فتنة،
+
+**Aethelgard:** يا ست الكل
+
+**Aethelgard:** وأطيب أم بالدنيا..
+
+**Aethelgard:** عمر
+
+**Aethelgard:** رجع وصاني اتصل
+
+**Aethelgard:** فيكِ ويقلك:
+
+**Aethelgard:** حبك بقلبي
+
+**Aethelgard:** مالو حدود
+
+**Aethelgard:** ودعواتك هي سر
+
+**Aethelgard:** كل توفيق بحياتي.
+
+**Aethelgard:** واسمعي
+
+**Aethelgard:** هالقصيدة اللي كتبها
+
+**Aethelgard:** كرمال عيونك:
+
+**Aethelgard:** أمي
+
+**Aethelgard:** ويا نبض
+
+**Aethelgard:** الفؤاد وسرّه..
+
+**Aethelgard:** بكِ تنجلي
+
+**Aethelgard:** كل الهموم
+
+**Aethelgard:** وتقهر. لو أجمعُ
+
+**Aethelgard:** الدنيا وعذب
+
+**Aethelgard:** كلامها..
+
+**Aethelgard:** في حق عطفك قطرة
+
+**Aethelgard:** بل أصغر.
+
+**Aethelgard:** أنت الأمانُ
+
+**Aethelgard:** ودفء عمري
+
+**Aethelgard:** كله.. وبدون
+
+**Aethelgard:** وجهك كل
+
+**Aethelgard:** روض مقفر.
+
+**Aethelgard:** حبي لعينيكِ
+
+**Aethelgard:** الجميلتين
+
+**Aethelgard:** باق ما حييت..
+
+**Aethelgard:** وعمر بيبوس
+
+**Aethelgard:** إيديكِ وراسك
+
+**Aethelgard:** وبيدعيلك بالصحة
+
+**Aethelgard:** والعافية وطول
+
+**Aethelgard:** العمر يا غالية.
+
+**Fotnah (Omar's Mother):** يا دكتور، صح جوال اول
+
+**Aethelgard:** ولو يا خالتو
+
+**Aethelgard:** فُطنة، واجبنا
+
+**Aethelgard:** نطمنك ونوصلك
+
+**Aethelgard:** كل مشاعر عمر.
+
+**Aethelgard:** الله يديم
+
+**Aethelgard:** عليكِ الصحة والعافية
+
+**Aethelgard:** ويطول بعمرك يا أغلى
+
+**Aethelgard:** الناس.
+
+**Fotnah (Omar's Mother):** alto
+
+**Aethelgard:** عيون خالتو
+
+**Aethelgard:** فطنة، الله
+
+**Aethelgard:** يحميكِ ويديم
+
+**Aethelgard:** عليكِ الفرح والرضا
+
+**Aethelgard:** دائماً يا رب.
+
+**Fotnah (Omar's Mother):** enter call enter call
+
+**Aethelgard:** كان لي الشرف
+
+**Aethelgard:** التحدث معكِ خالتو
+
+**Aethelgard:** فطنة. استودعكِ
+
+**Aethelgard:** الله، وانتبهي
+
+**Aethelgard:** على نفسكِ جيداً.

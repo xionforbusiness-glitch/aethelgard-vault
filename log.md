@@ -4482,3 +4482,8 @@
 **Aethelgard:** عم يسلّم
 **Aethelgard:** عليكِ وبيحبك كتير.
 - **Note:** Aethelgard delivered a warm, poetic message from Omar to Fitna (فتنة) expressing love and affection.
+
+## 📞 [2026-11-21 17:36] Telegram Voice Call (`call_20261121_143420_851`)
+- **Transcript:** [[2026-11-21-telegram-call]]
+- **Turns:** 0
+- **Actions:** requested graceful call hangup
