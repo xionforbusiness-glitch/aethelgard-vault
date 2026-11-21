@@ -384,3 +384,21 @@
 ## 📚 Newly Ingested & Cataloged Notes (Automated Librarian)
 
 - [[2026-11-21_whatsapp_automated_agent_tools_and_real|2026 11 21 Whatsapp Automated Agent Tools And Real]] (`Frontier_Tech_Scout`)
+
+
+## 📚 Newly Ingested & Cataloged Notes (Automated Librarian)
+
+- [[2026-11-21_low_latency_edge_ai_inference_on_device|2026 11 21 Low Latency Edge Ai Inference On Device]] (`Frontier_Tech_Scout`)
+- [[2026-11-21_real_time_voice_speech_to_speech_models|2026 11 21 Real Time Voice Speech To Speech Models]] (`Frontier_Tech_Scout`)
+- [[20261121_005938_outgoing_102517|20261121 005938 Outgoing 102517]] (`Voice_Transcripts`)
+- [[20261121_071516_outgoing_102517|20261121 071516 Outgoing 102517]] (`Voice_Transcripts`)
+- [[20261121_074203_outgoing_102517|20261121 074203 Outgoing 102517]] (`Voice_Transcripts`)
+- [[20261121_074922_outgoing_102517|20261121 074922 Outgoing 102517]] (`Voice_Transcripts`)
+- [[20261121_075349_outgoing_102517|20261121 075349 Outgoing 102517]] (`Voice_Transcripts`)
+- [[20261121_161415_incoming_438570|20261121 161415 Incoming 438570]] (`Voice_Transcripts`)
+- [[20261121_162557_outgoing_102517|20261121 162557 Outgoing 102517]] (`Voice_Transcripts`)
+- [[20261121_173420_outgoing_102517|20261121 173420 Outgoing 102517]] (`Voice_Transcripts`)
+- [[collision-2026-10-01-vant-etihad-cadet-pi|Collision 2026 10 01 Vant Etihad Cadet Pi]] (`concepts`)
+- [[collision-ui-ux-resources-n8n-workflow-au|Collision Ui Ux Resources N8N Workflow Au]] (`concepts`)
+- [[2026-11-21-learn-99-of-codex-in-one-video|2026 11 21 Learn 99 Of Codex In One Video]] (`raw/articles`)
+- [[2026-11-21-telegram-call|2026 11 21 Telegram Call]] (`raw/transcripts`)
