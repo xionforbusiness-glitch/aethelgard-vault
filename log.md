@@ -4379,3 +4379,53 @@
 **Omar:** technical stuff here, okay?
 - **Note:** Sami Al-Halabi Damascus flight inquiry callback was meant for the test agent, not Omar.
 - **Note:** Omar is focusing on technical tasks today.
+
+## 📞 [2026-11-21 16:15] Telegram Voice Call (`call_20261121_131415_877`)
+- **Transcript:** [[2026-11-21-telegram-call]]
+- **Turns:** 0
+- **Actions:** Queued outgoing mission call to Fotnah (Omar's Mother) to: tell her that I love her. Line concluding; requested graceful call hangup
+
+## 🎙️ [2026-11-21 16:15] Voice-to-Life Compile
+> **Aethelgard:** Good afternoon, Omar.
+**Aethelgard:** At your service.
+**Omar:** Hello, how are you?
+**Aethelgard:** Did you catch a
+**Aethelgard:** sudden cold, Omar,
+**Aethelgard:** or has an ambitious
+**Aethelgard:** impostor
+**Aethelgard:** taken over your phone?
+**Aethelgard:** Do tell,
+**Aethelgard:** who is actually
+**Aethelgard:** speaking?
+**Omar:** It's my voice. Don't you recognize it?
+**Aethelgard:** Ah, the true
+**Aethelgard:** voice has returned.
+**Aethelgard:** Forgive the test,
+**Aethelgard:** Sir; full
+**Aethelgard:** privileges
+**Aethelgard:** are fully restored
+**Aethelgard:** and at your command.
+**Omar:** Okay, is it possible to call my mother?
+**Omar:** And tell her that I love her.
+**Aethelgard:** My acoustic
+**Aethelgard:** sensors suggest
+**Aethelgard:** someone else has borrowed
+**Aethelgard:** the receiver.
+**Aethelgard:** Who might this be?
+**Omar:** Oh gosh, it's the same owner.
+**Aethelgard:** Glad to have the real
+**Aethelgard:** Sir back on the line!
+**Aethelgard:** Shall we proceed
+**Aethelgard:** with that call to your mother
+**Aethelgard:** right away?
+**Omar:** Yes, please.
+**Aethelgard:** Right away, Sir. I
+**Aethelgard:** am initiating the call
+**Aethelgard:** to your mother now.
+**Omar:** Okay, anda con ella.
+**Aethelgard:** Ending the call now,
+**Aethelgard:** Sir. I will
+**Aethelgard:** update you once the call
+**Aethelgard:** is completed.
+- **Promises tracked:** 1
+- **Note:** Omar requested an automated or assisted call to his mother to convey his love.
