@@ -401,4 +401,5 @@
 - [[collision-2026-10-01-vant-etihad-cadet-pi|Collision 2026 10 01 Vant Etihad Cadet Pi]] (`concepts`)
 - [[collision-ui-ux-resources-n8n-workflow-au|Collision Ui Ux Resources N8N Workflow Au]] (`concepts`)
 - [[2026-11-21-learn-99-of-codex-in-one-video|2026 11 21 Learn 99 Of Codex In One Video]] (`raw/articles`)
+- [[openai-codex-cli-agentic-architecture|OpenAI Codex CLI & Agentic Architecture]] (`concepts`)
 - [[2026-11-21-telegram-call|2026 11 21 Telegram Call]] (`raw/transcripts`)
