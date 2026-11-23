@@ -33,6 +33,9 @@ Omar Elnemr`
 ## Contact Signature & Attachment Invariants
 - **Verified Mobile Phone:** `+963 934 694 750` (NEVER use +963 930 754 538 or any other number).
 - **Primary Email:** `omar.alnemr04@gmail.com`
+- **GitHub:** `https://github.com/xionforbusiness-glitch` (DO NOT cite `omarelnemr`).
+- **LinkedIn:** `https://www.linkedin.com/in/omar-el-nemr`
+- **Portfolio Domain:** STRICTLY REMOVE `omarelnemr.me` for now (not registered / not ready).
 - **CV Attachment:** ALL job application emails and drafts MUST attach Omar's CV PDF (`Omar_Elnemr_CV_2026.pdf`).
 - **Standard Sign-Off Block:**
   ```text

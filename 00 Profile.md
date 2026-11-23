@@ -8,11 +8,11 @@ tags: [personal, hobbies, hardware, profile, family, contact, career]
 - **Primary Mobile:** `+963 934 694 750` (`+963 0934694750`)
 - **Primary Email:** `omar.alnemr04@gmail.com`
 - **Location:** Damascus, Syria (Open to Relocation / Remote)
-- **Portfolio:** [omarelnemr.me](https://omarelnemr.me)
-- **GitHub:** [github.com/omarelnemr](https://github.com/omarelnemr)
+- **GitHub:** [github.com/xionforbusiness-glitch](https://github.com/xionforbusiness-glitch) (Primary active GitHub profile)
 - **LinkedIn:** [linkedin.com/in/omar-el-nemr](https://www.linkedin.com/in/omar-el-nemr)
-- **Primary Verified CV Asset:** `C:\Users\omara\Desktop\CVs\Omar_Elnemr_CV_2026.pdf` (also available as `C:\Users\omara\Desktop\CVs\Omar.pdf`)
-- **CV Attachment Rule:** ALL outbound job applications and emails MUST attach Omar's CV (`Omar_Elnemr_CV_2026.pdf`) and use the verified phone number `+963 934 694 750`.
+- **Portfolio Domain Status:** `omarelnemr.me` is NOT ready yet — strictly EXCLUDE from all emails, drafts, and signatures until explicitly instructed.
+- **Primary Verified CV Asset:** `C:\Users\omara\Desktop\CVs\Omar_Elnemr_CV_2026.pdf`
+- **CV Attachment Rule:** ALL outbound job applications and emails MUST attach Omar's CV (`Omar_Elnemr_CV_2026.pdf`), use `+963 934 694 750`, and cite `github.com/xionforbusiness-glitch` without mentioning `omarelnemr.me`.
 
 # Personal & Family Circle
 
