@@ -35,14 +35,17 @@ Omar Elnemr`
 ## Visual Design & Slide Anti-Slop Rules (Taste Skill 2.5 / Canva Executive Standard)
 
 - **Colors:** Warm bronze (`#755A30`), champagne cream (`#FFE6C8`), muted zinc (`#A1A1AA`), pitch black (`#000000`).
-- **PERMANENT PROHIBITIONS (NEVER USE AGAIN):**
-  - NEVER generate fake telemetry status bars (`UPLINK SYS. NODE-99`, `DATA LINK: EU-1 // SRV-1`, `PING 14MS`, `LOSS 0%`).
-  - NEVER add artificial system specification pill badges or redundant sub-banners (`CONCURRENCY 100%`, `▲ SUB-250ms FULL-DUPLEX WEBRTC VOICE PIPELINE`).
-  - NEVER clutter cards with robotic prefix numbering (`01 // 1. ...`).
-  - NEVER include repetitive bottom blueprint banners and author footers (`AETHELGARD OS // SYSTEM ARCHITECTURE BLUEPRINT`).
+- **PERMANENT PROHIBITIONS (NEVER GENERATE OR USE AGAIN):**
+  - **NO FAKE TELEMETRY / SCI-FI HUD:** Never generate fake status bars (`UPLINK SYS. NODE-99`, `DATA LINK: EU-1 // SRV-1`, `PING 14MS`, `LOSS 0%`, `BANDWIDTH: 24kHz PCM`).
+  - **NO PILL BADGES OR KICKERS:** Never add category kickers or badges above the headline (`■ REAL-TIME AI & AUDIO PROTOCOLS`, `SYSTEM SPECIFICATION // ...`).
+  - **NO SUBTITLE CLUTTER:** Never add secondary explanatory subtitle paragraphs under the main slide title (`Why sequential STT → LLM → TTS cascades fail...`). The main headline must stand bold and confident on its own.
+  - **NO HEADER AUTHOR CLUTTER:** Never add author names or signatures in the top header (`Omar Elnemr / Aethelgard OS`).
+  - **NO SUB-BANNERS OR CONCURRENCY PILLS:** Never add artificial system specification badges (`CONCURRENCY 100%`, `▲ SUB-250ms FULL-DUPLEX WEBRTC VOICE PIPELINE`).
+  - **NO ROBOTIC PREFIXES:** Never clutter cards or takeaway points with robotic numbering (`01 // 1. ...`).
+  - **NO FOOTER CATEGORY LABELS OR BLUEPRINT BANNERS:** Never include redundant footer banners (`AETHELGARD OS // SYSTEM ARCHITECTURE BLUEPRINT`, `Systems & Autonomous Agent Architecture`).
 - **MANDATORY DESIGN STANDARD:**
-  - Generous whitespace and breathing room (minimum 48px padding).
-  - Confident, large typography (Inter display 32px, line-height 1.2).
+  - Generous whitespace and breathing room (minimum 56px padding, equal margins).
+  - Confident, large typography (Inter / system display 34px, line-height 1.25).
   - Clear, prominent central architecture pipeline connected by clean vector bus traces.
   - Three clean, readable takeaway cards without numbering prefixes.
-  - Minimalist attribution in quiet typography.
+  - Minimalist attribution in quiet typography (bottom-right domain link only: `omarelnemr.me · github.com/omarelnemr`).
