@@ -36,7 +36,10 @@ Omar Elnemr`
 - **GitHub:** `https://github.com/xionforbusiness-glitch` (DO NOT cite `omarelnemr`).
 - **LinkedIn:** `https://www.linkedin.com/in/omar-el-nemr`
 - **Portfolio Domain:** STRICTLY REMOVE `omarelnemr.me` for now (not registered / not ready).
-- **CV Attachment:** ALL job application emails and drafts MUST attach Omar's CV PDF (`Omar_Elnemr_CV_2026.pdf`).
+- **CV Attachment Invariant (Strict Department Routing):**
+  - Tech / AI / Software roles: STRICTLY attach `Omar_Elnemr_Tech_CV.pdf` (Software & Systems Engineer: TypeScript, React, Python, Distributed Systems, WebRTC, Linux, Google Cybersecurity) and cite `github.com/xionforbusiness-glitch`. Zero airport ground ops clutter.
+  - Aviation / Airline / Station roles: STRICTLY attach `Omar_Elnemr_Aviation_CV.pdf` (Airport Ground Operations: Check-In, Boarding, Amadeus Altéa CM 91%, Station Turnarounds, IROPS) and cite `linkedin.com/in/omar-el-nemr`.
+  - NEVER attach the wrong CV to a department role. NEVER use general hybrid CVs.
 - **Standard Sign-Off Block:**
   ```text
   Best regards,

@@ -11,8 +11,13 @@ tags: [personal, hobbies, hardware, profile, family, contact, career]
 - **GitHub:** [github.com/xionforbusiness-glitch](https://github.com/xionforbusiness-glitch) (Primary active GitHub profile)
 - **LinkedIn:** [linkedin.com/in/omar-el-nemr](https://www.linkedin.com/in/omar-el-nemr)
 - **Portfolio Domain Status:** `omarelnemr.me` is NOT ready yet — strictly EXCLUDE from all emails, drafts, and signatures until explicitly instructed.
-- **Primary Verified CV Asset:** `C:\Users\omara\Desktop\CVs\Omar_Elnemr_CV_2026.pdf`
-- **CV Attachment Rule:** ALL outbound job applications and emails MUST attach Omar's CV (`Omar_Elnemr_CV_2026.pdf`), use `+963 934 694 750`, and cite `github.com/xionforbusiness-glitch` without mentioning `omarelnemr.me`.
+- **Department-Tailored CV Assets:**
+  - **Tech & AI Track:** `C:\Users\omara\Desktop\CVs\Omar_Elnemr_Tech_CV.pdf` (Software & Systems Engineer: TypeScript, React, Python, Distributed Systems, WebRTC, Linux, Google Cybersecurity)
+  - **Aviation Track:** `C:\Users\omara\Desktop\CVs\Omar_Elnemr_Aviation_CV.pdf` (Airport Ground Operations: Check-In, Boarding, Amadeus Altéa CM 91%, Station Turnarounds, IROPS)
+- **CV Attachment Routing Invariant:**
+  - Tech / AI / Software roles: STRICTLY attach `Omar_Elnemr_Tech_CV.pdf` and cite `github.com/xionforbusiness-glitch`. Zero airport ground ops clutter.
+  - Aviation / Airline / Station roles: STRICTLY attach `Omar_Elnemr_Aviation_CV.pdf` and cite `linkedin.com/in/omar-el-nemr`.
+  - NEVER attach the wrong CV to a department. Always use verified phone `+963 934 694 750`.
 
 # Personal & Family Circle
 
