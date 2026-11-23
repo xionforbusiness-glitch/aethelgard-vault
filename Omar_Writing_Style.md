@@ -30,6 +30,18 @@ Omar Elnemr`
 - **Aviation Operations:**
   Focus on flight operations precision, Amadeus Altéa DCS / DCS workflows, operational integrity, and cross-functional team coordination under pressure.
 
+## Contact Signature & Attachment Invariants
+- **Verified Mobile Phone:** `+963 934 694 750` (NEVER use +963 930 754 538 or any other number).
+- **Primary Email:** `omar.alnemr04@gmail.com`
+- **CV Attachment:** ALL job application emails and drafts MUST attach Omar's CV PDF (`Omar_Elnemr_CV_2026.pdf`).
+- **Standard Sign-Off Block:**
+  ```text
+  Best regards,
+  Omar Elnemr
+  +963 934 694 750 | omar.alnemr04@gmail.com
+  Damascus, Syria
+  ```
+
 ---
 
 ## Visual Design & Slide Anti-Slop Rules (Taste Skill 2.5 / Canva Executive Standard)
